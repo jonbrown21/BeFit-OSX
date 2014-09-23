@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <SCRIPT TYPE="text/javascript">
+            <!--
+            //Disable right click script
+            var message="Sorry, right-click has been disabled";
+            ///////////////////////////////////
+            function clickIE() {if (document.all) {(message);return false;}}
+            function clickNS(e) {if
+                (document.layers||(document.getElementById&&!document.all)) {
+                    if (e.which==2||e.which==3) {(message);return false;}}}
+        if (document.layers)
+        {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+        else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+        document.oncontextmenu=new Function("return false")
+        // -->
+            </SCRIPT>
+        <script type='text/javascript' src='jquery-1.7.1.min.js'></script>
+        <script type='text/javascript' src='bootstrap.min.js'></script>
+        <link href="bootstrap.min.css" rel="stylesheet">
+            
+            </head>
+    <style>
+        html { min-height: 100%; }
+        body {
+            background-color: #F2F2F2;
+            margin:0px auto;
+            padding-top: 20px;
+            cursor: default;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+    
+    #table {
+        display: table;
+        width: 100%;
+        cursor: default;
+        -webkit-user-select: none;
+        user-select: none;
+        
+    }
+    
+    #legend  {
+       
+        width: 100%;
+        margin:0px auto;
+        display: table-row;
+        border-bottom: 1px solid #ADADAD;
+        background-image: -webkit-linear-gradient(bottom, #4B525F 0%, #838C9E 100%);
+        background-image: linear-gradient(to bottom, #4B525F 0%, #838C9E 100%);
+        cursor: default;
+        -webkit-user-select: none;
+        user-select: none;
+        
+        
+    }
+    
+    #legend p {
+        
+        
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: default;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-family: arial;
+        font-size: 10px;
+        color: #fff;
+        text-align: center;
+        
+        
+    }
+    
+    #cont1, #cont2, #cont3, #cont4, #cont5, #cont6, #cont7, #cont8, #cont9 {
+        display: table-cell;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: -15px;
+        padding-top: 8px;
+        cursor: default;
+        -webkit-user-select: none;
+        user-select: none;
+        
+    }
+    
+    #graphback {
+        
+        height: 25px;
+        width: 93%;
+        margin:0px auto;
+        background: #a5a5a5; /* Old browsers */
+        background: -moz-linear-gradient(top,  #a5a5a5 0%, #d3d3d3 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a5a5a5), color-stop(100%,#d3d3d3)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #a5a5a5 0%,#d3d3d3 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #a5a5a5 0%,#d3d3d3 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #a5a5a5 0%,#d3d3d3 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #a5a5a5 0%,#d3d3d3 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5a5a5', endColorstr='#d3d3d3',GradientType=0 ); /* IE6-9 */
+        border: 1px solid #ADADAD;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        -webkit-clip-path: rectangle(0px, 0px, 100%, 25px, 5px, 5px);
+        position: relative;
+        cursor: default;
+        -webkit-user-select: none;
+        user-select: none;
+        
+        
+    }
+
+    #title {
+        padding-top: 5px;
+        padding-bottom: 3px;
+        padding-left: 8px;
+        font-family: arial;
+        font-size: 12px;
+        cursor: default;
+        -webkit-user-select: none;
+        user-select: none;
+
+    }
+    
+    #container {
+        
+        margin:0px auto;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        border-left: 1px solid #ADADAD;
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: default;
+    }
+    
+    
+    #calpercent {
+        
+        height: 25px;
+        position: relative;
+        float: left;
+        -webkit-transition: all 1s ease-in-out;
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: default;
+        
+    }
+    
+    
+    #tfatpercent {
+        
+        height: 25px;
+        position: relative;
+        float: left;
+        -webkit-transition: all 1s ease-in-out;
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: default;
+  
+    }
+    
+    #sfatpercent {
+        
+        height: 25px;
+        position: relative;
+        float: left;
+        -webkit-transition: all 1s ease-in-out;
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: default;
+
+    }
+    
+    #cholpercent {
+        
+        height: 25px;
+        position: relative;
+        float: left;
+        -webkit-transition: all 1s ease-in-out;
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: default;
+        
+    }
+    
+    
+    #sodpercent {
+        
+        height: 25px;
+        position: relative;
+        float: left;
+        -webkit-transition: all 1s ease-in-out;
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: default;
+        
+    }
+    
+    #fiberpercent {
+        
+        height: 25px;
+        position: relative;
+        float: left;
+        -webkit-transition: all 1s ease-in-out;
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: default;
+    }
+    
+    
+    #sugarpercent {
+        
+        height: 25px;
+        position: relative;
+        float: left;
+        -webkit-transition: all 1s ease-in-out;
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: default;
+    }
+    
+    
+    #protpercent {
+        
+        height: 25px;
+        position: relative;
+        float: left;
+        -webkit-transition: all 1s ease-in-out;
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: default;
+    }
+    
+    .red {
+        
+        background-image: -webkit-linear-gradient(bottom, #FC8989 0%, #B73131 100%);
+        background-image: linear-gradient(to bottom, #FC8989 0%, #B73131 100%);
+        
+        
+    }
+    
+    .green {
+        
+        background-image: -webkit-linear-gradient(bottom, #77D884 0%, #409554 100%);
+        background-image: linear-gradient(to bottom, #77D884 0%, #409554 100%);
+        
+    }
+    
+    .yellow {
+        
+        background-image: -webkit-linear-gradient(bottom, #F0CDA3 0%, #B35B27 100%);
+        background-image: linear-gradient(to bottom, #F0CDA3 0%, #B35B27 100%);
+        
+    }
+    
+    
+    #calleg {
+        
+        background-image: -webkit-linear-gradient(bottom, #FC8989 0%, #B73131 100%);
+        background-image: linear-gradient(to bottom, #FC8989 0%, #B73131 100%);
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        
+        margin-top: 2px;
+        height: 10px;
+        width: 10px;
+        border: 1px solid #ccc;
+        float: left;
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: default;
+    }
+    
+    #protleg {
+        
+        background-image: -webkit-linear-gradient(bottom, #77D884 0%, #409554 100%);
+        background-image: linear-gradient(to bottom, #77D884 0%, #409554 100%);
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        margin-top: 2px;
+        height: 10px;
+        width: 10px;
+        border: 1px solid #ccc;
+        float: left;
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: default;
+    }
+    #sodleg {
+        
+        background-image: -webkit-linear-gradient(bottom, #F0CDA3 0%, #B35B27 100%);
+        background-image: linear-gradient(to bottom, #F0CDA3 0%, #B35B27 100%);
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        margin-top: 2px;
+        height: 10px;
+        width: 10px;
+        border: 1px solid #ccc;
+        float: left;
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: default;
+    }
+
+        </style>
+    <body>
+        
+        <div id="container">
+        <div id="table">
+            <div id="legend">
+                <div id="cont1"><div id="protleg"> </div>  <p id="calleg-text">&nbsp;Low</p></div>
+                <div id="cont2"><div id="sodleg"></div> <p id="fatleg-text">&nbsp;Medium</p></div>
+                <div id="cont3"><div id="calleg"></div> <p id="protleg-text">&nbsp;High</p></div>
+            </div>
+        </div>
+            <div id="title">Calories</div>
+            <div id="graphback"><div id="calpercent"></div></div>
+            <div id="title">Total Fat</div>
+            <div id="graphback"><div id="tfatpercent"></div></div>
+            <div id="title">Saturated Fat</div>
+            <div id="graphback"><div id="sfatpercent"></div></div>
+            <div id="title">Cholesterol</div>
+            <div id="graphback"><div id="cholpercent"></div></div>
+            <div id="title">Sodium</div>
+            <div id="graphback"><div id="sodpercent"></div></div>
+            <div id="title">Fiber</div>
+            <div id="graphback"><div id="fiberpercent"></div></div>
+            <div id="title">Sugar</div>
+            <div id="graphback"><div id="sugarpercent"></div></div>
+            <div id="title">Protien</div>
+            <div id="graphback"><div id="protpercent"></div></div>
+        </div>
+        
+        
+        <script>
+            function graphFunction(a,b,c,d,e,f,g,h,i)
+            {
+                
+                var name = a;
+                var total = cleancalories + tfats + sfats + chol + sodium + fiber + sugar + prot;
+
+
+                // Set daily dietary value for Calories
+                var totalcals = 2000;
+                
+                // Set the Variables for Calories
+                var rawcalories = b;
+                var cleancalories = rawcalories.replace(/[^\d\.\-\ ]/g, '');
+                
+                
+                // Set the Percentage for Calories
+                var calpercent = (cleancalories / totalcals) * 100;
+                
+                if(isNaN(calpercent)) {
+                    var calpercent = 0;
+                }
+                if(calpercent > 100){
+                    var calpercent = 100;
+                    
+                } else if(calpercent >= 0 && calpercent <= 6)  {
+                    var calpercent = 12;
+                
+                } else  {
+                    var calpercent = (cleancalories / totalcals) * 100;
+                }
+                
+                // Set graph color for Calories
+                
+                if(calpercent < 40) {
+                    
+                    $('#calpercent').removeClass('red');
+                    $('#calpercent').removeClass('yellow');
+                    $('#calpercent').addClass('green');
+                    
+                } else if(calpercent < 75) {
+                    
+                    $('#calpercent').removeClass('red');
+                    $('#calpercent').removeClass('green');
+                    $('#calpercent').addClass('yellow');
+                    
+                } else if(calpercent <= 100) {
+                    
+                    $('#calpercent').removeClass('yellow');
+                    $('#calpercent').removeClass('green');
+                    $('#calpercent').addClass('red');
+                    
+                }
+                
+                
+                
+                
+                
+                
+                // Set daily total fat value
+                
+                var totalfat = 65;
+                
+                // set the variable for Total Fat
+                
+                var tfats = parseInt(c);
+                
+                // Set the Percentage for Total Fats
+                var tfatpercent = (tfats / totalfat) * 100;
+                
+                if(isNaN(tfatpercent)) {
+                    var tfatpercent = 0;
+                }
+                if(tfatpercent > 100){
+                    var tfatpercent = 100;
+                } else if(tfatpercent >= 0 && tfatpercent <= 6)  {
+                    var tfatpercent = 12;
+                    
+                } else {
+                    var tfatpercent = (tfats / totalfat) * 100;
+                }
+                
+                // Set graph color for Total Fat
+                
+                if(tfatpercent < 40) {
+                    
+                    $('#tfatpercent').removeClass('red');
+                    $('#tfatpercent').removeClass('yellow');
+                    $('#tfatpercent').addClass('green');
+                    
+                } else if(tfatpercent < 75) {
+                    
+                    $('#tfatpercent').removeClass('red');
+                    $('#tfatpercent').removeClass('green');
+                    $('#tfatpercent').addClass('yellow');
+                    
+                } else if(tfatpercent <= 100) {
+                    
+                    $('#tfatpercent').removeClass('yellow');
+                    $('#tfatpercent').removeClass('green');
+                    $('#tfatpercent').addClass('red');
+                    
+                }
+                
+                
+                
+                
+                
+                // Set daily total Sat fat value
+                
+                var totalsfat = 25;
+                
+                // set the variable for Sat Total Fat
+                
+                var sfats = parseInt(d);
+                
+                // Set the Percentage for Sat Total Fats
+                var sfatpercent = (sfats / totalsfat) * 100;
+                
+                if(isNaN(sfatpercent)) {
+                    var sfatpercent = 0;
+                }
+                if(sfatpercent > 100){
+                    var sfatpercent = 100;
+                } else if(sfatpercent >= 0 && sfatpercent <= 6)  {
+                    var sfatpercent = 12;
+                    
+                } else {
+                    var sfatpercent = (sfats / totalsfat) * 100;
+                }
+                
+                // Set graph color for Sat Total Fat
+                
+                if(sfatpercent < 40) {
+                    
+                    $('#sfatpercent').removeClass('red');
+                    $('#sfatpercent').removeClass('yellow');
+                    $('#sfatpercent').addClass('green');
+                    
+                } else if(sfatpercent < 75) {
+                    
+                    $('#sfatpercent').removeClass('red');
+                    $('#sfatpercent').removeClass('green');
+                    $('#sfatpercent').addClass('yellow');
+                    
+                } else if(sfatpercent <= 100) {
+                    
+                    $('#sfatpercent').removeClass('yellow');
+                    $('#sfatpercent').removeClass('green');
+                    $('#sfatpercent').addClass('red');
+                    
+                }
+                
+               
+               
+               
+               
+               
+                
+                // Set daily total Cholesterol value
+                
+                var totalchols = 300;
+                
+                // set the variable for Cholesterol Fat
+                
+                var chol = parseInt(e);
+                
+                // Set the Percentage for Cholesterol Fats
+                var cholpercent = (chol / totalchols) * 100;
+                
+                if(isNaN(cholpercent)) {
+                    var cholpercent = 0;
+                }
+                if(cholpercent > 100){
+                    var cholpercent = 100;
+                } else if(cholpercent >= 0 && cholpercent <= 6)  {
+                    var cholpercent = 12;
+                    
+                } else {
+                    var cholpercent = (chol / totalchols) * 100;
+                }
+                
+                // Set graph color for Cholesterol Fat
+                
+                if(cholpercent < 40) {
+                    
+                    $('#cholpercent').removeClass('red');
+                    $('#cholpercent').removeClass('yellow');
+                    $('#cholpercent').addClass('green');
+                    
+                } else if(cholpercent < 75) {
+                    
+                    $('#cholpercent').removeClass('red');
+                    $('#cholpercent').removeClass('green');
+                    $('#cholpercent').addClass('yellow');
+                    
+                } else if(cholpercent <= 100) {
+                    
+                    $('#cholpercent').removeClass('yellow');
+                    $('#cholpercent').removeClass('green');
+                    $('#cholpercent').addClass('red');
+                    
+                }
+
+
+
+
+                // Set daily total Sodium value
+
+                var totalsodium = 2400;
+
+                // set the variable for Sodium Fat
+
+                var sodium = parseInt(f);
+
+                // Set the Percentage for Sodium Fats
+                var sodpercent = (sodium / totalsodium) * 100;
+
+                if(isNaN(sodpercent)) {
+                    var sodpercent = 0;
+                }
+                if(sodpercent > 100){
+                    var sodpercent = 100;
+                } else if(sodpercent >= 0 && sodpercent <= 6)  {
+                    var sodpercent = 12;
+                    
+                } else {
+                    var sodpercent = (sodium / totalsodium) * 100;
+                }
+
+                // Set graph color for Sodium Fat
+
+                if(sodpercent < 40) {
+                    
+                    $('#sodpercent').removeClass('red');
+                    $('#sodpercent').removeClass('yellow');
+                    $('#sodpercent').addClass('green');
+                    
+                } else if(sodpercent < 75) {
+                    
+                    $('#sodpercent').removeClass('red');
+                    $('#sodpercent').removeClass('green');
+                    $('#sodpercent').addClass('yellow');
+                    
+                } else if(sodpercent <= 100) {
+                    
+                    $('#sodpercent').removeClass('yellow');
+                    $('#sodpercent').removeClass('green');
+                    $('#sodpercent').addClass('red');
+                    
+                }
+                
+                
+                
+                // Set daily total Fiber value
+                
+                var totalfiber = 25;
+                
+                // set the variable for Fiber Fat
+                
+                var fiber = parseInt(g);
+               
+                
+                // Set the Percentage for Fiber Fats
+                var fiberpercent = (fiber / totalfiber) * 100;
+                
+                if(isNaN(fiberpercent)) {
+                    var fiberpercent = 0;
+                }
+                if(fiberpercent > 100){
+                    var fiberpercent = 100;
+                } else if(fiberpercent >= 0 && fiberpercent <= 6)  {
+                    var fiberpercent = 12;
+                    
+                } else {
+                    var fiberpercent = (fiber / totalfiber) * 100;
+                }
+                
+                // Set graph color for Fiber Fat
+                
+                if(fiberpercent < 40) {
+                    
+                    $('#fiberpercent').removeClass('red');
+                    $('#fiberpercent').removeClass('yellow');
+                    $('#fiberpercent').addClass('green');
+                    
+                } else if(fiberpercent < 75) {
+                    
+                    $('#fiberpercent').removeClass('red');
+                    $('#fiberpercent').removeClass('green');
+                    $('#fiberpercent').addClass('yellow');
+                    
+                } else if(fiberpercent <= 100) {
+                    
+                    $('#fiberpercent').removeClass('yellow');
+                    $('#fiberpercent').removeClass('green');
+                    $('#fiberpercent').addClass('red');
+                    
+                }
+
+
+
+
+
+                // Set daily total Sugar value
+
+                var sugartotal = 36;
+
+                // set the variable for Sugar Fat
+
+                var sugar = parseInt(h);
+
+
+                // Set the Percentage for Sugar
+                var sugarpercent = (sugar / sugartotal) * 100;
+
+                if(isNaN(sugarpercent)) {
+                    var sugarpercent = 0;
+                }
+                if(sugarpercent > 100){
+                    var sugarpercent = 100;
+                } else if(sugarpercent >= 0 && sugarpercent <= 6)  {
+                    var sugarpercent = 12;
+                    
+                } else {
+                    var sugarpercent = (sugar / sugartotal) * 100;
+                }
+
+                // Set graph color for Sugar
+
+                if(sugarpercent < 40) {
+                    
+                    $('#sugarpercent').removeClass('red');
+                    $('#sugarpercent').removeClass('yellow');
+                    $('#sugarpercent').addClass('green');
+                    
+                } else if(sugarpercent < 75) {
+                    
+                    $('#sugarpercent').removeClass('red');
+                    $('#sugarpercent').removeClass('green');
+                    $('#sugarpercent').addClass('yellow');
+                    
+                } else if(sugarpercent <= 100) {
+                    
+                    $('#sugarpercent').removeClass('yellow');
+                    $('#sugarpercent').removeClass('green');
+                    $('#sugarpercent').addClass('red');
+                    
+                }
+
+
+
+
+
+
+                // Set daily total Protien value
+
+                var prottotal = 50;
+
+                // set the variable for Protien Fat
+
+                var prot = parseInt(i);
+
+                // Set the Percentage for Protien
+                var protpercent = (prot / prottotal) * 100;
+
+                if(isNaN(protpercent)) {
+                    var protpercent = 0;
+                }
+                if(protpercent > 100){
+                    var protpercent = 100;
+                } else if(protpercent >= 0 && protpercent <= 6)  {
+                    var protpercent = 12;
+                    
+                } else {
+                    var protpercent = (prot / prottotal) * 100;
+                }
+
+                // Set graph color for Protien
+
+                if(protpercent < 40) {
+                    
+                    $('#protpercent').removeClass('red');
+                    $('#protpercent').removeClass('yellow');
+                    $('#protpercent').addClass('green');
+                    
+                } else if(protpercent < 75) {
+                    
+                    $('#protpercent').removeClass('red');
+                    $('#protpercent').removeClass('green');
+                    $('#protpercent').addClass('yellow');
+                    
+                } else if(protpercent <= 100) {
+                    
+                    $('#protpercent').removeClass('yellow');
+                    $('#protpercent').removeClass('green');
+                    $('#protpercent').addClass('red');
+                    
+                }
+
+
+
+                document.getElementById("calpercent").style.width = calpercent.toFixed(2) + '%';
+                document.getElementById("tfatpercent").style.width = tfatpercent.toFixed(2) + '%';
+                document.getElementById("sfatpercent").style.width = sfatpercent.toFixed(2) + '%';
+                document.getElementById("cholpercent").style.width = cholpercent.toFixed(2) + '%';
+                document.getElementById("sodpercent").style.width = sodpercent.toFixed(2) + '%';
+                document.getElementById("fiberpercent").style.width = fiberpercent.toFixed(2) + '%';
+                document.getElementById("sugarpercent").style.width = sugarpercent.toFixed(2) + '%';
+                document.getElementById("protpercent").style.width = protpercent.toFixed(2) + '%';
+                
+                
+                
+            }
+        
+        
+            </script>
+        
+    </body>
+</html>
