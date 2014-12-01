@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <SCRIPT TYPE="text/javascript">
+        <!--
+        //Disable right click script
+        var message="Sorry, right-click has been disabled";
+        ///////////////////////////////////
+        function clickIE() {if (document.all) {(message);return false;}}
+        function clickNS(e) {if
+            (document.layers||(document.getElementById&&!document.all)) {
+                if (e.which==2||e.which==3) {(message);return false;}}}
+    if (document.layers)
+    {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+    else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+    document.oncontextmenu=new Function("return false")
+    // -->
+        </SCRIPT>
+  <meta charset="UTF-8">
+
+  <title>SVG Doughnut chart with animation and tooltip - CodePen</title>
+  <script src='jquery-1.7.1.min.js'></script>
+  <script src='pieindex.js'></script>
+  <link rel="stylesheet" href="piestyle.css" media="screen" type="text/css" />
+  <link rel="stylesheet" href="pienormalize.css" media="screen" type="text/css" />
+</head>
+
+<body>
+<div id="doughnutChart" class="chart"></div>
+
+
+<script>
+    $(function(){
+      graphFunctionDVit(25,16,9,5,2.6);
+      });
+    function graphFunctionDVit(a,b,c,d,e)
+    {
+        
+        var item1 = parseInt(a);
+        var item2 = parseInt(b);
+        var item3 = parseInt(c);
+        var item4 = parseInt(d);
+        var calFromFat = parseInt(e);
+        
+        if(isNaN(ITEM1PERCENT)) {
+            var ITEM1PERCENT = 0;
+        }
+        if(isNaN(ITEM2PERCENT)) {
+            var ITEM2PERCENT = 0;
+        }
+        if(isNaN(ITEM3PERCENT)) {
+            var ITEM3PERCENT = 0;
+        }
+        if(isNaN(ITEM4PERCENT)) {
+            var ITEM4PERCENT = 0;
+        }
+        if(isNaN(calFromFat)) {
+            var calFromFat = 0;
+        }
+
+        
+        clearBox('doughnutChart');
+        
+        $("#doughnutChart").drawDoughnutChart([
+                                               { title: "Vit C", value: item1,   color: "#dbba34" },
+                                               { title: "Prot", value: item2,   color: "#2c9c69" },
+                                               { title: "Iron", value: item3,   color: "#637b85" },
+                                               { title: "Calc", value: item4,   color: "#c62f29" }
+                                               ]);
+     
+      document.getElementById("doughnutSummaryTitle").innerHTML = "Protein";
+      document.getElementById("doughnutSummaryNumber").innerHTML = calFromFat.toString().substr(0, 3) + "%";
+     
+    }
+
+    function clearBox(elementID)
+    {
+        document.getElementById(elementID).innerHTML = "";
+    }
+</script>
+
+</body>
+
+</html>

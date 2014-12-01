@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <SCRIPT TYPE="text/javascript">
+            <!--
+            //Disable right click script
+            var message="Sorry, right-click has been disabled";
+            ///////////////////////////////////
+            function clickIE() {if (document.all) {(message);return false;}}
+            function clickNS(e) {if
+                (document.layers||(document.getElementById&&!document.all)) {
+                    if (e.which==2||e.which==3) {(message);return false;}}}
+        if (document.layers)
+        {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+        else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+        document.oncontextmenu=new Function("return false")
+        // -->
+            </SCRIPT>
+        <script type='text/javascript' src='jquery-1.7.1.min.js'></script>
+        <script type='text/javascript' src='bootstrap.min.js'></script>
+        <link href="bootstrap.min.css" rel="stylesheet">
+            
+            </head>
+    
+    <style>
+        @media print
+        {
+            tr, td, th {page-break-inside:avoid}
+            thead {display:table-header-group}
+            .NoPrint {visibility:hidden; display:none}
+            a {color:#000000}
+            
+            #graphback {
+                height: 5px;
+                width: 93%;
+                margin:0px auto;
+                background-color: rgba(0,0,0,0.1);
+                overflow-y: hidden;
+                overflow-x: hidden;
+                -webkit-clip-path: rectangle(0px, 0px, 100%, 5px, 5px, 1px);
+                position: relative;
+                cursor: default;
+                -webkit-user-select: none;
+                user-select: none;
+                -webkit-border-radius: 1px;
+                border-radius: 1px;
+                border: 5px solid #BDC3C7;
+            }
+        }
+        html { min-height: 100%; }
+        body {
+            background-color: #fff;
+            margin:0px auto;
+            padding-top: 20px;
+            cursor: default;
+            -webkit-user-select: none;
+            user-select: none;
+            -webkit-print-color-adjust:exact;
+        }
+        #table {
+            display: table;
+            width: 100%;
+            cursor: default;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+        #legend  {
+                width: 100%;
+                margin:0px auto;
+                display: table-row;
+                background-color: #838C9E;
+                cursor: default;
+                -webkit-user-select: none;
+                user-select: none;
+                
+        }
+    
+        #legend p {
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-family: arial;
+            font-size: 12px;
+            color: #fff;
+            text-align: center;
+        }
+    
+        #cont1, #cont2, #cont3, #cont4, #cont5, #cont6, #cont7, #cont8, #cont9 {
+            display: table-cell;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            cursor: default;
+            -webkit-user-select: none;
+            user-select: none;
+            
+        }
+    
+        #graphback {
+            height: 5px;
+            width: 93%;
+            margin:0px auto;
+            background-color: rgba(0,0,0,0.1);
+            overflow-y: hidden;
+            overflow-x: hidden;
+            -webkit-clip-path: rectangle(0px, 0px, 100%, 5px, 5px, 1px);
+            position: relative;
+            cursor: default;
+            -webkit-user-select: none;
+            user-select: none;
+            -webkit-border-radius: 1px;
+            border-radius: 1px;
+        }
+
+        #title {
+            padding-top: 15px;
+            padding-bottom: 6px;
+            padding-left: 8px;
+            font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+            font-weight: 300;
+            font-size: 15px;
+            cursor: default;
+            -webkit-user-select: none;
+            user-select: none;
+
+        }
+        
+        #container {
+            
+            margin:0px auto;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0px;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        
+        
+        #calpercent {
+            
+            height: 5px;
+            position: relative;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        
+        
+        #tfatpercent {
+            
+            height: 5px;
+            position: relative;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+      
+        }
+        
+        #sfatpercent {
+            
+            height: 5px;
+            position: relative;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+
+        }
+        
+        #cholpercent {
+            
+            height: 5px;
+            position: relative;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+            
+        }
+        
+        
+        #sodpercent {
+            
+            height: 5px;
+            position: relative;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+            
+        }
+        
+        #fiberpercent {
+            
+            height: 5px;
+            position: relative;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        
+        
+        #sugarpercent {
+            
+            height: 5px;
+            position: relative;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        #carbspercent {
+            
+            height: 5px;
+            position: relative;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        #monopercent {
+            
+            height: 5px;
+            position: relative;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        #polypercent {
+            
+            height: 5px;
+            position: relative;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        #ffcpercent {
+            
+            height: 5px;
+            position: relative;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        #ironpercent {
+            
+            height: 5px;
+            position: relative;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        #calcpercent {
+            
+            height: 5px;
+            position: relative;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        #protpercent {
+            
+            height: 5px;
+            position: relative;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        #vitcpercent {
+            
+            height: 5px;
+            position: relative;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        #vitapercent {
+        
+            height: 5px;
+            position: relative;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        #vitepercent {
+            
+            height: 5px;
+            position: relative;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+    
+        .red {
+
+        background-color: #c0392b;
+
+        }
+
+        .green {
+
+        background-color: #27ae60;
+
+        }
+
+        .yellow {
+
+        background-color: #69a4cb;
+
+        }
+        
+        
+        #calleg {
+            background-color: #c0392b;
+            height: 10px;
+            width: 10px;
+            position: relative;
+            border: 0px solid #ccc;
+            top: 2px;
+            float: left;
+            margin-right: 5px;
+            float: left;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+        }
+    
+        #protleg {
+            
+            background-color: #27ae60;
+            height: 10px;
+            width: 10px;
+            position: relative;
+            border: 0px solid #ccc;
+            top: 2px;
+            float: left;
+            margin-right: 5px;
+            float: left;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+        }
+        #sodleg {
+            
+            background-color: #69a4cb;
+            height: 10px;
+            width: 10px;
+            position: relative;
+            border: 0px solid #ccc;
+            top: 2px;
+            float: left;
+            margin-right: 5px;
+            float: left;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+        }
+
+
+        </style>
+    <body>
+        
+        <div id="container">
+        <div id="table">
+            <div id="legend">
+                <div id="cont1"><div id="protleg"> </div><p id="calleg-text">&nbsp;Low</p></div>
+                <div id="cont2"><div id="sodleg"></div> <p id="fatleg-text">&nbsp;Avg</p></div>
+                <div id="cont3"><div id="calleg"></div> <p id="protleg-text">&nbsp;High</p></div>
+            </div>
+        </div>
+            <div id="title">Calories</div>
+            <div id="graphback"><div id="calpercent"></div></div>
+            <div id="title">Total Fat</div>
+            <div id="graphback"><div id="tfatpercent"></div></div>
+            <div id="title">Fat From Calories</div>
+            <div id="graphback"><div id="ffcpercent"></div></div>
+            <div id="title">Saturated Fat</div>
+            <div id="graphback"><div id="sfatpercent"></div></div>
+            <div id="title">Cholesterol</div>
+            <div id="graphback"><div id="cholpercent"></div></div>
+            <div id="title">Sodium</div>
+            <div id="graphback"><div id="sodpercent"></div></div>
+            <div id="title">Fiber</div>
+            <div id="graphback"><div id="fiberpercent"></div></div>
+            <div id="title">Sugar</div>
+            <div id="graphback"><div id="sugarpercent"></div></div>
+            <div id="title">Protein</div>
+            <div id="graphback"><div id="protpercent"></div></div>
+            <div id="title">Carbohydrates</div>
+            <div id="graphback"><div id="carbspercent"></div></div>
+            <div id="title">Monounsaturated Fat</div>
+            <div id="graphback"><div id="monopercent"></div></div>
+            <div id="title">Polyunsaturated Fat</div>
+            <div id="graphback"><div id="polypercent"></div></div>
+            <div id="title">Iron</div>
+            <div id="graphback"><div id="ironpercent"></div></div>
+            <div id="title">Calcium</div>
+            <div id="graphback"><div id="calcpercent"></div></div>
+            <div id="title">Vitamin C</div>
+            <div id="graphback"><div id="vitcpercent"></div></div>
+            <div id="title">Vitamin A</div>
+            <div id="graphback"><div id="vitapercent"></div></div>
+            <div id="title">Vitamin E</div>
+            <div id="graphback"><div id="vitepercent"></div></div>
+        </div>
+        
+        
+        <script>
+            function graphFunction(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r)
+            {
+                
+                var name = a;
+                var total = cleancalories + tfats + sfats + chol + sodium + fiber + sugar + prot + carbs + mono + poly + iron + calc + vitc + vita + vite;
+
+
+                // Set daily dietary value for Calories
+                var totalcals = 2000;
+                
+                // Set the Variables for Calories
+                var rawcalories = b;
+                var cleancalories = rawcalories.replace(/[^\d\.\-\ ]/g, '');
+                
+                
+                // Set the Percentage for Calories
+                var calpercent = (cleancalories / totalcals) * 100;
+                
+                if(isNaN(calpercent)) {
+                    var calpercent = 0;
+                }
+                if(calpercent > 100){
+                    var calpercent = 100;
+                    
+                } else if(calpercent >= 0 && calpercent <= 6)  {
+                    var calpercent = 12;
+                
+                } else  {
+                    var calpercent = (cleancalories / totalcals) * 100;
+                }
+                
+                // Set graph color for Calories
+                
+                if(calpercent < 40) {
+                    
+                    $('#calpercent').removeClass('red');
+                    $('#calpercent').removeClass('yellow');
+                    $('#calpercent').addClass('green');
+                    
+                } else if(calpercent < 75) {
+                    
+                    $('#calpercent').removeClass('red');
+                    $('#calpercent').removeClass('green');
+                    $('#calpercent').addClass('yellow');
+                    
+                } else if(calpercent <= 100) {
+                    
+                    $('#calpercent').removeClass('yellow');
+                    $('#calpercent').removeClass('green');
+                    $('#calpercent').addClass('red');
+                    
+                }
+                
+                
+                
+                
+                
+                
+                // Set daily total fat value
+                
+                var totalfat = 65;
+                
+                // set the variable for Total Fat
+                
+                var tfats = parseInt(c);
+                
+                // Set the Percentage for Total Fats
+                var tfatpercent = (tfats / totalfat) * 100;
+                
+                if(isNaN(tfatpercent)) {
+                    var tfatpercent = 0;
+                }
+                if(tfatpercent > 100){
+                    var tfatpercent = 100;
+                } else if(tfatpercent >= 0 && tfatpercent <= 6)  {
+                    var tfatpercent = 12;
+                    
+                } else {
+                    var tfatpercent = (tfats / totalfat) * 100;
+                }
+                
+                // Set graph color for Total Fat
+                
+                if(tfatpercent < 40) {
+                    
+                    $('#tfatpercent').removeClass('red');
+                    $('#tfatpercent').removeClass('yellow');
+                    $('#tfatpercent').addClass('green');
+                    
+                } else if(tfatpercent < 75) {
+                    
+                    $('#tfatpercent').removeClass('red');
+                    $('#tfatpercent').removeClass('green');
+                    $('#tfatpercent').addClass('yellow');
+                    
+                } else if(tfatpercent <= 100) {
+                    
+                    $('#tfatpercent').removeClass('yellow');
+                    $('#tfatpercent').removeClass('green');
+                    $('#tfatpercent').addClass('red');
+                    
+                }
+                
+                
+                
+                
+                
+                // Set daily total Sat fat value
+                
+                var totalsfat = 25;
+                
+                // set the variable for Sat Total Fat
+                
+                var sfats = parseInt(d);
+                
+                // Set the Percentage for Sat Total Fats
+                var sfatpercent = (sfats / totalsfat) * 100;
+                
+                if(isNaN(sfatpercent)) {
+                    var sfatpercent = 0;
+                }
+                if(sfatpercent > 100){
+                    var sfatpercent = 100;
+                } else if(sfatpercent >= 0 && sfatpercent <= 6)  {
+                    var sfatpercent = 12;
+                    
+                } else {
+                    var sfatpercent = (sfats / totalsfat) * 100;
+                }
+                
+                // Set graph color for Sat Total Fat
+                
+                if(sfatpercent < 40) {
+                    
+                    $('#sfatpercent').removeClass('red');
+                    $('#sfatpercent').removeClass('yellow');
+                    $('#sfatpercent').addClass('green');
+                    
+                } else if(sfatpercent < 75) {
+                    
+                    $('#sfatpercent').removeClass('red');
+                    $('#sfatpercent').removeClass('green');
+                    $('#sfatpercent').addClass('yellow');
+                    
+                } else if(sfatpercent <= 100) {
+                    
+                    $('#sfatpercent').removeClass('yellow');
+                    $('#sfatpercent').removeClass('green');
+                    $('#sfatpercent').addClass('red');
+                    
+                }
+                
+               
+               
+               
+               
+               
+                
+                // Set daily total Cholesterol value
+                
+                var totalchols = 300;
+                
+                // set the variable for Cholesterol Fat
+                
+                var chol = parseInt(e);
+                
+                // Set the Percentage for Cholesterol Fats
+                var cholpercent = (chol / totalchols) * 100;
+                
+                if(isNaN(cholpercent)) {
+                    var cholpercent = 0;
+                }
+                if(cholpercent > 100){
+                    var cholpercent = 100;
+                } else if(cholpercent >= 0 && cholpercent <= 6)  {
+                    var cholpercent = 12;
+                    
+                } else {
+                    var cholpercent = (chol / totalchols) * 100;
+                }
+                
+                // Set graph color for Cholesterol Fat
+                
+                if(cholpercent < 40) {
+                    
+                    $('#cholpercent').removeClass('red');
+                    $('#cholpercent').removeClass('yellow');
+                    $('#cholpercent').addClass('green');
+                    
+                } else if(cholpercent < 75) {
+                    
+                    $('#cholpercent').removeClass('red');
+                    $('#cholpercent').removeClass('green');
+                    $('#cholpercent').addClass('yellow');
+                    
+                } else if(cholpercent <= 100) {
+                    
+                    $('#cholpercent').removeClass('yellow');
+                    $('#cholpercent').removeClass('green');
+                    $('#cholpercent').addClass('red');
+                    
+                }
+
+
+
+
+                // Set daily total Sodium value
+
+                var totalsodium = 2400;
+
+                // set the variable for Sodium Fat
+
+                var sodium = parseInt(f);
+
+                // Set the Percentage for Sodium Fats
+                var sodpercent = (sodium / totalsodium) * 100;
+
+                if(isNaN(sodpercent)) {
+                    var sodpercent = 0;
+                }
+                if(sodpercent > 100){
+                    var sodpercent = 100;
+                } else if(sodpercent >= 0 && sodpercent <= 6)  {
+                    var sodpercent = 12;
+                    
+                } else {
+                    var sodpercent = (sodium / totalsodium) * 100;
+                }
+
+                // Set graph color for Sodium Fat
+
+                if(sodpercent < 40) {
+                    
+                    $('#sodpercent').removeClass('red');
+                    $('#sodpercent').removeClass('yellow');
+                    $('#sodpercent').addClass('green');
+                    
+                } else if(sodpercent < 75) {
+                    
+                    $('#sodpercent').removeClass('red');
+                    $('#sodpercent').removeClass('green');
+                    $('#sodpercent').addClass('yellow');
+                    
+                } else if(sodpercent <= 100) {
+                    
+                    $('#sodpercent').removeClass('yellow');
+                    $('#sodpercent').removeClass('green');
+                    $('#sodpercent').addClass('red');
+                    
+                }
+                
+                
+                
+                // Set daily total Fiber value
+                
+                var totalfiber = 25;
+                
+                // set the variable for Fiber Fat
+                
+                var fiber = parseInt(g);
+               
+                
+                // Set the Percentage for Fiber Fats
+                var fiberpercent = (fiber / totalfiber) * 100;
+                
+                if(isNaN(fiberpercent)) {
+                    var fiberpercent = 0;
+                }
+                if(fiberpercent > 100){
+                    var fiberpercent = 100;
+                } else if(fiberpercent >= 0 && fiberpercent <= 6)  {
+                    var fiberpercent = 12;
+                    
+                } else {
+                    var fiberpercent = (fiber / totalfiber) * 100;
+                }
+                
+                // Set graph color for Fiber Fat
+                
+                if(fiberpercent < 40) {
+                    
+                    $('#fiberpercent').removeClass('red');
+                    $('#fiberpercent').removeClass('yellow');
+                    $('#fiberpercent').addClass('green');
+                    
+                } else if(fiberpercent < 75) {
+                    
+                    $('#fiberpercent').removeClass('red');
+                    $('#fiberpercent').removeClass('green');
+                    $('#fiberpercent').addClass('yellow');
+                    
+                } else if(fiberpercent <= 100) {
+                    
+                    $('#fiberpercent').removeClass('yellow');
+                    $('#fiberpercent').removeClass('green');
+                    $('#fiberpercent').addClass('red');
+                    
+                }
+
+
+
+
+
+                // Set daily total Sugar value
+
+                var sugartotal = 36;
+
+                // set the variable for Sugar Fat
+
+                var sugar = parseInt(h);
+
+
+                // Set the Percentage for Sugar
+                var sugarpercent = (sugar / sugartotal) * 100;
+
+                if(isNaN(sugarpercent)) {
+                    var sugarpercent = 0;
+                }
+                if(sugarpercent > 100){
+                    var sugarpercent = 100;
+                } else if(sugarpercent >= 0 && sugarpercent <= 6)  {
+                    var sugarpercent = 12;
+                    
+                } else {
+                    var sugarpercent = (sugar / sugartotal) * 100;
+                }
+
+                // Set graph color for Sugar
+
+                if(sugarpercent < 40) {
+                    
+                    $('#sugarpercent').removeClass('red');
+                    $('#sugarpercent').removeClass('yellow');
+                    $('#sugarpercent').addClass('green');
+                    
+                } else if(sugarpercent < 75) {
+                    
+                    $('#sugarpercent').removeClass('red');
+                    $('#sugarpercent').removeClass('green');
+                    $('#sugarpercent').addClass('yellow');
+                    
+                } else if(sugarpercent <= 100) {
+                    
+                    $('#sugarpercent').removeClass('yellow');
+                    $('#sugarpercent').removeClass('green');
+                    $('#sugarpercent').addClass('red');
+                    
+                }
+
+
+
+
+
+
+                // Set daily total Protien value
+
+                var prottotal = 50;
+
+                // set the variable for Protien Fat
+
+                var prot = parseInt(i);
+
+                // Set the Percentage for Protien
+                var protpercent = (prot / prottotal) * 100;
+
+                if(isNaN(protpercent)) {
+                    var protpercent = 0;
+                }
+                if(protpercent > 100){
+                    var protpercent = 100;
+                } else if(protpercent >= 0 && protpercent <= 6)  {
+                    var protpercent = 12;
+                    
+                } else {
+                    var protpercent = (prot / prottotal) * 100;
+                }
+
+                // Set graph color for Protien
+
+                if(protpercent < 40) {
+                    
+                    $('#protpercent').removeClass('red');
+                    $('#protpercent').removeClass('yellow');
+                    $('#protpercent').addClass('green');
+                    
+                } else if(protpercent < 75) {
+                    
+                    $('#protpercent').removeClass('red');
+                    $('#protpercent').removeClass('green');
+                    $('#protpercent').addClass('yellow');
+                    
+                } else if(protpercent <= 100) {
+                    
+                    $('#protpercent').removeClass('yellow');
+                    $('#protpercent').removeClass('green');
+                    $('#protpercent').addClass('red');
+                    
+                }
+
+
+// Set daily total Carbs value
+
+var carbstotal = 300;
+
+// set the variable for Carbs Fat
+
+var carbs = parseInt(j);
+
+// Set the Percentage for Carbs
+var carbspercent = (carbs / carbstotal) * 100;
+
+if(isNaN(carbspercent)) {
+    var carbspercent = 0;
+}
+if(carbspercent > 100){
+    var carbspercent = 100;
+} else if(carbspercent >= 0 && carbspercent <= 6)  {
+    var carbspercent = 12;
+    
+} else {
+    var carbspercent = (carbs / carbstotal) * 100;
+}
+
+// Set graph color for Carbs
+
+if(carbspercent < 40) {
+    
+    $('#carbspercent').removeClass('red');
+    $('#carbspercent').removeClass('yellow');
+    $('#carbspercent').addClass('green');
+    
+} else if(carbspercent < 75) {
+    
+    $('#carbspercent').removeClass('red');
+    $('#carbspercent').removeClass('green');
+    $('#carbspercent').addClass('yellow');
+    
+} else if(carbspercent <= 100) {
+    
+    $('#carbspercent').removeClass('yellow');
+    $('#carbspercent').removeClass('green');
+    $('#carbspercent').addClass('red');
+    
+}
+
+
+
+
+
+// Set daily total Mono value
+
+var monototal = 24;
+
+// set the variable for Mono Fat
+
+var mono = parseInt(k);
+
+// Set the Percentage for Mono
+var monopercent = (mono / monototal) * 100;
+
+if(isNaN(monopercent)) {
+    var monopercent = 0;
+}
+if(monopercent > 100){
+    var monopercent = 100;
+} else if(monopercent >= 0 && monopercent <= 6)  {
+    var monopercent = 12;
+    
+} else {
+    var monopercent = (mono / monototal) * 100;
+}
+
+// Set graph color for Mono
+
+if(monopercent < 40) {
+    
+    $('#monopercent').removeClass('red');
+    $('#monopercent').removeClass('yellow');
+    $('#monopercent').addClass('green');
+    
+} else if(monopercent < 75) {
+    
+    $('#monopercent').removeClass('red');
+    $('#monopercent').removeClass('green');
+    $('#monopercent').addClass('yellow');
+    
+} else if(monopercent <= 100) {
+    
+    $('#monopercent').removeClass('yellow');
+    $('#monopercent').removeClass('green');
+    $('#monopercent').addClass('red');
+    
+}
+
+
+
+
+
+
+
+
+
+// Set daily total poly value
+
+var polytotal = 20;
+
+// set the variable for poly Fat
+
+var poly = parseInt(l);
+
+// Set the Percentage for poly
+var polypercent = (poly / polytotal) * 100;
+
+if(isNaN(polypercent)) {
+    var polypercent = 0;
+}
+if(polypercent > 100){
+    var polypercent = 100;
+} else if(polypercent >= 0 && polypercent <= 6)  {
+    var polypercent = 12;
+    
+} else {
+    var polypercent = (poly / polytotal) * 100;
+}
+
+// Set graph color for poly
+
+if(polypercent < 40) {
+    
+    $('#polypercent').removeClass('red');
+    $('#polypercent').removeClass('yellow');
+    $('#polypercent').addClass('green');
+    
+} else if(polypercent < 75) {
+    
+    $('#polypercent').removeClass('red');
+    $('#polypercent').removeClass('green');
+    $('#polypercent').addClass('yellow');
+    
+} else if(polypercent <= 100) {
+    
+    $('#polypercent').removeClass('yellow');
+    $('#polypercent').removeClass('green');
+    $('#polypercent').addClass('red');
+    
+}
+
+
+// Set daily total ffc value
+
+var ffctotal = 80;
+
+// set the variable for ffc Fat
+
+var ffc = parseInt(m);
+
+// Set the Percentage for ffc
+var ffcpercent = (ffc / ffctotal) * 100;
+
+if(isNaN(ffcpercent)) {
+    var ffcpercent = 0;
+}
+if(ffcpercent > 100){
+    var ffcpercent = 100;
+} else if(ffcpercent >= 0 && ffcpercent <= 6)  {
+    var ffcpercent = 12;
+    
+} else {
+    var ffcpercent = (ffc / ffctotal) * 100;
+}
+
+// Set graph color for ffc
+
+if(ffcpercent < 40) {
+    
+    $('#ffcpercent').removeClass('red');
+    $('#ffcpercent').removeClass('yellow');
+    $('#ffcpercent').addClass('green');
+    
+} else if(ffcpercent < 75) {
+    
+    $('#ffcpercent').removeClass('red');
+    $('#ffcpercent').removeClass('green');
+    $('#ffcpercent').addClass('yellow');
+    
+} else if(ffcpercent <= 100) {
+    
+    $('#ffcpercent').removeClass('yellow');
+    $('#ffcpercent').removeClass('green');
+    $('#ffcpercent').addClass('red');
+    
+}
+
+
+
+// Set daily total iron value
+
+var irontotal = 18;
+
+// set the variable for iron Fat
+
+var iron = parseInt(n);
+
+// Set the Percentage for iron
+var ironpercent = (iron / irontotal) * 100;
+
+if(isNaN(ironpercent)) {
+    var ironpercent = 0;
+}
+if(ironpercent > 100){
+    var ironpercent = 100;
+} else if(ironpercent >= 0 && ironpercent <= 6)  {
+    var ironpercent = 12;
+    
+} else {
+    var ironpercent = (iron / irontotal) * 100;
+}
+
+// Set graph color for iron
+
+if(ironpercent < 40) {
+    
+    $('#ironpercent').removeClass('red');
+    $('#ironpercent').removeClass('yellow');
+    $('#ironpercent').addClass('green');
+    
+} else if(ironpercent < 75) {
+    
+    $('#ironpercent').removeClass('red');
+    $('#ironpercent').removeClass('green');
+    $('#ironpercent').addClass('yellow');
+    
+} else if(ironpercent <= 100) {
+    
+    $('#ironpercent').removeClass('yellow');
+    $('#ironpercent').removeClass('green');
+    $('#ironpercent').addClass('red');
+    
+}
+
+// Set daily total calc value
+
+var calctotal = 1316;
+
+// set the variable for calc Fat
+
+var calc = parseInt(o);
+
+// Set the Percentage for calc
+var calcpercent = (calc / calctotal) * 100;
+
+if(isNaN(calcpercent)) {
+    var calcpercent = 0;
+}
+if(calcpercent > 100){
+    var calcpercent = 100;
+} else if(calcpercent >= 0 && calcpercent <= 6)  {
+    var calcpercent = 12;
+    
+} else {
+    var calcpercent = (calc / calctotal) * 100;
+}
+
+// Set graph color for calc
+
+if(calcpercent < 40) {
+    
+    $('#calcpercent').removeClass('red');
+    $('#calcpercent').removeClass('yellow');
+    $('#calcpercent').addClass('green');
+    
+} else if(calcpercent < 75) {
+    
+    $('#calcpercent').removeClass('red');
+    $('#calcpercent').removeClass('green');
+    $('#calcpercent').addClass('yellow');
+    
+} else if(calcpercent <= 100) {
+    
+    $('#calcpercent').removeClass('yellow');
+    $('#calcpercent').removeClass('green');
+    $('#calcpercent').addClass('red');
+    
+}
+
+
+
+// Set daily total vitc value
+
+var vitctotal = 155;
+
+// set the variable for vitc Fat
+
+var vitc = parseInt(p);
+
+// Set the Percentage for vitc
+var vitcpercent = (vitc / vitctotal) * 100;
+
+if(isNaN(vitcpercent)) {
+    var vitcpercent = 0;
+}
+if(vitcpercent > 100){
+    var vitcpercent = 100;
+} else if(vitcpercent >= 0 && vitcpercent <= 6)  {
+    var vitcpercent = 12;
+    
+} else {
+    var vitcpercent = (vitc / vitctotal) * 100;
+}
+
+// Set graph color for vitc
+
+if(vitcpercent < 40) {
+    
+    $('#vitcpercent').removeClass('red');
+    $('#vitcpercent').removeClass('yellow');
+    $('#vitcpercent').addClass('green');
+    
+} else if(vitcpercent < 75) {
+    
+    $('#vitcpercent').removeClass('red');
+    $('#vitcpercent').removeClass('green');
+    $('#vitcpercent').addClass('yellow');
+    
+} else if(vitcpercent <= 100) {
+    
+    $('#vitcpercent').removeClass('yellow');
+    $('#vitcpercent').removeClass('green');
+    $('#vitcpercent').addClass('red');
+    
+}
+
+
+// Set daily total vita value
+
+var vitatotal = 1052;
+
+// set the variable for vita Fat
+
+var vita = parseInt(q);
+
+// Set the Percentage for vita
+var vitapercent = (vita / vitatotal) * 100;
+
+if(isNaN(vitapercent)) {
+    var vitapercent = 0;
+}
+if(vitapercent > 100){
+    var vitapercent = 100;
+} else if(vitapercent >= 0 && vitapercent <= 6)  {
+    var vitapercent = 12;
+    
+} else {
+    var vitapercent = (vita / vitatotal) * 100;
+}
+
+// Set graph color for vita
+
+if(vitapercent < 40) {
+    
+    $('#vitapercent').removeClass('red');
+    $('#vitapercent').removeClass('yellow');
+    $('#vitapercent').addClass('green');
+    
+} else if(vitapercent < 75) {
+    
+    $('#vitapercent').removeClass('red');
+    $('#vitapercent').removeClass('green');
+    $('#vitapercent').addClass('yellow');
+    
+} else if(vitapercent <= 100) {
+    
+    $('#vitapercent').removeClass('yellow');
+    $('#vitapercent').removeClass('green');
+    $('#vitapercent').addClass('red');
+    
+}
+
+
+// Set daily total vite value
+
+var vitetotal = 9.5;
+
+// set the variable for vite Fat
+
+var vite = parseInt(r);
+
+// Set the Percentage for vite
+var vitepercent = (vite / vitetotal) * 100;
+
+if(isNaN(vitepercent)) {
+    var vitepercent = 0;
+}
+if(vitepercent > 100){
+    var vitepercent = 100;
+} else if(vitepercent >= 0 && vitepercent <= 6)  {
+    var vitepercent = 12;
+    
+} else {
+    var vitepercent = (vite / vitetotal) * 100;
+}
+
+// Set graph color for vite
+
+if(vitepercent < 40) {
+    
+    $('#vitepercent').removeClass('red');
+    $('#vitepercent').removeClass('yellow');
+    $('#vitepercent').addClass('green');
+    
+} else if(vitepercent < 75) {
+    
+    $('#vitepercent').removeClass('red');
+    $('#vitepercent').removeClass('green');
+    $('#vitepercent').addClass('yellow');
+    
+} else if(vitepercent <= 100) {
+    
+    $('#vitepercent').removeClass('yellow');
+    $('#vitepercent').removeClass('green');
+    $('#vitepercent').addClass('red');
+    
+}
+
+                document.getElementById("calpercent").style.width = calpercent.toFixed(2) + '%';
+                document.getElementById("tfatpercent").style.width = tfatpercent.toFixed(2) + '%';
+                document.getElementById("sfatpercent").style.width = sfatpercent.toFixed(2) + '%';
+                document.getElementById("cholpercent").style.width = cholpercent.toFixed(2) + '%';
+                document.getElementById("sodpercent").style.width = sodpercent.toFixed(2) + '%';
+                document.getElementById("fiberpercent").style.width = fiberpercent.toFixed(2) + '%';
+                document.getElementById("sugarpercent").style.width = sugarpercent.toFixed(2) + '%';
+                document.getElementById("protpercent").style.width = protpercent.toFixed(2) + '%';
+                document.getElementById("carbspercent").style.width = carbspercent.toFixed(2) + '%';
+                document.getElementById("monopercent").style.width = monopercent.toFixed(2) + '%';
+                document.getElementById("polypercent").style.width = polypercent.toFixed(2) + '%';
+                document.getElementById("ffcpercent").style.width = ffcpercent.toFixed(2) + '%';
+                document.getElementById("ironpercent").style.width = ironpercent.toFixed(2) + '%';
+                document.getElementById("calcpercent").style.width = calcpercent.toFixed(2) + '%';
+                document.getElementById("vitcpercent").style.width = vitcpercent.toFixed(2) + '%';
+                document.getElementById("vitapercent").style.width = vitapercent.toFixed(2) + '%';
+                document.getElementById("vitepercent").style.width = vitepercent.toFixed(2) + '%';
+            }
+        
+        
+            </script>
+        
+    </body>
+</html>

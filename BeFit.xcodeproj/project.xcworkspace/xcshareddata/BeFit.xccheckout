@@ -10,14 +10,14 @@
 	<string>BeFit</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>1F04235371A28CD3055CBBE726CAB4AAFFFC2A01</key>
+		<key>77DCE47D8085A0B0BB518526AD5515A81A35E7BF</key>
 		<string>https://github.com/jonbrown21/BeFit-OSX</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>BeFit.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>1F04235371A28CD3055CBBE726CAB4AAFFFC2A01</key>
+		<key>77DCE47D8085A0B0BB518526AD5515A81A35E7BF</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1F04235371A28CD3055CBBE726CAB4AAFFFC2A01</string>
+	<string>77DCE47D8085A0B0BB518526AD5515A81A35E7BF</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1F04235371A28CD3055CBBE726CAB4AAFFFC2A01</string>
+			<string>77DCE47D8085A0B0BB518526AD5515A81A35E7BF</string>
 			<key>IDESourceControlWCCName</key>
 			<string>BeFit-OSX</string>
 		</dict>

@@ -1,0 +1,61 @@
+body {
+    background: #fff;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+
+.chart {
+  width: 175px;
+  height: 175px;
+  margin-top: -5px;
+  margin-left: auto;
+  margin-right: auto;
+  display:block
+}
+
+
+.doughnutSummary {
+  position: absolute;
+  top: 45%;
+  left: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #d5d5d5;
+  text-align: center;
+  cursor: default;
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.doughnutSummaryTitle {
+  position: relative;
+  width: 205px;
+  font-size: 13px;
+  letter-spacing: .06em;
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.doughnutSummaryNumber {
+  position: relative;
+  width: 209px;
+  left: 0px;
+  font-size: 30px;
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000;
+}
+
+.chart path:hover {
+  opacity: 0.65;
+  display:block
+}
