@@ -15,11 +15,11 @@
 		</dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		URPpA1oDEqhXY1iGZzh1lxn3Bcc=
+		nuDpbjWufd0jSHh05Mzbx9M94gI=
 		</data>
 		<key>Resources/OpenFeedback.nib</key>
 		<data>
-		4oHHz0q11sjdpbfnBejfh19sk9A=
+		WkHH6LQhT+xZD8HYB0ZduIovZZI=
 		</data>
 		<key>Resources/bug.png</key>
 		<data>
@@ -51,11 +51,11 @@
 		</dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		URPpA1oDEqhXY1iGZzh1lxn3Bcc=
+		nuDpbjWufd0jSHh05Mzbx9M94gI=
 		</data>
 		<key>Resources/OpenFeedback.nib</key>
 		<data>
-		4oHHz0q11sjdpbfnBejfh19sk9A=
+		WkHH6LQhT+xZD8HYB0ZduIovZZI=
 		</data>
 		<key>Resources/bug.png</key>
 		<data>
@@ -68,10 +68,6 @@
 		<key>Resources/help.png</key>
 		<data>
 		VhAFy5DJ+ImzC+BgGWbHnalC5V4=
-		</data>
-		<key>embedded.provisionprofile</key>
-		<data>
-		Ohc5ho+3VfBVOF5av3WTRfu4fqc=
 		</data>
 	</dict>
 	<key>rules</key>
