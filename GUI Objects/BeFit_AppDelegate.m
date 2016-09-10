@@ -578,7 +578,7 @@
 
 - (void)timerFired:(NSTimer*)theTimer
 {
-    if(![self.progressBar.animator floatValue] == 1)
+    if(!([self.progressBar.animator floatValue] == 1))
     {
         [theTimer isValid]; //recall the NSTimer
         //implement your methods

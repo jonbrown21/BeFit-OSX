@@ -1308,7 +1308,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0720;
 				TargetAttributes = {
 					2565F95C0EFDBBB2005CD70F = {
 						DevelopmentTeam = 2D4Z7WQ7RS;
@@ -1878,6 +1878,7 @@
 				OTHER_CFLAGS = "-DDemoMode=0";
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonbrowndesigns.befitdemoapp;
 				PRODUCT_NAME = "BeFit Trial";
 				PROVISIONING_PROFILE = "";
 			};
@@ -1920,6 +1921,7 @@
 				OTHER_CFLAGS = "-DDemoMode=0";
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonbrowndesigns.befitdemoapp;
 				PRODUCT_NAME = "BeFit Trial";
 				PROVISIONING_PROFILE = "";
 				ZERO_LINK = NO;
@@ -1958,8 +1960,9 @@
 				IBC_ERRORS = NO;
 				INFOPLIST_FILE = PLIST/Info.plist;
 				INSTALL_PATH = /Applications;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_CFLAGS = "-DDemoMode=0";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;
 				PRODUCT_NAME = BeFit;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -2001,10 +2004,11 @@
 				IBC_ERRORS = NO;
 				INFOPLIST_FILE = PLIST/Info.plist;
 				INSTALL_PATH = /Applications;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DDemoMode=0";
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;
 				PRODUCT_NAME = BeFit;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -2019,6 +2023,7 @@
 			buildSettings = {
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = NO;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
+				ENABLE_TESTABILITY = YES;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.framework *.gch *.xcode* (*) .DS_Store CVS .svn .git .hg *.xib";
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -2089,6 +2094,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DDemoMode=0";
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;
 				PRODUCT_NAME = BeFit;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -2127,6 +2133,7 @@
 				INSTALL_PATH = /Applications;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = "-DDemoMode=0";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;
 				PRODUCT_NAME = BeFit;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -2168,11 +2175,12 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "PLIST/BeFitFree-Info.plist";
 				INSTALL_PATH = /Applications;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDemoMode=0";
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitAppFree;
 				PRODUCT_NAME = "BeFit Lite";
 				PROVISIONING_PROFILE = "";
 				ZERO_LINK = NO;
@@ -2209,11 +2217,12 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "PLIST/BeFitFree-Info.plist";
 				INSTALL_PATH = /Applications;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDemoMode=0";
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitAppFree;
 				PRODUCT_NAME = "BeFit Lite";
 				PROVISIONING_PROFILE = "";
 			};

@@ -11,7 +11,7 @@
 	<key>CFBundleHelpBookName</key>
 	<string>Be Fit</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.JonBrownDesigns.BeFitApp</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -28,6 +28,11 @@
 	<string>public.app-category.healthcare-fitness</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.9</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>NSMainNibFile</key>
 	<string>BeFitWeb</string>
 	<key>NSPrincipalClass</key>
