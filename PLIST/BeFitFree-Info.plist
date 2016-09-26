@@ -23,11 +23,11 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>5.0.1</string>
+	<string>5.0.2</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.healthcare-fitness</string>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.9</string>
+	<string>10.11</string>
 	<key>NSMainNibFile</key>
 	<string>BeFitfree</string>
 	<key>NSPrincipalClass</key>

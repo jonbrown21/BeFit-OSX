@@ -43,7 +43,7 @@
 
 #elif WEBSITE
     
-    NSArray *controllers = [[NSArray alloc] initWithObjects:generalViewController, advancedViewController, updateViewController, nil];
+    NSArray *controllers = [[NSArray alloc] initWithObjects:generalViewController, updateViewController, nil];
         
 #elif STORE
         
@@ -51,7 +51,7 @@
 
 #else
         
-    NSArray *controllers = [[NSArray alloc] initWithObjects:generalViewController, advancedViewController, nil];
+    NSArray *controllers = [[NSArray alloc] initWithObjects:generalViewController, nil];
         
         
 #endif
