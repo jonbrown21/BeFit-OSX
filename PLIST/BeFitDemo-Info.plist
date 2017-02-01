@@ -19,11 +19,11 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>4.0.1</string>
+	<string>5.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>4.0.1</string>
+	<string>5.0</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.healthcare-fitness</string>
 	<key>LSMinimumSystemVersion</key>
@@ -38,9 +38,9 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>OFSubmitFeedbackURL</key>
-	<string>http://shine.jonbrown.org/of.php</string>
+	<string>https://shine.jonbrown.org/of.php</string>
 	<key>SUFeedURL</key>
-	<string>http://shine.jonbrown.org/appcast.php?id=1</string>
+	<string>https://shine.jonbrown.org/appcast.php?id=1</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
 </dict>

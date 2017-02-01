@@ -8,5 +8,6 @@
 }
 
 -(BOOL)libraryIsSelected;
+-(void)doRemove;
 
 @end

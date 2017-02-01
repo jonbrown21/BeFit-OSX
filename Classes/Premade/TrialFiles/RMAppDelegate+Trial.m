@@ -18,7 +18,8 @@
         NSString *message = [NSString stringWithFormat:APPSTORE_EXIST_MESSAGE, APPSTORE_NAME, [pathToAppStoreVersion stringByDeletingLastPathComponent]];
         NSInteger result = [[NSAlert alertWithMessageText:APPSTORE_DIALOG_CAPTION defaultButton:APPSTORE_QUIT_BUTTON alternateButton:APPSTORE_IGNORE_BUTTON otherButton:nil informativeTextWithFormat:message, @"%@"] runModal];
 		if (result == NSAlertDefaultReturn) {
-			[workspace selectFile:[[NSBundle mainBundle] bundlePath] inFileViewerRootedAtPath:nil];
+            
+			[workspace selectFile:[[NSBundle mainBundle] bundlePath] inFileViewerRootedAtPath:[[NSBundle mainBundle] bundlePath]];
 			exit(0);
 		}
         return YES;

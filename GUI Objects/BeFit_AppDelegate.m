@@ -449,7 +449,8 @@
     //NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
     NSString*  flipin = [defaults objectForKey:@"flipPref"];
     [defaults setBool:0 forKey:@"flipPref"];
-    NSInteger myInt = flipin;
+    
+    int myInt = [flipin intValue];
     
     NSLog(@"Flip Preferencess: %@", flipin);
     
@@ -531,7 +532,7 @@
     
     
     int user;
-    user = [ entity valueForKey:@"userDefined" ];
+    user = (int)[ entity valueForKey:@"userDefined" ];
     
     if ([[ entity valueForKey:@"userDefined" ] doubleValue] == 0) {
         [submitFood setEnabled:NO];
@@ -632,51 +633,41 @@
     before the application terminates.
  */
  
-- (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication *)sender {
-
-    NSError *error;
-    int reply = NSTerminateNow;
-    NSManagedObjectContext* context = [ self managedObjectContext ];
+- (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication*)sender
+{
+    if (!managedObjectContext) return NSTerminateNow;
     
-    if (context != nil) 
-      {
-      if ([context commitEditing]) 
-         {
-         if ([context hasChanges] && ![context save:&error]) 
-            {
-             // This error handling simply presents error information in a panel with an 
-             // "Ok" button, which does not include any attempt at error recovery (meaning, 
-             // attempting to fix the error.)  As a result, this implementation will 
-             // present the information to the user and then follow up with a panel asking 
-             // if the user wishes to "Quit Anyway", without saving the changes.
-
-             // Typically, this process should be altered to include application-specific 
-             // recovery steps.  
-
-             BOOL errorResult = [[NSApplication sharedApplication] presentError:error];
-         
-             if (errorResult == YES) 
-               {
-               reply = NSTerminateCancel;
-               } 
-            else 
-               {
-               int alertReturn = NSRunAlertPanel(nil, @"Could not save changes while quitting. Quit anyway?" , @"Quit anyway", @"Cancel", nil);
-               if (alertReturn == NSAlertAlternateReturn) 
-                  {
-                  reply = NSTerminateCancel;	
-                  }
-                }
-            }
-        } 
-        else 
-         {
-         reply = NSTerminateCancel;
-         }
-      }
-
-    return reply;
+    if (![managedObjectContext commitEditing]) {
+        
+        return NSTerminateCancel;
+    }
+    
+    if (![managedObjectContext hasChanges]) return NSTerminateNow;
+    
+    NSError *error = nil;
+    if (![managedObjectContext save:&error]) {
+        BOOL result = [sender presentError:error];
+        if (result) return NSTerminateCancel;
+        
+        NSString *question = NSLocalizedString(@"Could not save changes while quitting.  Quit anyway?", @"Quit without saves error question message");
+        NSString *info = NSLocalizedString(@"Quitting now will lose any changes you have made since the last successful save", @"Quit without saves error question info");
+        NSString *quitButton = NSLocalizedString(@"Quit anyway", @"Quit anyway button title");
+        NSString *cancelButton = NSLocalizedString(@"Cancel", @"Cancel button title");
+        NSAlert *alert = [[NSAlert alloc] init];
+        [alert setMessageText:question];
+        [alert setInformativeText:info];
+        [alert addButtonWithTitle:quitButton];
+        [alert addButtonWithTitle:cancelButton];
+        
+        int answer = (int)[alert runModal];
+        alert = nil;
+        if (answer == NSAlertAlternateReturn) return NSTerminateCancel;
+        
+    }
+    
+    return NSTerminateNow;
 }
+
 
 - (IBAction)SendFood:(id)sender {
     

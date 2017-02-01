@@ -16,7 +16,9 @@
    [super awakeFromNib];
    }
 
-
+-(void)doRemove {
+    
+}
 
 -(BOOL)libraryIsSelected
    {
@@ -53,7 +55,7 @@
    //directly will cause the sort to trigger thus throwing off
    //the re-indexing.
 
-   int count = [[self arrangedObjects] count];
+   int count = (int)[[self arrangedObjects] count];
 
    NSArray *tmpArray = [NSArray arrayWithArray:[self arrangedObjects]];
    
@@ -95,7 +97,8 @@
 
 - (void)insertObject:(id)object atArrangedObjectIndex:(unsigned long)index
    {
-   [object setValue:[NSNumber numberWithInt:index] forKey:@"orderIndex"];
+   
+   [object setValue:[NSNumber numberWithInt:(int)index] forKey:@"orderIndex"];
 
    [super insertObject:object atArrangedObjectIndex:index];
 

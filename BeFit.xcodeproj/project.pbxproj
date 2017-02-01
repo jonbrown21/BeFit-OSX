@@ -126,6 +126,9 @@
 		FC1F03C4185540AC00299046 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC898674184A70DC00BE530A /* WebKit.framework */; };
 		FC1FA25418712EFE00E96FEE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1FA25318712EFE00E96FEE /* SystemConfiguration.framework */; };
 		FC1FA2631871335600E96FEE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1FA2621871335600E96FEE /* QuartzCore.framework */; };
+		FC4D03831E30E6C1001B95AB /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
+		FC4D03851E30E6D4001B95AB /* OpenFeedback.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
+		FC4D038A1E30E985001B95AB /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
 		FC632F2919EA350F008E3D72 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC632F2819EA350F008E3D72 /* Media.xcassets */; };
 		FC632F2A19EA350F008E3D72 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC632F2819EA350F008E3D72 /* Media.xcassets */; };
 		FC632F2B19EA350F008E3D72 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC632F2819EA350F008E3D72 /* Media.xcassets */; };
@@ -226,7 +229,6 @@
 		FC89567C19F4496600420ADC /* GUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89566019F4496600420ADC /* GUIController.m */; };
 		FC89567F19F4499F00420ADC /* RMBlurredView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89567E19F4499F00420ADC /* RMBlurredView.m */; };
 		FC89568019F4499F00420ADC /* RMBlurredView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89567E19F4499F00420ADC /* RMBlurredView.m */; };
-		FC89568119F4499F00420ADC /* RMBlurredView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89567E19F4499F00420ADC /* RMBlurredView.m */; };
 		FC89568219F4499F00420ADC /* RMBlurredView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89567E19F4499F00420ADC /* RMBlurredView.m */; };
 		FC89570A19F44ADF00420ADC /* BeFit2.dat in Resources */ = {isa = PBXBuildFile; fileRef = FC89570819F44AD800420ADC /* BeFit2.dat */; };
 		FC89570B19F44AE000420ADC /* BeFit2.dat in Resources */ = {isa = PBXBuildFile; fileRef = FC89570819F44AD800420ADC /* BeFit2.dat */; };
@@ -236,10 +238,6 @@
 		FC89570F19F44AEE00420ADC /* BeFit.dat in Resources */ = {isa = PBXBuildFile; fileRef = FC89570619F44ACF00420ADC /* BeFit.dat */; };
 		FC89571019F44AF100420ADC /* BeFitD.dat in Resources */ = {isa = PBXBuildFile; fileRef = FC89570719F44ACF00420ADC /* BeFitD.dat */; };
 		FC89571119F44AF200420ADC /* BeFitD.dat in Resources */ = {isa = PBXBuildFile; fileRef = FC89570719F44ACF00420ADC /* BeFitD.dat */; };
-		FC89571F19F44B3500420ADC /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC89571C19F44B3500420ADC /* OpenFeedback.framework */; };
-		FC89572019F44B3500420ADC /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC89571C19F44B3500420ADC /* OpenFeedback.framework */; };
-		FC89572319F44B3500420ADC /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC89571D19F44B3500420ADC /* Sparkle.framework */; };
-		FC89572419F44B3500420ADC /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC89571D19F44B3500420ADC /* Sparkle.framework */; };
 		FC89572919F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC89572619F44C6700420ADC /* BeFit_DataModel.xcdatamodeld */; };
 		FC89572A19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC89572619F44C6700420ADC /* BeFit_DataModel.xcdatamodeld */; };
 		FC89572B19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC89572619F44C6700420ADC /* BeFit_DataModel.xcdatamodeld */; };
@@ -254,10 +252,6 @@
 		FC89576319F44C8F00420ADC /* mac_app_identity.cer in Resources */ = {isa = PBXBuildFile; fileRef = FC89573919F44C8F00420ADC /* mac_app_identity.cer */; };
 		FC89576419F44C8F00420ADC /* mac_app_identity.cer in Resources */ = {isa = PBXBuildFile; fileRef = FC89573919F44C8F00420ADC /* mac_app_identity.cer */; };
 		FC89576519F44C8F00420ADC /* mac_app_identity.cer in Resources */ = {isa = PBXBuildFile; fileRef = FC89573919F44C8F00420ADC /* mac_app_identity.cer */; };
-		FC8957C419F4577F00420ADC /* Sparkle.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC89571D19F44B3500420ADC /* Sparkle.framework */; };
-		FC8957C519F4579700420ADC /* OpenFeedback.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC89571C19F44B3500420ADC /* OpenFeedback.framework */; };
-		FC8957C619F457B800420ADC /* OpenFeedback.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC89571C19F44B3500420ADC /* OpenFeedback.framework */; };
-		FC8957C719F457B800420ADC /* Sparkle.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC89571D19F44B3500420ADC /* Sparkle.framework */; };
 		FC898675184A70DC00BE530A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC898674184A70DC00BE530A /* WebKit.framework */; };
 		FC91C30018EE53B300960571 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		FC91C33618EE53B300960571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -416,6 +410,11 @@
 		FCC174D519EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC174D119EBD4CF001A184A /* OSBBadgeTextFieldCell.m */; };
 		FCD4445B1804CFF90036C533 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C82804067257F0000B614F /* CoreData.framework */; };
 		FCD4445C1804CFF90036C533 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C82804067257F0000B614F /* CoreData.framework */; };
+		FCEEDC6E1E331EDF00CD141A /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEEDC6C1E331EDF00CD141A /* Sparkle.framework */; };
+		FCEEDC711E3320E900CD141A /* OpenFeedback.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
+		FCEEDC721E3322DC00CD141A /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FCEEDC6C1E331EDF00CD141A /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FCEEDC751E3324C300CD141A /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEEDC6C1E331EDF00CD141A /* Sparkle.framework */; };
+		FCEEDC761E3324C300CD141A /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FCEEDC6C1E331EDF00CD141A /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FCFAE94B180B08C200108FDE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
@@ -435,7 +434,19 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				FCEEDC721E3322DC00CD141A /* Sparkle.framework in CopyFiles */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEEDC771E3324C300CD141A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FCEEDC761E3324C300CD141A /* Sparkle.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -508,6 +519,7 @@
 		FC1FA25118712E7800E96FEE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		FC1FA25318712EFE00E96FEE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FC1FA2621871335600E96FEE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenFeedback.framework; sourceTree = "<group>"; };
 		FC5465771809AAA400E69CEB /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/BeFit.xib; sourceTree = "<group>"; };
 		FC632F2819EA350F008E3D72 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		FC8955F219F4489200420ADC /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Food.h; path = ManagedContext/Food.h; sourceTree = "<group>"; };
@@ -569,8 +581,6 @@
 		FC89570719F44ACF00420ADC /* BeFitD.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = BeFitD.dat; path = "Data Files/BeFit3V1/BeFitD.dat"; sourceTree = "<group>"; };
 		FC89570819F44AD800420ADC /* BeFit2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = BeFit2.dat; path = "Data Files/BeFit3V2/BeFit2.dat"; sourceTree = "<group>"; };
 		FC89570919F44AD800420ADC /* BeFit2D.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = BeFit2D.dat; path = "Data Files/BeFit3V2/BeFit2D.dat"; sourceTree = "<group>"; };
-		FC89571C19F44B3500420ADC /* OpenFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenFeedback.framework; path = Frameworks/OpenFeedback.framework; sourceTree = "<group>"; };
-		FC89571D19F44B3500420ADC /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Frameworks/Sparkle.framework; sourceTree = "<group>"; };
 		FC89572719F44C6700420ADC /* BeFit_DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeFit_DataModel.xcdatamodel; sourceTree = "<group>"; };
 		FC89572819F44C6700420ADC /* BeFit_DataModel2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeFit_DataModel2.xcdatamodel; sourceTree = "<group>"; };
 		FC89573719F44C8F00420ADC /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Credits.rtf; path = Resources/Credits.rtf; sourceTree = "<group>"; };
@@ -636,6 +646,7 @@
 		FCC174D019EBD4CF001A184A /* OSBBadgeTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSBBadgeTextFieldCell.h; sourceTree = "<group>"; };
 		FCC174D119EBD4CF001A184A /* OSBBadgeTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSBBadgeTextFieldCell.m; sourceTree = "<group>"; };
 		FCCB059718824ED000BE315E /* BeFit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = BeFit.entitlements; sourceTree = "<group>"; };
+		FCEEDC6C1E331EDF00CD141A /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -643,13 +654,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC89572319F44B3500420ADC /* Sparkle.framework in Frameworks */,
+				FCEEDC751E3324C300CD141A /* Sparkle.framework in Frameworks */,
+				FC4D03831E30E6C1001B95AB /* OpenFeedback.framework in Frameworks */,
 				FCBA5BB718765820007C6CE2 /* SystemConfiguration.framework in Frameworks */,
 				FCBA5BB61876580A007C6CE2 /* QuartzCore.framework in Frameworks */,
 				FC1F03C4185540AC00299046 /* WebKit.framework in Frameworks */,
 				FC1DBA8F180BCAE400202B92 /* Security.framework in Frameworks */,
 				FCFAE94B180B08C200108FDE /* Cocoa.framework in Frameworks */,
-				FC89571F19F44B3500420ADC /* OpenFeedback.framework in Frameworks */,
 				FCD4445C1804CFF90036C533 /* CoreData.framework in Frameworks */,
 				2565F9770EFDBC13005CD70F /* OpenGL.framework in Frameworks */,
 			);
@@ -673,13 +684,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC89572419F44B3500420ADC /* Sparkle.framework in Frameworks */,
+				FCEEDC6E1E331EDF00CD141A /* Sparkle.framework in Frameworks */,
+				FC4D038A1E30E985001B95AB /* OpenFeedback.framework in Frameworks */,
 				FC977A6D18764568002631C2 /* SystemConfiguration.framework in Frameworks */,
 				FC977A6C1876455D002631C2 /* QuartzCore.framework in Frameworks */,
 				FC1F03C31855407600299046 /* WebKit.framework in Frameworks */,
 				FC1694C9181C747100C54052 /* Security.framework in Frameworks */,
 				FC1694CA181C747100C54052 /* Cocoa.framework in Frameworks */,
-				FC89572019F44B3500420ADC /* OpenFeedback.framework in Frameworks */,
 				FC1694CB181C747100C54052 /* CoreData.framework in Frameworks */,
 				FC1694CC181C747100C54052 /* OpenGL.framework in Frameworks */,
 			);
@@ -789,8 +800,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FC89571C19F44B3500420ADC /* OpenFeedback.framework */,
-				FC89571D19F44B3500420ADC /* Sparkle.framework */,
+				FCEEDC6C1E331EDF00CD141A /* Sparkle.framework */,
+				FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */,
 				FC0399B5188CDCEF00AB6785 /* Quartz.framework */,
 				FC1FA2621871335600E96FEE /* QuartzCore.framework */,
 				FC1FA25318712EFE00E96FEE /* SystemConfiguration.framework */,
@@ -1237,6 +1248,7 @@
 				2565F9590EFDBBB2005CD70F /* Resources */,
 				2565F95A0EFDBBB2005CD70F /* Sources */,
 				2565F95B0EFDBBB2005CD70F /* Frameworks */,
+				FCEEDC771E3324C300CD141A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1308,7 +1320,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				TargetAttributes = {
 					2565F95C0EFDBBB2005CD70F = {
 						DevelopmentTeam = 2D4Z7WQ7RS;
@@ -1373,9 +1385,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCEEDC711E3320E900CD141A /* OpenFeedback.framework in Resources */,
 				FC946ECD1A12F46F00692D04 /* owl.transitions.css in Resources */,
-				FC8957C519F4579700420ADC /* OpenFeedback.framework in Resources */,
-				FC8957C419F4577F00420ADC /* Sparkle.framework in Resources */,
 				FC7EF86F1882508300B4A647 /* BeFitWeb.xib in Resources */,
 				FC946FB41A20F2BA00692D04 /* justgage.1.0.1.min.js in Resources */,
 				FC946F481A1CB11F00692D04 /* pieindex2.html in Resources */,
@@ -1460,9 +1471,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC4D03851E30E6D4001B95AB /* OpenFeedback.framework in Resources */,
 				FC946ECE1A12F46F00692D04 /* owl.transitions.css in Resources */,
-				FC8957C619F457B800420ADC /* OpenFeedback.framework in Resources */,
-				FC8957C719F457B800420ADC /* Sparkle.framework in Resources */,
 				FC7EF8701882508300B4A647 /* BeFitWeb.xib in Resources */,
 				FC946FB51A20F2BA00692D04 /* justgage.1.0.1.min.js in Resources */,
 				FC946F491A1CB11F00692D04 /* pieindex2.html in Resources */,
@@ -1719,7 +1729,6 @@
 				FC0873DF19EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */,
 				FC946E941A10381A00692D04 /* Legend-Fat.m in Sources */,
 				FC89565019F4494900420ADC /* AddMGValueTransformer.m in Sources */,
-				FC89568119F4499F00420ADC /* RMBlurredView.m in Sources */,
 				FC946F311A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
 				FC946EA01A103A4A00692D04 /* Legend-Chol.m in Sources */,
 				FC08740919EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
@@ -1847,8 +1856,9 @@
 		2565F9600EFDBBB3005CD70F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_MODULES_AUTOLINK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
@@ -1873,22 +1883,25 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "PLIST/BeFitDemo-Info.plist";
 				INSTALL_PATH = /Applications;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDemoMode=0";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-Wl,-rpath,@loader_path/../Frameworks";
 				PREBINDING = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonbrowndesigns.befitdemoapp;
 				PRODUCT_NAME = "BeFit Trial";
 				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx10.12;
 			};
 			name = Debug;
 		};
 		2565F9610EFDBBB3005CD70F /* Device */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_MODULES_AUTOLINK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
@@ -1916,14 +1929,16 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "PLIST/BeFitDemo-Info.plist";
 				INSTALL_PATH = /Applications;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDemoMode=0";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-Wl,-rpath,@loader_path/../Frameworks";
 				PREBINDING = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonbrowndesigns.befitdemoapp;
 				PRODUCT_NAME = "BeFit Trial";
 				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx10.12;
 				ZERO_LINK = NO;
 			};
 			name = Device;
@@ -2021,21 +2036,37 @@
 		26FC0A890875C7B200E6366F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.framework *.gch *.xcode* (*) .DS_Store CVS .svn .git .hg *.xib";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				IBC_ERRORS = YES;
 				IBC_NOTICES = NO;
 				IBC_WARNINGS = NO;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.11;
+				SDKROOT = macosx;
 				WARNING_CFLAGS = "";
 			};
 			name = Debug;
@@ -2043,22 +2074,38 @@
 		26FC0A8A0875C7B200E6366F /* Device */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Jonathan Brown";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.framework *.gch *.xcode* (*) .DS_Store CVS .svn .git .hg *.xib";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				IBC_ERRORS = YES;
 				IBC_NOTICES = NO;
 				IBC_WARNINGS = NO;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.11;
+				SDKROOT = macosx;
 				SKIP_INSTALL = NO;
 				WARNING_CFLAGS = "";
 			};
@@ -2068,7 +2115,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -2079,9 +2128,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
 				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "/Volumes/Storage/Client\\ Files/Cocoa\\ Projects/Complete\\ Projects/BeFit-OSX/";
-				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "/Volumes/Storage/Client\\ Files/Cocoa\\ Projects/Complete\\ Projects/BeFit-OSX/";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "/Volumes/Files/Client Files/Cocoa Projects/Complete Projects/BeFit-OSX/";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "/Volumes/Files/Client Files/Cocoa Projects/Complete Projects/BeFit-OSX/";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = G5;
@@ -2092,9 +2142,11 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INFOPLIST_FILE = "PLIST/BeFit-Info.plist";
 				INSTALL_PATH = /Applications;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DDemoMode=0";
+				OTHER_LDFLAGS = "-Wl,-rpath,@loader_path/../Frameworks";
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;
 				PRODUCT_NAME = BeFit;
@@ -2109,7 +2161,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -2118,9 +2172,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
 				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "/Volumes/Storage/Client\\ Files/Cocoa\\ Projects/Complete\\ Projects/BeFit-OSX/";
-				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "/Volumes/Storage/Client\\ Files/Cocoa\\ Projects/Complete\\ Projects/BeFit-OSX/";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "/Volumes/Files/Client Files/Cocoa Projects/Complete Projects/BeFit-OSX/";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "/Volumes/Files/Client Files/Cocoa Projects/Complete Projects/BeFit-OSX/";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -2133,8 +2188,10 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INFOPLIST_FILE = "PLIST/BeFit-Info.plist";
 				INSTALL_PATH = /Applications;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				OTHER_CFLAGS = "-DDemoMode=0";
+				OTHER_LDFLAGS = "-Wl,-rpath,@loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;
 				PRODUCT_NAME = BeFit;
 				PROVISIONING_PROFILE = "";

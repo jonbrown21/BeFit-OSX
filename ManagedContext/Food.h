@@ -5,84 +5,66 @@
 
 }
 
-- (NSString *)nameValue;
-- (void)setNameValue:(NSString *)nameToUse; 
-- (void)setCalValue:(NSString *)calToUse;
-
-- (NSString *)proteinValue;
-- (NSString *)proteinValuePerc;
--(long)proteinValueAsLong;
-
-- (NSString *)sugarsValue;
-- (NSString *)sugarsValuePerc;
--(long)sugarsValueAsLong;
-
-- (NSString *)dietaryFiberValue;
-- (NSString *)dietaryFiberPercent;
--(long)dietaryFiberValueAsLong;
-
-- (NSString *)carbsValue;
-- (NSString *)carbsPercent;
--(long)carbsValueAsLong;
-
-- (NSString *)sodiumValue;
-- (NSString *)sodiumPercent;
--(long)sodiumValueAsLong;
-
-- (NSString *)cholesterolValue;
-- (NSString *)cholesterolPercent;
--(long)cholesterolValueAsLong;
-
-- (NSString *)saturatedFatValue;
-- (NSString *)saturatedFatPercent;
--(double)saturatedFatValueAsDouble;
-
-
-
-- (NSString *)monounsaturatedFatValue;
--(double)monounsaturatedFatValueAsDouble;
-
-
-- (NSString *)polyunsaturatedFatValue;
--(double)polyunsaturatedFatValueAsDouble;
-
--(double)totalFatValueAsDouble;
-- (NSString *)totalFatValue;
-- (NSString *)totalFatPercent;
-
--(int)servingWeight1Value;
-
--(long)caloriesLongValue;
--(long)ratingLongValue;
--(long)calFromDiet;
-
-- (NSString *)caloriesFromFatValue;
-
--(long)quantityLongValue;
-
-- (NSString *)vitaminAValue;
--(double)vitaminAValueAsDouble;
-
-- (NSString *)vitaminCValue;
-- (NSString *)vitaminCValuePerc;
--(double)vitaminCValueAsDouble;
-
-- (NSString *)ironValue;
-- (NSString *)ironValuePerc;
--(double)ironValueAsDouble;
+- (BOOL)hideServing;
 
 - (NSString *)calciumValue;
 - (NSString *)calciumValuePerc;
--(double)calciumValueAsDouble;
-
--(double)vitaminEValueAsDouble;
-
-- (NSString *)servingAmountValue;
+- (NSString *)caloriesFromFatValue;
+- (NSString *)carbsPercent;
+- (NSString *)carbsValue;
+- (NSString *)cholesterolPercent;
+- (NSString *)cholesterolValue;
+- (NSString *)dietaryFiberPercent;
+- (NSString *)dietaryFiberValue;
+- (NSString *)ironValue;
+- (NSString *)ironValuePerc;
+- (NSString *)monounsaturatedFatValue;
+- (NSString *)nameValue;
+- (NSString *)polyunsaturatedFatValue;
+- (NSString *)proteinValue;
+- (NSString *)proteinValuePerc;
+- (NSString *)saturatedFatPercent;
+- (NSString *)saturatedFatValue;
 - (NSString *)servingAmount1Value;
 - (NSString *)servingAmount2Value;
+- (NSString *)servingAmountValue;
+- (NSString *)sodiumPercent;
+- (NSString *)sodiumValue;
+- (NSString *)sugarsValue;
+- (NSString *)sugarsValuePerc;
+- (NSString *)totalFatPercent;
+- (NSString *)totalFatValue;
+- (NSString *)vitaminAValue;
+- (NSString *)vitaminCValue;
+- (NSString *)vitaminCValuePerc;
 
-- (double)selectedServingWeightAsDouble;
-- (int)indexOfServingBeingDisplayed;
+- (void)setCalValue:(NSString *)calToUse;
 - (void)setIndexOfServingBeingDisplayed: (int) indexToSet;
-- (BOOL)hideServing;
+- (void)setNameValue:(NSString *)nameToUse;
+
+-(double)calciumValueAsDouble;
+-(double)ironValueAsDouble;
+-(double)monounsaturatedFatValueAsDouble;
+-(double)polyunsaturatedFatValueAsDouble;
+-(double)saturatedFatValueAsDouble;
+-(double)totalFatValueAsDouble;
+-(double)vitaminAValueAsDouble;
+-(double)vitaminCValueAsDouble;
+-(double)vitaminEValueAsDouble;
+-(double)selectedServingWeightAsDouble;
+
+-(int)servingWeight1Value;
+-(int)indexOfServingBeingDisplayed;
+
+-(long)calFromDiet;
+-(long)caloriesLongValue;
+-(long)carbsValueAsLong;
+-(long)cholesterolValueAsLong;
+-(long)dietaryFiberValueAsLong;
+-(long)proteinValueAsLong;
+-(long)quantityLongValue;
+-(long)ratingLongValue;
+-(long)sodiumValueAsLong;
+-(long)sugarsValueAsLong;
+
 @end

@@ -1,4 +1,5 @@
 #import "FoodArrayController.h"
+#import "FoodListArrayController.h"
 #import "FoodNSTableView.h"
 #import "Food.h"
 #import "BeFit_AppDelegate.h"
@@ -58,9 +59,9 @@
 
 - (int) selectionIndex
 {
-	int		index;
+	int index;
 	
-	index = [ super selectionIndex ];
+	index = (int)[ super selectionIndex ];
 	// NSLog( [ NSString stringWithFormat: @"selectionIndex is %d", index ] );
 	return index;
 }
@@ -95,11 +96,12 @@
 		selectedRows = [ tableView selectedRowIndexes ];
 		if(( NULL != selectedRows ) && ( [ selectedRows count ] > 0 ))
 		{
-			firstSelectedRow = [ selectedRows firstIndex ];
+            
+			firstSelectedRow = [selectedRows firstIndex];
 			
 			/* now we know what row is selected, let's reload the data for this row*/
 			[tableView setNeedsDisplayInRect:[tableView rectOfRow:firstSelectedRow]];
-			[tableView textDidEndEditing: NULL];
+			//[tableView textDidEndEditing: NULL];
             
 		}
 	}
@@ -119,7 +121,7 @@
 		selectedObjects = [ self selectedObjects ];
 		food = [ selectedObjects objectAtIndex: 0 ];
 		formerIndex = [ food indexOfServingBeingDisplayed ];
-		indexOfSelectedItem = [ mPopupButton indexOfSelectedItem ];
+		indexOfSelectedItem = (int)[ mPopupButton indexOfSelectedItem ];
 		if( indexOfSelectedItem != formerIndex )
 		{
 			[ food setIndexOfServingBeingDisplayed: indexOfSelectedItem ];

@@ -63,8 +63,8 @@
 
     NSRange aVisibleRowIndexes = [self rowsInRect:theClipRect];
     NSIndexSet* aSelectedRowIndexes = [self selectedRowIndexes];
-    int aRow = aVisibleRowIndexes.location;
-    int anEndRow = aRow + aVisibleRowIndexes.length;
+    long aRow = aVisibleRowIndexes.location;
+    long anEndRow = aRow + aVisibleRowIndexes.length;
     NSGradient* gradient;
     NSColor* pathColor;
 
@@ -137,8 +137,10 @@
 
     Boolean FoodsCanBeRemoved = YES;
 
-    int user;
-    user = [ entity valueForKey:@"userDefined" ];
+    
+        
+    int user = [[entity valueForKey:@"userDefined"] intValue];
+    
 
     while (CurrentFoodList = [FoodListEnumerator nextObject])
     {
