@@ -208,15 +208,7 @@ long userValue;
     double intermediateValue = ( totalFat * 9 );
     double endingValue = (( intermediateValue * [ self selectedServingWeightAsDouble ] ) / 100 ) * QuantityActualValue;
     
-    long user;
-    
-    user = (int)[ self valueForKey: @"userDefined" ];
-    
-    if (user == 0) {
-        return [NSString stringWithFormat: @"%.0lf", endingValue ];
-    } else {
-        return [NSString stringWithFormat: @"%.0lf", endingValue ];
-    }
+    return [NSString stringWithFormat: @"%.0lf", endingValue ];
     
 }
 - (NSString *)transFatValue
@@ -357,7 +349,7 @@ long userValue;
 {
     double totalFat = [ [self valueForKey: @"saturatedFat"] doubleValue ] + [ [self valueForKey: @"monosaturatedFat"] doubleValue ] +
     [ [self valueForKey: @"polyFat"] doubleValue ];
-    double result = ((( totalFat * [ self selectedServingWeightAsDouble ] ) / 100 ) / 0.63 );
+    double result = (( totalFat / 65 ) * 100 );
     double valueToReturn = round( result );
     double userResult = round( totalFat );
     
@@ -366,9 +358,9 @@ long userValue;
     user = (int)[ self valueForKey: @"userDefined" ];
     
     if (user == 0) {
-        return [NSString stringWithFormat: @"%.0lf%%", valueToReturn ];
-    } else {
         return [NSString stringWithFormat: @"%.0lf%%", userResult ];
+    } else {
+        return [NSString stringWithFormat: @"%.0lf%%", valueToReturn ];
     }
     
 }

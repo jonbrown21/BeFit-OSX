@@ -45,7 +45,7 @@
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                         <clipView key="contentView" drawsBackground="NO" id="a9e-TO-Ga5">
                                             <rect key="frame" x="0.0" y="0.0" width="201" height="610"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <tableView focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" selectionHighlightStyle="sourceList" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="35" rowSizeStyle="automatic" viewBased="YES" floatsGroupRows="NO" id="KbJ-R5-DkY" customClass="FoodListNSTableView">
                                                     <rect key="frame" x="0.0" y="0.0" width="201" height="610"/>
@@ -212,7 +212,7 @@
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <clipView key="contentView" focusRingType="none" copiesOnScroll="NO" id="Td3-QF-MHi">
                                             <rect key="frame" x="0.0" y="0.0" width="603" height="515"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <tableView focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnSelection="YES" emptySelection="NO" autosaveColumns="NO" headerView="2623" id="394" customClass="FoodNSTableView">
                                                     <rect key="frame" x="0.0" y="0.0" width="603" height="498"/>
@@ -370,7 +370,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
                                         <clipView key="contentView" wantsLayer="YES" canDrawConcurrently="YES" focusRingType="none" drawsBackground="NO" copiesOnScroll="NO" id="Psl-Hs-7BR">
                                             <rect key="frame" x="0.0" y="0.0" width="205" height="594"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view canDrawConcurrently="YES" focusRingType="none" id="k79-ca-Tzd">
                                                     <rect key="frame" x="-4" y="-1" width="209" height="862"/>
@@ -2241,7 +2241,7 @@ CA
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
                     <clipView key="contentView" copiesOnScroll="NO" id="tgj-fo-hPE">
                         <rect key="frame" x="0.0" y="0.0" width="209" height="1236"/>
-                        <autoresizingMask key="autoresizingMask"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view id="iZ3-EQ-dfZ">
                                 <rect key="frame" x="0.0" y="0.0" width="273" height="2100"/>
