@@ -8,13 +8,13 @@
 - (id)init
 {
     return [super initWithNibName:@"GeneralPreferencesView" bundle:nil];
-   
-
+    
+    
 }
 
 - (void) awakeFromNib
 {
-
+    
     [self LBSChecker:nil];
     [self FeetChecker:nil];
     [self InchesChecker:nil];
@@ -139,21 +139,21 @@
 {
     NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
     NSString*  agepref = [defaults objectForKey:@"age-name"];
-                          
-      // Read default prefrences for member name
-      if (agepref == (id)[NSNull null] || agepref.length == 0 ) {
-          
-          [agename setStringValue:@""];
-          
-      } else {
-          
-          [agename setStringValue:agepref];
-      }
-      
-      // Set Format for LBS Field
-      NSNumberFormatter *agenameformatter = [[NSNumberFormatter alloc] init];
-      [agenameformatter setFormat: @"#,###;0;(#,##0)"];
-      [[agename cell] setFormatter:agenameformatter];
+    
+    // Read default prefrences for member name
+    if (agepref == (id)[NSNull null] || agepref.length == 0 ) {
+        
+        [agename setStringValue:@""];
+        
+    } else {
+        
+        [agename setStringValue:agepref];
+    }
+    
+    // Set Format for LBS Field
+    NSNumberFormatter *agenameformatter = [[NSNumberFormatter alloc] init];
+    [agenameformatter setFormat: @"#,###;0;(#,##0)"];
+    [[agename cell] setFormatter:agenameformatter];
 }
 
 -(IBAction)bmiCalculator:(id)sender
@@ -193,11 +193,13 @@
     float goals;
     float BMRLIFESTYLE;
     float BMRGOALS;
+    float in;
+    float lbsconv;
     
     float gainsedentary, gainlightly, gainmoderately, gainvery, gainextra;
     float loosesedentary, looselightly, loosemoderately, loosevery, looseextra;
-   
-
+    
+    
     
     int feet = [feetpref intValue];
     inches = [inchpref floatValue];
@@ -209,6 +211,7 @@
     lbs = [lbspref floatValue];
     lifestyles = [lifestylevalue floatValue];
     goals = [goalsvalue floatValue];
+    in = totalCM * 0.393701;
     
     
     if (metercheck == 1) {
@@ -217,6 +220,7 @@
         //NSLog(@"%f", metercheck);
         
         totalKG = [kgpref floatValue];
+        lbsconv = totalKG / 0.453592;
         totalMeters = totalCM / 100;
         BMI = totalKG / ( totalMeters * totalMeters );
         
@@ -250,28 +254,29 @@
         [defaults setObject:FinishedBMI forKey:@"bmi-value"];
         
         // Calculate BMR
-
-                    if (gender == 1) {
-                        
-                        BMR = 655 + ( 9.6 * totalKG ) + ( 1.8 * totalCM ) - ( 4.7 * age );
-
-                        
-                    } else {
-                        
-                        BMR =  66 + ( 13.7 * totalKG ) + ( 5 * totalKG ) - ( 6.8 * age );
-                        
-                    }
         
-     
+        if (gender == 0) {
+            
+            BMR = 655 + (4.35 * lbsconv) + (4.7 * in) - (4.7 * age);
+            NSLog(@"BMR IS %f",BMR);
+            
+        } else {
+            
+            BMR = 66 + (6.23 * lbsconv) + (12.7 * in) - (6.8 * age);
+            NSLog(@"BMR IS %f",BMR);
+        }
+        
+        
         
     } else {
-    
+        
         //NSLog(@"%f", metercheck);
         
         totalInches = (feet * 12) + inches;
         BMI = totalWeight / ( totalInches * totalInches ) * 703;
         NSString* FinishedBMI = [NSString stringWithFormat:@"%.f", BMI];
         
+        NSLog(@"Total Inches: %f", totalInches);
         
         float bmiFloatValue;
         bmiFloatValue = [FinishedBMI floatValue];
@@ -302,22 +307,28 @@
         
         // Calculate BMR
         
-                if (gender == 1) {
-                    
-                    BMR = 655 + ( 4.35 * lbs ) + ( 4.7 * totalInches ) - ( 4.7 * age );
-                    
-                    
-                } else {
-                    
-                    BMR =  66 + ( 6.23 * lbs ) + ( 12.7 * totalInches ) - ( 6.8 * age );
-                    
-                }
+        if (gender == 0) {
+            
+            BMR = 655 + ( 4.35 * lbs ) + ( 4.7 * totalInches ) - ( 4.7 * age );
+            
+            NSLog(@"BMR LBS IS %f",lbs);
+            NSLog(@"BMR IN IS %f",totalInches);
+            
+            NSLog(@"BMR IS %f",BMR);
+            
+            
+        } else {
+            
+            BMR =  66 + ( 6.23 * lbs ) + ( 12.7 * totalInches ) - ( 6.8 * age );
+            NSLog(@"BMR IS %f",BMR);
+            
+        }
         
         
         
     }
     
-
+    
     // Calculate Lifestyle
     
     if (lifestyles == 0) {
@@ -364,7 +375,7 @@
         
     }
     
-
+    
     
     [Answer setFloatValue:BMRGOALS];
     
@@ -383,11 +394,11 @@
     NSString *mySlide = [[NSNumber numberWithFloat:slide] stringValue];
     [formattedSliderValue setStringValue:mySlide];
     
-
-   
+    
+    
     NSString* SlidePrefSetter = [formattedSliderValue stringValue];
     
-
+    
     
     if (rec == 0.000000) {
         
@@ -406,11 +417,6 @@
         
         [prefslider setEnabled:NO];
     }
-    
-    
-    
-    
-    
     
     
 }
@@ -438,8 +444,8 @@
 {
     NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
     NSString* metricPref = [metricheck stringValue];
-   // NSString* metricPrefString = [NSString stringWithFormat:@"%li", (long)metricPref];
-
+    // NSString* metricPrefString = [NSString stringWithFormat:@"%li", (long)metricPref];
+    
     
     if (sender == metricheck)
     {
@@ -454,19 +460,19 @@
     NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
     NSInteger indexInteger = [lifeStyle indexOfSelectedItem];
     NSString* indexIntegerString = [NSString stringWithFormat:@"%li", (long)indexInteger];
-
+    
     if (sender == lifeStyle)
     {
         [defaults setObject:indexIntegerString forKey:@"lifestyle-name"];
         [self bmiCalculator:nil];
         NSLog(@"Lifestyle is: %ld", (long)indexInteger);
-
+        
     }
 }
 
 - (IBAction)setRecomendation:(id)sender
 {
-
+    
     NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
     NSString* recomendPref = [Recomend stringValue];
     
@@ -477,8 +483,8 @@
         [self bmiCalculator:nil];
         NSLog(@"Metric value is: %@", recomendPref);
     }
-
-        
+    
+    
     
 }
 
@@ -488,7 +494,7 @@
     NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
     NSInteger indexInteger = [weightGoals indexOfSelectedItem];
     NSString* indexIntegerString = [NSString stringWithFormat:@"%li", (long)indexInteger];
-
+    
     if (sender == weightGoals)
     {
         [defaults setObject:indexIntegerString forKey:@"goals-name"];
@@ -590,10 +596,10 @@
             }
             
         } else {
-        
-        NSAlert *alert = [[NSAlert alloc] init];
-        [alert setMessageText:@"Please enter a value between 0 and 10 lbs."];
-        [alert runModal];
+            
+            NSAlert *alert = [[NSAlert alloc] init];
+            [alert setMessageText:@"Please enter a value between 0 and 10 lbs."];
+            [alert runModal];
             
         }
         
@@ -634,19 +640,19 @@
     if (num3 <= 0) {
         
         if (num4.length == 0) {
-         
+            
             if (sender == inchname)
             {
                 [defaults setObject:inchnamed forKey:@"inch-name"];
                 [self bmiCalculator:nil];
                 NSLog(@"Inch value is: %@", inchnamed);
-            } 
+            }
             
         } else {
-        
-        NSAlert *alert = [[NSAlert alloc] init];
-        [alert setMessageText:@"Please enter a value between 0 and 12 lbs."];
-        [alert runModal];
+            
+            NSAlert *alert = [[NSAlert alloc] init];
+            [alert setMessageText:@"Please enter a value between 0 and 12 lbs."];
+            [alert runModal];
             
         }
         
@@ -673,56 +679,56 @@
 
 - (IBAction)setCM:(id)sender
 {
-
-
-        // Set default prefrences for Member Name
-
-        float num3;
-        NSString * num4;
-
-        num3 = [cmname floatValue];
-        num4 = [cmname stringValue];
-
-        NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
-        NSString *cmnamed = [cmname stringValue];
-
-                if (num3 <= 0) {
-
-                            if (num4.length == 0) {
-
-                            if (sender == cmname)
-                            {
-                                [defaults setObject:cmnamed forKey:@"cm-name"];
-                                [self bmiCalculator:nil];
-                                NSLog(@"CM value is: %@", cmnamed);
-                            }
-
-                            } else {
-
-                            NSAlert *alert = [[NSAlert alloc] init];
-                            [alert setMessageText:@"cmnamePlease enter a value between 0 and 300 cm."];
-                            [alert runModal];
-
-                            }
-
-                } else if (num3 > 300) {
-
-                NSAlert *alert = [[NSAlert alloc] init];
-                [alert setMessageText:@"Please enter a value between 0 and 300 cm."];
-                [alert runModal];
-
-                } else {
-
-                            if (sender == cmname)
-                            {
-                                [defaults setObject:cmnamed forKey:@"cm-name"];
-                                [self bmiCalculator:nil];
-                                NSLog(@"CM value is: %@", cmnamed);
-                            }
-
-                }
-
-
+    
+    
+    // Set default prefrences for Member Name
+    
+    float num3;
+    NSString * num4;
+    
+    num3 = [cmname floatValue];
+    num4 = [cmname stringValue];
+    
+    NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+    NSString *cmnamed = [cmname stringValue];
+    
+    if (num3 <= 0) {
+        
+        if (num4.length == 0) {
+            
+            if (sender == cmname)
+            {
+                [defaults setObject:cmnamed forKey:@"cm-name"];
+                [self bmiCalculator:nil];
+                NSLog(@"CM value is: %@", cmnamed);
+            }
+            
+        } else {
+            
+            NSAlert *alert = [[NSAlert alloc] init];
+            [alert setMessageText:@"cmnamePlease enter a value between 0 and 300 cm."];
+            [alert runModal];
+            
+        }
+        
+    } else if (num3 > 300) {
+        
+        NSAlert *alert = [[NSAlert alloc] init];
+        [alert setMessageText:@"Please enter a value between 0 and 300 cm."];
+        [alert runModal];
+        
+    } else {
+        
+        if (sender == cmname)
+        {
+            [defaults setObject:cmnamed forKey:@"cm-name"];
+            [self bmiCalculator:nil];
+            NSLog(@"CM value is: %@", cmnamed);
+        }
+        
+    }
+    
+    
 }
 
 
@@ -818,21 +824,21 @@
         
         NSAlert *alert = [[NSAlert alloc] init];
         [alert setMessageText:@"Please enter a value between 0 and 100."];
-         [alert runModal];
-         
-         } else {
-             
-             if (sender == agename)
-             {
-                 [defaults setObject:agenamed forKey:@"age-name"];
-                 [self bmiCalculator:nil];
-                 NSLog(@"Age value is: %@", agenamed);
-             }
-             
-         }
-         
+        [alert runModal];
+        
+    } else {
+        
+        if (sender == agename)
+        {
+            [defaults setObject:agenamed forKey:@"age-name"];
+            [self bmiCalculator:nil];
+            NSLog(@"Age value is: %@", agenamed);
+        }
+        
+    }
+    
     
 }
 
-         
+
 @end
