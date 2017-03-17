@@ -212,7 +212,7 @@
 
     -(IBAction)loadSupport:(id)sender{
 
-    NSURL *url=[NSURL URLWithString:@"http://www.jonbrown.org/support/#bfit"];
+    NSURL *url=[NSURL URLWithString:@"http://www.jonbrown.org/support/"];
     [[NSWorkspace sharedWorkspace] openURL:url];
 
     }
@@ -431,5 +431,7 @@
     
     [[self healthPopoverQtyOnly] showRelativeToRect:[sender bounds] ofView:sender preferredEdge:NSMaxYEdge];
 }
+
+
 
 @end

@@ -410,11 +410,11 @@
 		FCC174D519EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC174D119EBD4CF001A184A /* OSBBadgeTextFieldCell.m */; };
 		FCD4445B1804CFF90036C533 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C82804067257F0000B614F /* CoreData.framework */; };
 		FCD4445C1804CFF90036C533 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C82804067257F0000B614F /* CoreData.framework */; };
-		FCEEDC6E1E331EDF00CD141A /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEEDC6C1E331EDF00CD141A /* Sparkle.framework */; };
 		FCEEDC711E3320E900CD141A /* OpenFeedback.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
-		FCEEDC721E3322DC00CD141A /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FCEEDC6C1E331EDF00CD141A /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FCEEDC751E3324C300CD141A /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEEDC6C1E331EDF00CD141A /* Sparkle.framework */; };
-		FCEEDC761E3324C300CD141A /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FCEEDC6C1E331EDF00CD141A /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FCF3D7301E77ABD0004A8525 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF3D72E1E77ABD0004A8525 /* Sparkle.framework */; };
+		FCF3D7311E77ABD0004A8525 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF3D72E1E77ABD0004A8525 /* Sparkle.framework */; };
+		FCF3D7331E77AC22004A8525 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FCF3D72E1E77ABD0004A8525 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FCF3D7351E77AC2F004A8525 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FCF3D72E1E77ABD0004A8525 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FCFAE94B180B08C200108FDE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
@@ -428,25 +428,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC1694CD181C747100C54052 /* CopyFiles */ = {
+		FCF3D7321E77AC1C004A8525 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FCEEDC721E3322DC00CD141A /* Sparkle.framework in CopyFiles */,
+				FCF3D7331E77AC22004A8525 /* Sparkle.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCEEDC771E3324C300CD141A /* Embed Frameworks */ = {
+		FCF3D7341E77AC29004A8525 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FCEEDC761E3324C300CD141A /* Sparkle.framework in Embed Frameworks */,
+				FCF3D7351E77AC2F004A8525 /* Sparkle.framework in CopyFiles */,
 			);
-			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -646,7 +645,7 @@
 		FCC174D019EBD4CF001A184A /* OSBBadgeTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSBBadgeTextFieldCell.h; sourceTree = "<group>"; };
 		FCC174D119EBD4CF001A184A /* OSBBadgeTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSBBadgeTextFieldCell.m; sourceTree = "<group>"; };
 		FCCB059718824ED000BE315E /* BeFit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = BeFit.entitlements; sourceTree = "<group>"; };
-		FCEEDC6C1E331EDF00CD141A /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		FCF3D72E1E77ABD0004A8525 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -654,11 +653,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCEEDC751E3324C300CD141A /* Sparkle.framework in Frameworks */,
 				FC4D03831E30E6C1001B95AB /* OpenFeedback.framework in Frameworks */,
 				FCBA5BB718765820007C6CE2 /* SystemConfiguration.framework in Frameworks */,
 				FCBA5BB61876580A007C6CE2 /* QuartzCore.framework in Frameworks */,
 				FC1F03C4185540AC00299046 /* WebKit.framework in Frameworks */,
+				FCF3D7301E77ABD0004A8525 /* Sparkle.framework in Frameworks */,
 				FC1DBA8F180BCAE400202B92 /* Security.framework in Frameworks */,
 				FCFAE94B180B08C200108FDE /* Cocoa.framework in Frameworks */,
 				FCD4445C1804CFF90036C533 /* CoreData.framework in Frameworks */,
@@ -684,11 +683,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCEEDC6E1E331EDF00CD141A /* Sparkle.framework in Frameworks */,
 				FC4D038A1E30E985001B95AB /* OpenFeedback.framework in Frameworks */,
 				FC977A6D18764568002631C2 /* SystemConfiguration.framework in Frameworks */,
 				FC977A6C1876455D002631C2 /* QuartzCore.framework in Frameworks */,
 				FC1F03C31855407600299046 /* WebKit.framework in Frameworks */,
+				FCF3D7311E77ABD0004A8525 /* Sparkle.framework in Frameworks */,
 				FC1694C9181C747100C54052 /* Security.framework in Frameworks */,
 				FC1694CA181C747100C54052 /* Cocoa.framework in Frameworks */,
 				FC1694CB181C747100C54052 /* CoreData.framework in Frameworks */,
@@ -800,7 +799,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FCEEDC6C1E331EDF00CD141A /* Sparkle.framework */,
+				FCF3D72E1E77ABD0004A8525 /* Sparkle.framework */,
 				FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */,
 				FC0399B5188CDCEF00AB6785 /* Quartz.framework */,
 				FC1FA2621871335600E96FEE /* QuartzCore.framework */,
@@ -1248,7 +1247,7 @@
 				2565F9590EFDBBB2005CD70F /* Resources */,
 				2565F95A0EFDBBB2005CD70F /* Sources */,
 				2565F95B0EFDBBB2005CD70F /* Frameworks */,
-				FCEEDC771E3324C300CD141A /* Embed Frameworks */,
+				FCF3D7321E77AC1C004A8525 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -1285,7 +1284,7 @@
 				FC16948E181C747100C54052 /* Resources */,
 				FC1694AC181C747100C54052 /* Sources */,
 				FC1694C8181C747100C54052 /* Frameworks */,
-				FC1694CD181C747100C54052 /* CopyFiles */,
+				FCF3D7341E77AC29004A8525 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -1883,7 +1882,7 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "PLIST/BeFitDemo-Info.plist";
 				INSTALL_PATH = /Applications;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDemoMode=0";
@@ -1929,7 +1928,7 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "PLIST/BeFitDemo-Info.plist";
 				INSTALL_PATH = /Applications;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDemoMode=0";

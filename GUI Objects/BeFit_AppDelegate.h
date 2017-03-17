@@ -42,7 +42,7 @@
     NSPersistentStoreCoordinator *persistentStoreCoordinator;
     NSManagedObjectModel *managedObjectModel;
     NSManagedObjectContext *managedObjectContext;
-    
+    IBOutlet id showStore;
     IBOutlet NSArrayController* arrayController_;
     IBOutlet NSTableView* tableView_;
     
@@ -81,6 +81,8 @@
 
 - (IBAction)saveAction:sender;
 - (IBAction)flip:(id)sender;
+- (IBAction)hideStore:(id)sender;
+- (IBAction)showStore:(id)sender;
 
 @property (strong) IBOutlet LNScrollView *CalorieScrollView;
 @property (nonatomic) NSInteger focusedAdvancedControlIndex;

@@ -827,4 +827,18 @@
     [NSApp terminate:self];
 }
 
+- (IBAction)showStore:(id)sender
+{
+    [NSApp beginSheet:showStore modalForWindow:window modalDelegate:self didEndSelector:NULL contextInfo:nil];
+    
+}
+
+- (IBAction)hideStore:(id)sender
+{
+    [showStore orderOut:nil];
+    [NSApp endSheet:showStore];
+    
+}
+
+
 @end

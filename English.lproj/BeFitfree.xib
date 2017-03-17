@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
@@ -1273,7 +1273,7 @@ CA
                 </menuItem>
             </items>
         </menu>
-        <window title="Reference Data" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" animationBehavior="default" id="QPw-wf-S7t" customClass="NSPanel">
+        <window title="Reference Data" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="QPw-wf-S7t" customClass="NSPanel">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" utility="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="139" y="81" width="618" height="794"/>
@@ -2230,7 +2230,7 @@ CA
                     </textField>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="434" y="2"/>
+            <point key="canvasLocation" x="698" y="60"/>
         </window>
         <customView id="k7H-k2-WAJ" userLabel="BackFlipView">
             <rect key="frame" x="0.0" y="0.0" width="209" height="1236"/>
@@ -2241,7 +2241,7 @@ CA
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
                     <clipView key="contentView" copiesOnScroll="NO" id="tgj-fo-hPE">
                         <rect key="frame" x="0.0" y="0.0" width="209" height="1236"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <view id="iZ3-EQ-dfZ">
                                 <rect key="frame" x="0.0" y="0.0" width="273" height="2100"/>
@@ -4853,7 +4853,7 @@ IA
                     </subviews>
                 </customView>
             </subviews>
-            <point key="canvasLocation" x="-82.5" y="416.5"/>
+            <point key="canvasLocation" x="116" y="410"/>
         </customView>
         <window title="Window" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="XBC-ce-TRs" userLabel="Window - Print">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
