@@ -148,7 +148,8 @@
     //NSString *aappSupportFolder = [applicationSupportFolder stringByAppendingPathComponent: @"BeFit"];
     
     if ( ![fileManager fileExistsAtPath:applicationSupportFolder isDirectory:NULL] ) {
-        [fileManager createDirectoryAtPath:applicationSupportFolder attributes:nil];
+        
+        [[NSFileManager defaultManager] createDirectoryAtPath:applicationSupportFolder withIntermediateDirectories:YES attributes:nil error:NULL];
     }
     
 	dataFilePath = [applicationSupportFolder stringByAppendingPathComponent: @"BeFit2D.dat"];
@@ -210,7 +211,7 @@
     //NSString *aappSupportFolder = [applicationSupportFolder stringByAppendingPathComponent: @"BeFit"];
     
     if ( ![fileManager fileExistsAtPath:applicationSupportFolder isDirectory:NULL] ) {
-        [fileManager createDirectoryAtPath:applicationSupportFolder attributes:nil];
+        [[NSFileManager defaultManager] createDirectoryAtPath:applicationSupportFolder withIntermediateDirectories:YES attributes:nil error:NULL];
     }
     
 	dataFilePath = [applicationSupportFolder stringByAppendingPathComponent: @"BeFit2.dat"];
