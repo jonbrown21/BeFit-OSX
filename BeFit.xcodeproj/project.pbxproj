@@ -129,6 +129,10 @@
 		FC4D03831E30E6C1001B95AB /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
 		FC4D03851E30E6D4001B95AB /* OpenFeedback.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
 		FC4D038A1E30E985001B95AB /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
+		FC5821851FB904AB00D34CAA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC5821841FB904AB00D34CAA /* icon.icns */; };
+		FC5821861FB904AB00D34CAA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC5821841FB904AB00D34CAA /* icon.icns */; };
+		FC5821871FB904AB00D34CAA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC5821841FB904AB00D34CAA /* icon.icns */; };
+		FC5821881FB904AB00D34CAA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC5821841FB904AB00D34CAA /* icon.icns */; };
 		FC632F2919EA350F008E3D72 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC632F2819EA350F008E3D72 /* Media.xcassets */; };
 		FC632F2A19EA350F008E3D72 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC632F2819EA350F008E3D72 /* Media.xcassets */; };
 		FC632F2B19EA350F008E3D72 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC632F2819EA350F008E3D72 /* Media.xcassets */; };
@@ -520,6 +524,7 @@
 		FC1FA2621871335600E96FEE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenFeedback.framework; sourceTree = "<group>"; };
 		FC5465771809AAA400E69CEB /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/BeFit.xib; sourceTree = "<group>"; };
+		FC5821841FB904AB00D34CAA /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		FC632F2819EA350F008E3D72 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		FC8955F219F4489200420ADC /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Food.h; path = ManagedContext/Food.h; sourceTree = "<group>"; };
 		FC8955F319F4489200420ADC /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Food.m; path = ManagedContext/Food.m; sourceTree = "<group>"; };
@@ -757,6 +762,7 @@
 		29B97314FDCFA39411CA2CEA /* BeFit */ = {
 			isa = PBXGroup;
 			children = (
+				FC5821841FB904AB00D34CAA /* icon.icns */,
 				FC632F2819EA350F008E3D72 /* Media.xcassets */,
 				FCBFE7B218EE73960033F407 /* BeFit Trial.entitlements */,
 				FCCB059718824ED000BE315E /* BeFit.entitlements */,
@@ -1399,6 +1405,7 @@
 				FC946E7D1A0FFC4900692D04 /* pieindex.js in Resources */,
 				FC89575B19F44C8F00420ADC /* Credits.rtf in Resources */,
 				FC89576319F44C8F00420ADC /* mac_app_identity.cer in Resources */,
+				FC5821871FB904AB00D34CAA /* icon.icns in Resources */,
 				FC946E6E1A0DC13B00692D04 /* fullpieindex.js in Resources */,
 				FC946FAF1A20F13A00692D04 /* raphael.2.1.0.min.js in Resources */,
 				FC946EDF1A13102E00692D04 /* bootstrap.min.css in Resources */,
@@ -1431,6 +1438,7 @@
 				FC946FB31A20F2BA00692D04 /* justgage.1.0.1.min.js in Resources */,
 				FC946EDE1A13102D00692D04 /* bootstrap.min.css in Resources */,
 				FC946E6D1A0DC13B00692D04 /* fullpieindex.js in Resources */,
+				FC5821851FB904AB00D34CAA /* icon.icns in Resources */,
 				FC08736B19EBA3AB00ACB943 /* index.html in Resources */,
 				FC89575A19F44C8F00420ADC /* Credits.rtf in Resources */,
 				FC08736119EBA39B00ACB943 /* jquery-1.7.1.min.js in Resources */,
@@ -1485,6 +1493,7 @@
 				FC89570F19F44AEE00420ADC /* BeFit.dat in Resources */,
 				FC89575C19F44C8F00420ADC /* Credits.rtf in Resources */,
 				FC946E6F1A0DC13B00692D04 /* fullpieindex.js in Resources */,
+				FC5821881FB904AB00D34CAA /* icon.icns in Resources */,
 				FC946EE01A13102E00692D04 /* bootstrap.min.css in Resources */,
 				FC946FB01A20F13A00692D04 /* raphael.2.1.0.min.js in Resources */,
 				FC89576419F44C8F00420ADC /* mac_app_identity.cer in Resources */,
@@ -1517,6 +1526,7 @@
 				FC946FB11A20F13A00692D04 /* raphael.2.1.0.min.js in Resources */,
 				FC946FA71A1F512400692D04 /* gauge.html in Resources */,
 				FC89575D19F44C8F00420ADC /* Credits.rtf in Resources */,
+				FC5821861FB904AB00D34CAA /* icon.icns in Resources */,
 				FC946FB61A20F2BA00692D04 /* justgage.1.0.1.min.js in Resources */,
 				FC946EC71A12F46F00692D04 /* owl.carousel.css in Resources */,
 				FC91C30018EE53B300960571 /* InfoPlist.strings in Resources */,
