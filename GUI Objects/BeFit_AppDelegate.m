@@ -13,8 +13,9 @@
 #import "iTableColumnHeaderCell.h"
 #import "Food.h"
 
-#ifdef TRIAL
-#import "RMAppDelegate+Trial.h"
+#if TRIAL || WEBSITE
+//#import "RMAppDelegate+Trial.h"
+#import <Paddle/Paddle.h>
 #endif
 
 #define LEFT_VIEW_INDEX 0
@@ -454,24 +455,32 @@
     int myInt = [flipin intValue];
     
     NSLog(@"Flip Preferencess: %@", flipin);
-    
-    // Check if Trial and if so present expired message
-    
-    #ifdef TRIAL
-    if ([self checkIfExpired]) {
-        // expired
-        [self showExpiredMessage];
-    } else {
-        // not expired
-        [self showRemainingTrialMessage];
-    }
-    #endif
-    
+
     // Check if Trial and if so ask if they want to move this app to applications folder.
     
     #if TRIAL || WEBSITE
     PFMoveToApplicationsFolderIfNecessary();
     [openFeedback presentFeedbackPanelIfCrashed];
+    
+    // Check if Trial and if so present expired message
+    
+    Paddle *paddle = [Paddle sharedInstance];
+    [paddle setProductId:@"520775"];
+    [paddle setVendorId:@"25300"];
+    [paddle setApiKey:@"411430c46d02e5a5bc45c309068cd6e7"];
+ 
+    NSDictionary *productInfo = [NSDictionary dictionaryWithObjectsAndKeys:
+                                 @"4.99", kPADCurrentPrice,
+                                 @"Jon Brown Designs", kPADDevName,
+                                 @"USD", kPADCurrency,
+                                 @"BeFit", kPADProductName,
+                                 @"30", kPADTrialDuration,
+                                 @"Thanks for downloading a trial of BeFit for Mac", kPADTrialText,
+                                 @"icon_512x512.png", kPADProductImage, //Image file in your project
+                                 nil];
+    
+    [[Paddle sharedInstance] startLicensing:productInfo timeTrial:YES withWindow:window];
+    
     #endif
     
     
