@@ -38,14 +38,6 @@
 		FC08739019EBA6AE00ACB943 /* ITProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08738E19EBA6AE00ACB943 /* ITProgressBar.m */; };
 		FC08739119EBA6AE00ACB943 /* ITProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08738E19EBA6AE00ACB943 /* ITProgressBar.m */; };
 		FC08739219EBA6AE00ACB943 /* ITProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08738E19EBA6AE00ACB943 /* ITProgressBar.m */; };
-		FC08739819EBA6BC00ACB943 /* NSString+SymlinksAndAliases.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08739519EBA6BC00ACB943 /* NSString+SymlinksAndAliases.m */; };
-		FC08739919EBA6BC00ACB943 /* NSString+SymlinksAndAliases.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08739519EBA6BC00ACB943 /* NSString+SymlinksAndAliases.m */; };
-		FC08739A19EBA6BC00ACB943 /* NSString+SymlinksAndAliases.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08739519EBA6BC00ACB943 /* NSString+SymlinksAndAliases.m */; };
-		FC08739B19EBA6BC00ACB943 /* NSString+SymlinksAndAliases.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08739519EBA6BC00ACB943 /* NSString+SymlinksAndAliases.m */; };
-		FC08739C19EBA6BC00ACB943 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08739719EBA6BC00ACB943 /* PFMoveApplication.m */; };
-		FC08739D19EBA6BC00ACB943 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08739719EBA6BC00ACB943 /* PFMoveApplication.m */; };
-		FC08739E19EBA6BC00ACB943 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08739719EBA6BC00ACB943 /* PFMoveApplication.m */; };
-		FC08739F19EBA6BC00ACB943 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08739719EBA6BC00ACB943 /* PFMoveApplication.m */; };
 		FC0873A319EBA6D200ACB943 /* LNClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873A219EBA6D200ACB943 /* LNClipView.m */; };
 		FC0873A419EBA6D200ACB943 /* LNClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873A219EBA6D200ACB943 /* LNClipView.m */; };
 		FC0873A519EBA6D200ACB943 /* LNClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873A219EBA6D200ACB943 /* LNClipView.m */; };
@@ -122,6 +114,12 @@
 		FC1F03C4185540AC00299046 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC898674184A70DC00BE530A /* WebKit.framework */; };
 		FC1FA25418712EFE00E96FEE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1FA25318712EFE00E96FEE /* SystemConfiguration.framework */; };
 		FC1FA2631871335600E96FEE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1FA2621871335600E96FEE /* QuartzCore.framework */; };
+		FC24B10F204C96A100E4D1E8 /* LetsMove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC24B10D204C969F00E4D1E8 /* LetsMove.framework */; };
+		FC24B110204C96A100E4D1E8 /* LetsMove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC24B10D204C969F00E4D1E8 /* LetsMove.framework */; };
+		FC24B111204C96A100E4D1E8 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FC24B10E204C96A000E4D1E8 /* PFMoveApplication.m */; };
+		FC24B112204C96A100E4D1E8 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FC24B10E204C96A000E4D1E8 /* PFMoveApplication.m */; };
+		FC24B113204C96B400E4D1E8 /* LetsMove.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC24B10D204C969F00E4D1E8 /* LetsMove.framework */; };
+		FC24B114204C96BB00E4D1E8 /* LetsMove.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC24B10D204C969F00E4D1E8 /* LetsMove.framework */; };
 		FC4D03831E30E6C1001B95AB /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
 		FC4D03851E30E6D4001B95AB /* OpenFeedback.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
 		FC4D038A1E30E985001B95AB /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
@@ -490,10 +488,6 @@
 		FC08738319EBA69B00ACB943 /* INWindowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INWindowButton.m; sourceTree = "<group>"; };
 		FC08738D19EBA6AE00ACB943 /* ITProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITProgressBar.h; sourceTree = "<group>"; };
 		FC08738E19EBA6AE00ACB943 /* ITProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITProgressBar.m; sourceTree = "<group>"; };
-		FC08739419EBA6BC00ACB943 /* NSString+SymlinksAndAliases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SymlinksAndAliases.h"; sourceTree = "<group>"; };
-		FC08739519EBA6BC00ACB943 /* NSString+SymlinksAndAliases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SymlinksAndAliases.m"; sourceTree = "<group>"; };
-		FC08739619EBA6BC00ACB943 /* PFMoveApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMoveApplication.h; sourceTree = "<group>"; };
-		FC08739719EBA6BC00ACB943 /* PFMoveApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFMoveApplication.m; sourceTree = "<group>"; };
 		FC0873A119EBA6D200ACB943 /* LNClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNClipView.h; sourceTree = "<group>"; };
 		FC0873A219EBA6D200ACB943 /* LNClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNClipView.m; sourceTree = "<group>"; };
 		FC0873A819EBA6DE00ACB943 /* AdvancedPreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvancedPreferencesView.xib; sourceTree = "<group>"; };
@@ -533,6 +527,9 @@
 		FC1FA25118712E7800E96FEE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		FC1FA25318712EFE00E96FEE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FC1FA2621871335600E96FEE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FC24B10C204C969E00E4D1E8 /* PFMoveApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMoveApplication.h; sourceTree = "<group>"; };
+		FC24B10D204C969F00E4D1E8 /* LetsMove.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LetsMove.framework; sourceTree = "<group>"; };
+		FC24B10E204C96A000E4D1E8 /* PFMoveApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFMoveApplication.m; sourceTree = "<group>"; };
 		FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenFeedback.framework; sourceTree = "<group>"; };
 		FC5465771809AAA400E69CEB /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/BeFit.xib; sourceTree = "<group>"; };
 		FC5821841FB904AB00D34CAA /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
@@ -680,6 +677,7 @@
 				FCFAE94B180B08C200108FDE /* Cocoa.framework in Frameworks */,
 				FCD4445C1804CFF90036C533 /* CoreData.framework in Frameworks */,
 				2565F9770EFDBC13005CD70F /* OpenGL.framework in Frameworks */,
+				FC24B10F204C96A100E4D1E8 /* LetsMove.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,6 +709,7 @@
 				FC1694CA181C747100C54052 /* Cocoa.framework in Frameworks */,
 				FC1694CB181C747100C54052 /* CoreData.framework in Frameworks */,
 				FC1694CC181C747100C54052 /* OpenGL.framework in Frameworks */,
+				FC24B110204C96A100E4D1E8 /* LetsMove.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -935,10 +934,9 @@
 		FC08739319EBA6BC00ACB943 /* LetsMove */ = {
 			isa = PBXGroup;
 			children = (
-				FC08739419EBA6BC00ACB943 /* NSString+SymlinksAndAliases.h */,
-				FC08739519EBA6BC00ACB943 /* NSString+SymlinksAndAliases.m */,
-				FC08739619EBA6BC00ACB943 /* PFMoveApplication.h */,
-				FC08739719EBA6BC00ACB943 /* PFMoveApplication.m */,
+				FC24B10D204C969F00E4D1E8 /* LetsMove.framework */,
+				FC24B10C204C969E00E4D1E8 /* PFMoveApplication.h */,
+				FC24B10E204C96A000E4D1E8 /* PFMoveApplication.m */,
 			);
 			name = LetsMove;
 			path = Classes/Premade/LetsMove;
@@ -1406,6 +1404,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC24B114204C96BB00E4D1E8 /* LetsMove.framework in Resources */,
 				FCEEDC711E3320E900CD141A /* OpenFeedback.framework in Resources */,
 				FC946ECD1A12F46F00692D04 /* owl.transitions.css in Resources */,
 				FC7EF86F1882508300B4A647 /* BeFitWeb.xib in Resources */,
@@ -1494,6 +1493,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC24B113204C96B400E4D1E8 /* LetsMove.framework in Resources */,
 				FC4D03851E30E6D4001B95AB /* OpenFeedback.framework in Resources */,
 				FC946ECE1A12F46F00692D04 /* owl.transitions.css in Resources */,
 				FC7EF8701882508300B4A647 /* BeFitWeb.xib in Resources */,
@@ -1624,13 +1624,12 @@
 				FC08740819EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
 				FC946E931A10381A00692D04 /* Legend-Fat.m in Sources */,
 				FC89564F19F4494900420ADC /* AddMGValueTransformer.m in Sources */,
+				FC24B111204C96A100E4D1E8 /* PFMoveApplication.m in Sources */,
 				FC89568019F4499F00420ADC /* RMBlurredView.m in Sources */,
 				FC946F301A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
 				FC946E9F1A103A4A00692D04 /* Legend-Chol.m in Sources */,
 				FC0873DE19EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */,
-				FC08739919EBA6BC00ACB943 /* NSString+SymlinksAndAliases.m in Sources */,
 				FC0873F919EBA71000ACB943 /* SSTextField.m in Sources */,
-				FC08739D19EBA6BC00ACB943 /* PFMoveApplication.m in Sources */,
 				FC89561D19F448C700420ADC /* FoodNSTableView.m in Sources */,
 				FC0873EB19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */,
 				FC0873D219EBA6DE00ACB943 /* PreferenceWindow.m in Sources */,
@@ -1692,8 +1691,6 @@
 				FC946F2F1A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
 				FC946E9E1A103A4A00692D04 /* Legend-Chol.m in Sources */,
 				FC89567F19F4499F00420ADC /* RMBlurredView.m in Sources */,
-				FC08739819EBA6BC00ACB943 /* NSString+SymlinksAndAliases.m in Sources */,
-				FC08739C19EBA6BC00ACB943 /* PFMoveApplication.m in Sources */,
 				FC0873F819EBA71000ACB943 /* SSTextField.m in Sources */,
 				FC89561C19F448C700420ADC /* FoodNSTableView.m in Sources */,
 				FC0873EA19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */,
@@ -1750,13 +1747,12 @@
 				FC89563219F448C700420ADC /* subBar.m in Sources */,
 				FC89562219F448C700420ADC /* SearchFieldForFood.m in Sources */,
 				FC0873DF19EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */,
+				FC24B112204C96A100E4D1E8 /* PFMoveApplication.m in Sources */,
 				FC946E941A10381A00692D04 /* Legend-Fat.m in Sources */,
 				FC89565019F4494900420ADC /* AddMGValueTransformer.m in Sources */,
 				FC946F311A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
 				FC946EA01A103A4A00692D04 /* Legend-Chol.m in Sources */,
 				FC08740919EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
-				FC08739A19EBA6BC00ACB943 /* NSString+SymlinksAndAliases.m in Sources */,
-				FC08739E19EBA6BC00ACB943 /* PFMoveApplication.m in Sources */,
 				FC0873FA19EBA71000ACB943 /* SSTextField.m in Sources */,
 				FC89561E19F448C700420ADC /* FoodNSTableView.m in Sources */,
 				FC0873EC19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */,
@@ -1819,9 +1815,7 @@
 				FC946F321A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
 				FC946EA11A103A4A00692D04 /* Legend-Chol.m in Sources */,
 				FC0873E019EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */,
-				FC08739B19EBA6BC00ACB943 /* NSString+SymlinksAndAliases.m in Sources */,
 				FC0873FB19EBA71000ACB943 /* SSTextField.m in Sources */,
-				FC08739F19EBA6BC00ACB943 /* PFMoveApplication.m in Sources */,
 				FC89561F19F448C700420ADC /* FoodNSTableView.m in Sources */,
 				FC0873ED19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */,
 				FC0873D419EBA6DE00ACB943 /* PreferenceWindow.m in Sources */,
@@ -1890,6 +1884,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Classes/Premade/LetsMove",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -1933,6 +1928,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Classes/Premade/LetsMove",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -2162,6 +2158,7 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Frameworks",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Classes/Premade/LetsMove",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "/Volumes/Files/Client Files/Cocoa Projects/Complete Projects/BeFit-OSX/";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "/Volumes/Files/Client Files/Cocoa Projects/Complete Projects/BeFit-OSX/";
@@ -2206,6 +2203,7 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Frameworks",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Classes/Premade/LetsMove",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "/Volumes/Files/Client Files/Cocoa Projects/Complete Projects/BeFit-OSX/";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "/Volumes/Files/Client Files/Cocoa Projects/Complete Projects/BeFit-OSX/";
