@@ -1,17 +1,15 @@
 #import "BeFit_AppDelegate.h"
 #import "PrioritySplitViewDelegate.h"
 #import "mySheetController.h"
-#import "FoodList.h"
 #import "FoodListArrayController.h"
 #import "FoodArrayController.h"
 #import "GUIController.h"
 #import "FoodNSTableView.h"
 #import "FoodDragSupportBase.h"
-#import "Food.h"
 #import "UAAppReviewManager.h"
 #import "PFMoveApplication.h"
 #import "iTableColumnHeaderCell.h"
-#import "Food.h"
+#import "BeFit-Swift.h"
 
 #if TRIAL || WEBSITE
 //#import "RMAppDelegate+Trial.h"

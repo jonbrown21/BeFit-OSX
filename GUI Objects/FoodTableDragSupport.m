@@ -1,6 +1,6 @@
 #import "FoodTableDragSupport.h"
-#import "Food.h"
 #import "FoodDragSupportBase.h"
+#import "BeFit-Swift.h"
 
 @implementation FoodTableDragSupport
 

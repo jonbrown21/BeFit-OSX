@@ -1,8 +1,7 @@
 #import "FoodListTableDropSupport.h"
-#import "Food.h"
-#import "FoodList.h"
 #import "FoodDragSupportBase.h"
 #import "GUIController.h"
+#import "BeFit-Swift.h"
 
 @implementation FoodListTableDropSupport
 

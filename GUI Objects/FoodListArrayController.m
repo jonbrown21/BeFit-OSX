@@ -1,5 +1,5 @@
 #import "FoodListArrayController.h"
-#import "FoodList.h"
+#import "BeFit-Swift.h"
 
 @implementation FoodListArrayController
 

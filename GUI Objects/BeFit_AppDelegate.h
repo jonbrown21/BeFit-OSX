@@ -4,7 +4,6 @@
 #import "MCViewFlipController.h"
 #import "ITProgressBar.h"
 #import "ANSegmentedControl.h"
-#import "Food.h"
 
 #ifdef TRIAL
 #import <Sparkle/Sparkle.h>
@@ -16,6 +15,7 @@
 
 @class PrioritySplitViewDelegate;
 @class OpenFeedback;
+@class Food;
 
 @interface BeFit_AppDelegate : NSObject <NSApplicationDelegate,NSTableViewDelegate>
 {

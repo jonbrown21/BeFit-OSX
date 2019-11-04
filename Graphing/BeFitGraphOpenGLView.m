@@ -1,9 +1,8 @@
 #import "BeFitGraphOpenGLView.h"
-#import "FoodList.h"
-#import "Food.h"
 #import "FoodListArrayController.h"
 #import "GUIController.h"
 #import <WebKit/WebKit.h>
+#import "BeFit-Swift.h"
 
 @implementation BeFitGraphView
 

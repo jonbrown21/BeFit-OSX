@@ -1,9 +1,9 @@
 #import "ColumnAttributeSelector.h"
 #import "FoodArrayController.h"
 #import "FoodNSTableView.h"
-#import "Food.h"
 #import "BeFit_AppDelegate.h"
 #import "FoodTableDragSupport.h"
+#import "BeFit-Swift.h"
 
 @implementation ColumnAttributeSelector
 

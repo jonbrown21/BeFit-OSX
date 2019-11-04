@@ -2,9 +2,8 @@
 #import "FoodDragSupportBase.h"
 #import "FoodListArrayController.h"
 #import "iTableColumnHeaderCell.h"
-#import "FoodList.h"
-#import "Food.h"
 #import "CustomCornerView.h"
+#import "BeFit-Swift.h"
 
 @implementation FoodNSTableView
 
