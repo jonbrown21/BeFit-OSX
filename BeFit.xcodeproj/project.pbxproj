@@ -475,6 +475,10 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* BeFit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeFit_Prefix.pch; sourceTree = "<group>"; };
+		43572786237007DF00755BE1 /* BeFit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFit-Bridging-Header.h"; sourceTree = "<group>"; };
+		43572787237007DF00755BE1 /* BeFitFree-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFitFree-Bridging-Header.h"; sourceTree = "<group>"; };
+		43572788237007DF00755BE1 /* BeFitDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFitDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		43572789237007DF00755BE1 /* BeFitWebsite-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFitWebsite-Bridging-Header.h"; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* BeFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeFit.app; sourceTree = BUILT_PRODUCTS_DIR; wrapsLines = 0; };
 		9C4B5ABA128501B200060A19 /* BeFit Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeFit Trial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -812,6 +816,10 @@
 				FC89573719F44C8F00420ADC /* Credits.rtf */,
 				FC89573819F44C8F00420ADC /* dsa_pub.pem */,
 				FC89573919F44C8F00420ADC /* mac_app_identity.cer */,
+				43572786237007DF00755BE1 /* BeFit-Bridging-Header.h */,
+				43572787237007DF00755BE1 /* BeFitFree-Bridging-Header.h */,
+				43572788237007DF00755BE1 /* BeFitDemo-Bridging-Header.h */,
+				43572789237007DF00755BE1 /* BeFitWebsite-Bridging-Header.h */,
 				FC632EFE19E9CC77008E3D72 /* Interface Files */,
 				FC632EFF19E9CC87008E3D72 /* PLIST Files */,
 				FCCF9731188BA3BA00FAA65B /* BeFit3V2 */,
@@ -1349,6 +1357,7 @@
 				TargetAttributes = {
 					2565F95C0EFDBBB2005CD70F = {
 						DevelopmentTeam = 2D4Z7WQ7RS;
+						LastSwiftMigration = 1110;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 0;
@@ -1357,6 +1366,7 @@
 					};
 					8D1107260486CEB800E47090 = {
 						DevelopmentTeam = 67U27L4GJ6;
+						LastSwiftMigration = 1110;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 1;
@@ -1365,6 +1375,7 @@
 					};
 					FC16948D181C747100C54052 = {
 						DevelopmentTeam = 2D4Z7WQ7RS;
+						LastSwiftMigration = 1110;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 0;
@@ -1373,6 +1384,7 @@
 					};
 					FC91C2F118EE53B300960571 = {
 						DevelopmentTeam = 2D4Z7WQ7RS;
+						LastSwiftMigration = 1110;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 1;
@@ -1879,6 +1891,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_MODULES_AUTOLINK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1914,6 +1927,9 @@
 				PRODUCT_NAME = "BeFit Trial";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "BeFitDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1923,6 +1939,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_MODULES_AUTOLINK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1961,6 +1978,8 @@
 				PRODUCT_NAME = "BeFit Trial";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "BeFitDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				ZERO_LINK = NO;
 			};
 			name = Device;
@@ -1970,6 +1989,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = BeFit.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1998,12 +2018,16 @@
 				IBC_ERRORS = NO;
 				INFOPLIST_FILE = PLIST/Info.plist;
 				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				OTHER_CFLAGS = "-DDemoMode=0";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;
 				PRODUCT_NAME = BeFit;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "BeFit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = x86_64;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
@@ -2015,6 +2039,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = BeFit.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -2044,6 +2069,7 @@
 				IBC_ERRORS = NO;
 				INFOPLIST_FILE = PLIST/Info.plist;
 				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DDemoMode=0";
@@ -2053,6 +2079,8 @@
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 				STRIP_STYLE = all;
+				SWIFT_OBJC_BRIDGING_HEADER = "BeFit-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = x86_64;
 				WRAPPER_EXTENSION = app;
 			};
@@ -2156,6 +2184,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
@@ -2194,6 +2223,8 @@
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 				STRIP_STYLE = all;
+				SWIFT_OBJC_BRIDGING_HEADER = "BeFitWebsite-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Device;
@@ -2204,6 +2235,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
@@ -2238,6 +2270,9 @@
 				PRODUCT_NAME = BeFit;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "BeFitWebsite-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
@@ -2248,6 +2283,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_MODULES_AUTOLINK = YES;
 				CODE_SIGN_ENTITLEMENTS = BeFit.entitlements;
@@ -2277,6 +2313,7 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "PLIST/BeFitFree-Info.plist";
 				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDemoMode=0";
@@ -2284,6 +2321,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitAppFree;
 				PRODUCT_NAME = "BeFit Lite";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "BeFitFree-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				ZERO_LINK = NO;
 			};
 			name = Device;
@@ -2293,6 +2332,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_MODULES_AUTOLINK = YES;
 				CODE_SIGN_ENTITLEMENTS = BeFit.entitlements;
@@ -2319,6 +2359,7 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "PLIST/BeFitFree-Info.plist";
 				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDemoMode=0";
@@ -2326,6 +2367,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitAppFree;
 				PRODUCT_NAME = "BeFit Lite";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "BeFitFree-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
