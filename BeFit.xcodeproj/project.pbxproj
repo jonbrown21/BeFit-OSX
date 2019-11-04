@@ -37,6 +37,10 @@
 		435727AA237018B700755BE1 /* FoodList+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435727A8237018B700755BE1 /* FoodList+UI.swift */; };
 		435727AB237018B700755BE1 /* FoodList+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435727A8237018B700755BE1 /* FoodList+UI.swift */; };
 		435727AC237018B700755BE1 /* FoodList+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435727A8237018B700755BE1 /* FoodList+UI.swift */; };
+		4375CA262370478B008A4B02 /* FoodListNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA252370478A008A4B02 /* FoodListNSTableView.swift */; };
+		4375CA272370478B008A4B02 /* FoodListNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA252370478A008A4B02 /* FoodListNSTableView.swift */; };
+		4375CA282370478B008A4B02 /* FoodListNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA252370478A008A4B02 /* FoodListNSTableView.swift */; };
+		4375CA292370478B008A4B02 /* FoodListNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA252370478A008A4B02 /* FoodListNSTableView.swift */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -501,6 +505,7 @@
 		4357279223700D4E00755BE1 /* FoodList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FoodList+CoreDataProperties.swift"; path = "ManagedContext/FoodList+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		435727A323700FAE00755BE1 /* Food+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Food+UI.swift"; path = "ManagedContext/Food+UI.swift"; sourceTree = "<group>"; };
 		435727A8237018B700755BE1 /* FoodList+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodList+UI.swift"; sourceTree = "<group>"; };
+		4375CA252370478A008A4B02 /* FoodListNSTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodListNSTableView.swift; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* BeFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeFit.app; sourceTree = BUILT_PRODUCTS_DIR; wrapsLines = 0; };
 		9C4B5ABA128501B200060A19 /* BeFit Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeFit Trial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -568,24 +573,24 @@
 		FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenFeedback.framework; sourceTree = "<group>"; };
 		FC5821841FB904AB00D34CAA /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		FC632F2819EA350F008E3D72 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		FC8955FE19F448C700420ADC /* ColumnControllerPopUpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColumnControllerPopUpButton.h; path = Subclass/ColumnControllerPopUpButton.h; sourceTree = "<group>"; };
-		FC8955FF19F448C700420ADC /* ColumnControllerPopUpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColumnControllerPopUpButton.m; path = Subclass/ColumnControllerPopUpButton.m; sourceTree = "<group>"; };
-		FC89560019F448C700420ADC /* FilterFoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterFoodCell.h; path = Subclass/FilterFoodCell.h; sourceTree = "<group>"; };
-		FC89560119F448C700420ADC /* FilterFoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FilterFoodCell.m; path = Subclass/FilterFoodCell.m; sourceTree = "<group>"; };
-		FC89560219F448C700420ADC /* FoodListNSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodListNSTableView.h; path = Subclass/FoodListNSTableView.h; sourceTree = "<group>"; };
-		FC89560319F448C700420ADC /* FoodListNSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodListNSTableView.m; path = Subclass/FoodListNSTableView.m; sourceTree = "<group>"; };
-		FC89560419F448C700420ADC /* FoodNSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodNSTableView.h; path = Subclass/FoodNSTableView.h; sourceTree = "<group>"; };
-		FC89560519F448C700420ADC /* FoodNSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodNSTableView.m; path = Subclass/FoodNSTableView.m; sourceTree = "<group>"; };
-		FC89560619F448C700420ADC /* SearchFieldForFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchFieldForFood.h; path = Subclass/SearchFieldForFood.h; sourceTree = "<group>"; };
-		FC89560719F448C700420ADC /* SearchFieldForFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchFieldForFood.m; path = Subclass/SearchFieldForFood.m; sourceTree = "<group>"; };
-		FC89560819F448C700420ADC /* SearchFieldforLists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchFieldforLists.h; path = Subclass/SearchFieldforLists.h; sourceTree = "<group>"; };
-		FC89560919F448C700420ADC /* SearchFieldforLists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchFieldforLists.m; path = Subclass/SearchFieldforLists.m; sourceTree = "<group>"; };
-		FC89560A19F448C700420ADC /* sideFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sideFooter.h; path = Subclass/sideFooter.h; sourceTree = "<group>"; };
-		FC89560B19F448C700420ADC /* sideFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sideFooter.m; path = Subclass/sideFooter.m; sourceTree = "<group>"; };
-		FC89560C19F448C700420ADC /* subBar_blk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = subBar_blk.h; path = Subclass/subBar_blk.h; sourceTree = "<group>"; };
-		FC89560D19F448C700420ADC /* subBar_blk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = subBar_blk.m; path = Subclass/subBar_blk.m; sourceTree = "<group>"; };
-		FC89560E19F448C700420ADC /* subBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = subBar.h; path = Subclass/subBar.h; sourceTree = "<group>"; };
-		FC89560F19F448C700420ADC /* subBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = subBar.m; path = Subclass/subBar.m; sourceTree = "<group>"; };
+		FC8955FE19F448C700420ADC /* ColumnControllerPopUpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnControllerPopUpButton.h; sourceTree = "<group>"; };
+		FC8955FF19F448C700420ADC /* ColumnControllerPopUpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnControllerPopUpButton.m; sourceTree = "<group>"; };
+		FC89560019F448C700420ADC /* FilterFoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterFoodCell.h; sourceTree = "<group>"; };
+		FC89560119F448C700420ADC /* FilterFoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterFoodCell.m; sourceTree = "<group>"; };
+		FC89560219F448C700420ADC /* FoodListNSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodListNSTableView.h; sourceTree = "<group>"; };
+		FC89560319F448C700420ADC /* FoodListNSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodListNSTableView.m; sourceTree = "<group>"; };
+		FC89560419F448C700420ADC /* FoodNSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodNSTableView.h; sourceTree = "<group>"; };
+		FC89560519F448C700420ADC /* FoodNSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodNSTableView.m; sourceTree = "<group>"; };
+		FC89560619F448C700420ADC /* SearchFieldForFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchFieldForFood.h; sourceTree = "<group>"; };
+		FC89560719F448C700420ADC /* SearchFieldForFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchFieldForFood.m; sourceTree = "<group>"; };
+		FC89560819F448C700420ADC /* SearchFieldforLists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchFieldforLists.h; sourceTree = "<group>"; };
+		FC89560919F448C700420ADC /* SearchFieldforLists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchFieldforLists.m; sourceTree = "<group>"; };
+		FC89560A19F448C700420ADC /* sideFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sideFooter.h; sourceTree = "<group>"; };
+		FC89560B19F448C700420ADC /* sideFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sideFooter.m; sourceTree = "<group>"; };
+		FC89560C19F448C700420ADC /* subBar_blk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subBar_blk.h; sourceTree = "<group>"; };
+		FC89560D19F448C700420ADC /* subBar_blk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subBar_blk.m; sourceTree = "<group>"; };
+		FC89560E19F448C700420ADC /* subBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subBar.h; sourceTree = "<group>"; };
+		FC89560F19F448C700420ADC /* subBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subBar.m; sourceTree = "<group>"; };
 		FC89563419F4490200420ADC /* BeFitGraphOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeFitGraphOpenGLView.h; path = Graphing/BeFitGraphOpenGLView.h; sourceTree = "<group>"; };
 		FC89563519F4490200420ADC /* BeFitGraphOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeFitGraphOpenGLView.m; path = Graphing/BeFitGraphOpenGLView.m; sourceTree = "<group>"; };
 		FC89563619F4490200420ADC /* RightGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RightGraphView.h; path = Graphing/RightGraphView.h; sourceTree = "<group>"; };
@@ -641,16 +646,16 @@
 		FC946E7B1A0FFC4900692D04 /* pieindex.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = pieindex.js; path = htdocs/JS/pieindex.js; sourceTree = "<group>"; };
 		FC946E801A0FFC5800692D04 /* pienormalize.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = pienormalize.css; path = htdocs/CSS/pienormalize.css; sourceTree = "<group>"; };
 		FC946E811A0FFC5800692D04 /* piestyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = piestyle.css; path = htdocs/CSS/piestyle.css; sourceTree = "<group>"; };
-		FC946E8A1A10359D00692D04 /* Legend-Cals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Legend-Cals.h"; path = "Subclass/Legend-Cals.h"; sourceTree = "<group>"; };
-		FC946E8B1A10359D00692D04 /* Legend-Cals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Legend-Cals.m"; path = "Subclass/Legend-Cals.m"; sourceTree = "<group>"; };
-		FC946E901A10381A00692D04 /* Legend-Fat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Legend-Fat.h"; path = "Subclass/Legend-Fat.h"; sourceTree = "<group>"; };
-		FC946E911A10381A00692D04 /* Legend-Fat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Legend-Fat.m"; path = "Subclass/Legend-Fat.m"; sourceTree = "<group>"; };
-		FC946E961A1039EE00692D04 /* Legend-SatFat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Legend-SatFat.h"; path = "Subclass/Legend-SatFat.h"; sourceTree = "<group>"; };
-		FC946E971A1039EE00692D04 /* Legend-SatFat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Legend-SatFat.m"; path = "Subclass/Legend-SatFat.m"; sourceTree = "<group>"; };
-		FC946E9C1A103A4A00692D04 /* Legend-Chol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Legend-Chol.h"; path = "Subclass/Legend-Chol.h"; sourceTree = "<group>"; };
-		FC946E9D1A103A4A00692D04 /* Legend-Chol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Legend-Chol.m"; path = "Subclass/Legend-Chol.m"; sourceTree = "<group>"; };
-		FC946EAC1A11939D00692D04 /* whiteBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = whiteBackground.h; path = Subclass/whiteBackground.h; sourceTree = "<group>"; };
-		FC946EAD1A11939D00692D04 /* whiteBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = whiteBackground.m; path = Subclass/whiteBackground.m; sourceTree = "<group>"; };
+		FC946E8A1A10359D00692D04 /* Legend-Cals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Legend-Cals.h"; sourceTree = "<group>"; };
+		FC946E8B1A10359D00692D04 /* Legend-Cals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Legend-Cals.m"; sourceTree = "<group>"; };
+		FC946E901A10381A00692D04 /* Legend-Fat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Legend-Fat.h"; sourceTree = "<group>"; };
+		FC946E911A10381A00692D04 /* Legend-Fat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Legend-Fat.m"; sourceTree = "<group>"; };
+		FC946E961A1039EE00692D04 /* Legend-SatFat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Legend-SatFat.h"; sourceTree = "<group>"; };
+		FC946E971A1039EE00692D04 /* Legend-SatFat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Legend-SatFat.m"; sourceTree = "<group>"; };
+		FC946E9C1A103A4A00692D04 /* Legend-Chol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Legend-Chol.h"; sourceTree = "<group>"; };
+		FC946E9D1A103A4A00692D04 /* Legend-Chol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Legend-Chol.m"; sourceTree = "<group>"; };
+		FC946EAC1A11939D00692D04 /* whiteBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whiteBackground.h; sourceTree = "<group>"; };
+		FC946EAD1A11939D00692D04 /* whiteBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = whiteBackground.m; sourceTree = "<group>"; };
 		FC946EB21A11B41C00692D04 /* pieindex3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = pieindex3.html; path = htdocs/pieindex3.html; sourceTree = "<group>"; };
 		FC946EB81A12F45000692D04 /* grabbing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grabbing.png; path = Images/grabbing.png; sourceTree = "<group>"; };
 		FC946EC11A12F46F00692D04 /* owl.carousel.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = owl.carousel.css; path = htdocs/CSS/owl.carousel.css; sourceTree = "<group>"; };
@@ -658,8 +663,8 @@
 		FC946EC31A12F46F00692D04 /* owl.transitions.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = owl.transitions.css; path = htdocs/CSS/owl.transitions.css; sourceTree = "<group>"; };
 		FC946ED01A12F47D00692D04 /* owl.carousel.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = owl.carousel.js; path = htdocs/JS/owl.carousel.js; sourceTree = "<group>"; };
 		FC946ED11A12F47D00692D04 /* owl.carousel.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = owl.carousel.min.js; path = htdocs/JS/owl.carousel.min.js; sourceTree = "<group>"; };
-		FC946EE81A19079C00692D04 /* AMDarkButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMDarkButtonCell.h; path = Subclass/AMDarkButtonCell.h; sourceTree = "<group>"; };
-		FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMDarkButtonCell.m; path = Subclass/AMDarkButtonCell.m; sourceTree = "<group>"; };
+		FC946EE81A19079C00692D04 /* AMDarkButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDarkButtonCell.h; sourceTree = "<group>"; };
+		FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDarkButtonCell.m; sourceTree = "<group>"; };
 		FC946F231A19A2B900692D04 /* ANSegmentedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ANSegmentedCell.h; path = Classes/Premade/ANSegmentedControl/ANSegmentedCell.h; sourceTree = "<group>"; };
 		FC946F241A19A2B900692D04 /* ANSegmentedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ANSegmentedCell.m; path = Classes/Premade/ANSegmentedControl/ANSegmentedCell.m; sourceTree = "<group>"; };
 		FC946F251A19A2B900692D04 /* ANSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ANSegmentedControl.h; path = Classes/Premade/ANSegmentedControl/ANSegmentedControl.h; sourceTree = "<group>"; };
@@ -670,8 +675,8 @@
 		FC946F2A1A19A2B900692D04 /* NSShadow+MCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSShadow+MCAdditions.m"; path = "Classes/Premade/ANSegmentedControl/NSShadow+MCAdditions.m"; sourceTree = "<group>"; };
 		FC946F411A1CB0DB00692D04 /* pieindexprint.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = pieindexprint.html; path = htdocs/pieindexprint.html; sourceTree = "<group>"; };
 		FC946F461A1CB11F00692D04 /* pieindex2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = pieindex2.html; path = htdocs/pieindex2.html; sourceTree = "<group>"; };
-		FC946F981A1D9DDB00692D04 /* CustomLevelIndicatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomLevelIndicatorCell.h; path = Subclass/CustomLevelIndicatorCell.h; sourceTree = "<group>"; };
-		FC946F991A1D9DDB00692D04 /* CustomLevelIndicatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomLevelIndicatorCell.m; path = Subclass/CustomLevelIndicatorCell.m; sourceTree = "<group>"; };
+		FC946F981A1D9DDB00692D04 /* CustomLevelIndicatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLevelIndicatorCell.h; sourceTree = "<group>"; };
+		FC946F991A1D9DDB00692D04 /* CustomLevelIndicatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLevelIndicatorCell.m; sourceTree = "<group>"; };
 		FC946F9E1A1F510800692D04 /* gauge.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = gauge.min.js; path = htdocs/JS/gauge.min.js; sourceTree = "<group>"; };
 		FC946FA31A1F512400692D04 /* gauge.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = gauge.html; path = htdocs/gauge.html; sourceTree = "<group>"; };
 		FC946FA81A20F13A00692D04 /* justgage.1.0.1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = justgage.1.0.1.js; path = htdocs/JS/justgage.1.0.1.js; sourceTree = "<group>"; };
@@ -1180,8 +1185,9 @@
 				FC946E9D1A103A4A00692D04 /* Legend-Chol.m */,
 				FC946F981A1D9DDB00692D04 /* CustomLevelIndicatorCell.h */,
 				FC946F991A1D9DDB00692D04 /* CustomLevelIndicatorCell.m */,
+				4375CA252370478A008A4B02 /* FoodListNSTableView.swift */,
 			);
-			name = Subclass;
+			path = Subclass;
 			sourceTree = "<group>";
 		};
 		FCC174C619EBCFD8001A184A /* Graphing */ = {
@@ -1681,6 +1687,7 @@
 				FC89566219F4496600420ADC /* BeFit_AppDelegate.m in Sources */,
 				FC08738919EBA69B00ACB943 /* INWindowButton.m in Sources */,
 				FC0873F219EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */,
+				4375CA282370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
 				FC946F341A19A2B900692D04 /* NSBezierPath+MCAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1697,6 +1704,7 @@
 				FC89562419F448C700420ADC /* SearchFieldforLists.m in Sources */,
 				FC89561819F448C700420ADC /* FoodListNSTableView.m in Sources */,
 				FC89567919F4496600420ADC /* GUIController.m in Sources */,
+				4375CA262370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
 				FC89566519F4496600420ADC /* ColumnAttributeSelector.m in Sources */,
 				FC89572919F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
 				FC89567519F4496600420ADC /* FoodTableDragSupport.m in Sources */,
@@ -1763,6 +1771,7 @@
 				FC89562619F448C700420ADC /* SearchFieldforLists.m in Sources */,
 				FC89561A19F448C700420ADC /* FoodListNSTableView.m in Sources */,
 				FC89567B19F4496600420ADC /* GUIController.m in Sources */,
+				4375CA292370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
 				FC89566719F4496600420ADC /* ColumnAttributeSelector.m in Sources */,
 				FC89572B19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
 				FC89567719F4496600420ADC /* FoodTableDragSupport.m in Sources */,
@@ -1829,6 +1838,7 @@
 				FC89562719F448C700420ADC /* SearchFieldforLists.m in Sources */,
 				FC89561B19F448C700420ADC /* FoodListNSTableView.m in Sources */,
 				FC89567C19F4496600420ADC /* GUIController.m in Sources */,
+				4375CA272370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
 				FC89566819F4496600420ADC /* ColumnAttributeSelector.m in Sources */,
 				FC89572C19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
 				FC89567819F4496600420ADC /* FoodTableDragSupport.m in Sources */,
