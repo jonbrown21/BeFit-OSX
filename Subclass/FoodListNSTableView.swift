@@ -22,7 +22,7 @@ NSTableViewDelegate {
         registerForDraggedTypes([.foodDataDragType])
     }
     
-    func DeleteSelectedObjectInTableView(_ sender: AnyObject) {
+    @IBAction func DeleteSelectedObjectInTableView(_ sender: Any?) {
         FoodListController.remove(sender)
     }
     

@@ -748,6 +748,7 @@ CA
                     </menu>
                 </menuItem>
             </items>
+            <point key="canvasLocation" x="141" y="154"/>
         </menu>
         <customObject id="205" userLabel="BeFit_AppDelegate" customClass="BeFit_AppDelegate">
             <connections>
@@ -905,7 +906,7 @@ CA
                 <outlet property="myTableView" destination="KbJ-R5-DkY" id="3DA-ex-hGP"/>
             </connections>
         </arrayController>
-        <arrayController mode="entity" entityName="FoodListObject" automaticallyPreparesContent="YES" id="563" userLabel="FoodListController" customClass="FoodListArrayController">
+        <arrayController mode="entity" entityName="FoodListObject" automaticallyPreparesContent="YES" id="563" userLabel="FoodListController" customClass="FoodListArrayController" customModule="BeFit" customModuleProvider="target">
             <declaredKeys>
                 <string>name</string>
                 <string>nameValue</string>
@@ -983,6 +984,7 @@ CA
                     </connections>
                 </menuItem>
             </items>
+            <point key="canvasLocation" x="140" y="152"/>
         </menu>
         <customView id="KMG-Gx-aog" customClass="INTitlebarView">
             <rect key="frame" x="0.0" y="0.0" width="668" height="91"/>
@@ -1288,6 +1290,7 @@ CA
                     </connections>
                 </menuItem>
             </items>
+            <point key="canvasLocation" x="141" y="-154"/>
         </menu>
         <window title="Reference Data" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="QPw-wf-S7t" customClass="NSPanel">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" utility="YES"/>

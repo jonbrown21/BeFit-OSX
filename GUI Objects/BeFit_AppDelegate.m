@@ -1,7 +1,6 @@
 #import "BeFit_AppDelegate.h"
 #import "PrioritySplitViewDelegate.h"
 #import "mySheetController.h"
-#import "FoodListArrayController.h"
 #import "FoodArrayController.h"
 #import "GUIController.h"
 #import "FoodNSTableView.h"

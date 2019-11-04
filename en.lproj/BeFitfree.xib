@@ -889,7 +889,7 @@ CA
                 <outlet property="myTableView" destination="KbJ-R5-DkY" id="3DA-ex-hGP"/>
             </connections>
         </arrayController>
-        <arrayController mode="entity" entityName="FoodListObject" automaticallyPreparesContent="YES" id="563" userLabel="FoodListController" customClass="FoodListArrayController">
+        <arrayController mode="entity" entityName="FoodListObject" automaticallyPreparesContent="YES" id="563" userLabel="FoodListController" customClass="FoodListArrayController" customModule="BeFit_Lite" customModuleProvider="target">
             <declaredKeys>
                 <string>name</string>
                 <string>nameValue</string>
