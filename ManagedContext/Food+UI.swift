@@ -178,11 +178,11 @@ extension Food {
             userValue = 0
         }
         
-        if userDefined?.intValue == 0 {
-            return String(format: "%.0lfg", userValue)
-        } else {
+        //if userDefined?.intValue ?? 0 == 0 {
+        //    return String(format: "%.0lfg", userValue)
+        //} else {
             return String(format: "%.0lfg", actualValue)
-        }
+        //}
     }
     
     @objc var caloriesStringValue: String {
@@ -230,16 +230,15 @@ extension Food {
         
         let totalFat = (saturatedFat?.doubleValue ?? 0.0) + (monosaturatedFat?.doubleValue ?? 0.0) + (polyFat?.doubleValue ?? 0.0)
         let servingWeight = selectedServingWeight.doubleValue * QuantityActualValue
-        let calculatedFat = ((totalFat * servingWeight) / 100) * QuantityActualValue
-        
-        let valueToDisplay = round(calculatedFat)
         let userResult = round(totalFat)
         
-        if userDefined?.intValue == 0 {
-            return valueToDisplay
-        } else {
+        //let calculatedFat = ((totalFat * servingWeight) / 100) * QuantityActualValue
+        //let valueToDisplay = round(calculatedFat)
+        //if userDefined?.intValue ?? 0 == 0 {
+        //    return valueToDisplay
+        //} else {
             return userResult
-        }
+        //}
     }
     
     @objc var totalFatValue: String {
@@ -267,13 +266,13 @@ extension Food {
         let totalFat = (saturatedFat?.doubleValue ?? 0) + (monosaturatedFat?.doubleValue ?? 0) + (polyFat?.doubleValue ?? 0)
         let result = ((totalFat / 65) * 100)
         let valueToReturn = round(result)
-        let userResult = round(totalFat)
         
-        if userDefined?.intValue == 0 {
-            return String(format: "%.0lf%%", userResult)
-        } else {
+        //let userResult = round(totalFat)
+        //if userDefined?.intValue ?? 0 == 0 {
+        //    return String(format: "%.0lf%%", userResult)
+        //} else {
             return String(format: "%.0lf%%", valueToReturn)
-        }
+        //}
     }
     
     @objc var totalValuePerc: String {
@@ -401,23 +400,24 @@ extension Food {
     }
     
     @objc var caloriesLongValue: Int64 {
-        let indexOfItem = selectedServing?.intValue ?? 0
         let originalCalorieValue = calories?.int64Value ?? 0
+        /*
+        let indexOfItem = selectedServing?.intValue ?? 0
         let servingWeight: Int64
         
         if indexOfItem == 1 {
             servingWeight = servingWeight2?.int64Value ?? 0
         } else {
             servingWeight = servingWeight1?.int64Value ?? 0
-        }
+        }*/
         
         let actualCalories: Int64
         
-        if userDefined?.intValue == 0 {
-            actualCalories = ((servingWeight * originalCalorieValue) / 100)
-        } else {
+        //if userDefined?.intValue ?? 0 == 0 {
+        //    actualCalories = ((servingWeight * originalCalorieValue) / 100)
+        //} else {
             actualCalories = originalCalorieValue
-        }
+        //}
         
         return actualCalories
     }
@@ -479,120 +479,7 @@ extension Food {
         return selectedServing?.int64Value ?? 0
     }
     
-    // MARK: - Food Values FLOATS
-    
-    @objc var caloriesFloatValuePerc: Float {
-        return CalculateFloat("calories", divider: 2000)
-    }
-    @objc var calfromFatValuePercFloat: Float {
-        return CalculateFloat("calfromfat", divider: 80)
-    }
-    @objc var saturatedFatPercentFloat: Float {
-        return CalculateFloat("saturatedFat", divider: 25)
-    }
-    @objc var totalFatPercentfloat: Float {
-        return CalculateFloat("totalFat", divider: 65)
-    }
-    @objc var monoSaturatedFatPercentFloat: Float {
-        return CalculateFloat("monosaturatedFat", divider: 24)
-    }
-    @objc var cholPercentFloat: Float {
-        return CalculateFloat("cholesteral", divider: 300)
-    }
-    
     // MARK: - FUNCTIONS
-    
-    func calculateValues(_ key: String) -> String? {
-        var QuantityActualValue: Double = 1
-        
-        if let quantityNumber = quantity {
-            QuantityActualValue = quantityNumber.doubleValue
-            if QuantityActualValue <= 0 {
-                QuantityActualValue = 1
-            }
-        }
-        
-        let doubleValue = (value(forKey: key) as? NSNumber)?.doubleValue ?? 0
-        let userValue = doubleValue * QuantityActualValue
-        let actualValue = ((doubleValue * selectedServingWeight.doubleValue) / 100) * QuantityActualValue
-        
-        if userDefined?.intValue == 0 {
-            if key == "sodium" || key == "cholesteral" || key == "calcium" || key == "iron" || key == "vitaminC" || key == "vitaminA" {
-                return String(format: "%.0lfmg", userValue)
-            }
-            
-            return String(format: "%.0lfg", userValue)
-        } else {
-            if key == "sodium" || key == "cholesteral" || key == "calcium" || key == "iron" || key == "vitaminC" || key == "vitaminA" {
-                return String(format: "%.0lfmg", actualValue)
-            }
-            
-            return String(format: "%.0lfg", actualValue)
-        }
-    }
-    
-    func CalculateFloat(_ key: String, divider diverToUse: Double) -> Float {
-        let QuantityActualValue: Double = 1
-        
-        if key == "calfromfat" {
-            let totalFat = (saturatedFat?.doubleValue ?? 0) + (monosaturatedFat?.doubleValue ?? 0) + (polyFat?.doubleValue ?? 0)
-            let intermediateValue = totalFat * 9
-            let endingValue = ((intermediateValue * selectedServingWeight.doubleValue) / 100) * QuantityActualValue
-            
-            let finalValue = Float(endingValue / diverToUse)
-            if finalValue > 1 {
-                return 0.99
-            } else if finalValue >= 0 && finalValue <= 0.06 {
-                return 0.12
-            } else {
-                return finalValue
-            }
-        }
-        
-        if key == "totalFat" {
-            let totalFat = (saturatedFat?.doubleValue ?? 0) + (monosaturatedFat?.doubleValue ?? 0) + (polyFat?.doubleValue ?? 0)
-            let userResult = round(totalFat)
-            let myFloatTotal = Float(userResult / diverToUse)
-            
-            if myFloatTotal > 1 {
-                return 0.99
-            } else if myFloatTotal >= 0 && myFloatTotal <= 0.06 {
-                return 0.12
-            } else {
-                return myFloatTotal
-            }
-        }
-        
-        let calLong = (value(forKey: key) as? NSNumber)?.int64Value ?? 0
-        let myFloat = Float(calLong) / Float(diverToUse)
-        
-        if myFloat > 1 {
-            return 0.99
-        } else if myFloat >= 0 && myFloat <= 0.06 {
-            return 0.12
-        }  else {
-            return myFloat
-        }
-    }
-    
-    func CalculatePerc(_ key: String?, divider diverToUse: Double, long longtouse: Int64) -> String {
-        if key == "totalfat" {
-            let totalFat = (saturatedFat?.doubleValue ?? 0) + (monosaturatedFat?.doubleValue ?? 0) + (polyFat?.doubleValue ?? 0)
-            let result = round((totalFat / diverToUse) * 100)
-            let userResult = round(totalFat)
-            
-            if userDefined?.intValue == 1 {
-                return String(format: "%.0lf%%", userResult)
-            } else {
-                return String(format: "%.0lf%%", result)
-            }
-        }
-        
-        let ValueForCalculation = longtouse
-        let Result = round((Double(ValueForCalculation) / diverToUse) * 100)
-        
-        return String(format: "%.0lf%%", Result)
-    }
     
     func CalculateDouble(_ key: String) -> Double {
         var QuantityActualValue: Int64 = 1
@@ -605,14 +492,14 @@ extension Food {
         }
         
         let int64Value = (value(forKey: key) as? NSNumber)?.int64Value ?? 0
-        let userValue = int64Value * QuantityActualValue
         let actualValue = ((int64Value * selectedServingWeight.int64Value) / 100) * QuantityActualValue
         
-        if userDefined?.intValue == 0 {
-            return Double(userValue)
-        } else {
+        //let userValue = int64Value * QuantityActualValue
+        //if userDefined?.intValue ?? 0 == 0 {
+        //    return Double(userValue)
+        //} else {
             return Double(actualValue)
-        }
+        //}
     }
     
     func CalculateValues(_ key: String) -> String {
@@ -620,9 +507,10 @@ extension Food {
         
         let doubleValue = (value(forKey: key) as? NSNumber)?.doubleValue ?? 0
         let userValue = doubleValue * QuantityActualValue
-        let actualValue = (( doubleValue * selectedServingWeight.doubleValue) / 100) * QuantityActualValue
+        //let actualValue = (( doubleValue * selectedServingWeight.doubleValue) / 100) * QuantityActualValue
         
-        if userDefined?.intValue == 0 {
+        /*
+        if userDefined?.intValue ?? 0 == 0 {
             if key == "sodium" || key == "calcium" || key == "iron" || key == "vitaminC" || key == "vitaminA" {
                 return String(format: "%.0lfmg", actualValue)
             }
@@ -630,12 +518,12 @@ extension Food {
                 return String(format: "%.0lfmg", userValue)
             }
             return String(format: "%.0lfg", actualValue)
-        } else {
+        } else {*/
             if key == "sodium" || key == "cholesteral" || key == "calcium" || key == "iron" || key == "vitaminC" || key == "vitaminA" {
                 return String(format: "%.0lfmg", userValue)
             }
             return String(format: "%.0lfg", userValue)
-        }
+        //}
     }
     
     func CalculateLongAdj(_ key: String) -> Int64 {
@@ -663,14 +551,14 @@ extension Food {
         }
         
         let int64Value = (value(forKey: key) as? NSNumber)?.int64Value ?? 0
-        let userValue = int64Value * QuantityActualValue
         let actualValue = ((int64Value * selectedServingWeight.int64Value) / 100) * QuantityActualValue
         
-        if userDefined?.intValue == 0 {
-            return userValue
-        } else {
+        //let userValue = int64Value * QuantityActualValue
+        //if userDefined?.intValue ?? 0 == 0 {
+        //    return userValue
+        //} else {
             return actualValue
-        }
+        //}
     }
     
     func CalculatePercent(_ key: String, divider diverToUse: Double) -> String {
