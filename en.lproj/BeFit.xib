@@ -834,7 +834,7 @@ CA
                 <outlet property="window" destination="21" id="0D6-U5-NmY"/>
             </connections>
         </customObject>
-        <arrayController mode="entity" entityName="FoodObject" automaticallyPreparesContent="YES" id="433" userLabel="FoodController" customClass="FoodArrayController">
+        <arrayController mode="entity" entityName="FoodObject" automaticallyPreparesContent="YES" id="433" userLabel="FoodController" customClass="FoodArrayController" customModule="BeFit" customModuleProvider="target">
             <declaredKeys>
                 <string>name</string>
                 <string>calories</string>
@@ -5913,7 +5913,7 @@ IA
             </connections>
         </popover>
         <customView id="r5l-ge-rzd" userLabel="Popover - SS">
-            <rect key="frame" x="0.0" y="-1" width="163" height="155"/>
+            <rect key="frame" x="0.0" y="0.0" width="163" height="155"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G00-5Q-KkM">

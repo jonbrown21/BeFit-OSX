@@ -41,6 +41,7 @@ class FoodNSTableView: NSTableView {
         registerForDraggedTypes([.foodDataDragType])
     }
     
+    /*
     // Draw the flat color selection of the NSTableView
     override func highlightSelection(inClipRect clipRect: NSRect) {
         // this method is asking us to draw the hightlights for
@@ -86,7 +87,7 @@ class FoodNSTableView: NSTableView {
                 gradient.draw(in: path, angle: 90)
             }
         }
-    }
+    }*/
     
     // we need to override this to return nil
     // or we'll see the default selection rectangle when the app is running

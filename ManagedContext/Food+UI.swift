@@ -19,10 +19,6 @@ extension Food {
         return val
     }
     
-    func setNameValue(_ value: String) {
-        name = value
-    }
-    
     func setCalValue(_ value: String) {
         guard let int64Value = Int64(value) else {
             assertionFailure()
@@ -78,7 +74,8 @@ extension Food {
         return CalculateValues("monosaturatedFat")
     }
     @objc var nameValue: String {
-        return name ?? ""
+        get { return name ?? "" }
+        set { name = newValue }
     }
     @objc var polyunsaturatedFatValue: String {
         return CalculateValues("polyFat")
@@ -578,7 +575,7 @@ extension Food {
         return String(format: "%.0lf%%", valueForDisplay)
     }
     
-    @objc func setIndexOfServingBeingDisplayed(_ indexToSet: Int) {
+    func setIndexOfServingBeingDisplayed(_ indexToSet: Int64) {
         selectedServing = NSNumber(value: indexToSet)
     }
 }

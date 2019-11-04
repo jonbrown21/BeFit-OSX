@@ -1,5 +1,4 @@
 #import "ColumnAttributeSelector.h"
-#import "FoodArrayController.h"
 #import "BeFit_AppDelegate.h"
 #import "FoodTableDragSupport.h"
 #import "BeFit-Swift.h"

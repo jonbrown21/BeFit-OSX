@@ -817,7 +817,7 @@ CA
                 <outlet property="window" destination="21" id="0D6-U5-NmY"/>
             </connections>
         </customObject>
-        <arrayController mode="entity" entityName="FoodObject" automaticallyPreparesContent="YES" id="433" userLabel="FoodController" customClass="FoodArrayController">
+        <arrayController mode="entity" entityName="FoodObject" automaticallyPreparesContent="YES" id="433" userLabel="FoodController" customClass="FoodArrayController" customModule="BeFit_Lite" customModuleProvider="target">
             <declaredKeys>
                 <string>name</string>
                 <string>calories</string>
