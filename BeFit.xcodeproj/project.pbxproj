@@ -495,11 +495,11 @@
 		43572787237007DF00755BE1 /* BeFitFree-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFitFree-Bridging-Header.h"; sourceTree = "<group>"; };
 		43572788237007DF00755BE1 /* BeFitDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFitDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		43572789237007DF00755BE1 /* BeFitWebsite-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFitWebsite-Bridging-Header.h"; sourceTree = "<group>"; };
-		4357278F23700D4E00755BE1 /* Food+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Food+CoreDataClass.swift"; path = "ManagedContext/Food+CoreDataClass.swift"; sourceTree = "<group>"; };
-		4357279023700D4E00755BE1 /* Food+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Food+CoreDataProperties.swift"; path = "ManagedContext/Food+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		4357279123700D4E00755BE1 /* FoodList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FoodList+CoreDataClass.swift"; path = "ManagedContext/FoodList+CoreDataClass.swift"; sourceTree = "<group>"; };
-		4357279223700D4E00755BE1 /* FoodList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FoodList+CoreDataProperties.swift"; path = "ManagedContext/FoodList+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		435727A323700FAE00755BE1 /* Food+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Food+UI.swift"; path = "ManagedContext/Food+UI.swift"; sourceTree = "<group>"; };
+		4357278F23700D4E00755BE1 /* Food+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Food+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4357279023700D4E00755BE1 /* Food+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Food+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4357279123700D4E00755BE1 /* FoodList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4357279223700D4E00755BE1 /* FoodList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		435727A323700FAE00755BE1 /* Food+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Food+UI.swift"; sourceTree = "<group>"; };
 		435727A8237018B700755BE1 /* FoodList+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodList+UI.swift"; sourceTree = "<group>"; };
 		4375CA252370478A008A4B02 /* FoodListNSTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodListNSTableView.swift; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -585,31 +585,31 @@
 		FC89560D19F448C700420ADC /* subBar_blk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subBar_blk.m; sourceTree = "<group>"; };
 		FC89560E19F448C700420ADC /* subBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subBar.h; sourceTree = "<group>"; };
 		FC89560F19F448C700420ADC /* subBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subBar.m; sourceTree = "<group>"; };
-		FC89563419F4490200420ADC /* BeFitGraphOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeFitGraphOpenGLView.h; path = Graphing/BeFitGraphOpenGLView.h; sourceTree = "<group>"; };
-		FC89563519F4490200420ADC /* BeFitGraphOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeFitGraphOpenGLView.m; path = Graphing/BeFitGraphOpenGLView.m; sourceTree = "<group>"; };
-		FC89563619F4490200420ADC /* RightGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RightGraphView.h; path = Graphing/RightGraphView.h; sourceTree = "<group>"; };
-		FC89563719F4490200420ADC /* RightGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RightGraphView.m; path = Graphing/RightGraphView.m; sourceTree = "<group>"; };
-		FC89564019F4494200420ADC /* OnlineCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OnlineCheck.h; path = "GUI Objects/For Preferences/OnlineCheck.h"; sourceTree = "<group>"; };
-		FC89564119F4494200420ADC /* OnlineCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OnlineCheck.m; path = "GUI Objects/For Preferences/OnlineCheck.m"; sourceTree = "<group>"; };
-		FC89564619F4494900420ADC /* AddGramsValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddGramsValueTransformer.h; path = "GUI Objects/Value Transformers/AddGramsValueTransformer.h"; sourceTree = "<group>"; };
-		FC89564719F4494900420ADC /* AddGramsValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddGramsValueTransformer.m; path = "GUI Objects/Value Transformers/AddGramsValueTransformer.m"; sourceTree = "<group>"; };
-		FC89564819F4494900420ADC /* AddMGValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddMGValueTransformer.h; path = "GUI Objects/Value Transformers/AddMGValueTransformer.h"; sourceTree = "<group>"; };
-		FC89564919F4494900420ADC /* AddMGValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddMGValueTransformer.m; path = "GUI Objects/Value Transformers/AddMGValueTransformer.m"; sourceTree = "<group>"; };
-		FC89565219F4496600420ADC /* BeFit_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeFit_AppDelegate.h; path = "GUI Objects/BeFit_AppDelegate.h"; sourceTree = "<group>"; };
-		FC89565319F4496600420ADC /* BeFit_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeFit_AppDelegate.m; path = "GUI Objects/BeFit_AppDelegate.m"; sourceTree = "<group>"; };
-		FC89565419F4496600420ADC /* ColumnAttributeSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColumnAttributeSelector.h; path = "GUI Objects/ColumnAttributeSelector.h"; sourceTree = "<group>"; };
-		FC89565519F4496600420ADC /* ColumnAttributeSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColumnAttributeSelector.m; path = "GUI Objects/ColumnAttributeSelector.m"; sourceTree = "<group>"; };
-		FC89565619F4496600420ADC /* FoodArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodArrayController.h; path = "GUI Objects/FoodArrayController.h"; sourceTree = "<group>"; };
-		FC89565719F4496600420ADC /* FoodArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodArrayController.m; path = "GUI Objects/FoodArrayController.m"; sourceTree = "<group>"; };
-		FC89565819F4496600420ADC /* FoodDragSupportBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodDragSupportBase.h; path = "GUI Objects/FoodDragSupportBase.h"; sourceTree = "<group>"; };
-		FC89565919F4496600420ADC /* FoodListArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodListArrayController.h; path = "GUI Objects/FoodListArrayController.h"; sourceTree = "<group>"; };
-		FC89565A19F4496600420ADC /* FoodListArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodListArrayController.m; path = "GUI Objects/FoodListArrayController.m"; sourceTree = "<group>"; };
-		FC89565B19F4496600420ADC /* FoodListTableDropSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodListTableDropSupport.h; path = "GUI Objects/FoodListTableDropSupport.h"; sourceTree = "<group>"; };
-		FC89565C19F4496600420ADC /* FoodListTableDropSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodListTableDropSupport.m; path = "GUI Objects/FoodListTableDropSupport.m"; sourceTree = "<group>"; };
-		FC89565D19F4496600420ADC /* FoodTableDragSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodTableDragSupport.h; path = "GUI Objects/FoodTableDragSupport.h"; sourceTree = "<group>"; };
-		FC89565E19F4496600420ADC /* FoodTableDragSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodTableDragSupport.m; path = "GUI Objects/FoodTableDragSupport.m"; sourceTree = "<group>"; };
-		FC89565F19F4496600420ADC /* GUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GUIController.h; path = "GUI Objects/GUIController.h"; sourceTree = "<group>"; };
-		FC89566019F4496600420ADC /* GUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GUIController.m; path = "GUI Objects/GUIController.m"; sourceTree = "<group>"; };
+		FC89563419F4490200420ADC /* BeFitGraphOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeFitGraphOpenGLView.h; sourceTree = "<group>"; };
+		FC89563519F4490200420ADC /* BeFitGraphOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeFitGraphOpenGLView.m; sourceTree = "<group>"; };
+		FC89563619F4490200420ADC /* RightGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightGraphView.h; sourceTree = "<group>"; };
+		FC89563719F4490200420ADC /* RightGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightGraphView.m; sourceTree = "<group>"; };
+		FC89564019F4494200420ADC /* OnlineCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlineCheck.h; sourceTree = "<group>"; };
+		FC89564119F4494200420ADC /* OnlineCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlineCheck.m; sourceTree = "<group>"; };
+		FC89564619F4494900420ADC /* AddGramsValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddGramsValueTransformer.h; sourceTree = "<group>"; };
+		FC89564719F4494900420ADC /* AddGramsValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddGramsValueTransformer.m; sourceTree = "<group>"; };
+		FC89564819F4494900420ADC /* AddMGValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMGValueTransformer.h; sourceTree = "<group>"; };
+		FC89564919F4494900420ADC /* AddMGValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMGValueTransformer.m; sourceTree = "<group>"; };
+		FC89565219F4496600420ADC /* BeFit_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeFit_AppDelegate.h; sourceTree = "<group>"; };
+		FC89565319F4496600420ADC /* BeFit_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeFit_AppDelegate.m; sourceTree = "<group>"; };
+		FC89565419F4496600420ADC /* ColumnAttributeSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnAttributeSelector.h; sourceTree = "<group>"; };
+		FC89565519F4496600420ADC /* ColumnAttributeSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnAttributeSelector.m; sourceTree = "<group>"; };
+		FC89565619F4496600420ADC /* FoodArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodArrayController.h; sourceTree = "<group>"; };
+		FC89565719F4496600420ADC /* FoodArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodArrayController.m; sourceTree = "<group>"; };
+		FC89565819F4496600420ADC /* FoodDragSupportBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDragSupportBase.h; sourceTree = "<group>"; };
+		FC89565919F4496600420ADC /* FoodListArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodListArrayController.h; sourceTree = "<group>"; };
+		FC89565A19F4496600420ADC /* FoodListArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodListArrayController.m; sourceTree = "<group>"; };
+		FC89565B19F4496600420ADC /* FoodListTableDropSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodListTableDropSupport.h; sourceTree = "<group>"; };
+		FC89565C19F4496600420ADC /* FoodListTableDropSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodListTableDropSupport.m; sourceTree = "<group>"; };
+		FC89565D19F4496600420ADC /* FoodTableDragSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableDragSupport.h; sourceTree = "<group>"; };
+		FC89565E19F4496600420ADC /* FoodTableDragSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableDragSupport.m; sourceTree = "<group>"; };
+		FC89565F19F4496600420ADC /* GUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIController.h; sourceTree = "<group>"; };
+		FC89566019F4496600420ADC /* GUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUIController.m; sourceTree = "<group>"; };
 		FC89567D19F4499F00420ADC /* RMBlurredView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMBlurredView.h; path = "Interface Files/RMBlurredView.h"; sourceTree = "<group>"; };
 		FC89567E19F4499F00420ADC /* RMBlurredView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMBlurredView.m; path = "Interface Files/RMBlurredView.m"; sourceTree = "<group>"; };
 		FC89568319F44A5900420ADC /* GraphObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GraphObject.h; path = "Not Using/GraphObject.h"; sourceTree = "<group>"; };
@@ -1141,7 +1141,7 @@
 				4357279123700D4E00755BE1 /* FoodList+CoreDataClass.swift */,
 				4357279223700D4E00755BE1 /* FoodList+CoreDataProperties.swift */,
 			);
-			name = ManagedContext;
+			path = ManagedContext;
 			sourceTree = "<group>";
 		};
 		FCC174C519EBCF30001A184A /* Subclass */ = {
@@ -1190,7 +1190,7 @@
 				FC89563619F4490200420ADC /* RightGraphView.h */,
 				FC89563719F4490200420ADC /* RightGraphView.m */,
 			);
-			name = Graphing;
+			path = Graphing;
 			sourceTree = "<group>";
 		};
 		FCC174C719EBD2ED001A184A /* GUI Objects */ = {
@@ -1214,7 +1214,7 @@
 				FCC174D619EBE17F001A184A /* ValueTransformers */,
 				FCC174E219EBE63A001A184A /* ForPreferences */,
 			);
-			name = "GUI Objects";
+			path = "GUI Objects";
 			sourceTree = "<group>";
 		};
 		FCC174C819EBD4A2001A184A /* iTableColumnHeader */ = {
@@ -1248,6 +1248,7 @@
 				FC89564919F4494900420ADC /* AddMGValueTransformer.m */,
 			);
 			name = ValueTransformers;
+			path = "Value Transformers";
 			sourceTree = "<group>";
 		};
 		FCC174D719EBE24C001A184A /* PreferencePanes */ = {
@@ -1268,6 +1269,7 @@
 				FC89564119F4494200420ADC /* OnlineCheck.m */,
 			);
 			name = ForPreferences;
+			path = "For Preferences";
 			sourceTree = "<group>";
 		};
 		FCCF9730188BA3A000FAA65B /* BeFit3V1 */ = {
