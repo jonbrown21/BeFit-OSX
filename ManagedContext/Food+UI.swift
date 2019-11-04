@@ -524,7 +524,7 @@ extension Food {
             return String(format: "%.0lfg", userValue)
         } else {
             if key == "sodium" || key == "cholesteral" || key == "calcium" || key == "iron" || key == "vitaminC" || key == "vitaminA" {
-                String(format: "%.0lfmg", actualValue)
+                return String(format: "%.0lfmg", actualValue)
             }
             
             return String(format: "%.0lfg", actualValue)
