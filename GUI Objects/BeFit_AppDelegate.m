@@ -3,7 +3,6 @@
 #import "mySheetController.h"
 #import "FoodArrayController.h"
 #import "GUIController.h"
-#import "FoodNSTableView.h"
 #import "FoodDragSupportBase.h"
 #import "UAAppReviewManager.h"
 #import "PFMoveApplication.h"

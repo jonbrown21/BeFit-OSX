@@ -1,5 +1,4 @@
 #import "FoodArrayController.h"
-#import "FoodNSTableView.h"
 #import "BeFit_AppDelegate.h"
 #import "BeFit-Swift.h"
 
