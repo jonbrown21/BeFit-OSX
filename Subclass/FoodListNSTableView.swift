@@ -6,3 +6,30 @@
 //
 
 import Foundation
+import Cocoa
+
+extension NSPasteboard.PasteboardType {
+    static let foodDataDragType = Self("FoodDataDragType")
+}
+
+class FoodListNSTableView: NSTableView,
+NSTableViewDelegate {
+    @IBOutlet var FoodListController: AnyObject!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+        registerForDraggedTypes([.foodDataDragType])
+    }
+    
+    func DeleteSelectedObjectInTableView(_ sender: AnyObject) {
+        FoodListController.remove(sender)
+    }
+    
+    //- (NSTableRowView *)tableView:(NSTableView *)tableView rowViewForRow:(NSInteger)row
+    //{
+    //    NSLog(@"row =%ld",row);
+    //    JBDCustomRow *rowView = [[JBDCustomRow alloc]init];
+    //    return rowView;
+    //}
+}

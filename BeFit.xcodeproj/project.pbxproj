@@ -172,10 +172,6 @@
 		FC89561519F448C700420ADC /* FilterFoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560119F448C700420ADC /* FilterFoodCell.m */; };
 		FC89561619F448C700420ADC /* FilterFoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560119F448C700420ADC /* FilterFoodCell.m */; };
 		FC89561719F448C700420ADC /* FilterFoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560119F448C700420ADC /* FilterFoodCell.m */; };
-		FC89561819F448C700420ADC /* FoodListNSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560319F448C700420ADC /* FoodListNSTableView.m */; };
-		FC89561919F448C700420ADC /* FoodListNSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560319F448C700420ADC /* FoodListNSTableView.m */; };
-		FC89561A19F448C700420ADC /* FoodListNSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560319F448C700420ADC /* FoodListNSTableView.m */; };
-		FC89561B19F448C700420ADC /* FoodListNSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560319F448C700420ADC /* FoodListNSTableView.m */; };
 		FC89561C19F448C700420ADC /* FoodNSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560519F448C700420ADC /* FoodNSTableView.m */; };
 		FC89561D19F448C700420ADC /* FoodNSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560519F448C700420ADC /* FoodNSTableView.m */; };
 		FC89561E19F448C700420ADC /* FoodNSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560519F448C700420ADC /* FoodNSTableView.m */; };
@@ -577,8 +573,6 @@
 		FC8955FF19F448C700420ADC /* ColumnControllerPopUpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnControllerPopUpButton.m; sourceTree = "<group>"; };
 		FC89560019F448C700420ADC /* FilterFoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterFoodCell.h; sourceTree = "<group>"; };
 		FC89560119F448C700420ADC /* FilterFoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterFoodCell.m; sourceTree = "<group>"; };
-		FC89560219F448C700420ADC /* FoodListNSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodListNSTableView.h; sourceTree = "<group>"; };
-		FC89560319F448C700420ADC /* FoodListNSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodListNSTableView.m; sourceTree = "<group>"; };
 		FC89560419F448C700420ADC /* FoodNSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodNSTableView.h; sourceTree = "<group>"; };
 		FC89560519F448C700420ADC /* FoodNSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodNSTableView.m; sourceTree = "<group>"; };
 		FC89560619F448C700420ADC /* SearchFieldForFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchFieldForFood.h; sourceTree = "<group>"; };
@@ -1159,8 +1153,6 @@
 				FC8955FF19F448C700420ADC /* ColumnControllerPopUpButton.m */,
 				FC89560019F448C700420ADC /* FilterFoodCell.h */,
 				FC89560119F448C700420ADC /* FilterFoodCell.m */,
-				FC89560219F448C700420ADC /* FoodListNSTableView.h */,
-				FC89560319F448C700420ADC /* FoodListNSTableView.m */,
 				FC89560419F448C700420ADC /* FoodNSTableView.h */,
 				FC89560519F448C700420ADC /* FoodNSTableView.m */,
 				FC89560619F448C700420ADC /* SearchFieldForFood.h */,
@@ -1634,7 +1626,6 @@
 				4357279D23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */,
 				FC0873CE19EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */,
 				FC89562519F448C700420ADC /* SearchFieldforLists.m in Sources */,
-				FC89561919F448C700420ADC /* FoodListNSTableView.m in Sources */,
 				FC89567A19F4496600420ADC /* GUIController.m in Sources */,
 				FC89566619F4496600420ADC /* ColumnAttributeSelector.m in Sources */,
 				FC89572A19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
@@ -1702,7 +1693,6 @@
 				FC946EEA1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
 				FC0873CD19EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */,
 				FC89562419F448C700420ADC /* SearchFieldforLists.m in Sources */,
-				FC89561819F448C700420ADC /* FoodListNSTableView.m in Sources */,
 				FC89567919F4496600420ADC /* GUIController.m in Sources */,
 				4375CA262370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
 				FC89566519F4496600420ADC /* ColumnAttributeSelector.m in Sources */,
@@ -1769,7 +1759,6 @@
 				FC946EEC1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
 				FC0873CF19EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */,
 				FC89562619F448C700420ADC /* SearchFieldforLists.m in Sources */,
-				FC89561A19F448C700420ADC /* FoodListNSTableView.m in Sources */,
 				FC89567B19F4496600420ADC /* GUIController.m in Sources */,
 				4375CA292370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
 				FC89566719F4496600420ADC /* ColumnAttributeSelector.m in Sources */,
@@ -1836,7 +1825,6 @@
 				FC946EED1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
 				FC0873D019EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */,
 				FC89562719F448C700420ADC /* SearchFieldforLists.m in Sources */,
-				FC89561B19F448C700420ADC /* FoodListNSTableView.m in Sources */,
 				FC89567C19F4496600420ADC /* GUIController.m in Sources */,
 				4375CA272370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
 				FC89566819F4496600420ADC /* ColumnAttributeSelector.m in Sources */,
