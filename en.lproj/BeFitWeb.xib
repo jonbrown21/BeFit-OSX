@@ -799,7 +799,7 @@ CA
                 <outlet property="window" destination="21" id="7eR-Aq-eC4"/>
             </connections>
         </customObject>
-        <customObject id="406" userLabel="GUIController" customClass="GUIController">
+        <customObject id="406" userLabel="GUIController" customClass="GUIController" customModule="BeFit" customModuleProvider="target">
             <connections>
                 <outlet property="CalNameCalumn" destination="rWe-4U-Wvi" id="qPz-CQ-kcp"/>
                 <outlet property="FileMenu" destination="81" id="1037"/>
@@ -809,7 +809,6 @@ CA
                 <outlet property="FoodQuantityTableColumn" destination="pJC-4l-Zcc" id="rLX-wo-cQr"/>
                 <outlet property="FoodRatingTableColumn" destination="GyZ-6Q-Add" id="bba-tg-Urm"/>
                 <outlet property="GraphPanelWinNSView" destination="1005" id="xJO-bj-oet"/>
-                <outlet property="MainWindow" destination="21" id="aQh-hh-FWf"/>
                 <outlet property="MixNameColumn" destination="msu-s6-7T1" id="9ci-lV-Zhh"/>
                 <outlet property="NutritionPanelDetailWinNSView" destination="9Mv-Ui-5ab" id="ZZL-75-chP"/>
                 <outlet property="NutritionPanelWinNSView" destination="g2V-ZS-iMp" id="39g-UU-uae"/>

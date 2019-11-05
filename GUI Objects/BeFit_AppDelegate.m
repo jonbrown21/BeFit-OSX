@@ -1,7 +1,6 @@
 #import "BeFit_AppDelegate.h"
 #import "PrioritySplitViewDelegate.h"
 #import "mySheetController.h"
-#import "GUIController.h"
 #import "FoodDragSupportBase.h"
 #import "UAAppReviewManager.h"
 #import "PFMoveApplication.h"
