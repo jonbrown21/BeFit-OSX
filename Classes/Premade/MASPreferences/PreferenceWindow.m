@@ -32,7 +32,7 @@
     if (_preferencesWindowController == nil)
     {
         NSViewController *generalViewController = [[GeneralPreferencesViewController alloc] init];
-        NSViewController *advancedViewController = [[AdvancedPreferencesViewController alloc] init];
+        //NSViewController *advancedViewController = [[AdvancedPreferencesViewController alloc] init];
         NSViewController *updateViewController = [[UpdatePreferenceViewController alloc] init];
         
         
