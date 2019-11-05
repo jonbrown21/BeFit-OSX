@@ -4,6 +4,7 @@
 
 #import "MASPreferencesViewController.h"
 
+/*
 @interface AdvancedPreferencesViewController : NSViewController <MASPreferencesViewController>
 
 {
@@ -13,3 +14,4 @@
 
 
 @end
+*/
