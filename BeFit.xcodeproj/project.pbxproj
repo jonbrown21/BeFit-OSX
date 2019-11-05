@@ -29,6 +29,10 @@
 		4348C1D8237163B200071B9C /* FoodTableDragSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D6237163B200071B9C /* FoodTableDragSupport.swift */; };
 		4348C1D9237163B200071B9C /* FoodTableDragSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D6237163B200071B9C /* FoodTableDragSupport.swift */; };
 		4348C1DA237163B200071B9C /* FoodTableDragSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D6237163B200071B9C /* FoodTableDragSupport.swift */; };
+		4348C1DC23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1DB23716A0A00071B9C /* ColumnAttributeSelector.swift */; };
+		4348C1DD23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1DB23716A0A00071B9C /* ColumnAttributeSelector.swift */; };
+		4348C1DE23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1DB23716A0A00071B9C /* ColumnAttributeSelector.swift */; };
+		4348C1DF23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1DB23716A0A00071B9C /* ColumnAttributeSelector.swift */; };
 		4357279323700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357278F23700D4E00755BE1 /* Food+CoreDataClass.swift */; };
 		4357279423700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357278F23700D4E00755BE1 /* Food+CoreDataClass.swift */; };
 		4357279523700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357278F23700D4E00755BE1 /* Food+CoreDataClass.swift */; };
@@ -236,10 +240,6 @@
 		FC89566219F4496600420ADC /* BeFit_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565319F4496600420ADC /* BeFit_AppDelegate.m */; };
 		FC89566319F4496600420ADC /* BeFit_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565319F4496600420ADC /* BeFit_AppDelegate.m */; };
 		FC89566419F4496600420ADC /* BeFit_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565319F4496600420ADC /* BeFit_AppDelegate.m */; };
-		FC89566519F4496600420ADC /* ColumnAttributeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565519F4496600420ADC /* ColumnAttributeSelector.m */; };
-		FC89566619F4496600420ADC /* ColumnAttributeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565519F4496600420ADC /* ColumnAttributeSelector.m */; };
-		FC89566719F4496600420ADC /* ColumnAttributeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565519F4496600420ADC /* ColumnAttributeSelector.m */; };
-		FC89566819F4496600420ADC /* ColumnAttributeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565519F4496600420ADC /* ColumnAttributeSelector.m */; };
 		FC89567919F4496600420ADC /* GUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89566019F4496600420ADC /* GUIController.m */; };
 		FC89567A19F4496600420ADC /* GUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89566019F4496600420ADC /* GUIController.m */; };
 		FC89567B19F4496600420ADC /* GUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89566019F4496600420ADC /* GUIController.m */; };
@@ -495,6 +495,7 @@
 		4348C1CC23706D9700071B9C /* FoodArrayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodArrayController.swift; sourceTree = "<group>"; };
 		4348C1D123715B8C00071B9C /* FoodListTableDropSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListTableDropSupport.swift; sourceTree = "<group>"; };
 		4348C1D6237163B200071B9C /* FoodTableDragSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableDragSupport.swift; sourceTree = "<group>"; };
+		4348C1DB23716A0A00071B9C /* ColumnAttributeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnAttributeSelector.swift; sourceTree = "<group>"; };
 		43572786237007DF00755BE1 /* BeFit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFit-Bridging-Header.h"; sourceTree = "<group>"; };
 		43572787237007DF00755BE1 /* BeFitFree-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFitFree-Bridging-Header.h"; sourceTree = "<group>"; };
 		43572788237007DF00755BE1 /* BeFitDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFitDemo-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -600,8 +601,6 @@
 		FC89564919F4494900420ADC /* AddMGValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMGValueTransformer.m; sourceTree = "<group>"; };
 		FC89565219F4496600420ADC /* BeFit_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeFit_AppDelegate.h; sourceTree = "<group>"; };
 		FC89565319F4496600420ADC /* BeFit_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeFit_AppDelegate.m; sourceTree = "<group>"; };
-		FC89565419F4496600420ADC /* ColumnAttributeSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnAttributeSelector.h; sourceTree = "<group>"; };
-		FC89565519F4496600420ADC /* ColumnAttributeSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnAttributeSelector.m; sourceTree = "<group>"; };
 		FC89565819F4496600420ADC /* FoodDragSupportBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDragSupportBase.h; sourceTree = "<group>"; };
 		FC89565F19F4496600420ADC /* GUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIController.h; sourceTree = "<group>"; };
 		FC89566019F4496600420ADC /* GUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUIController.m; sourceTree = "<group>"; };
@@ -1192,8 +1191,6 @@
 			children = (
 				FC89565219F4496600420ADC /* BeFit_AppDelegate.h */,
 				FC89565319F4496600420ADC /* BeFit_AppDelegate.m */,
-				FC89565419F4496600420ADC /* ColumnAttributeSelector.h */,
-				FC89565519F4496600420ADC /* ColumnAttributeSelector.m */,
 				FC89565819F4496600420ADC /* FoodDragSupportBase.h */,
 				FC89565F19F4496600420ADC /* GUIController.h */,
 				FC89566019F4496600420ADC /* GUIController.m */,
@@ -1203,6 +1200,7 @@
 				4348C1CC23706D9700071B9C /* FoodArrayController.swift */,
 				4348C1D123715B8C00071B9C /* FoodListTableDropSupport.swift */,
 				4348C1D6237163B200071B9C /* FoodTableDragSupport.swift */,
+				4348C1DB23716A0A00071B9C /* ColumnAttributeSelector.swift */,
 			);
 			path = "GUI Objects";
 			sourceTree = "<group>";
@@ -1620,7 +1618,6 @@
 				FC89562519F448C700420ADC /* SearchFieldforLists.m in Sources */,
 				FC89567A19F4496600420ADC /* GUIController.m in Sources */,
 				4348C1D9237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
-				FC89566619F4496600420ADC /* ColumnAttributeSelector.m in Sources */,
 				FC89572A19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
 				FC946F381A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D319EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
@@ -1660,6 +1657,7 @@
 				FC89568019F4499F00420ADC /* RMBlurredView.m in Sources */,
 				FC946F301A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
 				FC946E9F1A103A4A00692D04 /* Legend-Chol.m in Sources */,
+				4348C1DE23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */,
 				4348C1D423715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
 				FC0873DE19EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */,
 				FC0873F919EBA71000ACB943 /* SSTextField.m in Sources */,
@@ -1688,7 +1686,6 @@
 				FC89562419F448C700420ADC /* SearchFieldforLists.m in Sources */,
 				FC89567919F4496600420ADC /* GUIController.m in Sources */,
 				4375CA262370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
-				FC89566519F4496600420ADC /* ColumnAttributeSelector.m in Sources */,
 				FC89572919F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
 				FC946F371A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D219EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
@@ -1734,6 +1731,7 @@
 				FC0873A319EBA6D200ACB943 /* LNClipView.m in Sources */,
 				FC0873E619EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */,
 				FC89566119F4496600420ADC /* BeFit_AppDelegate.m in Sources */,
+				4348C1DC23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */,
 				FC08738819EBA69B00ACB943 /* INWindowButton.m in Sources */,
 				435727A423700FAE00755BE1 /* Food+UI.swift in Sources */,
 				FC0873F119EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */,
@@ -1754,7 +1752,6 @@
 				FC89562619F448C700420ADC /* SearchFieldforLists.m in Sources */,
 				FC89567B19F4496600420ADC /* GUIController.m in Sources */,
 				4375CA292370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
-				FC89566719F4496600420ADC /* ColumnAttributeSelector.m in Sources */,
 				FC89572B19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
 				FC946F391A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D419EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
@@ -1800,6 +1797,7 @@
 				FC0873A519EBA6D200ACB943 /* LNClipView.m in Sources */,
 				FC0873E819EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */,
 				FC89566319F4496600420ADC /* BeFit_AppDelegate.m in Sources */,
+				4348C1DF23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */,
 				FC08738A19EBA69B00ACB943 /* INWindowButton.m in Sources */,
 				435727A723700FAE00755BE1 /* Food+UI.swift in Sources */,
 				FC0873F319EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */,
@@ -1820,7 +1818,6 @@
 				FC89562719F448C700420ADC /* SearchFieldforLists.m in Sources */,
 				FC89567C19F4496600420ADC /* GUIController.m in Sources */,
 				4375CA272370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
-				FC89566819F4496600420ADC /* ColumnAttributeSelector.m in Sources */,
 				FC89572C19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
 				FC946F3A1A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D519EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
@@ -1866,6 +1863,7 @@
 				FC0873A619EBA6D200ACB943 /* LNClipView.m in Sources */,
 				FC0873E919EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */,
 				FC89566419F4496600420ADC /* BeFit_AppDelegate.m in Sources */,
+				4348C1DD23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */,
 				FC08738B19EBA69B00ACB943 /* INWindowButton.m in Sources */,
 				435727A523700FAE00755BE1 /* Food+UI.swift in Sources */,
 				FC0873F419EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */,
