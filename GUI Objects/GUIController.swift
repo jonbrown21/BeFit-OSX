@@ -128,11 +128,8 @@ class GUIController: NSObject, NSTableViewDelegate, NSWindowDelegate {
         GraphPanelWinNSView.needsDisplay = true
         
         //Register the value transformers
-        
-        let gramsTransformer = AddGramsValueTransformer()
-        let mgTransformer = AddMGValueTransformer()
-        ValueTransformer.setValueTransformer(gramsTransformer, forName: .init("addGrams"))
-        ValueTransformer.setValueTransformer(mgTransformer, forName: .init("addMG"))
+        ValueTransformer.setValueTransformer(AddGramsValueTransformer(), forName: AddGramsValueTransformer.name)
+        ValueTransformer.setValueTransformer(AddMGValueTransformer(), forName: AddMGValueTransformer.name)
         
         HideGraphPanel()
         

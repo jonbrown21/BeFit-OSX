@@ -15,11 +15,11 @@ class ColumnAttributeSelector: NSObject {
     @IBOutlet var ScrollViewBeingEdited: NSScrollView!
     
     private func addMGOptions() -> [NSBindingOption: Any] {
-        return [.valueTransformerName: "addMG"]
+        return [.valueTransformerName: AddMGValueTransformer.name]
     }
     
     private func addGramsOptions() -> [NSBindingOption: Any] {
-        return [.valueTransformerName: "addGrams"]
+        return [.valueTransformerName: AddGramsValueTransformer.name]
     }
     
     private func updateColumn(keyPath: String, bindingOptions: [NSBindingOption: Any], header: String) {
