@@ -25,6 +25,10 @@
 		4348C1D323715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D123715B8C00071B9C /* FoodListTableDropSupport.swift */; };
 		4348C1D423715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D123715B8C00071B9C /* FoodListTableDropSupport.swift */; };
 		4348C1D523715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D123715B8C00071B9C /* FoodListTableDropSupport.swift */; };
+		4348C1D7237163B200071B9C /* FoodTableDragSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D6237163B200071B9C /* FoodTableDragSupport.swift */; };
+		4348C1D8237163B200071B9C /* FoodTableDragSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D6237163B200071B9C /* FoodTableDragSupport.swift */; };
+		4348C1D9237163B200071B9C /* FoodTableDragSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D6237163B200071B9C /* FoodTableDragSupport.swift */; };
+		4348C1DA237163B200071B9C /* FoodTableDragSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D6237163B200071B9C /* FoodTableDragSupport.swift */; };
 		4357279323700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357278F23700D4E00755BE1 /* Food+CoreDataClass.swift */; };
 		4357279423700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357278F23700D4E00755BE1 /* Food+CoreDataClass.swift */; };
 		4357279523700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357278F23700D4E00755BE1 /* Food+CoreDataClass.swift */; };
@@ -236,10 +240,6 @@
 		FC89566619F4496600420ADC /* ColumnAttributeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565519F4496600420ADC /* ColumnAttributeSelector.m */; };
 		FC89566719F4496600420ADC /* ColumnAttributeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565519F4496600420ADC /* ColumnAttributeSelector.m */; };
 		FC89566819F4496600420ADC /* ColumnAttributeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565519F4496600420ADC /* ColumnAttributeSelector.m */; };
-		FC89567519F4496600420ADC /* FoodTableDragSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565E19F4496600420ADC /* FoodTableDragSupport.m */; };
-		FC89567619F4496600420ADC /* FoodTableDragSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565E19F4496600420ADC /* FoodTableDragSupport.m */; };
-		FC89567719F4496600420ADC /* FoodTableDragSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565E19F4496600420ADC /* FoodTableDragSupport.m */; };
-		FC89567819F4496600420ADC /* FoodTableDragSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565E19F4496600420ADC /* FoodTableDragSupport.m */; };
 		FC89567919F4496600420ADC /* GUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89566019F4496600420ADC /* GUIController.m */; };
 		FC89567A19F4496600420ADC /* GUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89566019F4496600420ADC /* GUIController.m */; };
 		FC89567B19F4496600420ADC /* GUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89566019F4496600420ADC /* GUIController.m */; };
@@ -494,6 +494,7 @@
 		4348C1C72370647B00071B9C /* FoodNSTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodNSTableView.swift; sourceTree = "<group>"; };
 		4348C1CC23706D9700071B9C /* FoodArrayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodArrayController.swift; sourceTree = "<group>"; };
 		4348C1D123715B8C00071B9C /* FoodListTableDropSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListTableDropSupport.swift; sourceTree = "<group>"; };
+		4348C1D6237163B200071B9C /* FoodTableDragSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableDragSupport.swift; sourceTree = "<group>"; };
 		43572786237007DF00755BE1 /* BeFit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFit-Bridging-Header.h"; sourceTree = "<group>"; };
 		43572787237007DF00755BE1 /* BeFitFree-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFitFree-Bridging-Header.h"; sourceTree = "<group>"; };
 		43572788237007DF00755BE1 /* BeFitDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFitDemo-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -602,8 +603,6 @@
 		FC89565419F4496600420ADC /* ColumnAttributeSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnAttributeSelector.h; sourceTree = "<group>"; };
 		FC89565519F4496600420ADC /* ColumnAttributeSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnAttributeSelector.m; sourceTree = "<group>"; };
 		FC89565819F4496600420ADC /* FoodDragSupportBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDragSupportBase.h; sourceTree = "<group>"; };
-		FC89565D19F4496600420ADC /* FoodTableDragSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableDragSupport.h; sourceTree = "<group>"; };
-		FC89565E19F4496600420ADC /* FoodTableDragSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableDragSupport.m; sourceTree = "<group>"; };
 		FC89565F19F4496600420ADC /* GUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIController.h; sourceTree = "<group>"; };
 		FC89566019F4496600420ADC /* GUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUIController.m; sourceTree = "<group>"; };
 		FC89567D19F4499F00420ADC /* RMBlurredView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMBlurredView.h; path = "Interface Files/RMBlurredView.h"; sourceTree = "<group>"; };
@@ -1196,8 +1195,6 @@
 				FC89565419F4496600420ADC /* ColumnAttributeSelector.h */,
 				FC89565519F4496600420ADC /* ColumnAttributeSelector.m */,
 				FC89565819F4496600420ADC /* FoodDragSupportBase.h */,
-				FC89565D19F4496600420ADC /* FoodTableDragSupport.h */,
-				FC89565E19F4496600420ADC /* FoodTableDragSupport.m */,
 				FC89565F19F4496600420ADC /* GUIController.h */,
 				FC89566019F4496600420ADC /* GUIController.m */,
 				FCC174D619EBE17F001A184A /* ValueTransformers */,
@@ -1205,6 +1202,7 @@
 				4375CA2A23704E0B008A4B02 /* FoodListArrayController.swift */,
 				4348C1CC23706D9700071B9C /* FoodArrayController.swift */,
 				4348C1D123715B8C00071B9C /* FoodListTableDropSupport.swift */,
+				4348C1D6237163B200071B9C /* FoodTableDragSupport.swift */,
 			);
 			path = "GUI Objects";
 			sourceTree = "<group>";
@@ -1621,9 +1619,9 @@
 				FC0873CE19EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */,
 				FC89562519F448C700420ADC /* SearchFieldforLists.m in Sources */,
 				FC89567A19F4496600420ADC /* GUIController.m in Sources */,
+				4348C1D9237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
 				FC89566619F4496600420ADC /* ColumnAttributeSelector.m in Sources */,
 				FC89572A19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
-				FC89567619F4496600420ADC /* FoodTableDragSupport.m in Sources */,
 				FC946F381A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D319EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
 				FC89564B19F4494900420ADC /* AddGramsValueTransformer.m in Sources */,
@@ -1692,7 +1690,6 @@
 				4375CA262370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
 				FC89566519F4496600420ADC /* ColumnAttributeSelector.m in Sources */,
 				FC89572919F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
-				FC89567519F4496600420ADC /* FoodTableDragSupport.m in Sources */,
 				FC946F371A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D219EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
 				FC89564A19F4494900420ADC /* AddGramsValueTransformer.m in Sources */,
@@ -1701,6 +1698,7 @@
 				FC89561419F448C700420ADC /* FilterFoodCell.m in Sources */,
 				FC946F9A1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
 				4348C1D223715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
+				4348C1D7237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
 				FC946E981A1039EE00692D04 /* Legend-SatFat.m in Sources */,
 				FC89562C19F448C700420ADC /* subBar_blk.m in Sources */,
 				FCC174CB19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */,
@@ -1758,7 +1756,6 @@
 				4375CA292370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
 				FC89566719F4496600420ADC /* ColumnAttributeSelector.m in Sources */,
 				FC89572B19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
-				FC89567719F4496600420ADC /* FoodTableDragSupport.m in Sources */,
 				FC946F391A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D419EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
 				FC89564C19F4494900420ADC /* AddGramsValueTransformer.m in Sources */,
@@ -1767,6 +1764,7 @@
 				FC89561619F448C700420ADC /* FilterFoodCell.m in Sources */,
 				FC946F9C1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
 				4348C1D523715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
+				4348C1DA237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
 				FC946E9A1A1039EE00692D04 /* Legend-SatFat.m in Sources */,
 				FC89562E19F448C700420ADC /* subBar_blk.m in Sources */,
 				FCC174CD19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */,
@@ -1824,7 +1822,6 @@
 				4375CA272370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
 				FC89566819F4496600420ADC /* ColumnAttributeSelector.m in Sources */,
 				FC89572C19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
-				FC89567819F4496600420ADC /* FoodTableDragSupport.m in Sources */,
 				FC946F3A1A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D519EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
 				FC89564D19F4494900420ADC /* AddGramsValueTransformer.m in Sources */,
@@ -1833,6 +1830,7 @@
 				FC89561719F448C700420ADC /* FilterFoodCell.m in Sources */,
 				FC946F9D1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
 				4348C1D323715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
+				4348C1D8237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
 				FC946E9B1A1039EE00692D04 /* Legend-SatFat.m in Sources */,
 				FC89562F19F448C700420ADC /* subBar_blk.m in Sources */,
 				FCC174CE19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */,

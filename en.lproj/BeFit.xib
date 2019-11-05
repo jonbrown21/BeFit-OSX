@@ -927,7 +927,7 @@ CA
                 <outlet property="addFood" destination="xnO-I1-zOL" id="vPb-zd-Sjf"/>
             </connections>
         </arrayController>
-        <customObject id="713" userLabel="FoodTableDragSupport" customClass="FoodTableDragSupport"/>
+        <customObject id="713" userLabel="FoodTableDragSupport" customClass="FoodTableDragSupport" customModule="BeFit" customModuleProvider="target"/>
         <customObject id="715" userLabel="FoodListTableDropSupport" customClass="FoodListTableDropSupport" customModule="BeFit" customModuleProvider="target">
             <connections>
                 <outlet property="ApplicationDelegate" destination="205" id="717"/>

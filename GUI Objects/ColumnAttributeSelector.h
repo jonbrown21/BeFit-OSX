@@ -1,7 +1,6 @@
 /* ColumnAttributeSelector */
 
 #import <Cocoa/Cocoa.h>
-#import "FoodTableDragSupport.h"
 
 @interface ColumnAttributeSelector : NSObject
 {

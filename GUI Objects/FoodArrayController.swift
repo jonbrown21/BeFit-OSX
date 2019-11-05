@@ -74,7 +74,7 @@ class FoodArrayController: NSArrayController {
     }
     
     func updateTableEntry() {
-        guard let tableView = mDragSupport.currentlyDisplayedTableView() else {
+        guard let tableView = mDragSupport.currentlyDisplayedTableView else {
             return
         }
         

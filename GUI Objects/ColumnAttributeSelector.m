@@ -1,6 +1,5 @@
 #import "ColumnAttributeSelector.h"
 #import "BeFit_AppDelegate.h"
-#import "FoodTableDragSupport.h"
 #import "BeFit-Swift.h"
 
 @implementation ColumnAttributeSelector
