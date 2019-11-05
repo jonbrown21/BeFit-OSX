@@ -21,6 +21,10 @@
 		4348C1CE23706D9700071B9C /* FoodArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1CC23706D9700071B9C /* FoodArrayController.swift */; };
 		4348C1CF23706D9700071B9C /* FoodArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1CC23706D9700071B9C /* FoodArrayController.swift */; };
 		4348C1D023706D9700071B9C /* FoodArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1CC23706D9700071B9C /* FoodArrayController.swift */; };
+		4348C1D223715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D123715B8C00071B9C /* FoodListTableDropSupport.swift */; };
+		4348C1D323715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D123715B8C00071B9C /* FoodListTableDropSupport.swift */; };
+		4348C1D423715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D123715B8C00071B9C /* FoodListTableDropSupport.swift */; };
+		4348C1D523715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D123715B8C00071B9C /* FoodListTableDropSupport.swift */; };
 		4357279323700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357278F23700D4E00755BE1 /* Food+CoreDataClass.swift */; };
 		4357279423700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357278F23700D4E00755BE1 /* Food+CoreDataClass.swift */; };
 		4357279523700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357278F23700D4E00755BE1 /* Food+CoreDataClass.swift */; };
@@ -232,10 +236,6 @@
 		FC89566619F4496600420ADC /* ColumnAttributeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565519F4496600420ADC /* ColumnAttributeSelector.m */; };
 		FC89566719F4496600420ADC /* ColumnAttributeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565519F4496600420ADC /* ColumnAttributeSelector.m */; };
 		FC89566819F4496600420ADC /* ColumnAttributeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565519F4496600420ADC /* ColumnAttributeSelector.m */; };
-		FC89567119F4496600420ADC /* FoodListTableDropSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565C19F4496600420ADC /* FoodListTableDropSupport.m */; };
-		FC89567219F4496600420ADC /* FoodListTableDropSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565C19F4496600420ADC /* FoodListTableDropSupport.m */; };
-		FC89567319F4496600420ADC /* FoodListTableDropSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565C19F4496600420ADC /* FoodListTableDropSupport.m */; };
-		FC89567419F4496600420ADC /* FoodListTableDropSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565C19F4496600420ADC /* FoodListTableDropSupport.m */; };
 		FC89567519F4496600420ADC /* FoodTableDragSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565E19F4496600420ADC /* FoodTableDragSupport.m */; };
 		FC89567619F4496600420ADC /* FoodTableDragSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565E19F4496600420ADC /* FoodTableDragSupport.m */; };
 		FC89567719F4496600420ADC /* FoodTableDragSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565E19F4496600420ADC /* FoodTableDragSupport.m */; };
@@ -493,6 +493,7 @@
 		32CA4F630368D1EE00C91783 /* BeFit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeFit_Prefix.pch; sourceTree = "<group>"; };
 		4348C1C72370647B00071B9C /* FoodNSTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodNSTableView.swift; sourceTree = "<group>"; };
 		4348C1CC23706D9700071B9C /* FoodArrayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodArrayController.swift; sourceTree = "<group>"; };
+		4348C1D123715B8C00071B9C /* FoodListTableDropSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListTableDropSupport.swift; sourceTree = "<group>"; };
 		43572786237007DF00755BE1 /* BeFit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFit-Bridging-Header.h"; sourceTree = "<group>"; };
 		43572787237007DF00755BE1 /* BeFitFree-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFitFree-Bridging-Header.h"; sourceTree = "<group>"; };
 		43572788237007DF00755BE1 /* BeFitDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFitDemo-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -601,8 +602,6 @@
 		FC89565419F4496600420ADC /* ColumnAttributeSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnAttributeSelector.h; sourceTree = "<group>"; };
 		FC89565519F4496600420ADC /* ColumnAttributeSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnAttributeSelector.m; sourceTree = "<group>"; };
 		FC89565819F4496600420ADC /* FoodDragSupportBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDragSupportBase.h; sourceTree = "<group>"; };
-		FC89565B19F4496600420ADC /* FoodListTableDropSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodListTableDropSupport.h; sourceTree = "<group>"; };
-		FC89565C19F4496600420ADC /* FoodListTableDropSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodListTableDropSupport.m; sourceTree = "<group>"; };
 		FC89565D19F4496600420ADC /* FoodTableDragSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableDragSupport.h; sourceTree = "<group>"; };
 		FC89565E19F4496600420ADC /* FoodTableDragSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableDragSupport.m; sourceTree = "<group>"; };
 		FC89565F19F4496600420ADC /* GUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIController.h; sourceTree = "<group>"; };
@@ -1197,8 +1196,6 @@
 				FC89565419F4496600420ADC /* ColumnAttributeSelector.h */,
 				FC89565519F4496600420ADC /* ColumnAttributeSelector.m */,
 				FC89565819F4496600420ADC /* FoodDragSupportBase.h */,
-				FC89565B19F4496600420ADC /* FoodListTableDropSupport.h */,
-				FC89565C19F4496600420ADC /* FoodListTableDropSupport.m */,
 				FC89565D19F4496600420ADC /* FoodTableDragSupport.h */,
 				FC89565E19F4496600420ADC /* FoodTableDragSupport.m */,
 				FC89565F19F4496600420ADC /* GUIController.h */,
@@ -1207,6 +1204,7 @@
 				FCC174E219EBE63A001A184A /* ForPreferences */,
 				4375CA2A23704E0B008A4B02 /* FoodListArrayController.swift */,
 				4348C1CC23706D9700071B9C /* FoodArrayController.swift */,
+				4348C1D123715B8C00071B9C /* FoodListTableDropSupport.swift */,
 			);
 			path = "GUI Objects";
 			sourceTree = "<group>";
@@ -1645,7 +1643,6 @@
 				FC89561119F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */,
 				4348C1CA2370647E00071B9C /* FoodNSTableView.swift in Sources */,
 				FC89564319F4494200420ADC /* OnlineCheck.m in Sources */,
-				FC89567219F4496600420ADC /* FoodListTableDropSupport.m in Sources */,
 				FC0873D619EBA6DE00ACB943 /* PrefSetter.m in Sources */,
 				FC946F2C1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
 				4375CA2D23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
@@ -1665,6 +1662,7 @@
 				FC89568019F4499F00420ADC /* RMBlurredView.m in Sources */,
 				FC946F301A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
 				FC946E9F1A103A4A00692D04 /* Legend-Chol.m in Sources */,
+				4348C1D423715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
 				FC0873DE19EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */,
 				FC0873F919EBA71000ACB943 /* SSTextField.m in Sources */,
 				FC0873EB19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */,
@@ -1702,6 +1700,7 @@
 				FC946EAE1A11939D00692D04 /* whiteBackground.m in Sources */,
 				FC89561419F448C700420ADC /* FilterFoodCell.m in Sources */,
 				FC946F9A1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
+				4348C1D223715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
 				FC946E981A1039EE00692D04 /* Legend-SatFat.m in Sources */,
 				FC89562C19F448C700420ADC /* subBar_blk.m in Sources */,
 				FCC174CB19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */,
@@ -1712,7 +1711,6 @@
 				4357279723700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
 				4357279323700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
 				FC89564219F4494200420ADC /* OnlineCheck.m in Sources */,
-				FC89567119F4496600420ADC /* FoodListTableDropSupport.m in Sources */,
 				FC89561019F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */,
 				FC946F2B1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
 				FC0873BD19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m in Sources */,
@@ -1768,6 +1766,7 @@
 				FC946EB01A11939D00692D04 /* whiteBackground.m in Sources */,
 				FC89561619F448C700420ADC /* FilterFoodCell.m in Sources */,
 				FC946F9C1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
+				4348C1D523715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
 				FC946E9A1A1039EE00692D04 /* Legend-SatFat.m in Sources */,
 				FC89562E19F448C700420ADC /* subBar_blk.m in Sources */,
 				FCC174CD19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */,
@@ -1778,7 +1777,6 @@
 				4357279623700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
 				FC89561219F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */,
 				FC89564419F4494200420ADC /* OnlineCheck.m in Sources */,
-				FC89567319F4496600420ADC /* FoodListTableDropSupport.m in Sources */,
 				FC0873D719EBA6DE00ACB943 /* PrefSetter.m in Sources */,
 				FC946F2D1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
 				FC0873BF19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m in Sources */,
@@ -1834,6 +1832,7 @@
 				FC946EB11A11939D00692D04 /* whiteBackground.m in Sources */,
 				FC89561719F448C700420ADC /* FilterFoodCell.m in Sources */,
 				FC946F9D1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
+				4348C1D323715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
 				FC946E9B1A1039EE00692D04 /* Legend-SatFat.m in Sources */,
 				FC89562F19F448C700420ADC /* subBar_blk.m in Sources */,
 				FCC174CE19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */,
@@ -1844,7 +1843,6 @@
 				4357279423700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
 				FC89561319F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */,
 				FC89564519F4494200420ADC /* OnlineCheck.m in Sources */,
-				FC89567419F4496600420ADC /* FoodListTableDropSupport.m in Sources */,
 				FC0873D819EBA6DE00ACB943 /* PrefSetter.m in Sources */,
 				FC946F2E1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
 				FC0873C019EBA6DE00ACB943 /* AdvancedPreferencesViewController.m in Sources */,

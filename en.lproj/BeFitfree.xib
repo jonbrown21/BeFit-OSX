@@ -911,7 +911,7 @@ CA
             </connections>
         </arrayController>
         <customObject id="713" userLabel="FoodTableDragSupport" customClass="FoodTableDragSupport"/>
-        <customObject id="715" userLabel="FoodListTableDropSupport" customClass="FoodListTableDropSupport">
+        <customObject id="715" userLabel="FoodListTableDropSupport" customClass="FoodListTableDropSupport" customModule="BeFit_Lite" customModuleProvider="target">
             <connections>
                 <outlet property="ApplicationDelegate" destination="205" id="717"/>
                 <outlet property="myTableView" destination="KbJ-R5-DkY" id="s4L-oR-hsy"/>
