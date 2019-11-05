@@ -12,7 +12,7 @@ class ColumnAttributeSelector: NSObject {
     @IBOutlet var MixNameColumn: NSTableColumn!
     @IBOutlet var CoumnBeingControlled: AnyObject!
     @IBOutlet var FoodArrayController: AnyObject!
-    @IBOutlet var ScrollViewBeingEdited: AnyObject!
+    @IBOutlet var ScrollViewBeingEdited: NSScrollView!
     
     private func addMGOptions() -> [NSBindingOption: Any] {
         return [.valueTransformerName: "addMG"]
@@ -38,7 +38,7 @@ class ColumnAttributeSelector: NSObject {
         CoumnBeingControlled.bind(.value, to: FoodArrayController as Any, withKeyPath: keyPath, options: bindingOptions)
         CoumnBeingControlled.headerCell?.stringValue = header
         
-        ScrollViewBeingEdited.setNeedsDisplay()
+        ScrollViewBeingEdited.needsDisplay = true
         
         print("Itinial Width \(initialWidth)")
         print("Final Width \(finalwidth)")
