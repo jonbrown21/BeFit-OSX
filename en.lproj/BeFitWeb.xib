@@ -2860,7 +2860,7 @@ CA
                                                 <font key="font" metaFont="system"/>
                                                 <tabViewItems>
                                                     <tabViewItem label="Value" identifier="1" id="WQv-KS-VNb">
-                                                        <view key="view" ambiguous="YES" id="wOW-tW-fAU">
+                                                        <view key="view" id="wOW-tW-fAU">
                                                             <rect key="frame" x="0.0" y="0.0" width="206" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
@@ -3016,7 +3016,7 @@ IA
                                                                         </binding>
                                                                     </connections>
                                                                 </textField>
-                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fjY-oM-k5u" customClass="Legend_Cals">
+                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fjY-oM-k5u" customClass="LegendCals" customModule="BeFit" customModuleProvider="target">
                                                                     <rect key="frame" x="5" y="34" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
@@ -3036,7 +3036,7 @@ IA
                                                         </view>
                                                     </tabViewItem>
                                                     <tabViewItem label="Percent" identifier="2" id="spw-Nb-Bcc">
-                                                        <view key="view" id="lNR-ck-kAp">
+                                                        <view key="view" ambiguous="YES" id="lNR-ck-kAp">
                                                             <rect key="frame" x="0.0" y="0.0" width="206" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
@@ -3192,7 +3192,7 @@ IA
                                                                         <binding destination="433" name="toolTip" keyPath="selection.totalFatPercent" id="ihU-CV-6Ac"/>
                                                                     </connections>
                                                                 </textField>
-                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SZj-L3-zUk" customClass="Legend_Cals">
+                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SZj-L3-zUk" customClass="LegendCals" customModule="BeFit" customModuleProvider="target">
                                                                     <rect key="frame" x="5" y="34" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
@@ -3269,7 +3269,7 @@ IA
                                                 <font key="font" metaFont="system"/>
                                                 <tabViewItems>
                                                     <tabViewItem label="Value" identifier="1" id="PKo-Sl-Ku7">
-                                                        <view key="view" ambiguous="YES" id="eth-UG-kj6">
+                                                        <view key="view" id="eth-UG-kj6">
                                                             <rect key="frame" x="0.0" y="0.0" width="206" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
@@ -3434,7 +3434,7 @@ IA
                                                                     <rect key="frame" x="5" y="12" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
-                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QU3-nG-9g8" customClass="Legend_Cals">
+                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QU3-nG-9g8" customClass="LegendCals" customModule="BeFit" customModuleProvider="target">
                                                                     <rect key="frame" x="95" y="34" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
@@ -3446,7 +3446,7 @@ IA
                                                         </view>
                                                     </tabViewItem>
                                                     <tabViewItem label="Percent" identifier="2" id="VnH-JW-gSF">
-                                                        <view key="view" id="kTP-jd-LIM">
+                                                        <view key="view" ambiguous="YES" id="kTP-jd-LIM">
                                                             <rect key="frame" x="0.0" y="0.0" width="206" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
@@ -3609,7 +3609,7 @@ IA
                                                                     <rect key="frame" x="5" y="12" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
-                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yg9-hO-SGf" customClass="Legend_Cals">
+                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yg9-hO-SGf" customClass="LegendCals" customModule="BeFit" customModuleProvider="target">
                                                                     <rect key="frame" x="108" y="34" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
@@ -3815,7 +3815,7 @@ IA
                                                                     <rect key="frame" x="5" y="12" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
-                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A0d-MI-5Pn" customClass="Legend_Cals">
+                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A0d-MI-5Pn" customClass="LegendCals" customModule="BeFit" customModuleProvider="target">
                                                                     <rect key="frame" x="101" y="34" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
@@ -3991,7 +3991,7 @@ IA
                                                                     <rect key="frame" x="5" y="12" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
-                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oox-81-9Hl" customClass="Legend_Cals">
+                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oox-81-9Hl" customClass="LegendCals" customModule="BeFit" customModuleProvider="target">
                                                                     <rect key="frame" x="108" y="34" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
