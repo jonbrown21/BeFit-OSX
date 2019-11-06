@@ -21,6 +21,7 @@ class SubBarBlk: NSView {
         clickCount = (clickCount + 1) % 7
         //let hue = CGFloat(clickCount) / 6
         //lineColor = NSColor(calibratedHue: hue, saturation: 1, brightness: 1, alpha: 1)
+        super.mouseDown(with: event)
     }
     
     override func draw(_ dirtyRect: NSRect) {
