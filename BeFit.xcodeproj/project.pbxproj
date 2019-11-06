@@ -132,6 +132,10 @@
 		43C801222372F63100E08913 /* LegendCals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801202372F63100E08913 /* LegendCals.swift */; };
 		43C801232372F63100E08913 /* LegendCals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801202372F63100E08913 /* LegendCals.swift */; };
 		43C801242372F63100E08913 /* LegendCals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801202372F63100E08913 /* LegendCals.swift */; };
+		43C801262372F83500E08913 /* LegendFat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801252372F83500E08913 /* LegendFat.swift */; };
+		43C801272372F83500E08913 /* LegendFat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801252372F83500E08913 /* LegendFat.swift */; };
+		43C801282372F83500E08913 /* LegendFat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801252372F83500E08913 /* LegendFat.swift */; };
+		43C801292372F83500E08913 /* LegendFat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801252372F83500E08913 /* LegendFat.swift */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		DC71A8ED0E3E592D0010389E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC71A8EC0E3E592D0010389E /* OpenGL.framework */; };
@@ -319,10 +323,6 @@
 		FC946E871A0FFC5800692D04 /* piestyle.css in Resources */ = {isa = PBXBuildFile; fileRef = FC946E811A0FFC5800692D04 /* piestyle.css */; };
 		FC946E881A0FFC5800692D04 /* piestyle.css in Resources */ = {isa = PBXBuildFile; fileRef = FC946E811A0FFC5800692D04 /* piestyle.css */; };
 		FC946E891A0FFC5800692D04 /* piestyle.css in Resources */ = {isa = PBXBuildFile; fileRef = FC946E811A0FFC5800692D04 /* piestyle.css */; };
-		FC946E921A10381A00692D04 /* Legend-Fat.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E911A10381A00692D04 /* Legend-Fat.m */; };
-		FC946E931A10381A00692D04 /* Legend-Fat.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E911A10381A00692D04 /* Legend-Fat.m */; };
-		FC946E941A10381A00692D04 /* Legend-Fat.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E911A10381A00692D04 /* Legend-Fat.m */; };
-		FC946E951A10381A00692D04 /* Legend-Fat.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E911A10381A00692D04 /* Legend-Fat.m */; };
 		FC946E981A1039EE00692D04 /* Legend-SatFat.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E971A1039EE00692D04 /* Legend-SatFat.m */; };
 		FC946E991A1039EE00692D04 /* Legend-SatFat.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E971A1039EE00692D04 /* Legend-SatFat.m */; };
 		FC946E9A1A1039EE00692D04 /* Legend-SatFat.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E971A1039EE00692D04 /* Legend-SatFat.m */; };
@@ -528,6 +528,7 @@
 		43C801162372F09F00E08913 /* SubBarBlk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubBarBlk.swift; sourceTree = "<group>"; };
 		43C8011B2372F3D200E08913 /* SubBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubBar.swift; sourceTree = "<group>"; };
 		43C801202372F63100E08913 /* LegendCals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendCals.swift; sourceTree = "<group>"; };
+		43C801252372F83500E08913 /* LegendFat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendFat.swift; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* BeFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeFit.app; sourceTree = BUILT_PRODUCTS_DIR; wrapsLines = 0; };
 		9C4B5ABA128501B200060A19 /* BeFit Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeFit Trial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -627,8 +628,6 @@
 		FC946E7B1A0FFC4900692D04 /* pieindex.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = pieindex.js; path = htdocs/JS/pieindex.js; sourceTree = "<group>"; };
 		FC946E801A0FFC5800692D04 /* pienormalize.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = pienormalize.css; path = htdocs/CSS/pienormalize.css; sourceTree = "<group>"; };
 		FC946E811A0FFC5800692D04 /* piestyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = piestyle.css; path = htdocs/CSS/piestyle.css; sourceTree = "<group>"; };
-		FC946E901A10381A00692D04 /* Legend-Fat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Legend-Fat.h"; sourceTree = "<group>"; };
-		FC946E911A10381A00692D04 /* Legend-Fat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Legend-Fat.m"; sourceTree = "<group>"; };
 		FC946E961A1039EE00692D04 /* Legend-SatFat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Legend-SatFat.h"; sourceTree = "<group>"; };
 		FC946E971A1039EE00692D04 /* Legend-SatFat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Legend-SatFat.m"; sourceTree = "<group>"; };
 		FC946E9C1A103A4A00692D04 /* Legend-Chol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Legend-Chol.h"; sourceTree = "<group>"; };
@@ -1131,8 +1130,6 @@
 			children = (
 				FC946EE81A19079C00692D04 /* AMDarkButtonCell.h */,
 				FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */,
-				FC946E901A10381A00692D04 /* Legend-Fat.h */,
-				FC946E911A10381A00692D04 /* Legend-Fat.m */,
 				FC946E961A1039EE00692D04 /* Legend-SatFat.h */,
 				FC946E971A1039EE00692D04 /* Legend-SatFat.m */,
 				FC946E9C1A103A4A00692D04 /* Legend-Chol.h */,
@@ -1150,6 +1147,7 @@
 				43C801162372F09F00E08913 /* SubBarBlk.swift */,
 				43C8011B2372F3D200E08913 /* SubBar.swift */,
 				43C801202372F63100E08913 /* LegendCals.swift */,
+				43C801252372F83500E08913 /* LegendFat.swift */,
 			);
 			path = Subclass;
 			sourceTree = "<group>";
@@ -1621,13 +1619,13 @@
 				FC08739019EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
 				435727AB237018B700755BE1 /* FoodList+UI.swift in Sources */,
 				FC08740819EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
-				FC946E931A10381A00692D04 /* Legend-Fat.m in Sources */,
 				43C8010A2372ECE300E08913 /* SideFooter.swift in Sources */,
 				43C8011E2372F3D200E08913 /* SubBar.swift in Sources */,
 				43C801142372EF2600E08913 /* WhiteBackground.swift in Sources */,
 				43C800EC2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */,
 				FC24B111204C96A100E4D1E8 /* PFMoveApplication.m in Sources */,
 				FC89568019F4499F00420ADC /* RMBlurredView.m in Sources */,
+				43C801282372F83500E08913 /* LegendFat.swift in Sources */,
 				FC946F301A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
 				FC946E9F1A103A4A00692D04 /* Legend-Chol.m in Sources */,
 				4348C1DE23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */,
@@ -1687,7 +1685,6 @@
 				FC946FBE1A21886D00692D04 /* CustomCornerView.m in Sources */,
 				FC08738F19EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
 				FC0873DD19EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */,
-				FC946E921A10381A00692D04 /* Legend-Fat.m in Sources */,
 				43C801082372ECE300E08913 /* SideFooter.swift in Sources */,
 				FC08740719EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
 				FC946F2F1A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
@@ -1712,6 +1709,7 @@
 				43C801172372F09F00E08913 /* SubBarBlk.swift in Sources */,
 				FC0873F119EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */,
 				FC946F331A19A2B900692D04 /* NSBezierPath+MCAdditions.m in Sources */,
+				43C801262372F83500E08913 /* LegendFat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1756,7 +1754,6 @@
 				FC0873DF19EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */,
 				FC24B112204C96A100E4D1E8 /* PFMoveApplication.m in Sources */,
 				43C8010B2372ECE300E08913 /* SideFooter.swift in Sources */,
-				FC946E941A10381A00692D04 /* Legend-Fat.m in Sources */,
 				FC946F311A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
 				43C8011F2372F3D200E08913 /* SubBar.swift in Sources */,
 				43C800FC2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
@@ -1779,6 +1776,7 @@
 				43C8011A2372F09F00E08913 /* SubBarBlk.swift in Sources */,
 				FC0873F319EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */,
 				FC946F351A19A2B900692D04 /* NSBezierPath+MCAdditions.m in Sources */,
+				43C801292372F83500E08913 /* LegendFat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1821,7 +1819,6 @@
 				FC946FC11A21886D00692D04 /* CustomCornerView.m in Sources */,
 				FC08739219EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
 				FC08740A19EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
-				FC946E951A10381A00692D04 /* Legend-Fat.m in Sources */,
 				43C801092372ECE300E08913 /* SideFooter.swift in Sources */,
 				FC89568219F4499F00420ADC /* RMBlurredView.m in Sources */,
 				FC946F321A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
@@ -1846,6 +1843,7 @@
 				43C801182372F09F00E08913 /* SubBarBlk.swift in Sources */,
 				FC0873F419EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */,
 				FC946F361A19A2B900692D04 /* NSBezierPath+MCAdditions.m in Sources */,
+				43C801272372F83500E08913 /* LegendFat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
