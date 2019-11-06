@@ -992,7 +992,7 @@ CA
                     <rect key="frame" x="0.0" y="11" width="668" height="24"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                     <subviews>
-                        <popUpButton focusRingType="none" fixedFrame="YES" tag="99" translatesAutoresizingMaskIntoConstraints="NO" id="938" customClass="ColumnControllerPopUpButton">
+                        <popUpButton focusRingType="none" fixedFrame="YES" tag="99" translatesAutoresizingMaskIntoConstraints="NO" id="938" customClass="ColumnControllerPopUpButton" customModule="BeFit_Lite" customModuleProvider="target">
                             <rect key="frame" x="460" y="3" width="123" height="17"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                             <popUpButtonCell key="cell" type="recessed" title=" Total Fat" bezelStyle="recessed" imagePosition="left" alignment="left" controlSize="small" lineBreakMode="truncatingTail" state="on" borderStyle="border" focusRingType="none" imageScaling="proportionallyDown" inset="2" selectedItem="940" id="2529">

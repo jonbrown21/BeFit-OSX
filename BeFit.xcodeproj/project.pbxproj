@@ -96,6 +96,10 @@
 		43C800F52372CB6100E08913 /* RightGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F32372CB6100E08913 /* RightGraphView.swift */; };
 		43C800F62372CB6100E08913 /* RightGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F32372CB6100E08913 /* RightGraphView.swift */; };
 		43C800F72372CB6100E08913 /* RightGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F32372CB6100E08913 /* RightGraphView.swift */; };
+		43C800F92372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F82372E86E00E08913 /* ColumnControllerPopUpButton.swift */; };
+		43C800FA2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F82372E86E00E08913 /* ColumnControllerPopUpButton.swift */; };
+		43C800FB2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F82372E86E00E08913 /* ColumnControllerPopUpButton.swift */; };
+		43C800FC2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F82372E86E00E08913 /* ColumnControllerPopUpButton.swift */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		DC71A8ED0E3E592D0010389E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC71A8EC0E3E592D0010389E /* OpenGL.framework */; };
@@ -217,10 +221,6 @@
 		FC632F2C19EA350F008E3D72 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC632F2819EA350F008E3D72 /* Media.xcassets */; };
 		FC7EF86F1882508300B4A647 /* BeFitWeb.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCBAB3A5181CD7AE006BC4DE /* BeFitWeb.xib */; };
 		FC7EF8701882508300B4A647 /* BeFitWeb.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCBAB3A5181CD7AE006BC4DE /* BeFitWeb.xib */; };
-		FC89561019F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8955FF19F448C700420ADC /* ColumnControllerPopUpButton.m */; };
-		FC89561119F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8955FF19F448C700420ADC /* ColumnControllerPopUpButton.m */; };
-		FC89561219F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8955FF19F448C700420ADC /* ColumnControllerPopUpButton.m */; };
-		FC89561319F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8955FF19F448C700420ADC /* ColumnControllerPopUpButton.m */; };
 		FC89561419F448C700420ADC /* FilterFoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560119F448C700420ADC /* FilterFoodCell.m */; };
 		FC89561519F448C700420ADC /* FilterFoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560119F448C700420ADC /* FilterFoodCell.m */; };
 		FC89561619F448C700420ADC /* FilterFoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560119F448C700420ADC /* FilterFoodCell.m */; };
@@ -519,6 +519,7 @@
 		43C800E92372C3C200E08913 /* NSPasteboard+FoodDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSPasteboard+FoodDrag.swift"; sourceTree = "<group>"; };
 		43C800EE2372C55B00E08913 /* BeFitGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeFitGraphView.swift; sourceTree = "<group>"; };
 		43C800F32372CB6100E08913 /* RightGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightGraphView.swift; sourceTree = "<group>"; };
+		43C800F82372E86E00E08913 /* ColumnControllerPopUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnControllerPopUpButton.swift; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* BeFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeFit.app; sourceTree = BUILT_PRODUCTS_DIR; wrapsLines = 0; };
 		9C4B5ABA128501B200060A19 /* BeFit Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeFit Trial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -586,8 +587,6 @@
 		FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenFeedback.framework; sourceTree = "<group>"; };
 		FC5821841FB904AB00D34CAA /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		FC632F2819EA350F008E3D72 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		FC8955FE19F448C700420ADC /* ColumnControllerPopUpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnControllerPopUpButton.h; sourceTree = "<group>"; };
-		FC8955FF19F448C700420ADC /* ColumnControllerPopUpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnControllerPopUpButton.m; sourceTree = "<group>"; };
 		FC89560019F448C700420ADC /* FilterFoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterFoodCell.h; sourceTree = "<group>"; };
 		FC89560119F448C700420ADC /* FilterFoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterFoodCell.m; sourceTree = "<group>"; };
 		FC89560619F448C700420ADC /* SearchFieldForFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchFieldForFood.h; sourceTree = "<group>"; };
@@ -1140,8 +1139,6 @@
 			children = (
 				FC946EE81A19079C00692D04 /* AMDarkButtonCell.h */,
 				FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */,
-				FC8955FE19F448C700420ADC /* ColumnControllerPopUpButton.h */,
-				FC8955FF19F448C700420ADC /* ColumnControllerPopUpButton.m */,
 				FC89560019F448C700420ADC /* FilterFoodCell.h */,
 				FC89560119F448C700420ADC /* FilterFoodCell.m */,
 				FC89560619F448C700420ADC /* SearchFieldForFood.h */,
@@ -1168,6 +1165,7 @@
 				FC946F991A1D9DDB00692D04 /* CustomLevelIndicatorCell.m */,
 				4375CA252370478A008A4B02 /* FoodListNSTableView.swift */,
 				4348C1C72370647B00071B9C /* FoodNSTableView.swift */,
+				43C800F82372E86E00E08913 /* ColumnControllerPopUpButton.swift */,
 			);
 			path = Subclass;
 			sourceTree = "<group>";
@@ -1616,6 +1614,7 @@
 				FC89562919F448C700420ADC /* sideFooter.m in Sources */,
 				FC946EAF1A11939D00692D04 /* whiteBackground.m in Sources */,
 				4357279923700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
+				43C800FB2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
 				4357279523700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
 				435727A623700FAE00755BE1 /* Food+UI.swift in Sources */,
 				FC89561519F448C700420ADC /* FilterFoodCell.m in Sources */,
@@ -1626,7 +1625,6 @@
 				FCC174CC19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */,
 				4348C1CF23706D9700071B9C /* FoodArrayController.swift in Sources */,
 				FC946E8D1A10359D00692D04 /* Legend-Cals.m in Sources */,
-				FC89561119F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */,
 				4348C1CA2370647E00071B9C /* FoodNSTableView.swift in Sources */,
 				FC89564319F4494200420ADC /* OnlineCheck.m in Sources */,
 				FC0873D619EBA6DE00ACB943 /* PrefSetter.m in Sources */,
@@ -1701,7 +1699,6 @@
 				4357279323700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
 				43C800EF2372C55B00E08913 /* BeFitGraphView.swift in Sources */,
 				FC89564219F4494200420ADC /* OnlineCheck.m in Sources */,
-				FC89561019F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */,
 				FC946F2B1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
 				FC0873BD19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m in Sources */,
 				FC08738419EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
@@ -1714,6 +1711,7 @@
 				FC946E921A10381A00692D04 /* Legend-Fat.m in Sources */,
 				FC08740719EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
 				FC946F2F1A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
+				43C800F92372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
 				FC946E9E1A103A4A00692D04 /* Legend-Chol.m in Sources */,
 				FC89567F19F4499F00420ADC /* RMBlurredView.m in Sources */,
 				FC0873F819EBA71000ACB943 /* SSTextField.m in Sources */,
@@ -1765,7 +1763,6 @@
 				4348C1CB2370647E00071B9C /* FoodNSTableView.swift in Sources */,
 				4357279A23700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
 				4357279623700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
-				FC89561219F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */,
 				43C800F22372C55B00E08913 /* BeFitGraphView.swift in Sources */,
 				FC89564419F4494200420ADC /* OnlineCheck.m in Sources */,
 				FC0873D719EBA6DE00ACB943 /* PrefSetter.m in Sources */,
@@ -1781,6 +1778,7 @@
 				FC24B112204C96A100E4D1E8 /* PFMoveApplication.m in Sources */,
 				FC946E941A10381A00692D04 /* Legend-Fat.m in Sources */,
 				FC946F311A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
+				43C800FC2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
 				FC946EA01A103A4A00692D04 /* Legend-Chol.m in Sources */,
 				FC08740919EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
 				FC0873FA19EBA71000ACB943 /* SSTextField.m in Sources */,
@@ -1832,7 +1830,6 @@
 				4348C1C92370647E00071B9C /* FoodNSTableView.swift in Sources */,
 				4357279823700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
 				4357279423700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
-				FC89561319F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */,
 				43C800F02372C55B00E08913 /* BeFitGraphView.swift in Sources */,
 				FC89564519F4494200420ADC /* OnlineCheck.m in Sources */,
 				FC0873D819EBA6DE00ACB943 /* PrefSetter.m in Sources */,
@@ -1848,6 +1845,7 @@
 				FC946E951A10381A00692D04 /* Legend-Fat.m in Sources */,
 				FC89568219F4499F00420ADC /* RMBlurredView.m in Sources */,
 				FC946F321A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
+				43C800FA2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
 				FC946EA11A103A4A00692D04 /* Legend-Chol.m in Sources */,
 				FC0873E019EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */,
 				FC0873FB19EBA71000ACB943 /* SSTextField.m in Sources */,
