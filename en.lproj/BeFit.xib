@@ -3033,7 +3033,7 @@ IA
                                                                     <rect key="frame" x="95" y="34" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
-                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gyz-Ia-btH" customClass="Legend_Chol">
+                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gyz-Ia-btH" customClass="LegendChol" customModule="BeFit" customModuleProvider="target">
                                                                     <rect key="frame" x="95" y="12" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
@@ -3209,7 +3209,7 @@ IA
                                                                     <rect key="frame" x="108" y="34" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
-                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fbj-UD-5ON" customClass="Legend_Chol">
+                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fbj-UD-5ON" customClass="LegendChol" customModule="BeFit" customModuleProvider="target">
                                                                     <rect key="frame" x="108" y="12" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
@@ -3443,7 +3443,7 @@ IA
                                                                     <rect key="frame" x="95" y="34" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
-                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ttn-dL-B9Q" customClass="Legend_Chol">
+                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ttn-dL-B9Q" customClass="LegendChol" customModule="BeFit" customModuleProvider="target">
                                                                     <rect key="frame" x="95" y="12" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
@@ -3618,7 +3618,7 @@ IA
                                                                     <rect key="frame" x="108" y="34" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
-                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QCu-ku-dem" customClass="Legend_Chol">
+                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QCu-ku-dem" customClass="LegendChol" customModule="BeFit" customModuleProvider="target">
                                                                     <rect key="frame" x="108" y="12" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
@@ -3656,7 +3656,7 @@ IA
                                                 <font key="font" metaFont="system"/>
                                                 <tabViewItems>
                                                     <tabViewItem label="Value" identifier="1" id="68W-pu-K0Z">
-                                                        <view key="view" ambiguous="YES" id="xnc-FQ-kT4">
+                                                        <view key="view" id="xnc-FQ-kT4">
                                                             <rect key="frame" x="0.0" y="0.0" width="206" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
@@ -3824,7 +3824,7 @@ IA
                                                                     <rect key="frame" x="101" y="34" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
-                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g44-Ft-xOe" customClass="Legend_Chol">
+                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g44-Ft-xOe" customClass="LegendChol" customModule="BeFit" customModuleProvider="target">
                                                                     <rect key="frame" x="101" y="12" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
@@ -3832,7 +3832,7 @@ IA
                                                         </view>
                                                     </tabViewItem>
                                                     <tabViewItem label="Percent" identifier="2" id="1fQ-Kh-AXY">
-                                                        <view key="view" id="kjf-V8-xnI">
+                                                        <view key="view" ambiguous="YES" id="kjf-V8-xnI">
                                                             <rect key="frame" x="0.0" y="0.0" width="206" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
@@ -4000,7 +4000,7 @@ IA
                                                                     <rect key="frame" x="108" y="34" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
-                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jbw-jA-bsf" customClass="Legend_Chol">
+                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jbw-jA-bsf" customClass="LegendChol" customModule="BeFit" customModuleProvider="target">
                                                                     <rect key="frame" x="108" y="12" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
