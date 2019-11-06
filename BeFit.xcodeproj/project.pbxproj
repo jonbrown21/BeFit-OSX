@@ -93,6 +93,10 @@
 		43C800F02372C55B00E08913 /* BeFitGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800EE2372C55B00E08913 /* BeFitGraphView.swift */; };
 		43C800F12372C55B00E08913 /* BeFitGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800EE2372C55B00E08913 /* BeFitGraphView.swift */; };
 		43C800F22372C55B00E08913 /* BeFitGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800EE2372C55B00E08913 /* BeFitGraphView.swift */; };
+		43C800F42372CB6100E08913 /* RightGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F32372CB6100E08913 /* RightGraphView.swift */; };
+		43C800F52372CB6100E08913 /* RightGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F32372CB6100E08913 /* RightGraphView.swift */; };
+		43C800F62372CB6100E08913 /* RightGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F32372CB6100E08913 /* RightGraphView.swift */; };
+		43C800F72372CB6100E08913 /* RightGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F32372CB6100E08913 /* RightGraphView.swift */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -244,10 +248,6 @@
 		FC89563119F448C700420ADC /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560F19F448C700420ADC /* subBar.m */; };
 		FC89563219F448C700420ADC /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560F19F448C700420ADC /* subBar.m */; };
 		FC89563319F448C700420ADC /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560F19F448C700420ADC /* subBar.m */; };
-		FC89563C19F4490200420ADC /* RightGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89563719F4490200420ADC /* RightGraphView.m */; };
-		FC89563D19F4490200420ADC /* RightGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89563719F4490200420ADC /* RightGraphView.m */; };
-		FC89563E19F4490200420ADC /* RightGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89563719F4490200420ADC /* RightGraphView.m */; };
-		FC89563F19F4490200420ADC /* RightGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89563719F4490200420ADC /* RightGraphView.m */; };
 		FC89564219F4494200420ADC /* OnlineCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89564119F4494200420ADC /* OnlineCheck.m */; };
 		FC89564319F4494200420ADC /* OnlineCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89564119F4494200420ADC /* OnlineCheck.m */; };
 		FC89564419F4494200420ADC /* OnlineCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89564119F4494200420ADC /* OnlineCheck.m */; };
@@ -523,6 +523,7 @@
 		43C800E42372BE5700E08913 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 		43C800E92372C3C200E08913 /* NSPasteboard+FoodDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSPasteboard+FoodDrag.swift"; sourceTree = "<group>"; };
 		43C800EE2372C55B00E08913 /* BeFitGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeFitGraphView.swift; sourceTree = "<group>"; };
+		43C800F32372CB6100E08913 /* RightGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightGraphView.swift; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* BeFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeFit.app; sourceTree = BUILT_PRODUCTS_DIR; wrapsLines = 0; };
 		9C4B5ABA128501B200060A19 /* BeFit Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeFit Trial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -604,8 +605,6 @@
 		FC89560D19F448C700420ADC /* subBar_blk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subBar_blk.m; sourceTree = "<group>"; };
 		FC89560E19F448C700420ADC /* subBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subBar.h; sourceTree = "<group>"; };
 		FC89560F19F448C700420ADC /* subBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subBar.m; sourceTree = "<group>"; };
-		FC89563619F4490200420ADC /* RightGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightGraphView.h; sourceTree = "<group>"; };
-		FC89563719F4490200420ADC /* RightGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightGraphView.m; sourceTree = "<group>"; };
 		FC89564019F4494200420ADC /* OnlineCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlineCheck.h; sourceTree = "<group>"; };
 		FC89564119F4494200420ADC /* OnlineCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlineCheck.m; sourceTree = "<group>"; };
 		FC89567D19F4499F00420ADC /* RMBlurredView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMBlurredView.h; path = "Interface Files/RMBlurredView.h"; sourceTree = "<group>"; };
@@ -1182,9 +1181,8 @@
 		FCC174C619EBCFD8001A184A /* Graphing */ = {
 			isa = PBXGroup;
 			children = (
-				FC89563619F4490200420ADC /* RightGraphView.h */,
-				FC89563719F4490200420ADC /* RightGraphView.m */,
 				43C800EE2372C55B00E08913 /* BeFitGraphView.swift */,
+				43C800F32372CB6100E08913 /* RightGraphView.swift */,
 			);
 			path = Graphing;
 			sourceTree = "<group>";
@@ -1639,11 +1637,11 @@
 				4348C1CA2370647E00071B9C /* FoodNSTableView.swift in Sources */,
 				FC89564319F4494200420ADC /* OnlineCheck.m in Sources */,
 				FC0873D619EBA6DE00ACB943 /* PrefSetter.m in Sources */,
+				43C800F62372CB6100E08913 /* RightGraphView.swift in Sources */,
 				FC946F2C1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
 				4375CA2D23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
 				43C800E72372BE5700E08913 /* CustomError.swift in Sources */,
 				FC0873BE19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m in Sources */,
-				FC89563D19F4490200420ADC /* RightGraphView.m in Sources */,
 				FC08738519EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
 				FC946FBF1A21886D00692D04 /* CustomCornerView.m in Sources */,
 				FC08739019EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
@@ -1715,7 +1713,6 @@
 				FC946F2B1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
 				FC0873BD19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m in Sources */,
 				FC08738419EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
-				FC89563C19F4490200420ADC /* RightGraphView.m in Sources */,
 				4348C1CD23706D9700071B9C /* FoodArrayController.swift in Sources */,
 				FC946FBE1A21886D00692D04 /* CustomCornerView.m in Sources */,
 				FC08738F19EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
@@ -1735,6 +1732,7 @@
 				4348C1E623719EF000071B9C /* AddGramsValueTransformer.swift in Sources */,
 				FC0873E619EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */,
 				43C800EA2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */,
+				43C800F42372CB6100E08913 /* RightGraphView.swift in Sources */,
 				4348C1DC23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */,
 				FC08738819EBA69B00ACB943 /* INWindowButton.m in Sources */,
 				435727A423700FAE00755BE1 /* Food+UI.swift in Sources */,
@@ -1783,7 +1781,6 @@
 				FC946F2D1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
 				FC0873BF19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m in Sources */,
 				FC08738619EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
-				FC89563E19F4490200420ADC /* RightGraphView.m in Sources */,
 				4348C1D023706D9700071B9C /* FoodArrayController.swift in Sources */,
 				FC946FC01A21886D00692D04 /* CustomCornerView.m in Sources */,
 				FC08739119EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
@@ -1803,6 +1800,7 @@
 				4348C1E923719EF000071B9C /* AddGramsValueTransformer.swift in Sources */,
 				FC0873E819EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */,
 				43C800ED2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */,
+				43C800F72372CB6100E08913 /* RightGraphView.swift in Sources */,
 				4348C1DF23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */,
 				FC08738A19EBA69B00ACB943 /* INWindowButton.m in Sources */,
 				435727A723700FAE00755BE1 /* Food+UI.swift in Sources */,
@@ -1850,7 +1848,6 @@
 				FC0873D819EBA6DE00ACB943 /* PrefSetter.m in Sources */,
 				FC946F2E1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
 				FC0873C019EBA6DE00ACB943 /* AdvancedPreferencesViewController.m in Sources */,
-				FC89563F19F4490200420ADC /* RightGraphView.m in Sources */,
 				4348C1CE23706D9700071B9C /* FoodArrayController.swift in Sources */,
 				FC08738719EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
 				FC946FC11A21886D00692D04 /* CustomCornerView.m in Sources */,
@@ -1871,6 +1868,7 @@
 				4348C1E723719EF000071B9C /* AddGramsValueTransformer.swift in Sources */,
 				FC0873E919EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */,
 				43C800EB2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */,
+				43C800F52372CB6100E08913 /* RightGraphView.swift in Sources */,
 				4348C1DD23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */,
 				FC08738B19EBA69B00ACB943 /* INWindowButton.m in Sources */,
 				435727A523700FAE00755BE1 /* Food+UI.swift in Sources */,

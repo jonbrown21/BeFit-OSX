@@ -3197,7 +3197,7 @@ IA
                                                     </tabViewItem>
                                                 </tabViewItems>
                                             </tabView>
-                                            <webView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kjb-az-Y3B" customClass="RightGraphView">
+                                            <webView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kjb-az-Y3B" customClass="RightGraphView" customModule="BeFit_Lite" customModuleProvider="target">
                                                 <rect key="frame" x="1" y="783" width="206" height="166"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12" javaEnabled="NO" javaScriptCanOpenWindowsAutomatically="NO">
@@ -3606,7 +3606,7 @@ IA
                                                     </tabViewItem>
                                                 </tabViewItems>
                                             </tabView>
-                                            <webView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b91-QO-6hA" customClass="RightGraphView">
+                                            <webView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b91-QO-6hA" customClass="RightGraphView" customModule="BeFit_Lite" customModuleProvider="target">
                                                 <rect key="frame" x="1" y="537" width="206" height="166"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12" javaEnabled="NO" javaScriptCanOpenWindowsAutomatically="NO">
@@ -4014,7 +4014,7 @@ IA
                                                     <action selector="takeSelectedTabViewItemFromSender:" target="nzJ-Wy-l7b" id="ISC-lt-lfI"/>
                                                 </connections>
                                             </segmentedControl>
-                                            <webView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uEa-HQ-fy7" customClass="RightGraphView">
+                                            <webView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uEa-HQ-fy7" customClass="RightGraphView" customModule="BeFit_Lite" customModuleProvider="target">
                                                 <rect key="frame" x="1" y="290" width="206" height="166"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12" javaEnabled="NO" javaScriptCanOpenWindowsAutomatically="NO">
@@ -4041,7 +4041,7 @@ IA
                                                     <outlet property="textField9" destination="e96-by-jdY" id="Rqe-1y-0gb"/>
                                                 </connections>
                                             </webView>
-                                            <webView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o1o-0u-BwG" customClass="RightGraphView">
+                                            <webView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o1o-0u-BwG" customClass="RightGraphView" customModule="BeFit_Lite" customModuleProvider="target">
                                                 <rect key="frame" x="-1" y="0.0" width="206" height="207"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12" javaEnabled="NO" javaScriptCanOpenWindowsAutomatically="NO">
@@ -4811,7 +4811,7 @@ IA
                                 </tabViewItem>
                             </tabViewItems>
                         </tabView>
-                        <webView focusRingType="none" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5O4-Up-iuD" customClass="RightGraphView">
+                        <webView focusRingType="none" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5O4-Up-iuD" customClass="RightGraphView" customModule="BeFit_Lite" customModuleProvider="target">
                             <rect key="frame" x="1" y="0.0" width="205" height="515"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
                             <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12" javaEnabled="NO" javaScriptCanOpenWindowsAutomatically="NO">
