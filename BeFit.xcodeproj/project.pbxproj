@@ -124,6 +124,10 @@
 		43C801182372F09F00E08913 /* SubBarBlk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801162372F09F00E08913 /* SubBarBlk.swift */; };
 		43C801192372F09F00E08913 /* SubBarBlk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801162372F09F00E08913 /* SubBarBlk.swift */; };
 		43C8011A2372F09F00E08913 /* SubBarBlk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801162372F09F00E08913 /* SubBarBlk.swift */; };
+		43C8011C2372F3D200E08913 /* SubBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8011B2372F3D200E08913 /* SubBar.swift */; };
+		43C8011D2372F3D200E08913 /* SubBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8011B2372F3D200E08913 /* SubBar.swift */; };
+		43C8011E2372F3D200E08913 /* SubBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8011B2372F3D200E08913 /* SubBar.swift */; };
+		43C8011F2372F3D200E08913 /* SubBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8011B2372F3D200E08913 /* SubBar.swift */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		DC71A8ED0E3E592D0010389E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC71A8EC0E3E592D0010389E /* OpenGL.framework */; };
@@ -245,10 +249,6 @@
 		FC632F2C19EA350F008E3D72 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC632F2819EA350F008E3D72 /* Media.xcassets */; };
 		FC7EF86F1882508300B4A647 /* BeFitWeb.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCBAB3A5181CD7AE006BC4DE /* BeFitWeb.xib */; };
 		FC7EF8701882508300B4A647 /* BeFitWeb.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCBAB3A5181CD7AE006BC4DE /* BeFitWeb.xib */; };
-		FC89563019F448C700420ADC /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560F19F448C700420ADC /* subBar.m */; };
-		FC89563119F448C700420ADC /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560F19F448C700420ADC /* subBar.m */; };
-		FC89563219F448C700420ADC /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560F19F448C700420ADC /* subBar.m */; };
-		FC89563319F448C700420ADC /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560F19F448C700420ADC /* subBar.m */; };
 		FC89564219F4494200420ADC /* OnlineCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89564119F4494200420ADC /* OnlineCheck.m */; };
 		FC89564319F4494200420ADC /* OnlineCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89564119F4494200420ADC /* OnlineCheck.m */; };
 		FC89564419F4494200420ADC /* OnlineCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89564119F4494200420ADC /* OnlineCheck.m */; };
@@ -526,6 +526,7 @@
 		43C8010C2372EDF800E08913 /* SearchFieldforLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldforLists.swift; sourceTree = "<group>"; };
 		43C801112372EF2600E08913 /* WhiteBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBackground.swift; sourceTree = "<group>"; };
 		43C801162372F09F00E08913 /* SubBarBlk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubBarBlk.swift; sourceTree = "<group>"; };
+		43C8011B2372F3D200E08913 /* SubBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubBar.swift; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* BeFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeFit.app; sourceTree = BUILT_PRODUCTS_DIR; wrapsLines = 0; };
 		9C4B5ABA128501B200060A19 /* BeFit Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeFit Trial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -593,8 +594,6 @@
 		FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenFeedback.framework; sourceTree = "<group>"; };
 		FC5821841FB904AB00D34CAA /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		FC632F2819EA350F008E3D72 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		FC89560E19F448C700420ADC /* subBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subBar.h; sourceTree = "<group>"; };
-		FC89560F19F448C700420ADC /* subBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subBar.m; sourceTree = "<group>"; };
 		FC89564019F4494200420ADC /* OnlineCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlineCheck.h; sourceTree = "<group>"; };
 		FC89564119F4494200420ADC /* OnlineCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlineCheck.m; sourceTree = "<group>"; };
 		FC89567D19F4499F00420ADC /* RMBlurredView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMBlurredView.h; path = "Interface Files/RMBlurredView.h"; sourceTree = "<group>"; };
@@ -1133,8 +1132,6 @@
 			children = (
 				FC946EE81A19079C00692D04 /* AMDarkButtonCell.h */,
 				FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */,
-				FC89560E19F448C700420ADC /* subBar.h */,
-				FC89560F19F448C700420ADC /* subBar.m */,
 				FC946E8A1A10359D00692D04 /* Legend-Cals.h */,
 				FC946E8B1A10359D00692D04 /* Legend-Cals.m */,
 				FC946E901A10381A00692D04 /* Legend-Fat.h */,
@@ -1154,6 +1151,7 @@
 				43C8010C2372EDF800E08913 /* SearchFieldforLists.swift */,
 				43C801112372EF2600E08913 /* WhiteBackground.swift */,
 				43C801162372F09F00E08913 /* SubBarBlk.swift */,
+				43C8011B2372F3D200E08913 /* SubBar.swift */,
 			);
 			path = Subclass;
 			sourceTree = "<group>";
@@ -1623,11 +1621,11 @@
 				FC08738519EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
 				FC946FBF1A21886D00692D04 /* CustomCornerView.m in Sources */,
 				FC08739019EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
-				FC89563119F448C700420ADC /* subBar.m in Sources */,
 				435727AB237018B700755BE1 /* FoodList+UI.swift in Sources */,
 				FC08740819EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
 				FC946E931A10381A00692D04 /* Legend-Fat.m in Sources */,
 				43C8010A2372ECE300E08913 /* SideFooter.swift in Sources */,
+				43C8011E2372F3D200E08913 /* SubBar.swift in Sources */,
 				43C801142372EF2600E08913 /* WhiteBackground.swift in Sources */,
 				43C800EC2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */,
 				FC24B111204C96A100E4D1E8 /* PFMoveApplication.m in Sources */,
@@ -1690,12 +1688,12 @@
 				4348C1CD23706D9700071B9C /* FoodArrayController.swift in Sources */,
 				FC946FBE1A21886D00692D04 /* CustomCornerView.m in Sources */,
 				FC08738F19EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
-				FC89563019F448C700420ADC /* subBar.m in Sources */,
 				FC0873DD19EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */,
 				FC946E921A10381A00692D04 /* Legend-Fat.m in Sources */,
 				43C801082372ECE300E08913 /* SideFooter.swift in Sources */,
 				FC08740719EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
 				FC946F2F1A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
+				43C8011C2372F3D200E08913 /* SubBar.swift in Sources */,
 				43C800F92372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
 				FC946E9E1A103A4A00692D04 /* Legend-Chol.m in Sources */,
 				FC89567F19F4499F00420ADC /* RMBlurredView.m in Sources */,
@@ -1757,12 +1755,12 @@
 				4348C1D023706D9700071B9C /* FoodArrayController.swift in Sources */,
 				FC946FC01A21886D00692D04 /* CustomCornerView.m in Sources */,
 				FC08739119EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
-				FC89563219F448C700420ADC /* subBar.m in Sources */,
 				FC0873DF19EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */,
 				FC24B112204C96A100E4D1E8 /* PFMoveApplication.m in Sources */,
 				43C8010B2372ECE300E08913 /* SideFooter.swift in Sources */,
 				FC946E941A10381A00692D04 /* Legend-Fat.m in Sources */,
 				FC946F311A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
+				43C8011F2372F3D200E08913 /* SubBar.swift in Sources */,
 				43C800FC2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
 				FC946EA01A103A4A00692D04 /* Legend-Chol.m in Sources */,
 				FC08740919EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
@@ -1824,12 +1822,12 @@
 				FC08738719EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
 				FC946FC11A21886D00692D04 /* CustomCornerView.m in Sources */,
 				FC08739219EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
-				FC89563319F448C700420ADC /* subBar.m in Sources */,
 				FC08740A19EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
 				FC946E951A10381A00692D04 /* Legend-Fat.m in Sources */,
 				43C801092372ECE300E08913 /* SideFooter.swift in Sources */,
 				FC89568219F4499F00420ADC /* RMBlurredView.m in Sources */,
 				FC946F321A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
+				43C8011D2372F3D200E08913 /* SubBar.swift in Sources */,
 				43C800FA2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
 				FC946EA11A103A4A00692D04 /* Legend-Chol.m in Sources */,
 				FC0873E019EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */,
