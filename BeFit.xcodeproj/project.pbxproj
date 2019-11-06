@@ -108,6 +108,10 @@
 		43C801042372EA9900E08913 /* SearchFieldForFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801022372EA9900E08913 /* SearchFieldForFood.swift */; };
 		43C801052372EA9900E08913 /* SearchFieldForFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801022372EA9900E08913 /* SearchFieldForFood.swift */; };
 		43C801062372EA9A00E08913 /* SearchFieldForFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801022372EA9900E08913 /* SearchFieldForFood.swift */; };
+		43C801082372ECE300E08913 /* SideFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801072372ECE300E08913 /* SideFooter.swift */; };
+		43C801092372ECE300E08913 /* SideFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801072372ECE300E08913 /* SideFooter.swift */; };
+		43C8010A2372ECE300E08913 /* SideFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801072372ECE300E08913 /* SideFooter.swift */; };
+		43C8010B2372ECE300E08913 /* SideFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801072372ECE300E08913 /* SideFooter.swift */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		DC71A8ED0E3E592D0010389E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC71A8EC0E3E592D0010389E /* OpenGL.framework */; };
@@ -233,10 +237,6 @@
 		FC89562519F448C700420ADC /* SearchFieldforLists.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560919F448C700420ADC /* SearchFieldforLists.m */; };
 		FC89562619F448C700420ADC /* SearchFieldforLists.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560919F448C700420ADC /* SearchFieldforLists.m */; };
 		FC89562719F448C700420ADC /* SearchFieldforLists.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560919F448C700420ADC /* SearchFieldforLists.m */; };
-		FC89562819F448C700420ADC /* sideFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560B19F448C700420ADC /* sideFooter.m */; };
-		FC89562919F448C700420ADC /* sideFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560B19F448C700420ADC /* sideFooter.m */; };
-		FC89562A19F448C700420ADC /* sideFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560B19F448C700420ADC /* sideFooter.m */; };
-		FC89562B19F448C700420ADC /* sideFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560B19F448C700420ADC /* sideFooter.m */; };
 		FC89562C19F448C700420ADC /* subBar_blk.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560D19F448C700420ADC /* subBar_blk.m */; };
 		FC89562D19F448C700420ADC /* subBar_blk.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560D19F448C700420ADC /* subBar_blk.m */; };
 		FC89562E19F448C700420ADC /* subBar_blk.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560D19F448C700420ADC /* subBar_blk.m */; };
@@ -522,6 +522,7 @@
 		43C800F82372E86E00E08913 /* ColumnControllerPopUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnControllerPopUpButton.swift; sourceTree = "<group>"; };
 		43C800FD2372E9D800E08913 /* FilterFoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterFoodCell.swift; sourceTree = "<group>"; };
 		43C801022372EA9900E08913 /* SearchFieldForFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldForFood.swift; sourceTree = "<group>"; };
+		43C801072372ECE300E08913 /* SideFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideFooter.swift; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* BeFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeFit.app; sourceTree = BUILT_PRODUCTS_DIR; wrapsLines = 0; };
 		9C4B5ABA128501B200060A19 /* BeFit Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeFit Trial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -591,8 +592,6 @@
 		FC632F2819EA350F008E3D72 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		FC89560819F448C700420ADC /* SearchFieldforLists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchFieldforLists.h; sourceTree = "<group>"; };
 		FC89560919F448C700420ADC /* SearchFieldforLists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchFieldforLists.m; sourceTree = "<group>"; };
-		FC89560A19F448C700420ADC /* sideFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sideFooter.h; sourceTree = "<group>"; };
-		FC89560B19F448C700420ADC /* sideFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sideFooter.m; sourceTree = "<group>"; };
 		FC89560C19F448C700420ADC /* subBar_blk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subBar_blk.h; sourceTree = "<group>"; };
 		FC89560D19F448C700420ADC /* subBar_blk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subBar_blk.m; sourceTree = "<group>"; };
 		FC89560E19F448C700420ADC /* subBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subBar.h; sourceTree = "<group>"; };
@@ -1139,8 +1138,6 @@
 				FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */,
 				FC89560819F448C700420ADC /* SearchFieldforLists.h */,
 				FC89560919F448C700420ADC /* SearchFieldforLists.m */,
-				FC89560A19F448C700420ADC /* sideFooter.h */,
-				FC89560B19F448C700420ADC /* sideFooter.m */,
 				FC946EAC1A11939D00692D04 /* whiteBackground.h */,
 				FC946EAD1A11939D00692D04 /* whiteBackground.m */,
 				FC89560C19F448C700420ADC /* subBar_blk.h */,
@@ -1162,6 +1159,7 @@
 				43C800F82372E86E00E08913 /* ColumnControllerPopUpButton.swift */,
 				43C800FD2372E9D800E08913 /* FilterFoodCell.swift */,
 				43C801022372EA9900E08913 /* SearchFieldForFood.swift */,
+				43C801072372ECE300E08913 /* SideFooter.swift */,
 			);
 			path = Subclass;
 			sourceTree = "<group>";
@@ -1608,7 +1606,6 @@
 				4348C1E823719EF000071B9C /* AddGramsValueTransformer.swift in Sources */,
 				FC946F381A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D319EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
-				FC89562919F448C700420ADC /* sideFooter.m in Sources */,
 				FC946EAF1A11939D00692D04 /* whiteBackground.m in Sources */,
 				4357279923700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
 				43C800FB2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
@@ -1637,6 +1634,7 @@
 				435727AB237018B700755BE1 /* FoodList+UI.swift in Sources */,
 				FC08740819EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
 				FC946E931A10381A00692D04 /* Legend-Fat.m in Sources */,
+				43C8010A2372ECE300E08913 /* SideFooter.swift in Sources */,
 				43C800EC2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */,
 				FC24B111204C96A100E4D1E8 /* PFMoveApplication.m in Sources */,
 				FC89568019F4499F00420ADC /* RMBlurredView.m in Sources */,
@@ -1677,7 +1675,6 @@
 				FC89572919F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
 				FC946F371A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D219EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
-				FC89562819F448C700420ADC /* sideFooter.m in Sources */,
 				FC946EAE1A11939D00692D04 /* whiteBackground.m in Sources */,
 				FC946F9A1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
 				4348C1D223715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
@@ -1704,6 +1701,7 @@
 				FC89563019F448C700420ADC /* subBar.m in Sources */,
 				FC0873DD19EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */,
 				FC946E921A10381A00692D04 /* Legend-Fat.m in Sources */,
+				43C801082372ECE300E08913 /* SideFooter.swift in Sources */,
 				FC08740719EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
 				FC946F2F1A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
 				43C800F92372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
@@ -1744,7 +1742,6 @@
 				FC89572B19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
 				FC946F391A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D419EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
-				FC89562A19F448C700420ADC /* sideFooter.m in Sources */,
 				FC946EB01A11939D00692D04 /* whiteBackground.m in Sources */,
 				FC946F9C1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
 				4348C1D523715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
@@ -1771,6 +1768,7 @@
 				FC89563219F448C700420ADC /* subBar.m in Sources */,
 				FC0873DF19EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */,
 				FC24B112204C96A100E4D1E8 /* PFMoveApplication.m in Sources */,
+				43C8010B2372ECE300E08913 /* SideFooter.swift in Sources */,
 				FC946E941A10381A00692D04 /* Legend-Fat.m in Sources */,
 				FC946F311A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
 				43C800FC2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
@@ -1811,7 +1809,6 @@
 				FC89572C19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
 				FC946F3A1A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D519EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
-				FC89562B19F448C700420ADC /* sideFooter.m in Sources */,
 				FC946EB11A11939D00692D04 /* whiteBackground.m in Sources */,
 				FC946F9D1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
 				4348C1D323715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
@@ -1838,6 +1835,7 @@
 				FC89563319F448C700420ADC /* subBar.m in Sources */,
 				FC08740A19EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
 				FC946E951A10381A00692D04 /* Legend-Fat.m in Sources */,
+				43C801092372ECE300E08913 /* SideFooter.swift in Sources */,
 				FC89568219F4499F00420ADC /* RMBlurredView.m in Sources */,
 				FC946F321A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
 				43C800FA2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
