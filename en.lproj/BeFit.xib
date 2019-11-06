@@ -153,7 +153,7 @@
                                             <searchField wantsLayer="YES" focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tp1-i8-lFG" customClass="SearchFieldforLists">
                                                 <rect key="frame" x="74" y="6" width="132" height="15"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
-                                                <searchFieldCell key="cell" controlSize="mini" lineBreakMode="truncatingTail" selectable="YES" editable="YES" refusesFirstResponder="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" focusRingType="none" placeholderString="Filter" bezelStyle="round" sendsSearchStringImmediately="YES" maximumRecents="11" recentsAutosaveName="FilterField" id="9t4-EU-HMs" customClass="FilterFoodCell">
+                                                <searchFieldCell key="cell" controlSize="mini" lineBreakMode="truncatingTail" selectable="YES" editable="YES" refusesFirstResponder="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" focusRingType="none" placeholderString="Filter" bezelStyle="round" sendsSearchStringImmediately="YES" maximumRecents="11" recentsAutosaveName="FilterField" id="9t4-EU-HMs" customClass="FilterFoodCell" customModule="BeFit" customModuleProvider="target">
                                                     <font key="font" metaFont="miniSystem"/>
                                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" red="0.80392156859999997" green="0.83137254900000002" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -989,7 +989,7 @@ CA
             <rect key="frame" x="0.0" y="0.0" width="668" height="91"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <searchField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vw9-62-vLa" customClass="SearchFieldForFood">
+                <searchField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vw9-62-vLa" customClass="SearchFieldForFood" customModule="BeFit" customModuleProvider="target">
                     <rect key="frame" x="410" y="44" width="249" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                     <searchFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" focusRingType="none" placeholderString="Search" bezelStyle="round" maximumRecents="11" recentsAutosaveName="SearchField" id="guS-X3-htf">
