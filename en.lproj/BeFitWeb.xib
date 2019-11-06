@@ -150,7 +150,7 @@
                                         <rect key="frame" x="-9" y="0.0" width="218" height="28"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <searchField wantsLayer="YES" focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tp1-i8-lFG" customClass="SearchFieldforLists">
+                                            <searchField wantsLayer="YES" focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tp1-i8-lFG" customClass="SearchFieldforLists" customModule="BeFit" customModuleProvider="target">
                                                 <rect key="frame" x="74" y="6" width="132" height="15"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
                                                 <searchFieldCell key="cell" controlSize="mini" lineBreakMode="truncatingTail" selectable="YES" editable="YES" refusesFirstResponder="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" focusRingType="none" placeholderString="Filter" bezelStyle="round" sendsSearchStringImmediately="YES" maximumRecents="11" recentsAutosaveName="FilterField" id="9t4-EU-HMs" customClass="FilterFoodCell" customModule="BeFit" customModuleProvider="target">
