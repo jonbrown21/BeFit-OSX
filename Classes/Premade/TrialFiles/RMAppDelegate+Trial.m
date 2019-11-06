@@ -8,6 +8,7 @@
 #import "TrialConstants.h"
 #import "BeFit-Swift.h"
 
+/*
 @implementation BeFit_AppDelegate (Trial)
 
 // Check if paid application version is present on system
@@ -102,3 +103,4 @@
 }
 
 @end
+*/
