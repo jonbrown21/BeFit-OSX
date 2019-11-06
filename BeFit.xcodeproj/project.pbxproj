@@ -144,6 +144,10 @@
 		43C801312372FA6E00E08913 /* LegendChol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8012F2372FA6E00E08913 /* LegendChol.swift */; };
 		43C801322372FA6E00E08913 /* LegendChol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8012F2372FA6E00E08913 /* LegendChol.swift */; };
 		43C801332372FA6E00E08913 /* LegendChol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8012F2372FA6E00E08913 /* LegendChol.swift */; };
+		43C801352372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */; };
+		43C801362372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */; };
+		43C801372372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */; };
+		43C801382372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		DC71A8ED0E3E592D0010389E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC71A8EC0E3E592D0010389E /* OpenGL.framework */; };
@@ -391,10 +395,6 @@
 		FC946F481A1CB11F00692D04 /* pieindex2.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946F461A1CB11F00692D04 /* pieindex2.html */; };
 		FC946F491A1CB11F00692D04 /* pieindex2.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946F461A1CB11F00692D04 /* pieindex2.html */; };
 		FC946F4A1A1CB11F00692D04 /* pieindex2.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946F461A1CB11F00692D04 /* pieindex2.html */; };
-		FC946F9A1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F991A1D9DDB00692D04 /* CustomLevelIndicatorCell.m */; };
-		FC946F9B1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F991A1D9DDB00692D04 /* CustomLevelIndicatorCell.m */; };
-		FC946F9C1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F991A1D9DDB00692D04 /* CustomLevelIndicatorCell.m */; };
-		FC946F9D1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F991A1D9DDB00692D04 /* CustomLevelIndicatorCell.m */; };
 		FC946FA41A1F512400692D04 /* gauge.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946FA31A1F512400692D04 /* gauge.html */; };
 		FC946FA51A1F512400692D04 /* gauge.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946FA31A1F512400692D04 /* gauge.html */; };
 		FC946FA61A1F512400692D04 /* gauge.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946FA31A1F512400692D04 /* gauge.html */; };
@@ -531,6 +531,7 @@
 		43C801252372F83500E08913 /* LegendFat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendFat.swift; sourceTree = "<group>"; };
 		43C8012A2372F95F00E08913 /* LegendSatFat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendSatFat.swift; sourceTree = "<group>"; };
 		43C8012F2372FA6E00E08913 /* LegendChol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendChol.swift; sourceTree = "<group>"; };
+		43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLevelIndicatorCell.swift; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* BeFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeFit.app; sourceTree = BUILT_PRODUCTS_DIR; wrapsLines = 0; };
 		9C4B5ABA128501B200060A19 /* BeFit Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeFit Trial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -649,8 +650,6 @@
 		FC946F2A1A19A2B900692D04 /* NSShadow+MCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSShadow+MCAdditions.m"; path = "Classes/Premade/ANSegmentedControl/NSShadow+MCAdditions.m"; sourceTree = "<group>"; };
 		FC946F411A1CB0DB00692D04 /* pieindexprint.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = pieindexprint.html; path = htdocs/pieindexprint.html; sourceTree = "<group>"; };
 		FC946F461A1CB11F00692D04 /* pieindex2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = pieindex2.html; path = htdocs/pieindex2.html; sourceTree = "<group>"; };
-		FC946F981A1D9DDB00692D04 /* CustomLevelIndicatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLevelIndicatorCell.h; sourceTree = "<group>"; };
-		FC946F991A1D9DDB00692D04 /* CustomLevelIndicatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLevelIndicatorCell.m; sourceTree = "<group>"; };
 		FC946F9E1A1F510800692D04 /* gauge.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = gauge.min.js; path = htdocs/JS/gauge.min.js; sourceTree = "<group>"; };
 		FC946FA31A1F512400692D04 /* gauge.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = gauge.html; path = htdocs/gauge.html; sourceTree = "<group>"; };
 		FC946FA81A20F13A00692D04 /* justgage.1.0.1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = justgage.1.0.1.js; path = htdocs/JS/justgage.1.0.1.js; sourceTree = "<group>"; };
@@ -1128,8 +1127,6 @@
 			children = (
 				FC946EE81A19079C00692D04 /* AMDarkButtonCell.h */,
 				FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */,
-				FC946F981A1D9DDB00692D04 /* CustomLevelIndicatorCell.h */,
-				FC946F991A1D9DDB00692D04 /* CustomLevelIndicatorCell.m */,
 				4375CA252370478A008A4B02 /* FoodListNSTableView.swift */,
 				4348C1C72370647B00071B9C /* FoodNSTableView.swift */,
 				43C800F82372E86E00E08913 /* ColumnControllerPopUpButton.swift */,
@@ -1144,6 +1141,7 @@
 				43C801252372F83500E08913 /* LegendFat.swift */,
 				43C8012A2372F95F00E08913 /* LegendSatFat.swift */,
 				43C8012F2372FA6E00E08913 /* LegendChol.swift */,
+				43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */,
 			);
 			path = Subclass;
 			sourceTree = "<group>";
@@ -1596,7 +1594,6 @@
 				43C801192372F09F00E08913 /* SubBarBlk.swift in Sources */,
 				4357279523700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
 				435727A623700FAE00755BE1 /* Food+UI.swift in Sources */,
-				FC946F9B1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
 				43C8010F2372EDF800E08913 /* SearchFieldforLists.swift in Sources */,
 				435727A123700D4E00755BE1 /* FoodList+CoreDataProperties.swift in Sources */,
 				FCC174CC19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */,
@@ -1625,6 +1622,7 @@
 				43C801282372F83500E08913 /* LegendFat.swift in Sources */,
 				FC946F301A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
 				4348C1DE23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */,
+				43C801372372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */,
 				4348C1D423715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
 				FC0873DE19EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */,
 				FC0873F919EBA71000ACB943 /* SSTextField.m in Sources */,
@@ -1658,7 +1656,6 @@
 				FC89572919F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
 				FC946F371A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D219EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
-				FC946F9A1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
 				4348C1D223715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
 				4348C1D7237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
 				4348C1EB2371A44E00071B9C /* AddMGValueTransformer.swift in Sources */,
@@ -1691,6 +1688,7 @@
 				4357279B23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */,
 				FC0873EA19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */,
 				FC0873D119EBA6DE00ACB943 /* PreferenceWindow.m in Sources */,
+				43C801352372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */,
 				43C801302372FA6E00E08913 /* LegendChol.swift in Sources */,
 				43C8012B2372F95F00E08913 /* LegendSatFat.swift in Sources */,
 				FC0873A319EBA6D200ACB943 /* LNClipView.m in Sources */,
@@ -1725,7 +1723,6 @@
 				FC89572B19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
 				FC946F391A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D419EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
-				FC946F9C1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
 				4348C1D523715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
 				4348C1DA237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
 				4348C1EE2371A44E00071B9C /* AddMGValueTransformer.swift in Sources */,
@@ -1758,6 +1755,7 @@
 				4357279E23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */,
 				FC0873EC19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */,
 				FC0873D319EBA6DE00ACB943 /* PreferenceWindow.m in Sources */,
+				43C801382372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */,
 				43C801332372FA6E00E08913 /* LegendChol.swift in Sources */,
 				43C8012E2372F95F00E08913 /* LegendSatFat.swift in Sources */,
 				FC0873A519EBA6D200ACB943 /* LNClipView.m in Sources */,
@@ -1792,7 +1790,6 @@
 				FC89572C19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
 				FC946F3A1A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D519EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
-				FC946F9D1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
 				4348C1D323715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
 				4348C1D8237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
 				4348C1EC2371A44E00071B9C /* AddMGValueTransformer.swift in Sources */,
@@ -1825,6 +1822,7 @@
 				4357279C23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */,
 				FC0873ED19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */,
 				FC0873D419EBA6DE00ACB943 /* PreferenceWindow.m in Sources */,
+				43C801362372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */,
 				43C801312372FA6E00E08913 /* LegendChol.swift in Sources */,
 				43C8012C2372F95F00E08913 /* LegendSatFat.swift in Sources */,
 				FC0873A619EBA6D200ACB943 /* LNClipView.m in Sources */,

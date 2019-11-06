@@ -5661,7 +5661,7 @@ IA
                                 <levelIndicator verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fus-6r-cwe">
                                     <rect key="frame" x="18" y="371" width="242" height="16"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <levelIndicatorCell key="cell" alignment="left" doubleValue="1" maxValue="5" warningValue="3" criticalValue="1" numberOfMajorTickMarks="5" levelIndicatorStyle="continuousCapacity" id="row-Nw-P5v" customClass="CustomLevelIndicatorCell"/>
+                                    <levelIndicatorCell key="cell" alignment="left" doubleValue="1" maxValue="5" warningValue="3" criticalValue="1" numberOfMajorTickMarks="5" levelIndicatorStyle="continuousCapacity" id="row-Nw-P5v" customClass="CustomLevelIndicatorCell" customModule="BeFit_Lite" customModuleProvider="target"/>
                                     <connections>
                                         <binding destination="433" name="value" keyPath="selection.calFromDiet" id="Q3M-Da-DrA"/>
                                     </connections>
@@ -5690,7 +5690,7 @@ IA
                                 <levelIndicator verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dxx-5W-Uex">
                                     <rect key="frame" x="18" y="312" width="242" height="16"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <levelIndicatorCell key="cell" alignment="left" doubleValue="1" maxValue="5" warningValue="3" criticalValue="1" numberOfMajorTickMarks="5" levelIndicatorStyle="continuousCapacity" id="6tr-qs-MQ1" customClass="CustomLevelIndicatorCell"/>
+                                    <levelIndicatorCell key="cell" alignment="left" doubleValue="1" maxValue="5" warningValue="3" criticalValue="1" numberOfMajorTickMarks="5" levelIndicatorStyle="continuousCapacity" id="6tr-qs-MQ1" customClass="CustomLevelIndicatorCell" customModule="BeFit_Lite" customModuleProvider="target"/>
                                     <connections>
                                         <binding destination="433" name="value" keyPath="selection.carbsValueAsLong" id="Ht3-Uz-cht"/>
                                     </connections>
@@ -5719,7 +5719,7 @@ IA
                                 <levelIndicator verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7wE-bR-ptm">
                                     <rect key="frame" x="18" y="253" width="242" height="16"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <levelIndicatorCell key="cell" alignment="left" doubleValue="1" maxValue="5" warningValue="3" criticalValue="1" numberOfMajorTickMarks="5" levelIndicatorStyle="continuousCapacity" id="qNT-Y1-fs6" customClass="CustomLevelIndicatorCell"/>
+                                    <levelIndicatorCell key="cell" alignment="left" doubleValue="1" maxValue="5" warningValue="3" criticalValue="1" numberOfMajorTickMarks="5" levelIndicatorStyle="continuousCapacity" id="qNT-Y1-fs6" customClass="CustomLevelIndicatorCell" customModule="BeFit_Lite" customModuleProvider="target"/>
                                     <connections>
                                         <binding destination="433" name="value" keyPath="selection.cholesterolValueAsLong" id="8my-in-BPM"/>
                                     </connections>
@@ -5748,7 +5748,7 @@ IA
                                 <levelIndicator verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aWD-PF-Tea">
                                     <rect key="frame" x="18" y="194" width="242" height="16"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <levelIndicatorCell key="cell" alignment="left" doubleValue="1" maxValue="5" warningValue="3" criticalValue="1" numberOfMajorTickMarks="5" levelIndicatorStyle="continuousCapacity" id="CfY-uJ-FEe" customClass="CustomLevelIndicatorCell"/>
+                                    <levelIndicatorCell key="cell" alignment="left" doubleValue="1" maxValue="5" warningValue="3" criticalValue="1" numberOfMajorTickMarks="5" levelIndicatorStyle="continuousCapacity" id="CfY-uJ-FEe" customClass="CustomLevelIndicatorCell" customModule="BeFit_Lite" customModuleProvider="target"/>
                                     <connections>
                                         <binding destination="433" name="value" keyPath="selection.proteinValueAsLong" id="IAc-so-a6Y"/>
                                     </connections>
@@ -5777,7 +5777,7 @@ IA
                                 <levelIndicator verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CNw-Cp-vC2">
                                     <rect key="frame" x="18" y="135" width="242" height="16"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <levelIndicatorCell key="cell" alignment="left" doubleValue="1" maxValue="5" warningValue="3" criticalValue="1" numberOfMajorTickMarks="5" levelIndicatorStyle="continuousCapacity" id="Stm-9E-cPp" customClass="CustomLevelIndicatorCell"/>
+                                    <levelIndicatorCell key="cell" alignment="left" doubleValue="1" maxValue="5" warningValue="3" criticalValue="1" numberOfMajorTickMarks="5" levelIndicatorStyle="continuousCapacity" id="Stm-9E-cPp" customClass="CustomLevelIndicatorCell" customModule="BeFit_Lite" customModuleProvider="target"/>
                                     <connections>
                                         <binding destination="433" name="value" keyPath="selection.sodiumValueAsLong" id="1dw-i8-Tci"/>
                                     </connections>
@@ -5806,7 +5806,7 @@ IA
                                 <levelIndicator verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tOm-RK-1pR">
                                     <rect key="frame" x="18" y="76" width="242" height="16"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <levelIndicatorCell key="cell" alignment="left" doubleValue="1" maxValue="5" warningValue="3" criticalValue="1" numberOfMajorTickMarks="5" levelIndicatorStyle="continuousCapacity" id="xoT-kc-Zg3" customClass="CustomLevelIndicatorCell"/>
+                                    <levelIndicatorCell key="cell" alignment="left" doubleValue="1" maxValue="5" warningValue="3" criticalValue="1" numberOfMajorTickMarks="5" levelIndicatorStyle="continuousCapacity" id="xoT-kc-Zg3" customClass="CustomLevelIndicatorCell" customModule="BeFit_Lite" customModuleProvider="target"/>
                                     <connections>
                                         <binding destination="433" name="value" keyPath="selection.dietaryFiberValueAsLong" id="DNR-sW-2Yf"/>
                                     </connections>
@@ -5835,7 +5835,7 @@ IA
                                 <levelIndicator verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pfD-7T-6ab">
                                     <rect key="frame" x="18" y="17" width="242" height="16"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <levelIndicatorCell key="cell" alignment="left" doubleValue="1" maxValue="5" warningValue="3" criticalValue="1" numberOfMajorTickMarks="5" levelIndicatorStyle="continuousCapacity" id="S6d-eg-sSE" customClass="CustomLevelIndicatorCell"/>
+                                    <levelIndicatorCell key="cell" alignment="left" doubleValue="1" maxValue="5" warningValue="3" criticalValue="1" numberOfMajorTickMarks="5" levelIndicatorStyle="continuousCapacity" id="S6d-eg-sSE" customClass="CustomLevelIndicatorCell" customModule="BeFit_Lite" customModuleProvider="target"/>
                                     <connections>
                                         <binding destination="433" name="value" keyPath="selection.sugarsValueAsLong" id="WWI-YN-txP"/>
                                     </connections>
