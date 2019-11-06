@@ -2708,7 +2708,7 @@ CA
                     <rect key="frame" x="-3" y="2053" width="212" height="2"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8fV-hu-4fg" customClass="subBar_blk">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8fV-hu-4fg" customClass="SubBarBlk" customModule="BeFit" customModuleProvider="target">
                     <rect key="frame" x="-3" y="2054" width="212" height="2"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </customView>
@@ -2716,7 +2716,7 @@ CA
                     <rect key="frame" x="-3" y="1840" width="212" height="2"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="44y-5W-f33" customClass="subBar_blk">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="44y-5W-f33" customClass="SubBarBlk" customModule="BeFit" customModuleProvider="target">
                     <rect key="frame" x="-3" y="1841" width="212" height="2"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </customView>
@@ -2724,7 +2724,7 @@ CA
                     <rect key="frame" x="-2" y="1627" width="212" height="2"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fms-Ig-7uW" customClass="subBar_blk">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fms-Ig-7uW" customClass="SubBarBlk" customModule="BeFit" customModuleProvider="target">
                     <rect key="frame" x="-2" y="1628" width="212" height="2"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </customView>
@@ -2732,7 +2732,7 @@ CA
                     <rect key="frame" x="-2" y="1411" width="212" height="2"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ilD-Po-Nd0" customClass="subBar_blk">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ilD-Po-Nd0" customClass="SubBarBlk" customModule="BeFit" customModuleProvider="target">
                     <rect key="frame" x="-2" y="1412" width="212" height="2"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </customView>
@@ -2740,7 +2740,7 @@ CA
                     <rect key="frame" x="-2" y="1194" width="212" height="2"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ovI-xi-DV7" customClass="subBar_blk">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ovI-xi-DV7" customClass="SubBarBlk" customModule="BeFit" customModuleProvider="target">
                     <rect key="frame" x="-2" y="1195" width="212" height="2"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </customView>
@@ -2748,7 +2748,7 @@ CA
                     <rect key="frame" x="-2" y="972" width="212" height="2"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kFm-rd-EE5" customClass="subBar_blk">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kFm-rd-EE5" customClass="SubBarBlk" customModule="BeFit" customModuleProvider="target">
                     <rect key="frame" x="-2" y="973" width="212" height="2"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </customView>
@@ -2756,7 +2756,7 @@ CA
                     <rect key="frame" x="-2" y="753" width="212" height="2"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yue-bB-Npg" customClass="subBar_blk">
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yue-bB-Npg" customClass="SubBarBlk" customModule="BeFit" customModuleProvider="target">
                     <rect key="frame" x="-2" y="754" width="212" height="2"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </customView>
