@@ -3024,7 +3024,7 @@ IA
                                                                     <rect key="frame" x="5" y="12" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
-                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ucK-hw-bHY" customClass="Legend_SatFat">
+                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ucK-hw-bHY" customClass="LegendSatFat" customModule="BeFit" customModuleProvider="target">
                                                                     <rect key="frame" x="95" y="34" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
@@ -3200,7 +3200,7 @@ IA
                                                                     <rect key="frame" x="5" y="12" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
-                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NIO-ZP-5Ac" customClass="Legend_SatFat">
+                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NIO-ZP-5Ac" customClass="LegendSatFat" customModule="BeFit" customModuleProvider="target">
                                                                     <rect key="frame" x="108" y="34" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
@@ -3426,7 +3426,7 @@ IA
                                                                         <binding destination="433" name="toolTip" keyPath="selection.sugarsValue" id="Sk8-qz-x3a"/>
                                                                     </connections>
                                                                 </textField>
-                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f56-Dq-JMK" customClass="Legend_SatFat">
+                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f56-Dq-JMK" customClass="LegendSatFat" customModule="BeFit" customModuleProvider="target">
                                                                     <rect key="frame" x="5" y="34" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
@@ -3601,7 +3601,7 @@ IA
                                                                         </binding>
                                                                     </connections>
                                                                 </textField>
-                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1U4-cx-G94" customClass="Legend_SatFat">
+                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1U4-cx-G94" customClass="LegendSatFat" customModule="BeFit" customModuleProvider="target">
                                                                     <rect key="frame" x="5" y="34" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
@@ -3811,7 +3811,7 @@ IA
                                                                     <rect key="frame" x="5" y="34" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
-                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sgo-cy-xMG" customClass="Legend_SatFat">
+                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sgo-cy-xMG" customClass="LegendSatFat" customModule="BeFit" customModuleProvider="target">
                                                                     <rect key="frame" x="5" y="12" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
@@ -3987,7 +3987,7 @@ IA
                                                                     <rect key="frame" x="5" y="34" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
-                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ms5-KR-9Ri" customClass="Legend_SatFat">
+                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ms5-KR-9Ri" customClass="LegendSatFat" customModule="BeFit" customModuleProvider="target">
                                                                     <rect key="frame" x="5" y="12" width="12" height="12"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 </customView>
