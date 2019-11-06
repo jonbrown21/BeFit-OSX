@@ -4,7 +4,7 @@
 //  Created by Tim Schröder on 04.04.11.
 //
 
-#import "BeFit_AppDelegate.h"
+@class BeFit_AppDelegate;
 
 @interface BeFit_AppDelegate (Trial)
 

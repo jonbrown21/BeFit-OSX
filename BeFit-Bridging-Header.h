@@ -4,8 +4,16 @@
 
 #import "iTableColumnHeaderCell.h"
 #import "CustomCornerView.h"
-#import "BeFit_AppDelegate.h"
 #import "BeFitGraphOpenGLView.h"
 #import "mySheetController.h"
 #import "INAppStoreWindow.h"
 #import "INWindowButton.h"
+#import "LNClipView.h"
+#import "PreferenceWindow.h"
+#import "MCViewFlipController.h"
+#import "ITProgressBar.h"
+#import "ANSegmentedControl.h"
+#import <OpenFeedback/OpenFeedback.h>
+#import "PrioritySplitViewDelegate.h"
+#import "UAAppReviewManager.h"
+#import "PFMoveApplication.h"

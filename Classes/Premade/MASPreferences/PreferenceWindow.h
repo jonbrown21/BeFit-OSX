@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "BeFit_AppDelegate.h"
 
 @interface PreferenceWindow : NSWindowController
 

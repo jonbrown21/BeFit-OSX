@@ -6,6 +6,7 @@
 
 #import "RMAppDelegate+Trial.h"
 #import "TrialConstants.h"
+#import "BeFit-Swift.h"
 
 @implementation BeFit_AppDelegate (Trial)
 

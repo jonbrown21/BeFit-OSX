@@ -9,7 +9,7 @@ import Foundation
 import Cocoa
 
 class FoodListTableDropSupport: NSObject, NSTableViewDelegate, NSTableViewDataSource {
-    @IBOutlet var ApplicationDelegate: AnyObject!
+    @IBOutlet var ApplicationDelegate: BeFit_AppDelegate!
     @IBOutlet var myTableView: NSTableView!
     
     func numberOfRows(in tableView: NSTableView) -> Int {
@@ -46,7 +46,7 @@ class FoodListTableDropSupport: NSObject, NSTableViewDelegate, NSTableViewDataSo
         
         let foodListToModify = arrangedObjects[row]
         
-        guard let context = ApplicationDelegate.managedObjectContext() else {
+        guard let context = ApplicationDelegate?.managedObjectContext else {
             return false
         }
         

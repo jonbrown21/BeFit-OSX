@@ -733,7 +733,7 @@ CA
                 </menuItem>
             </items>
         </menu>
-        <customObject id="205" userLabel="BeFit_AppDelegate" customClass="BeFit_AppDelegate">
+        <customObject id="205" userLabel="BeFit_AppDelegate" customClass="BeFit_AppDelegate" customModule="BeFit_Lite" customModuleProvider="target">
             <connections>
                 <outlet property="CalorieScrollView" destination="g2V-ZS-iMp" id="v9K-vc-wf7"/>
                 <outlet property="Cals" destination="8R3-5d-8ah" id="R3d-pj-oQ8"/>
