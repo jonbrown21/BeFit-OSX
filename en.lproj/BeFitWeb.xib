@@ -386,7 +386,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
                                     </scrollView>
-                                    <customView canDrawConcurrently="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Mv-Ui-5ab" customClass="whiteBackground">
+                                    <customView canDrawConcurrently="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Mv-Ui-5ab" customClass="WhiteBackground" customModule="BeFit" customModuleProvider="target">
                                         <rect key="frame" x="603" y="593" width="205" height="42"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                         <subviews>
@@ -2769,7 +2769,7 @@ CA
             </subviews>
             <point key="canvasLocation" x="-275.5" y="-97"/>
         </view>
-        <customView canDrawConcurrently="YES" focusRingType="none" id="401" userLabel="FinalView" customClass="whiteBackground">
+        <customView canDrawConcurrently="YES" focusRingType="none" id="401" userLabel="FinalView" customClass="WhiteBackground" customModule="BeFit" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="205" height="1511"/>
             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
             <subviews>

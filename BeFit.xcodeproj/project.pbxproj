@@ -116,6 +116,10 @@
 		43C8010E2372EDF800E08913 /* SearchFieldforLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8010C2372EDF800E08913 /* SearchFieldforLists.swift */; };
 		43C8010F2372EDF800E08913 /* SearchFieldforLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8010C2372EDF800E08913 /* SearchFieldforLists.swift */; };
 		43C801102372EDF800E08913 /* SearchFieldforLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8010C2372EDF800E08913 /* SearchFieldforLists.swift */; };
+		43C801122372EF2600E08913 /* WhiteBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801112372EF2600E08913 /* WhiteBackground.swift */; };
+		43C801132372EF2600E08913 /* WhiteBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801112372EF2600E08913 /* WhiteBackground.swift */; };
+		43C801142372EF2600E08913 /* WhiteBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801112372EF2600E08913 /* WhiteBackground.swift */; };
+		43C801152372EF2600E08913 /* WhiteBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801112372EF2600E08913 /* WhiteBackground.swift */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		DC71A8ED0E3E592D0010389E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC71A8EC0E3E592D0010389E /* OpenGL.framework */; };
@@ -327,10 +331,6 @@
 		FC946E9F1A103A4A00692D04 /* Legend-Chol.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E9D1A103A4A00692D04 /* Legend-Chol.m */; };
 		FC946EA01A103A4A00692D04 /* Legend-Chol.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E9D1A103A4A00692D04 /* Legend-Chol.m */; };
 		FC946EA11A103A4A00692D04 /* Legend-Chol.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E9D1A103A4A00692D04 /* Legend-Chol.m */; };
-		FC946EAE1A11939D00692D04 /* whiteBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946EAD1A11939D00692D04 /* whiteBackground.m */; };
-		FC946EAF1A11939D00692D04 /* whiteBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946EAD1A11939D00692D04 /* whiteBackground.m */; };
-		FC946EB01A11939D00692D04 /* whiteBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946EAD1A11939D00692D04 /* whiteBackground.m */; };
-		FC946EB11A11939D00692D04 /* whiteBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946EAD1A11939D00692D04 /* whiteBackground.m */; };
 		FC946EB31A11B41C00692D04 /* pieindex3.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946EB21A11B41C00692D04 /* pieindex3.html */; };
 		FC946EB41A11B41C00692D04 /* pieindex3.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946EB21A11B41C00692D04 /* pieindex3.html */; };
 		FC946EB51A11B41C00692D04 /* pieindex3.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946EB21A11B41C00692D04 /* pieindex3.html */; };
@@ -524,6 +524,7 @@
 		43C801022372EA9900E08913 /* SearchFieldForFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldForFood.swift; sourceTree = "<group>"; };
 		43C801072372ECE300E08913 /* SideFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideFooter.swift; sourceTree = "<group>"; };
 		43C8010C2372EDF800E08913 /* SearchFieldforLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldforLists.swift; sourceTree = "<group>"; };
+		43C801112372EF2600E08913 /* WhiteBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBackground.swift; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* BeFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeFit.app; sourceTree = BUILT_PRODUCTS_DIR; wrapsLines = 0; };
 		9C4B5ABA128501B200060A19 /* BeFit Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeFit Trial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -635,8 +636,6 @@
 		FC946E971A1039EE00692D04 /* Legend-SatFat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Legend-SatFat.m"; sourceTree = "<group>"; };
 		FC946E9C1A103A4A00692D04 /* Legend-Chol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Legend-Chol.h"; sourceTree = "<group>"; };
 		FC946E9D1A103A4A00692D04 /* Legend-Chol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Legend-Chol.m"; sourceTree = "<group>"; };
-		FC946EAC1A11939D00692D04 /* whiteBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whiteBackground.h; sourceTree = "<group>"; };
-		FC946EAD1A11939D00692D04 /* whiteBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = whiteBackground.m; sourceTree = "<group>"; };
 		FC946EB21A11B41C00692D04 /* pieindex3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = pieindex3.html; path = htdocs/pieindex3.html; sourceTree = "<group>"; };
 		FC946EB81A12F45000692D04 /* grabbing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grabbing.png; path = Images/grabbing.png; sourceTree = "<group>"; };
 		FC946EC11A12F46F00692D04 /* owl.carousel.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = owl.carousel.css; path = htdocs/CSS/owl.carousel.css; sourceTree = "<group>"; };
@@ -1135,8 +1134,6 @@
 			children = (
 				FC946EE81A19079C00692D04 /* AMDarkButtonCell.h */,
 				FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */,
-				FC946EAC1A11939D00692D04 /* whiteBackground.h */,
-				FC946EAD1A11939D00692D04 /* whiteBackground.m */,
 				FC89560C19F448C700420ADC /* subBar_blk.h */,
 				FC89560D19F448C700420ADC /* subBar_blk.m */,
 				FC89560E19F448C700420ADC /* subBar.h */,
@@ -1158,6 +1155,7 @@
 				43C801022372EA9900E08913 /* SearchFieldForFood.swift */,
 				43C801072372ECE300E08913 /* SideFooter.swift */,
 				43C8010C2372EDF800E08913 /* SearchFieldforLists.swift */,
+				43C801112372EF2600E08913 /* WhiteBackground.swift */,
 			);
 			path = Subclass;
 			sourceTree = "<group>";
@@ -1603,7 +1601,6 @@
 				4348C1E823719EF000071B9C /* AddGramsValueTransformer.swift in Sources */,
 				FC946F381A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D319EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
-				FC946EAF1A11939D00692D04 /* whiteBackground.m in Sources */,
 				4357279923700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
 				43C800FB2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
 				43C801052372EA9900E08913 /* SearchFieldForFood.swift in Sources */,
@@ -1633,6 +1630,7 @@
 				FC08740819EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
 				FC946E931A10381A00692D04 /* Legend-Fat.m in Sources */,
 				43C8010A2372ECE300E08913 /* SideFooter.swift in Sources */,
+				43C801142372EF2600E08913 /* WhiteBackground.swift in Sources */,
 				43C800EC2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */,
 				FC24B111204C96A100E4D1E8 /* PFMoveApplication.m in Sources */,
 				FC89568019F4499F00420ADC /* RMBlurredView.m in Sources */,
@@ -1672,7 +1670,6 @@
 				FC89572919F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
 				FC946F371A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D219EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
-				FC946EAE1A11939D00692D04 /* whiteBackground.m in Sources */,
 				FC946F9A1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
 				4348C1D223715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
 				4348C1D7237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
@@ -1685,6 +1682,7 @@
 				4357279F23700D4E00755BE1 /* FoodList+CoreDataProperties.swift in Sources */,
 				4348C1C82370647B00071B9C /* FoodNSTableView.swift in Sources */,
 				FC946E8C1A10359D00692D04 /* Legend-Cals.m in Sources */,
+				43C801122372EF2600E08913 /* WhiteBackground.swift in Sources */,
 				4357279723700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
 				4357279323700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
 				43C800EF2372C55B00E08913 /* BeFitGraphView.swift in Sources */,
@@ -1739,7 +1737,6 @@
 				FC89572B19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
 				FC946F391A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D419EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
-				FC946EB01A11939D00692D04 /* whiteBackground.m in Sources */,
 				FC946F9C1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
 				4348C1D523715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
 				4348C1DA237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
@@ -1752,6 +1749,7 @@
 				FC946E8E1A10359D00692D04 /* Legend-Cals.m in Sources */,
 				4348C1CB2370647E00071B9C /* FoodNSTableView.swift in Sources */,
 				4357279A23700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
+				43C801152372EF2600E08913 /* WhiteBackground.swift in Sources */,
 				4357279623700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
 				43C800F22372C55B00E08913 /* BeFitGraphView.swift in Sources */,
 				FC89564419F4494200420ADC /* OnlineCheck.m in Sources */,
@@ -1806,7 +1804,6 @@
 				FC89572C19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
 				FC946F3A1A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D519EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
-				FC946EB11A11939D00692D04 /* whiteBackground.m in Sources */,
 				FC946F9D1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
 				4348C1D323715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
 				4348C1D8237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
@@ -1819,6 +1816,7 @@
 				FC946E8F1A10359D00692D04 /* Legend-Cals.m in Sources */,
 				4348C1C92370647E00071B9C /* FoodNSTableView.swift in Sources */,
 				4357279823700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
+				43C801132372EF2600E08913 /* WhiteBackground.swift in Sources */,
 				4357279423700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
 				43C800F02372C55B00E08913 /* BeFitGraphView.swift in Sources */,
 				FC89564519F4494200420ADC /* OnlineCheck.m in Sources */,
