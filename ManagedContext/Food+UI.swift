@@ -500,26 +500,31 @@ extension Food {
     }
     
     func CalculateValues(_ key: String) -> String {
-        let QuantityActualValue: Double = 1
+        var QuantityActualValue: Double = 1
+        
+        if let quantityNumber = quantity {
+            QuantityActualValue = quantityNumber.doubleValue
+            if QuantityActualValue <= 0 {
+                QuantityActualValue = 1
+            }
+        }
         
         let doubleValue = (value(forKey: key) as? NSNumber)?.doubleValue ?? 0
-        let userValue = doubleValue * QuantityActualValue
-        //let actualValue = (( doubleValue * selectedServingWeight.doubleValue) / 100) * QuantityActualValue
+        let actualValue = ((doubleValue * selectedServingWeight.doubleValue) / 100) * QuantityActualValue
+        //let userValue = doubleValue * QuantityActualValue
         
         /*
         if userDefined?.intValue ?? 0 == 0 {
-            if key == "sodium" || key == "calcium" || key == "iron" || key == "vitaminC" || key == "vitaminA" {
-                return String(format: "%.0lfmg", actualValue)
-            }
-            if key == "cholesteral" {
-                return String(format: "%.0lfmg", userValue)
-            }
-            return String(format: "%.0lfg", actualValue)
+         if key == "sodium" || key == "cholesteral" || key == "calcium" || key == "iron" || key == "vitaminC" || key == "vitaminA" {
+             return String(format: "%.0lfmg", userValue)
+         }
+         return String(format: "%.0lfg", userValue)
+            
         } else {*/
             if key == "sodium" || key == "cholesteral" || key == "calcium" || key == "iron" || key == "vitaminC" || key == "vitaminA" {
-                return String(format: "%.0lfmg", userValue)
+                return String(format: "%.0lfmg", actualValue)
             }
-            return String(format: "%.0lfg", userValue)
+            return String(format: "%.0lfg", actualValue)
         //}
     }
     
