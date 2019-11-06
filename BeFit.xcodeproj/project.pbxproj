@@ -89,6 +89,10 @@
 		43C800EB2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800E92372C3C200E08913 /* NSPasteboard+FoodDrag.swift */; };
 		43C800EC2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800E92372C3C200E08913 /* NSPasteboard+FoodDrag.swift */; };
 		43C800ED2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800E92372C3C200E08913 /* NSPasteboard+FoodDrag.swift */; };
+		43C800EF2372C55B00E08913 /* BeFitGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800EE2372C55B00E08913 /* BeFitGraphView.swift */; };
+		43C800F02372C55B00E08913 /* BeFitGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800EE2372C55B00E08913 /* BeFitGraphView.swift */; };
+		43C800F12372C55B00E08913 /* BeFitGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800EE2372C55B00E08913 /* BeFitGraphView.swift */; };
+		43C800F22372C55B00E08913 /* BeFitGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800EE2372C55B00E08913 /* BeFitGraphView.swift */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -240,10 +244,6 @@
 		FC89563119F448C700420ADC /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560F19F448C700420ADC /* subBar.m */; };
 		FC89563219F448C700420ADC /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560F19F448C700420ADC /* subBar.m */; };
 		FC89563319F448C700420ADC /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560F19F448C700420ADC /* subBar.m */; };
-		FC89563819F4490200420ADC /* BeFitGraphOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89563519F4490200420ADC /* BeFitGraphOpenGLView.m */; };
-		FC89563919F4490200420ADC /* BeFitGraphOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89563519F4490200420ADC /* BeFitGraphOpenGLView.m */; };
-		FC89563A19F4490200420ADC /* BeFitGraphOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89563519F4490200420ADC /* BeFitGraphOpenGLView.m */; };
-		FC89563B19F4490200420ADC /* BeFitGraphOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89563519F4490200420ADC /* BeFitGraphOpenGLView.m */; };
 		FC89563C19F4490200420ADC /* RightGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89563719F4490200420ADC /* RightGraphView.m */; };
 		FC89563D19F4490200420ADC /* RightGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89563719F4490200420ADC /* RightGraphView.m */; };
 		FC89563E19F4490200420ADC /* RightGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89563719F4490200420ADC /* RightGraphView.m */; };
@@ -522,6 +522,7 @@
 		43C800DF2371B6E100E08913 /* BeFit_AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeFit_AppDelegate.swift; sourceTree = "<group>"; };
 		43C800E42372BE5700E08913 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 		43C800E92372C3C200E08913 /* NSPasteboard+FoodDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSPasteboard+FoodDrag.swift"; sourceTree = "<group>"; };
+		43C800EE2372C55B00E08913 /* BeFitGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeFitGraphView.swift; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* BeFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeFit.app; sourceTree = BUILT_PRODUCTS_DIR; wrapsLines = 0; };
 		9C4B5ABA128501B200060A19 /* BeFit Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeFit Trial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -603,8 +604,6 @@
 		FC89560D19F448C700420ADC /* subBar_blk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subBar_blk.m; sourceTree = "<group>"; };
 		FC89560E19F448C700420ADC /* subBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subBar.h; sourceTree = "<group>"; };
 		FC89560F19F448C700420ADC /* subBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subBar.m; sourceTree = "<group>"; };
-		FC89563419F4490200420ADC /* BeFitGraphOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeFitGraphOpenGLView.h; sourceTree = "<group>"; };
-		FC89563519F4490200420ADC /* BeFitGraphOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeFitGraphOpenGLView.m; sourceTree = "<group>"; };
 		FC89563619F4490200420ADC /* RightGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightGraphView.h; sourceTree = "<group>"; };
 		FC89563719F4490200420ADC /* RightGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightGraphView.m; sourceTree = "<group>"; };
 		FC89564019F4494200420ADC /* OnlineCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlineCheck.h; sourceTree = "<group>"; };
@@ -1183,10 +1182,9 @@
 		FCC174C619EBCFD8001A184A /* Graphing */ = {
 			isa = PBXGroup;
 			children = (
-				FC89563419F4490200420ADC /* BeFitGraphOpenGLView.h */,
-				FC89563519F4490200420ADC /* BeFitGraphOpenGLView.m */,
 				FC89563619F4490200420ADC /* RightGraphView.h */,
 				FC89563719F4490200420ADC /* RightGraphView.m */,
+				43C800EE2372C55B00E08913 /* BeFitGraphView.swift */,
 			);
 			path = Graphing;
 			sourceTree = "<group>";
@@ -1646,7 +1644,6 @@
 				43C800E72372BE5700E08913 /* CustomError.swift in Sources */,
 				FC0873BE19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m in Sources */,
 				FC89563D19F4490200420ADC /* RightGraphView.m in Sources */,
-				FC89563919F4490200420ADC /* BeFitGraphOpenGLView.m in Sources */,
 				FC08738519EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
 				FC946FBF1A21886D00692D04 /* CustomCornerView.m in Sources */,
 				FC08739019EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
@@ -1668,6 +1665,7 @@
 				43C800E22371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */,
 				FC0873D219EBA6DE00ACB943 /* PreferenceWindow.m in Sources */,
 				FC0873A419EBA6D200ACB943 /* LNClipView.m in Sources */,
+				43C800F12372C55B00E08913 /* BeFitGraphView.swift in Sources */,
 				FC0873E719EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */,
 				FC08738919EBA69B00ACB943 /* INWindowButton.m in Sources */,
 				4348C1ED2371A44E00071B9C /* AddMGValueTransformer.swift in Sources */,
@@ -1711,6 +1709,7 @@
 				FC946E8C1A10359D00692D04 /* Legend-Cals.m in Sources */,
 				4357279723700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
 				4357279323700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
+				43C800EF2372C55B00E08913 /* BeFitGraphView.swift in Sources */,
 				FC89564219F4494200420ADC /* OnlineCheck.m in Sources */,
 				FC89561019F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */,
 				FC946F2B1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
@@ -1718,7 +1717,6 @@
 				FC08738419EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
 				FC89563C19F4490200420ADC /* RightGraphView.m in Sources */,
 				4348C1CD23706D9700071B9C /* FoodArrayController.swift in Sources */,
-				FC89563819F4490200420ADC /* BeFitGraphOpenGLView.m in Sources */,
 				FC946FBE1A21886D00692D04 /* CustomCornerView.m in Sources */,
 				FC08738F19EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
 				FC89563019F448C700420ADC /* subBar.m in Sources */,
@@ -1779,6 +1777,7 @@
 				4357279A23700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
 				4357279623700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
 				FC89561219F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */,
+				43C800F22372C55B00E08913 /* BeFitGraphView.swift in Sources */,
 				FC89564419F4494200420ADC /* OnlineCheck.m in Sources */,
 				FC0873D719EBA6DE00ACB943 /* PrefSetter.m in Sources */,
 				FC946F2D1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
@@ -1786,7 +1785,6 @@
 				FC08738619EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
 				FC89563E19F4490200420ADC /* RightGraphView.m in Sources */,
 				4348C1D023706D9700071B9C /* FoodArrayController.swift in Sources */,
-				FC89563A19F4490200420ADC /* BeFitGraphOpenGLView.m in Sources */,
 				FC946FC01A21886D00692D04 /* CustomCornerView.m in Sources */,
 				FC08739119EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
 				FC89563219F448C700420ADC /* subBar.m in Sources */,
@@ -1847,12 +1845,12 @@
 				4357279823700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
 				4357279423700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
 				FC89561319F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */,
+				43C800F02372C55B00E08913 /* BeFitGraphView.swift in Sources */,
 				FC89564519F4494200420ADC /* OnlineCheck.m in Sources */,
 				FC0873D819EBA6DE00ACB943 /* PrefSetter.m in Sources */,
 				FC946F2E1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
 				FC0873C019EBA6DE00ACB943 /* AdvancedPreferencesViewController.m in Sources */,
 				FC89563F19F4490200420ADC /* RightGraphView.m in Sources */,
-				FC89563B19F4490200420ADC /* BeFitGraphOpenGLView.m in Sources */,
 				4348C1CE23706D9700071B9C /* FoodArrayController.swift in Sources */,
 				FC08738719EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
 				FC946FC11A21886D00692D04 /* CustomCornerView.m in Sources */,

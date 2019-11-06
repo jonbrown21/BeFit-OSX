@@ -4,7 +4,6 @@
 
 #import "iTableColumnHeaderCell.h"
 #import "CustomCornerView.h"
-#import "BeFitGraphOpenGLView.h"
 #import "mySheetController.h"
 #import "INAppStoreWindow.h"
 #import "INWindowButton.h"

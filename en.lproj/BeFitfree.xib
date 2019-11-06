@@ -348,7 +348,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="605" height="120"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                         <subviews>
-                                            <webView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ldP-uj-jEV" customClass="BeFitGraphView">
+                                            <webView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ldP-uj-jEV" customClass="BeFitGraphView" customModule="BeFit_Lite" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="603" height="120"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                                 <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12" javaEnabled="NO" javaScriptCanOpenWindowsAutomatically="NO">
