@@ -8,10 +8,6 @@
 import Foundation
 import Cocoa
 
-extension NSPasteboard.PasteboardType {
-    static let foodDataDragType = Self("FoodDataDragType")
-}
-
 class FoodListNSTableView: NSTableView,
 NSTableViewDelegate {
     @IBOutlet var FoodListController: AnyObject!
