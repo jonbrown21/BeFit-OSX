@@ -11,7 +11,6 @@
 		11A49BE32159EEE300A0AC3D /* LetsMove.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC24B10D204C969F00E4D1E8 /* LetsMove.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		11A49BE42159EF5E00A0AC3D /* LetsMove.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC24B10D204C969F00E4D1E8 /* LetsMove.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2565F9770EFDBC13005CD70F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC71A8EC0E3E592D0010389E /* OpenGL.framework */; };
-		2565F9780EFDBC23005CD70F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		2565F98E0EFDBC31005CD70F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		4348C1C82370647B00071B9C /* FoodNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1C72370647B00071B9C /* FoodNSTableView.swift */; };
 		4348C1C92370647E00071B9C /* FoodNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1C72370647B00071B9C /* FoodNSTableView.swift */; };
@@ -98,7 +97,6 @@
 		43C800F62372CB6100E08913 /* RightGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F32372CB6100E08913 /* RightGraphView.swift */; };
 		43C800F72372CB6100E08913 /* RightGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F32372CB6100E08913 /* RightGraphView.swift */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
-		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		DC71A8ED0E3E592D0010389E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC71A8EC0E3E592D0010389E /* OpenGL.framework */; };
 		FC08736119EBA39B00ACB943 /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC08735C19EBA39B00ACB943 /* jquery-1.7.1.min.js */; };
@@ -190,7 +188,6 @@
 		FC08740919EBA72900ACB943 /* UAAppReviewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08740619EBA72900ACB943 /* UAAppReviewManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		FC08740A19EBA72900ACB943 /* UAAppReviewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08740619EBA72900ACB943 /* UAAppReviewManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		FC169490181C747100C54052 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
-		FC1694AE181C747100C54052 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		FC1694C9181C747100C54052 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1DBA8D180BCADA00202B92 /* Security.framework */; };
 		FC1694CA181C747100C54052 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		FC1694CB181C747100C54052 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C82804067257F0000B614F /* CoreData.framework */; };
@@ -279,7 +276,6 @@
 		FC89576519F44C8F00420ADC /* mac_app_identity.cer in Resources */ = {isa = PBXBuildFile; fileRef = FC89573919F44C8F00420ADC /* mac_app_identity.cer */; };
 		FC898675184A70DC00BE530A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC898674184A70DC00BE530A /* WebKit.framework */; };
 		FC91C30018EE53B300960571 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
-		FC91C33618EE53B300960571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		FC91C36518EE53B300960571 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1FA25318712EFE00E96FEE /* SystemConfiguration.framework */; };
 		FC91C36618EE53B300960571 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1FA2621871335600E96FEE /* QuartzCore.framework */; };
 		FC91C36718EE53B300960571 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC898674184A70DC00BE530A /* WebKit.framework */; };
@@ -495,7 +491,6 @@
 
 /* Begin PBXFileReference section */
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* BeFit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeFit_Prefix.pch; sourceTree = "<group>"; };
@@ -818,7 +813,6 @@
 			isa = PBXGroup;
 			children = (
 				32CA4F630368D1EE00C91783 /* BeFit_Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -1608,7 +1602,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2565F9780EFDBC23005CD70F /* main.m in Sources */,
 				FC0873C619EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */,
 				FC946EEB1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
 				4357279D23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */,
@@ -1677,7 +1670,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				435727A9237018B700755BE1 /* FoodList+UI.swift in Sources */,
 				FC0873C519EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */,
 				4375CA2B23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
@@ -1745,7 +1737,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC1694AE181C747100C54052 /* main.m in Sources */,
 				435727AC237018B700755BE1 /* FoodList+UI.swift in Sources */,
 				FC0873C719EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */,
 				4375CA2E23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
@@ -1813,7 +1804,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC91C33618EE53B300960571 /* main.m in Sources */,
 				435727AA237018B700755BE1 /* FoodList+UI.swift in Sources */,
 				FC0873C819EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */,
 				4375CA2C23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,

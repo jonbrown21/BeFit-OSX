@@ -28,6 +28,7 @@ private let APP_SUPPORT_SUBDIR = "BeFit"
 private let DATABASE_FILE = "BeFit2.dat"
 #endif
 
+@NSApplicationMain
 class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, NSWindowDelegate {
     @IBOutlet var LevelInd: NSLevelIndicator!
     @IBOutlet var LevelInd2: NSLevelIndicator!
