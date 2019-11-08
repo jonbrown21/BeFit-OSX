@@ -166,6 +166,10 @@
 		43C801512375856D00E08913 /* PrefSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014F2375856D00E08913 /* PrefSetter.swift */; };
 		43C801522375856D00E08913 /* PrefSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014F2375856D00E08913 /* PrefSetter.swift */; };
 		43C801532375856D00E08913 /* PrefSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014F2375856D00E08913 /* PrefSetter.swift */; };
+		43C801552375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801542375999C00E08913 /* PrioritySplitViewDelegate.swift */; };
+		43C801562375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801542375999C00E08913 /* PrioritySplitViewDelegate.swift */; };
+		43C801572375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801542375999C00E08913 /* PrioritySplitViewDelegate.swift */; };
+		43C801582375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801542375999C00E08913 /* PrioritySplitViewDelegate.swift */; };
 		49D8C83A2C61EFB1DD12F7F1 /* Pods_BeFitFree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F996651F339E047069541D83 /* Pods_BeFitFree.framework */; };
 		602CEDAA613D7AAEF8326BBE /* Pods_BeFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44F5C715CC271A121C9BDF8 /* Pods_BeFit.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -219,10 +223,6 @@
 		FC0873EB19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */; };
 		FC0873EC19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */; };
 		FC0873ED19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */; };
-		FC0873F119EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873F019EBA70600ACB943 /* PrioritySplitViewDelegate.m */; };
-		FC0873F219EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873F019EBA70600ACB943 /* PrioritySplitViewDelegate.m */; };
-		FC0873F319EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873F019EBA70600ACB943 /* PrioritySplitViewDelegate.m */; };
-		FC0873F419EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873F019EBA70600ACB943 /* PrioritySplitViewDelegate.m */; };
 		FC0873F819EBA71000ACB943 /* SSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873F719EBA71000ACB943 /* SSTextField.m */; };
 		FC0873F919EBA71000ACB943 /* SSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873F719EBA71000ACB943 /* SSTextField.m */; };
 		FC0873FA19EBA71000ACB943 /* SSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873F719EBA71000ACB943 /* SSTextField.m */; };
@@ -533,6 +533,7 @@
 		43C8014523757FF800E08913 /* PreferenceWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceWindow.swift; sourceTree = "<group>"; };
 		43C8014A237583C000E08913 /* AdvancedPreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedPreferencesViewController.swift; sourceTree = "<group>"; };
 		43C8014F2375856D00E08913 /* PrefSetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefSetter.swift; sourceTree = "<group>"; };
+		43C801542375999C00E08913 /* PrioritySplitViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrioritySplitViewDelegate.swift; sourceTree = "<group>"; };
 		5A3C7F3CE54396E67D8544D2 /* Pods_BeFitWebsite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeFitWebsite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F893C765809F2444229958D /* Pods-BeFitWebsite.device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeFitWebsite.device.xcconfig"; path = "Target Support Files/Pods-BeFitWebsite/Pods-BeFitWebsite.device.xcconfig"; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -568,8 +569,6 @@
 		FC0873E319EBA6FA00ACB943 /* FlipAnimationAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipAnimationAppDelegate.m; sourceTree = "<group>"; };
 		FC0873E419EBA6FA00ACB943 /* MCViewFlipController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCViewFlipController.h; sourceTree = "<group>"; };
 		FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCViewFlipController.m; sourceTree = "<group>"; };
-		FC0873EF19EBA70600ACB943 /* PrioritySplitViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrioritySplitViewDelegate.h; sourceTree = "<group>"; };
-		FC0873F019EBA70600ACB943 /* PrioritySplitViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrioritySplitViewDelegate.m; sourceTree = "<group>"; };
 		FC0873F619EBA71000ACB943 /* SSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTextField.h; sourceTree = "<group>"; };
 		FC0873F719EBA71000ACB943 /* SSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTextField.m; sourceTree = "<group>"; };
 		FC0873FD19EBA71C00ACB943 /* RMAppDelegate+Trial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RMAppDelegate+Trial.h"; sourceTree = "<group>"; };
@@ -1010,8 +1009,7 @@
 		FC0873EE19EBA70600ACB943 /* PrioritySplitView */ = {
 			isa = PBXGroup;
 			children = (
-				FC0873EF19EBA70600ACB943 /* PrioritySplitViewDelegate.h */,
-				FC0873F019EBA70600ACB943 /* PrioritySplitViewDelegate.m */,
+				43C801542375999C00E08913 /* PrioritySplitViewDelegate.swift */,
 			);
 			name = PrioritySplitView;
 			path = Classes/Premade/PrioritySplitView;
@@ -1785,6 +1783,7 @@
 				4375CA2D23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
 				43C800E72372BE5700E08913 /* CustomError.swift in Sources */,
 				43C8014323757E5500E08913 /* UpdatePreferenceViewController.swift in Sources */,
+				43C801572375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */,
 				FC08738519EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
 				FC946FBF1A21886D00692D04 /* CustomCornerView.m in Sources */,
 				43C801322372FA6E00E08913 /* LegendChol.swift in Sources */,
@@ -1811,7 +1810,6 @@
 				FC0873E719EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */,
 				FC08738919EBA69B00ACB943 /* INWindowButton.m in Sources */,
 				4348C1ED2371A44E00071B9C /* AddMGValueTransformer.swift in Sources */,
-				FC0873F219EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */,
 				4375CA282370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
 				FC946F341A19A2B900692D04 /* NSBezierPath+MCAdditions.m in Sources */,
 			);
@@ -1851,6 +1849,7 @@
 				43C8013F2375560700E08913 /* GeneralPreferencesViewController.swift in Sources */,
 				43C8014123757E5200E08913 /* UpdatePreferenceViewController.swift in Sources */,
 				4348C1CD23706D9700071B9C /* FoodArrayController.swift in Sources */,
+				43C801552375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */,
 				FC946FBE1A21886D00692D04 /* CustomCornerView.m in Sources */,
 				FC08738F19EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
 				43C801082372ECE300E08913 /* SideFooter.swift in Sources */,
@@ -1877,7 +1876,6 @@
 				435727A423700FAE00755BE1 /* Food+UI.swift in Sources */,
 				43C8010D2372EDF800E08913 /* SearchFieldforLists.swift in Sources */,
 				43C801172372F09F00E08913 /* SubBarBlk.swift in Sources */,
-				FC0873F119EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */,
 				FC946F331A19A2B900692D04 /* NSBezierPath+MCAdditions.m in Sources */,
 				43C801262372F83500E08913 /* LegendFat.swift in Sources */,
 			);
@@ -1922,6 +1920,7 @@
 				43C8011F2372F3D200E08913 /* SubBar.swift in Sources */,
 				43C800FC2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
 				FC08740919EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
+				43C801582375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */,
 				43C8014E237583C000E08913 /* AdvancedPreferencesViewController.swift in Sources */,
 				FC0873FA19EBA71000ACB943 /* SSTextField.m in Sources */,
 				43C801532375856D00E08913 /* PrefSetter.swift in Sources */,
@@ -1941,7 +1940,6 @@
 				435727A723700FAE00755BE1 /* Food+UI.swift in Sources */,
 				43C801102372EDF800E08913 /* SearchFieldforLists.swift in Sources */,
 				43C8011A2372F09F00E08913 /* SubBarBlk.swift in Sources */,
-				FC0873F319EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */,
 				FC946F351A19A2B900692D04 /* NSBezierPath+MCAdditions.m in Sources */,
 				43C8014423757E5500E08913 /* UpdatePreferenceViewController.swift in Sources */,
 				43C801292372F83500E08913 /* LegendFat.swift in Sources */,
@@ -1987,6 +1985,7 @@
 				FC946F321A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
 				43C8011D2372F3D200E08913 /* SubBar.swift in Sources */,
 				43C800FA2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
+				43C801562375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */,
 				43C8014C237583C000E08913 /* AdvancedPreferencesViewController.swift in Sources */,
 				FC0873FB19EBA71000ACB943 /* SSTextField.m in Sources */,
 				43C801512375856D00E08913 /* PrefSetter.swift in Sources */,
@@ -2006,7 +2005,6 @@
 				435727A523700FAE00755BE1 /* Food+UI.swift in Sources */,
 				43C8010E2372EDF800E08913 /* SearchFieldforLists.swift in Sources */,
 				43C801182372F09F00E08913 /* SubBarBlk.swift in Sources */,
-				FC0873F419EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */,
 				FC946F361A19A2B900692D04 /* NSBezierPath+MCAdditions.m in Sources */,
 				43C8014223757E5500E08913 /* UpdatePreferenceViewController.swift in Sources */,
 				43C801272372F83500E08913 /* LegendFat.swift in Sources */,

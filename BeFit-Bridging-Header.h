@@ -12,6 +12,5 @@
 #import "ITProgressBar.h"
 #import "ANSegmentedControl.h"
 #import <OpenFeedback/OpenFeedback.h>
-#import "PrioritySplitViewDelegate.h"
 #import "UAAppReviewManager.h"
 #import "PFMoveApplication.h"
