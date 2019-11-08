@@ -10,6 +10,7 @@
 		11693055215A6DBF00BF4F77 /* OpenFeedback.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		11A49BE32159EEE300A0AC3D /* LetsMove.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC24B10D204C969F00E4D1E8 /* LetsMove.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		11A49BE42159EF5E00A0AC3D /* LetsMove.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC24B10D204C969F00E4D1E8 /* LetsMove.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1721D91B23BC3CF5BC74D96E /* Pods_BeFitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6C3A12412CBC17E2355719 /* Pods_BeFitDemo.framework */; };
 		2565F9770EFDBC13005CD70F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC71A8EC0E3E592D0010389E /* OpenGL.framework */; };
 		2565F98E0EFDBC31005CD70F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		4348C1C82370647B00071B9C /* FoodNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1C72370647B00071B9C /* FoodNSTableView.swift */; };
@@ -148,6 +149,8 @@
 		43C801362372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */; };
 		43C801372372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */; };
 		43C801382372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */; };
+		49D8C83A2C61EFB1DD12F7F1 /* Pods_BeFitFree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F996651F339E047069541D83 /* Pods_BeFitFree.framework */; };
+		602CEDAA613D7AAEF8326BBE /* Pods_BeFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44F5C715CC271A121C9BDF8 /* Pods_BeFit.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		DC71A8ED0E3E592D0010389E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC71A8EC0E3E592D0010389E /* OpenGL.framework */; };
@@ -195,14 +198,6 @@
 		FC0873C619EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873AD19EBA6DE00ACB943 /* GeneralPreferencesViewController.m */; };
 		FC0873C719EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873AD19EBA6DE00ACB943 /* GeneralPreferencesViewController.m */; };
 		FC0873C819EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873AD19EBA6DE00ACB943 /* GeneralPreferencesViewController.m */; };
-		FC0873C919EBA6DE00ACB943 /* MASPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873AF19EBA6DE00ACB943 /* MASPreferencesWindow.xib */; };
-		FC0873CA19EBA6DE00ACB943 /* MASPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873AF19EBA6DE00ACB943 /* MASPreferencesWindow.xib */; };
-		FC0873CB19EBA6DE00ACB943 /* MASPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873AF19EBA6DE00ACB943 /* MASPreferencesWindow.xib */; };
-		FC0873CC19EBA6DE00ACB943 /* MASPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873AF19EBA6DE00ACB943 /* MASPreferencesWindow.xib */; };
-		FC0873CD19EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B119EBA6DE00ACB943 /* MASPreferencesWindowController.m */; };
-		FC0873CE19EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B119EBA6DE00ACB943 /* MASPreferencesWindowController.m */; };
-		FC0873CF19EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B119EBA6DE00ACB943 /* MASPreferencesWindowController.m */; };
-		FC0873D019EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B119EBA6DE00ACB943 /* MASPreferencesWindowController.m */; };
 		FC0873D119EBA6DE00ACB943 /* PreferenceWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B319EBA6DE00ACB943 /* PreferenceWindow.m */; };
 		FC0873D219EBA6DE00ACB943 /* PreferenceWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B319EBA6DE00ACB943 /* PreferenceWindow.m */; };
 		FC0873D319EBA6DE00ACB943 /* PreferenceWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B319EBA6DE00ACB943 /* PreferenceWindow.m */; };
@@ -307,6 +302,7 @@
 		FC91C36918EE53B300960571 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		FC91C36A18EE53B300960571 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C82804067257F0000B614F /* CoreData.framework */; };
 		FC91C36B18EE53B300960571 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC71A8EC0E3E592D0010389E /* OpenGL.framework */; };
+		FC93F6932982CCDCF7291AD3 /* Pods_BeFitWebsite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3C7F3CE54396E67D8544D2 /* Pods_BeFitWebsite.framework */; };
 		FC946E681A0DC13200692D04 /* fullpieindex.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946E671A0DC13200692D04 /* fullpieindex.html */; };
 		FC946E691A0DC13200692D04 /* fullpieindex.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946E671A0DC13200692D04 /* fullpieindex.html */; };
 		FC946E6A1A0DC13200692D04 /* fullpieindex.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946E671A0DC13200692D04 /* fullpieindex.html */; };
@@ -491,8 +487,11 @@
 
 /* Begin PBXFileReference section */
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		16DA05639FEB25CF5427773F /* Pods-BeFitDemo.device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeFitDemo.device.xcconfig"; path = "Target Support Files/Pods-BeFitDemo/Pods-BeFitDemo.device.xcconfig"; sourceTree = "<group>"; };
+		1B6C3A12412CBC17E2355719 /* Pods_BeFitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeFitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2CF584F9A2E147BB878B69EA /* Pods-BeFit.device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeFit.device.xcconfig"; path = "Target Support Files/Pods-BeFit/Pods-BeFit.device.xcconfig"; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* BeFit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeFit_Prefix.pch; sourceTree = "<group>"; };
 		4348C1C72370647B00071B9C /* FoodNSTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodNSTableView.swift; sourceTree = "<group>"; };
 		4348C1CC23706D9700071B9C /* FoodArrayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodArrayController.swift; sourceTree = "<group>"; };
@@ -532,10 +531,18 @@
 		43C8012A2372F95F00E08913 /* LegendSatFat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendSatFat.swift; sourceTree = "<group>"; };
 		43C8012F2372FA6E00E08913 /* LegendChol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendChol.swift; sourceTree = "<group>"; };
 		43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLevelIndicatorCell.swift; sourceTree = "<group>"; };
+		5A3C7F3CE54396E67D8544D2 /* Pods_BeFitWebsite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeFitWebsite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F893C765809F2444229958D /* Pods-BeFitWebsite.device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeFitWebsite.device.xcconfig"; path = "Target Support Files/Pods-BeFitWebsite/Pods-BeFitWebsite.device.xcconfig"; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		7B907B66BDE2E08C2BC9414F /* Pods-BeFitFree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeFitFree.debug.xcconfig"; path = "Target Support Files/Pods-BeFitFree/Pods-BeFitFree.debug.xcconfig"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* BeFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeFit.app; sourceTree = BUILT_PRODUCTS_DIR; wrapsLines = 0; };
 		9C4B5ABA128501B200060A19 /* BeFit Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeFit Trial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B137B25A869216B0CA8D7DF8 /* Pods-BeFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeFit.debug.xcconfig"; path = "Target Support Files/Pods-BeFit/Pods-BeFit.debug.xcconfig"; sourceTree = "<group>"; };
+		B44F5C715CC271A121C9BDF8 /* Pods_BeFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A4E61868FF4D36DA40F367 /* Pods-BeFitFree.device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeFitFree.device.xcconfig"; path = "Target Support Files/Pods-BeFitFree/Pods-BeFitFree.device.xcconfig"; sourceTree = "<group>"; };
+		D6D0F291F640502B4D7D0DAA /* Pods-BeFitWebsite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeFitWebsite.debug.xcconfig"; path = "Target Support Files/Pods-BeFitWebsite/Pods-BeFitWebsite.debug.xcconfig"; sourceTree = "<group>"; };
 		DC71A8EC0E3E592D0010389E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		F996651F339E047069541D83 /* Pods_BeFitFree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeFitFree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0399B5188CDCEF00AB6785 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		FC08735B19EBA39B00ACB943 /* bootstrap.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = bootstrap.min.js; path = htdocs/JS/bootstrap.min.js; sourceTree = "<group>"; };
 		FC08735C19EBA39B00ACB943 /* jquery-1.7.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "jquery-1.7.1.min.js"; path = "htdocs/JS/jquery-1.7.1.min.js"; sourceTree = "<group>"; };
@@ -558,10 +565,6 @@
 		FC0873AB19EBA6DE00ACB943 /* GeneralPreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralPreferencesView.xib; sourceTree = "<group>"; };
 		FC0873AC19EBA6DE00ACB943 /* GeneralPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralPreferencesViewController.h; sourceTree = "<group>"; };
 		FC0873AD19EBA6DE00ACB943 /* GeneralPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralPreferencesViewController.m; sourceTree = "<group>"; };
-		FC0873AE19EBA6DE00ACB943 /* MASPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesViewController.h; sourceTree = "<group>"; };
-		FC0873AF19EBA6DE00ACB943 /* MASPreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MASPreferencesWindow.xib; sourceTree = "<group>"; };
-		FC0873B019EBA6DE00ACB943 /* MASPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesWindowController.h; sourceTree = "<group>"; };
-		FC0873B119EBA6DE00ACB943 /* MASPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASPreferencesWindowController.m; sourceTree = "<group>"; };
 		FC0873B219EBA6DE00ACB943 /* PreferenceWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceWindow.h; sourceTree = "<group>"; };
 		FC0873B319EBA6DE00ACB943 /* PreferenceWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceWindow.m; sourceTree = "<group>"; };
 		FC0873B419EBA6DE00ACB943 /* PrefSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefSetter.h; sourceTree = "<group>"; };
@@ -666,6 +669,7 @@
 		FCC174D119EBD4CF001A184A /* OSBBadgeTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSBBadgeTextFieldCell.m; sourceTree = "<group>"; };
 		FCCB059718824ED000BE315E /* BeFit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = BeFit.entitlements; sourceTree = "<group>"; };
 		FCF3D72E1E77ABD0004A8525 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		FE175FA2EF730710E69EC12B /* Pods-BeFitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeFitDemo.debug.xcconfig"; path = "Target Support Files/Pods-BeFitDemo/Pods-BeFitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -684,6 +688,7 @@
 				FCD4445C1804CFF90036C533 /* CoreData.framework in Frameworks */,
 				2565F9770EFDBC13005CD70F /* OpenGL.framework in Frameworks */,
 				FC24B10F204C96A100E4D1E8 /* LetsMove.framework in Frameworks */,
+				1721D91B23BC3CF5BC74D96E /* Pods_BeFitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,6 +703,7 @@
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				FCD4445B1804CFF90036C533 /* CoreData.framework in Frameworks */,
 				DC71A8ED0E3E592D0010389E /* OpenGL.framework in Frameworks */,
+				602CEDAA613D7AAEF8326BBE /* Pods_BeFit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,6 +722,7 @@
 				FC1694CB181C747100C54052 /* CoreData.framework in Frameworks */,
 				FC1694CC181C747100C54052 /* OpenGL.framework in Frameworks */,
 				FC24B110204C96A100E4D1E8 /* LetsMove.framework in Frameworks */,
+				FC93F6932982CCDCF7291AD3 /* Pods_BeFitWebsite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -730,6 +737,7 @@
 				FC91C36918EE53B300960571 /* Cocoa.framework in Frameworks */,
 				FC91C36A18EE53B300960571 /* CoreData.framework in Frameworks */,
 				FC91C36B18EE53B300960571 /* OpenGL.framework in Frameworks */,
+				49D8C83A2C61EFB1DD12F7F1 /* Pods_BeFitFree.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -792,6 +800,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				7BE5B6D7B96362F58CACE048 /* Pods */,
 			);
 			name = BeFit;
 			sourceTree = "<group>";
@@ -838,6 +847,10 @@
 				FC898674184A70DC00BE530A /* WebKit.framework */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				B44F5C715CC271A121C9BDF8 /* Pods_BeFit.framework */,
+				1B6C3A12412CBC17E2355719 /* Pods_BeFitDemo.framework */,
+				F996651F339E047069541D83 /* Pods_BeFitFree.framework */,
+				5A3C7F3CE54396E67D8544D2 /* Pods_BeFitWebsite.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -848,6 +861,21 @@
 				FC89572619F44C6700420ADC /* BeFit_DataModel.xcdatamodeld */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		7BE5B6D7B96362F58CACE048 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CF584F9A2E147BB878B69EA /* Pods-BeFit.device.xcconfig */,
+				B137B25A869216B0CA8D7DF8 /* Pods-BeFit.debug.xcconfig */,
+				16DA05639FEB25CF5427773F /* Pods-BeFitDemo.device.xcconfig */,
+				FE175FA2EF730710E69EC12B /* Pods-BeFitDemo.debug.xcconfig */,
+				C1A4E61868FF4D36DA40F367 /* Pods-BeFitFree.device.xcconfig */,
+				7B907B66BDE2E08C2BC9414F /* Pods-BeFitFree.debug.xcconfig */,
+				6F893C765809F2444229958D /* Pods-BeFitWebsite.device.xcconfig */,
+				D6D0F291F640502B4D7D0DAA /* Pods-BeFitWebsite.debug.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		FC08735819EB999200ACB943 /* Not Using */ = {
@@ -969,9 +997,6 @@
 				FC0873AA19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m */,
 				FC0873AC19EBA6DE00ACB943 /* GeneralPreferencesViewController.h */,
 				FC0873AD19EBA6DE00ACB943 /* GeneralPreferencesViewController.m */,
-				FC0873AE19EBA6DE00ACB943 /* MASPreferencesViewController.h */,
-				FC0873B019EBA6DE00ACB943 /* MASPreferencesWindowController.h */,
-				FC0873B119EBA6DE00ACB943 /* MASPreferencesWindowController.m */,
 				FC0873B219EBA6DE00ACB943 /* PreferenceWindow.h */,
 				FC0873B319EBA6DE00ACB943 /* PreferenceWindow.m */,
 				FC0873B419EBA6DE00ACB943 /* PrefSetter.h */,
@@ -1210,7 +1235,6 @@
 			children = (
 				FC0873A819EBA6DE00ACB943 /* AdvancedPreferencesView.xib */,
 				FC0873AB19EBA6DE00ACB943 /* GeneralPreferencesView.xib */,
-				FC0873AF19EBA6DE00ACB943 /* MASPreferencesWindow.xib */,
 				FC0873B619EBA6DE00ACB943 /* UpdatePreferencesView.xib */,
 			);
 			name = PreferencePanes;
@@ -1251,10 +1275,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2565F9630EFDBBB3005CD70F /* Build configuration list for PBXNativeTarget "BeFitDemo" */;
 			buildPhases = (
+				FB5A9D16AAFF34B34529751E /* [CP] Check Pods Manifest.lock */,
 				2565F9590EFDBBB2005CD70F /* Resources */,
 				2565F95A0EFDBBB2005CD70F /* Sources */,
 				2565F95B0EFDBBB2005CD70F /* Frameworks */,
 				FCF3D7321E77AC1C004A8525 /* CopyFiles */,
+				0A1337C4F164FE1C1A66E889 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1269,10 +1295,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "BeFit" */;
 			buildPhases = (
+				60A692709F874690CB21E2A2 /* [CP] Check Pods Manifest.lock */,
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
 				254DB4770ED6291800A3B954 /* CopyFiles */,
+				B2CC6CB6785E6C5E96F90E9F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1288,10 +1316,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC1694CE181C747100C54052 /* Build configuration list for PBXNativeTarget "BeFitWebsite" */;
 			buildPhases = (
+				A18EC6B5093760FC7DE861D2 /* [CP] Check Pods Manifest.lock */,
 				FC16948E181C747100C54052 /* Resources */,
 				FC1694AC181C747100C54052 /* Sources */,
 				FC1694C8181C747100C54052 /* Frameworks */,
 				FCF3D7341E77AC29004A8525 /* CopyFiles */,
+				CFCF986ECC9002D6414615B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1307,10 +1337,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC91C36C18EE53B300960571 /* Build configuration list for PBXNativeTarget "BeFitFree" */;
 			buildPhases = (
+				2DA522A766B57C0AA4DFCC0A /* [CP] Check Pods Manifest.lock */,
 				FC91C2F218EE53B300960571 /* Resources */,
 				FC91C33518EE53B300960571 /* Sources */,
 				FC91C36218EE53B300960571 /* Frameworks */,
 				FC9FA8401FC5BF4E0030F407 /* CopyFiles */,
+				814143472E70A6C301DF22FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1379,6 +1411,7 @@
 				fr,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* BeFit */;
+			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1433,7 +1466,6 @@
 				FC632F2A19EA350F008E3D72 /* Media.xcassets in Resources */,
 				FC0873C219EBA6DE00ACB943 /* GeneralPreferencesView.xib in Resources */,
 				FC946EDB1A13102A00692D04 /* bootstrap.min.js in Resources */,
-				FC0873CA19EBA6DE00ACB943 /* MASPreferencesWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1464,7 +1496,6 @@
 				FC0873B919EBA6DE00ACB943 /* AdvancedPreferencesView.xib in Resources */,
 				FC94C8EB19F4B6A800152A2C /* BeFitHelp in Resources */,
 				FC946E681A0DC13200692D04 /* fullpieindex.html in Resources */,
-				FC0873C919EBA6DE00ACB943 /* MASPreferencesWindow.xib in Resources */,
 				FC946EC81A12F46F00692D04 /* owl.theme.css in Resources */,
 				FC946F471A1CB11F00692D04 /* pieindex2.html in Resources */,
 				FC0873C119EBA6DE00ACB943 /* GeneralPreferencesView.xib in Resources */,
@@ -1522,7 +1553,6 @@
 				FC0873C319EBA6DE00ACB943 /* GeneralPreferencesView.xib in Resources */,
 				FC946EDC1A13102B00692D04 /* bootstrap.min.js in Resources */,
 				FC89570B19F44AE000420ADC /* BeFit2.dat in Resources */,
-				FC0873CB19EBA6DE00ACB943 /* MASPreferencesWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1542,7 +1572,6 @@
 				FC946E751A0DC14700692D04 /* fullpiestyle.css in Resources */,
 				FC946EDD1A13102B00692D04 /* bootstrap.min.js in Resources */,
 				FC946EB61A11B41C00692D04 /* pieindex3.html in Resources */,
-				FC0873CC19EBA6DE00ACB943 /* MASPreferencesWindow.xib in Resources */,
 				FC94C8EE19F4B6A800152A2C /* BeFitHelp in Resources */,
 				FC946E7F1A0FFC4900692D04 /* pieindex.js in Resources */,
 				FCA5D41B18FED2AA00CDBC50 /* BeFitfree.xib in Resources */,
@@ -1571,6 +1600,169 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A1337C4F164FE1C1A66E889 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeFitDemo/Pods-BeFitDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MASPreferences/MASPreferences.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASPreferences.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeFitDemo/Pods-BeFitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DA522A766B57C0AA4DFCC0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeFitFree-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60A692709F874690CB21E2A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeFit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		814143472E70A6C301DF22FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeFitFree/Pods-BeFitFree-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MASPreferences/MASPreferences.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASPreferences.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeFitFree/Pods-BeFitFree-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A18EC6B5093760FC7DE861D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeFitWebsite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2CC6CB6785E6C5E96F90E9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeFit/Pods-BeFit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MASPreferences/MASPreferences.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASPreferences.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeFit/Pods-BeFit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFCF986ECC9002D6414615B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeFitWebsite/Pods-BeFitWebsite-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MASPreferences/MASPreferences.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASPreferences.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeFitWebsite/Pods-BeFitWebsite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB5A9D16AAFF34B34529751E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeFitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2565F95A0EFDBBB2005CD70F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -1581,7 +1773,6 @@
 				FC946EEB1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
 				4357279D23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */,
 				43C801002372E9D800E08913 /* FilterFoodCell.swift in Sources */,
-				FC0873CE19EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */,
 				4348C1D9237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
 				4348C1E3237170FA00071B9C /* GUIController.swift in Sources */,
 				FC89572A19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
@@ -1649,7 +1840,6 @@
 				4375CA2B23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
 				FC946EEA1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
 				43C800E52372BE5700E08913 /* CustomError.swift in Sources */,
-				FC0873CD19EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */,
 				43C801032372EA9900E08913 /* SearchFieldForFood.swift in Sources */,
 				4348C1E1237170FA00071B9C /* GUIController.swift in Sources */,
 				4375CA262370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
@@ -1716,7 +1906,6 @@
 				4375CA2E23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
 				FC946EEC1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
 				43C800E82372BE5700E08913 /* CustomError.swift in Sources */,
-				FC0873CF19EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */,
 				43C801062372EA9A00E08913 /* SearchFieldForFood.swift in Sources */,
 				4348C1E4237170FA00071B9C /* GUIController.swift in Sources */,
 				4375CA292370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
@@ -1783,7 +1972,6 @@
 				4375CA2C23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
 				FC946EED1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
 				43C800E62372BE5700E08913 /* CustomError.swift in Sources */,
-				FC0873D019EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */,
 				43C801042372EA9900E08913 /* SearchFieldForFood.swift in Sources */,
 				4348C1E2237170FA00071B9C /* GUIController.swift in Sources */,
 				4375CA272370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
@@ -1881,6 +2069,7 @@
 /* Begin XCBuildConfiguration section */
 		2565F9600EFDBBB3005CD70F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE175FA2EF730710E69EC12B /* Pods-BeFitDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1905,18 +2094,24 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				GCC_PREPROCESSOR_DEFINITIONS = TRIAL;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					TRIAL,
+				);
 				GCC_WARN_UNUSED_FUNCTION = NO;
 				GCC_WARN_UNUSED_LABEL = NO;
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "PLIST/BeFitDemo-Info.plist";
 				INSTALL_PATH = /Applications;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDemoMode=0";
-				OTHER_LDFLAGS = "-Wl,-rpath,@loader_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl,-rpath,@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonbrowndesigns.befitdemoapp;
 				PRODUCT_NAME = "BeFit Trial";
 				PROVISIONING_PROFILE = "";
@@ -1929,6 +2124,7 @@
 		};
 		2565F9610EFDBBB3005CD70F /* Device */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16DA05639FEB25CF5427773F /* Pods-BeFitDemo.device.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1952,7 +2148,10 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				GCC_PREPROCESSOR_DEFINITIONS = TRIAL;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					TRIAL,
+				);
 				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -1963,11 +2162,14 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "PLIST/BeFitDemo-Info.plist";
 				INSTALL_PATH = /Applications;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDemoMode=0";
-				OTHER_LDFLAGS = "-Wl,-rpath,@loader_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl,-rpath,@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonbrowndesigns.befitdemoapp;
 				PRODUCT_NAME = "BeFit Trial";
 				PROVISIONING_PROFILE = "";
@@ -1980,6 +2182,7 @@
 		};
 		26FC0A850875C7B200E6366F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B137B25A869216B0CA8D7DF8 /* Pods-BeFit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = YES;
@@ -2012,9 +2215,10 @@
 				IBC_ERRORS = NO;
 				INFOPLIST_FILE = PLIST/Info.plist;
 				INSTALL_PATH = /Applications;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				OTHER_CFLAGS = "-DDemoMode=0";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;
 				PRODUCT_NAME = BeFit;
 				PROVISIONING_PROFILE = "";
@@ -2030,6 +2234,7 @@
 		};
 		26FC0A860875C7B200E6366F /* Device */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF584F9A2E147BB878B69EA /* Pods-BeFit.device.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = YES;
@@ -2063,10 +2268,11 @@
 				IBC_ERRORS = NO;
 				INFOPLIST_FILE = PLIST/Info.plist;
 				INSTALL_PATH = /Applications;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DDemoMode=0";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;
 				PRODUCT_NAME = BeFit;
@@ -2174,6 +2380,7 @@
 		};
 		FC1694CF181C747100C54052 /* Device */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F893C765809F2444229958D /* Pods-BeFitWebsite.device.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -2201,16 +2408,22 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = BeFit_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = WEBSITE;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					WEBSITE,
+				);
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INFOPLIST_FILE = "PLIST/BeFit-Info.plist";
 				INSTALL_PATH = /Applications;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DDemoMode=0";
-				OTHER_LDFLAGS = "-Wl,-rpath,@loader_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl,-rpath,@loader_path/../Frameworks",
+				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;
 				PRODUCT_NAME = BeFit;
@@ -2225,6 +2438,7 @@
 		};
 		FC1694D0181C747100C54052 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6D0F291F640502B4D7D0DAA /* Pods-BeFitWebsite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -2251,15 +2465,21 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = BeFit_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = WEBSITE;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					WEBSITE,
+				);
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INFOPLIST_FILE = "PLIST/BeFit-Info.plist";
 				INSTALL_PATH = /Applications;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_CFLAGS = "-DDemoMode=0";
-				OTHER_LDFLAGS = "-Wl,-rpath,@loader_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl,-rpath,@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;
 				PRODUCT_NAME = BeFit;
 				PROVISIONING_PROFILE = "";
@@ -2274,6 +2494,7 @@
 		};
 		FC91C36D18EE53B300960571 /* Device */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A4E61868FF4D36DA40F367 /* Pods-BeFitFree.device.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2296,7 +2517,10 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				GCC_PREPROCESSOR_DEFINITIONS = STORE;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					STORE,
+				);
 				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -2307,11 +2531,11 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "PLIST/BeFitFree-Info.plist";
 				INSTALL_PATH = /Applications;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDemoMode=0";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitAppFree;
 				PRODUCT_NAME = "BeFit Lite";
 				PROVISIONING_PROFILE = "";
@@ -2323,6 +2547,7 @@
 		};
 		FC91C36E18EE53B300960571 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B907B66BDE2E08C2BC9414F /* Pods-BeFitFree.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2346,18 +2571,21 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				GCC_PREPROCESSOR_DEFINITIONS = STORE;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					STORE,
+				);
 				GCC_WARN_UNUSED_FUNCTION = NO;
 				GCC_WARN_UNUSED_LABEL = NO;
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "PLIST/BeFitFree-Info.plist";
 				INSTALL_PATH = /Applications;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDemoMode=0";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitAppFree;
 				PRODUCT_NAME = "BeFit Lite";
 				PROVISIONING_PROFILE = "";
