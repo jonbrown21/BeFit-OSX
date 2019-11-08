@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2565F95C0EFDBBB2005CD70F"
-               BuildableName = "BeFitTrial.app"
+               BuildableName = "BeFit Trial.app"
                BlueprintName = "BeFitDemo"
                ReferencedContainer = "container:BeFit.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2565F95C0EFDBBB2005CD70F"
-            BuildableName = "BeFitTrial.app"
+            BuildableName = "BeFit Trial.app"
             BlueprintName = "BeFitDemo"
             ReferencedContainer = "container:BeFit.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2565F95C0EFDBBB2005CD70F"
-            BuildableName = "BeFitTrial.app"
+            BuildableName = "BeFit Trial.app"
             BlueprintName = "BeFitDemo"
             ReferencedContainer = "container:BeFit.xcodeproj">
          </BuildableReference>
