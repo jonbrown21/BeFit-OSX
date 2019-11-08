@@ -1359,7 +1359,7 @@
 						};
 					};
 					8D1107260486CEB800E47090 = {
-						DevelopmentTeam = 67U27L4GJ6;
+						DevelopmentTeam = 2D4Z7WQ7RS;
 						LastSwiftMigration = 1110;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
@@ -2179,7 +2179,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 67U27L4GJ6;
+				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2233,7 +2233,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_POSTPROCESSING = NO;
-				DEVELOPMENT_TEAM = 67U27L4GJ6;
+				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
