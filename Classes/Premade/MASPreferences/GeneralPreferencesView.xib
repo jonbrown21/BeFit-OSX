@@ -487,7 +487,7 @@
             <point key="canvasLocation" x="145" y="191"/>
         </customView>
         <userDefaultsController representsSharedInstance="YES" id="xRg-iY-wSc"/>
-        <customObject id="cg1-4V-33F" customClass="PrefSetter">
+        <customObject id="cg1-4V-33F" customClass="PrefSetter" customModule="BeFit" customModuleProvider="target">
             <connections>
                 <outlet property="prefslider" destination="3oC-Cq-lG8" id="5XA-66-19T"/>
                 <outlet property="sliderValueLabel" destination="fH4-E8-fxl" id="BQl-fA-UnI"/>
