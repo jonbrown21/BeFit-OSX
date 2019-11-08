@@ -5,6 +5,9 @@
       location = "group:BeFit.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:OpenFeedback-master/OpenFeedback.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

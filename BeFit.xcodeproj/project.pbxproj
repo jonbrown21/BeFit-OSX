@@ -77,6 +77,8 @@
 		4375CA2C23704E0B008A4B02 /* FoodListArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA2A23704E0B008A4B02 /* FoodListArrayController.swift */; };
 		4375CA2D23704E0B008A4B02 /* FoodListArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA2A23704E0B008A4B02 /* FoodListArrayController.swift */; };
 		4375CA2E23704E0B008A4B02 /* FoodListArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA2A23704E0B008A4B02 /* FoodListArrayController.swift */; };
+		43B3E72E2375CFCE008A6420 /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B3E72D2375CFCE008A6420 /* OpenFeedback.framework */; };
+		43B3E72F2375CFCE008A6420 /* OpenFeedback.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43B3E72D2375CFCE008A6420 /* OpenFeedback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		43C800E02371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800DF2371B6E100E08913 /* BeFit_AppDelegate.swift */; };
 		43C800E12371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800DF2371B6E100E08913 /* BeFit_AppDelegate.swift */; };
 		43C800E22371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800DF2371B6E100E08913 /* BeFit_AppDelegate.swift */; };
@@ -170,6 +172,9 @@
 		43C801562375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801542375999C00E08913 /* PrioritySplitViewDelegate.swift */; };
 		43C801572375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801542375999C00E08913 /* PrioritySplitViewDelegate.swift */; };
 		43C801582375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801542375999C00E08913 /* PrioritySplitViewDelegate.swift */; };
+		43C801592375A2E000E08913 /* GeneralPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */; };
+		43C8015A2375A2E000E08913 /* GeneralPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */; };
+		43C8015B2375A2E100E08913 /* GeneralPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */; };
 		49D8C83A2C61EFB1DD12F7F1 /* Pods_BeFitFree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F996651F339E047069541D83 /* Pods_BeFitFree.framework */; };
 		602CEDAA613D7AAEF8326BBE /* Pods_BeFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44F5C715CC271A121C9BDF8 /* Pods_BeFit.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -248,7 +253,6 @@
 		FC24B112204C96A100E4D1E8 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FC24B10E204C96A000E4D1E8 /* PFMoveApplication.m */; };
 		FC24B113204C96B400E4D1E8 /* LetsMove.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC24B10D204C969F00E4D1E8 /* LetsMove.framework */; };
 		FC24B114204C96BB00E4D1E8 /* LetsMove.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC24B10D204C969F00E4D1E8 /* LetsMove.framework */; };
-		FC4D03831E30E6C1001B95AB /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
 		FC4D03851E30E6D4001B95AB /* OpenFeedback.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
 		FC4D038A1E30E985001B95AB /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
 		FC5821851FB904AB00D34CAA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC5821841FB904AB00D34CAA /* icon.icns */; };
@@ -428,7 +432,6 @@
 		FCC174D519EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC174D119EBD4CF001A184A /* OSBBadgeTextFieldCell.m */; };
 		FCD4445B1804CFF90036C533 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C82804067257F0000B614F /* CoreData.framework */; };
 		FCD4445C1804CFF90036C533 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C82804067257F0000B614F /* CoreData.framework */; };
-		FCEEDC711E3320E900CD141A /* OpenFeedback.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
 		FCF3D7301E77ABD0004A8525 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF3D72E1E77ABD0004A8525 /* Sparkle.framework */; };
 		FCF3D7311E77ABD0004A8525 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF3D72E1E77ABD0004A8525 /* Sparkle.framework */; };
 		FCF3D7331E77AC22004A8525 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FCF3D72E1E77ABD0004A8525 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -462,6 +465,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				11A49BE42159EF5E00A0AC3D /* LetsMove.framework in CopyFiles */,
+				43B3E72F2375CFCE008A6420 /* OpenFeedback.framework in CopyFiles */,
 				FCF3D7331E77AC22004A8525 /* Sparkle.framework in CopyFiles */,
 				FC9FA8421FC5BF720030F407 /* Paddle.framework in CopyFiles */,
 			);
@@ -510,6 +514,7 @@
 		435727A8237018B700755BE1 /* FoodList+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodList+UI.swift"; sourceTree = "<group>"; };
 		4375CA252370478A008A4B02 /* FoodListNSTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodListNSTableView.swift; sourceTree = "<group>"; };
 		4375CA2A23704E0B008A4B02 /* FoodListArrayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListArrayController.swift; sourceTree = "<group>"; };
+		43B3E72D2375CFCE008A6420 /* OpenFeedback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OpenFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C800DF2371B6E100E08913 /* BeFit_AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeFit_AppDelegate.swift; sourceTree = "<group>"; };
 		43C800E42372BE5700E08913 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 		43C800E92372C3C200E08913 /* NSPasteboard+FoodDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSPasteboard+FoodDrag.swift"; sourceTree = "<group>"; };
@@ -668,7 +673,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4D03831E30E6C1001B95AB /* OpenFeedback.framework in Frameworks */,
 				FCBA5BB718765820007C6CE2 /* SystemConfiguration.framework in Frameworks */,
 				FCBA5BB61876580A007C6CE2 /* QuartzCore.framework in Frameworks */,
 				FC1F03C4185540AC00299046 /* WebKit.framework in Frameworks */,
@@ -678,6 +682,7 @@
 				FCFAE94B180B08C200108FDE /* Cocoa.framework in Frameworks */,
 				FCD4445C1804CFF90036C533 /* CoreData.framework in Frameworks */,
 				2565F9770EFDBC13005CD70F /* OpenGL.framework in Frameworks */,
+				43B3E72E2375CFCE008A6420 /* OpenFeedback.framework in Frameworks */,
 				FC24B10F204C96A100E4D1E8 /* LetsMove.framework in Frameworks */,
 				1721D91B23BC3CF5BC74D96E /* Pods_BeFitDemo.framework in Frameworks */,
 			);
@@ -827,6 +832,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43B3E72D2375CFCE008A6420 /* OpenFeedback.framework */,
 				FC9FA83D1FC5BF340030F407 /* Paddle.framework */,
 				FCF3D72E1E77ABD0004A8525 /* Sparkle.framework */,
 				FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */,
@@ -1414,7 +1420,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC24B114204C96BB00E4D1E8 /* LetsMove.framework in Resources */,
-				FCEEDC711E3320E900CD141A /* OpenFeedback.framework in Resources */,
 				FC946ECD1A12F46F00692D04 /* owl.transitions.css in Resources */,
 				FC7EF86F1882508300B4A647 /* BeFitWeb.xib in Resources */,
 				FC946FB41A20F2BA00692D04 /* justgage.1.0.1.min.js in Resources */,
@@ -1781,6 +1786,7 @@
 				43C800F62372CB6100E08913 /* RightGraphView.swift in Sources */,
 				FC946F2C1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
 				4375CA2D23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
+				43C8015A2375A2E000E08913 /* GeneralPreferencesViewController.swift in Sources */,
 				43C800E72372BE5700E08913 /* CustomError.swift in Sources */,
 				43C8014323757E5500E08913 /* UpdatePreferenceViewController.swift in Sources */,
 				43C801572375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */,
@@ -1914,6 +1920,7 @@
 				4348C1D023706D9700071B9C /* FoodArrayController.swift in Sources */,
 				FC946FC01A21886D00692D04 /* CustomCornerView.m in Sources */,
 				FC08739119EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
+				43C8015B2375A2E100E08913 /* GeneralPreferencesViewController.swift in Sources */,
 				FC24B112204C96A100E4D1E8 /* PFMoveApplication.m in Sources */,
 				43C8010B2372ECE300E08913 /* SideFooter.swift in Sources */,
 				FC946F311A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
@@ -1979,6 +1986,7 @@
 				FC08738719EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
 				FC946FC11A21886D00692D04 /* CustomCornerView.m in Sources */,
 				FC08739219EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
+				43C801592375A2E000E08913 /* GeneralPreferencesViewController.swift in Sources */,
 				FC08740A19EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
 				43C801092372ECE300E08913 /* SideFooter.swift in Sources */,
 				FC89568219F4499F00420ADC /* RMBlurredView.m in Sources */,
@@ -2064,6 +2072,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2086,18 +2095,17 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "PLIST/BeFitDemo-Info.plist";
 				INSTALL_PATH = /Applications;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDemoMode=0";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-Wl,-rpath,@loader_path/../Frameworks",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonbrowndesigns.befitdemoapp;
 				PRODUCT_NAME = "BeFit Trial";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = TRIAL;
 				SWIFT_OBJC_BRIDGING_HEADER = "BeFitDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -2119,6 +2127,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2144,18 +2153,17 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "PLIST/BeFitDemo-Info.plist";
 				INSTALL_PATH = /Applications;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDemoMode=0";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-Wl,-rpath,@loader_path/../Frameworks",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonbrowndesigns.befitdemoapp;
 				PRODUCT_NAME = "BeFit Trial";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = TRIAL;
 				SWIFT_OBJC_BRIDGING_HEADER = "BeFitDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				ZERO_LINK = NO;
@@ -2412,6 +2420,7 @@
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 				STRIP_STYLE = all;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = WEBSITE;
 				SWIFT_OBJC_BRIDGING_HEADER = "BeFitWebsite-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
@@ -2466,6 +2475,7 @@
 				PRODUCT_NAME = BeFit;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = WEBSITE;
 				SWIFT_OBJC_BRIDGING_HEADER = "BeFitWebsite-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -2521,6 +2531,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitAppFree;
 				PRODUCT_NAME = "BeFit Lite";
 				PROVISIONING_PROFILE = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = STORE;
 				SWIFT_OBJC_BRIDGING_HEADER = "BeFitFree-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				ZERO_LINK = NO;
@@ -2571,6 +2582,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitAppFree;
 				PRODUCT_NAME = "BeFit Lite";
 				PROVISIONING_PROFILE = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = STORE;
 				SWIFT_OBJC_BRIDGING_HEADER = "BeFitFree-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;

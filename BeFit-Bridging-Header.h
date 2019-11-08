@@ -11,6 +11,5 @@
 #import "MCViewFlipController.h"
 #import "ITProgressBar.h"
 #import "ANSegmentedControl.h"
-#import <OpenFeedback/OpenFeedback.h>
 #import "UAAppReviewManager.h"
 #import "PFMoveApplication.h"

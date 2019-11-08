@@ -9,7 +9,8 @@ import Foundation
 import Cocoa
 
 #if TRIAL || WEBSITE
-import Sparkle
+//import Sparkle
+import OpenFeedback
 import Paddle
 #endif
 
@@ -47,7 +48,6 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
     @IBOutlet var isOnline: NSImageView!
     @IBOutlet var FoodTableView: NSArrayController!
     @IBOutlet var submitFood: NSButton!
-    @IBOutlet var openFeedback: OpenFeedback?
     
     @IBOutlet var showStore: NSWindow!
     @IBOutlet var arrayController_: NSArrayController!
@@ -82,6 +82,10 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
     @IBOutlet var CalorieScrollView: LNScrollView!
     @IBOutlet var progressBar: ITProgressBar!
     @IBOutlet var mySuperview: NSView?
+    
+    #if TRIAL || WEBSITE
+    @IBOutlet var openFeedback: OpenFeedback?
+    #endif
     
     private var flipController: MCViewFlipController!
     private var splitViewDelegate: PrioritySplitViewDelegate!
