@@ -594,7 +594,6 @@
 		FC262C3B2360A8180033F990 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BeFitWeb.xib; sourceTree = "<group>"; };
 		FC262C3C2360A8190033F990 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BeFitfree.xib; sourceTree = "<group>"; };
 		FC262C3D2360A81A0033F990 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenFeedback.framework; sourceTree = "<group>"; };
 		FC5821841FB904AB00D34CAA /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		FC632F2819EA350F008E3D72 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		FC89564019F4494200420ADC /* OnlineCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlineCheck.h; sourceTree = "<group>"; };
@@ -834,7 +833,6 @@
 				43B3E72D2375CFCE008A6420 /* OpenFeedback.framework */,
 				FC9FA83D1FC5BF340030F407 /* Paddle.framework */,
 				FCF3D72E1E77ABD0004A8525 /* Sparkle.framework */,
-				FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */,
 				FC0399B5188CDCEF00AB6785 /* Quartz.framework */,
 				FC1FA2621871335600E96FEE /* QuartzCore.framework */,
 				FC1FA25318712EFE00E96FEE /* SystemConfiguration.framework */,
