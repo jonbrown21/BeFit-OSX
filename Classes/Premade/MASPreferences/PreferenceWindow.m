@@ -8,9 +8,9 @@
 
 #import "PreferenceWindow.h"
 #import "MASPreferencesWindowController.h"
-#import "GeneralPreferencesViewController.h"
 #import "AdvancedPreferencesViewController.h"
 #import "UpdatePreferenceViewController.h"
+#import "BeFit-Swift.h"
 
 @implementation PreferenceWindow
 

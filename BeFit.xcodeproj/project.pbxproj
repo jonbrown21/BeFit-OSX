@@ -149,6 +149,7 @@
 		43C801362372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */; };
 		43C801372372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */; };
 		43C801382372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */; };
+		43C8013F2375560700E08913 /* GeneralPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */; };
 		49D8C83A2C61EFB1DD12F7F1 /* Pods_BeFitFree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F996651F339E047069541D83 /* Pods_BeFitFree.framework */; };
 		602CEDAA613D7AAEF8326BBE /* Pods_BeFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44F5C715CC271A121C9BDF8 /* Pods_BeFit.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -194,10 +195,6 @@
 		FC0873C219EBA6DE00ACB943 /* GeneralPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873AB19EBA6DE00ACB943 /* GeneralPreferencesView.xib */; };
 		FC0873C319EBA6DE00ACB943 /* GeneralPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873AB19EBA6DE00ACB943 /* GeneralPreferencesView.xib */; };
 		FC0873C419EBA6DE00ACB943 /* GeneralPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873AB19EBA6DE00ACB943 /* GeneralPreferencesView.xib */; };
-		FC0873C519EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873AD19EBA6DE00ACB943 /* GeneralPreferencesViewController.m */; };
-		FC0873C619EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873AD19EBA6DE00ACB943 /* GeneralPreferencesViewController.m */; };
-		FC0873C719EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873AD19EBA6DE00ACB943 /* GeneralPreferencesViewController.m */; };
-		FC0873C819EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873AD19EBA6DE00ACB943 /* GeneralPreferencesViewController.m */; };
 		FC0873D119EBA6DE00ACB943 /* PreferenceWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B319EBA6DE00ACB943 /* PreferenceWindow.m */; };
 		FC0873D219EBA6DE00ACB943 /* PreferenceWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B319EBA6DE00ACB943 /* PreferenceWindow.m */; };
 		FC0873D319EBA6DE00ACB943 /* PreferenceWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B319EBA6DE00ACB943 /* PreferenceWindow.m */; };
@@ -531,6 +528,7 @@
 		43C8012A2372F95F00E08913 /* LegendSatFat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendSatFat.swift; sourceTree = "<group>"; };
 		43C8012F2372FA6E00E08913 /* LegendChol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendChol.swift; sourceTree = "<group>"; };
 		43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLevelIndicatorCell.swift; sourceTree = "<group>"; };
+		43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralPreferencesViewController.swift; sourceTree = "<group>"; };
 		5A3C7F3CE54396E67D8544D2 /* Pods_BeFitWebsite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeFitWebsite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F893C765809F2444229958D /* Pods-BeFitWebsite.device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeFitWebsite.device.xcconfig"; path = "Target Support Files/Pods-BeFitWebsite/Pods-BeFitWebsite.device.xcconfig"; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -563,8 +561,6 @@
 		FC0873A919EBA6DE00ACB943 /* AdvancedPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedPreferencesViewController.h; sourceTree = "<group>"; };
 		FC0873AA19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedPreferencesViewController.m; sourceTree = "<group>"; };
 		FC0873AB19EBA6DE00ACB943 /* GeneralPreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralPreferencesView.xib; sourceTree = "<group>"; };
-		FC0873AC19EBA6DE00ACB943 /* GeneralPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralPreferencesViewController.h; sourceTree = "<group>"; };
-		FC0873AD19EBA6DE00ACB943 /* GeneralPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralPreferencesViewController.m; sourceTree = "<group>"; };
 		FC0873B219EBA6DE00ACB943 /* PreferenceWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceWindow.h; sourceTree = "<group>"; };
 		FC0873B319EBA6DE00ACB943 /* PreferenceWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceWindow.m; sourceTree = "<group>"; };
 		FC0873B419EBA6DE00ACB943 /* PrefSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefSetter.h; sourceTree = "<group>"; };
@@ -995,14 +991,13 @@
 				FCC174D719EBE24C001A184A /* PreferencePanes */,
 				FC0873A919EBA6DE00ACB943 /* AdvancedPreferencesViewController.h */,
 				FC0873AA19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m */,
-				FC0873AC19EBA6DE00ACB943 /* GeneralPreferencesViewController.h */,
-				FC0873AD19EBA6DE00ACB943 /* GeneralPreferencesViewController.m */,
 				FC0873B219EBA6DE00ACB943 /* PreferenceWindow.h */,
 				FC0873B319EBA6DE00ACB943 /* PreferenceWindow.m */,
 				FC0873B419EBA6DE00ACB943 /* PrefSetter.h */,
 				FC0873B519EBA6DE00ACB943 /* PrefSetter.m */,
 				FC0873B719EBA6DE00ACB943 /* UpdatePreferenceViewController.h */,
 				FC0873B819EBA6DE00ACB943 /* UpdatePreferenceViewController.m */,
+				43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */,
 			);
 			name = MASPreferences;
 			path = Classes/Premade/MASPreferences;
@@ -1768,7 +1763,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC0873C619EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */,
 				43C8012D2372F95F00E08913 /* LegendSatFat.swift in Sources */,
 				FC946EEB1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
 				4357279D23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */,
@@ -1836,7 +1830,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				435727A9237018B700755BE1 /* FoodList+UI.swift in Sources */,
-				FC0873C519EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */,
 				4375CA2B23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
 				FC946EEA1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
 				43C800E52372BE5700E08913 /* CustomError.swift in Sources */,
@@ -1863,6 +1856,7 @@
 				FC946F2B1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
 				FC0873BD19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m in Sources */,
 				FC08738419EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
+				43C8013F2375560700E08913 /* GeneralPreferencesViewController.swift in Sources */,
 				4348C1CD23706D9700071B9C /* FoodArrayController.swift in Sources */,
 				FC946FBE1A21886D00692D04 /* CustomCornerView.m in Sources */,
 				FC08738F19EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
@@ -1902,7 +1896,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				435727AC237018B700755BE1 /* FoodList+UI.swift in Sources */,
-				FC0873C719EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */,
 				4375CA2E23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
 				FC946EEC1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
 				43C800E82372BE5700E08913 /* CustomError.swift in Sources */,
@@ -1968,7 +1961,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				435727AA237018B700755BE1 /* FoodList+UI.swift in Sources */,
-				FC0873C819EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */,
 				4375CA2C23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
 				FC946EED1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
 				43C800E62372BE5700E08913 /* CustomError.swift in Sources */,

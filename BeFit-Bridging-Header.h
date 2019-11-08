@@ -16,3 +16,4 @@
 #import "PrioritySplitViewDelegate.h"
 #import "UAAppReviewManager.h"
 #import "PFMoveApplication.h"
+#import "MASPreferencesViewController.h"
