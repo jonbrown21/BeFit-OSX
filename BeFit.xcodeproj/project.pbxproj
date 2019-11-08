@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11693055215A6DBF00BF4F77 /* OpenFeedback.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		11A49BE32159EEE300A0AC3D /* LetsMove.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC24B10D204C969F00E4D1E8 /* LetsMove.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		11A49BE42159EF5E00A0AC3D /* LetsMove.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC24B10D204C969F00E4D1E8 /* LetsMove.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1721D91B23BC3CF5BC74D96E /* Pods_BeFitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6C3A12412CBC17E2355719 /* Pods_BeFitDemo.framework */; };
@@ -175,6 +174,8 @@
 		43C801592375A2E000E08913 /* GeneralPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */; };
 		43C8015A2375A2E000E08913 /* GeneralPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */; };
 		43C8015B2375A2E100E08913 /* GeneralPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */; };
+		43CC52E92375D73900FE4C78 /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B3E72D2375CFCE008A6420 /* OpenFeedback.framework */; };
+		43CC52EA2375D73900FE4C78 /* OpenFeedback.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43B3E72D2375CFCE008A6420 /* OpenFeedback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		49D8C83A2C61EFB1DD12F7F1 /* Pods_BeFitFree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F996651F339E047069541D83 /* Pods_BeFitFree.framework */; };
 		602CEDAA613D7AAEF8326BBE /* Pods_BeFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44F5C715CC271A121C9BDF8 /* Pods_BeFit.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -253,8 +254,6 @@
 		FC24B112204C96A100E4D1E8 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FC24B10E204C96A000E4D1E8 /* PFMoveApplication.m */; };
 		FC24B113204C96B400E4D1E8 /* LetsMove.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC24B10D204C969F00E4D1E8 /* LetsMove.framework */; };
 		FC24B114204C96BB00E4D1E8 /* LetsMove.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC24B10D204C969F00E4D1E8 /* LetsMove.framework */; };
-		FC4D03851E30E6D4001B95AB /* OpenFeedback.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
-		FC4D038A1E30E985001B95AB /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
 		FC5821851FB904AB00D34CAA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC5821841FB904AB00D34CAA /* icon.icns */; };
 		FC5821861FB904AB00D34CAA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC5821841FB904AB00D34CAA /* icon.icns */; };
 		FC5821871FB904AB00D34CAA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC5821841FB904AB00D34CAA /* icon.icns */; };
@@ -478,7 +477,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				11A49BE32159EEE300A0AC3D /* LetsMove.framework in CopyFiles */,
-				11693055215A6DBF00BF4F77 /* OpenFeedback.framework in CopyFiles */,
+				43CC52EA2375D73900FE4C78 /* OpenFeedback.framework in CopyFiles */,
 				FCF3D7351E77AC2F004A8525 /* Sparkle.framework in CopyFiles */,
 				FC9FA8431FC5BF750030F407 /* Paddle.framework in CopyFiles */,
 			);
@@ -707,7 +706,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4D038A1E30E985001B95AB /* OpenFeedback.framework in Frameworks */,
 				FC977A6D18764568002631C2 /* SystemConfiguration.framework in Frameworks */,
 				FC977A6C1876455D002631C2 /* QuartzCore.framework in Frameworks */,
 				FC1F03C31855407600299046 /* WebKit.framework in Frameworks */,
@@ -717,6 +715,7 @@
 				FC1694CA181C747100C54052 /* Cocoa.framework in Frameworks */,
 				FC1694CB181C747100C54052 /* CoreData.framework in Frameworks */,
 				FC1694CC181C747100C54052 /* OpenGL.framework in Frameworks */,
+				43CC52E92375D73900FE4C78 /* OpenFeedback.framework in Frameworks */,
 				FC24B110204C96A100E4D1E8 /* LetsMove.framework in Frameworks */,
 				FC93F6932982CCDCF7291AD3 /* Pods_BeFitWebsite.framework in Frameworks */,
 			);
@@ -1506,7 +1505,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC24B113204C96B400E4D1E8 /* LetsMove.framework in Resources */,
-				FC4D03851E30E6D4001B95AB /* OpenFeedback.framework in Resources */,
 				FC946ECE1A12F46F00692D04 /* owl.transitions.css in Resources */,
 				FC7EF8701882508300B4A647 /* BeFitWeb.xib in Resources */,
 				FC946FB51A20F2BA00692D04 /* justgage.1.0.1.min.js in Resources */,
@@ -2406,14 +2404,11 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INFOPLIST_FILE = "PLIST/BeFit-Info.plist";
 				INSTALL_PATH = /Applications;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DDemoMode=0";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-Wl,-rpath,@loader_path/../Frameworks",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;
 				PRODUCT_NAME = BeFit;
@@ -2464,13 +2459,10 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INFOPLIST_FILE = "PLIST/BeFit-Info.plist";
 				INSTALL_PATH = /Applications;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_CFLAGS = "-DDemoMode=0";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-Wl,-rpath,@loader_path/../Frameworks",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;
 				PRODUCT_NAME = BeFit;
 				PROVISIONING_PROFILE = "";
