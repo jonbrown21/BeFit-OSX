@@ -8,7 +8,6 @@
 #import "INAppStoreWindow.h"
 #import "INWindowButton.h"
 #import "LNClipView.h"
-#import "PreferenceWindow.h"
 #import "MCViewFlipController.h"
 #import "ITProgressBar.h"
 #import "ANSegmentedControl.h"
@@ -16,4 +15,3 @@
 #import "PrioritySplitViewDelegate.h"
 #import "UAAppReviewManager.h"
 #import "PFMoveApplication.h"
-#import "MASPreferencesViewController.h"

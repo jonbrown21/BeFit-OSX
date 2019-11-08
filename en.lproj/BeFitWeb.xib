@@ -44,7 +44,7 @@
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                         <clipView key="contentView" ambiguous="YES" drawsBackground="NO" id="a9e-TO-Ga5">
                                             <rect key="frame" x="0.0" y="0.0" width="201" height="610"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <tableView focusRingType="none" verticalHuggingPriority="750" ambiguous="YES" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" selectionHighlightStyle="sourceList" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="35" rowSizeStyle="automatic" viewBased="YES" floatsGroupRows="NO" id="KbJ-R5-DkY" customClass="FoodListNSTableView" customModule="BeFit" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="201" height="610"/>
@@ -211,7 +211,7 @@
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <clipView key="contentView" focusRingType="none" ambiguous="YES" copiesOnScroll="NO" id="Td3-QF-MHi">
                                             <rect key="frame" x="0.0" y="0.0" width="603" height="515"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <tableView focusRingType="none" verticalHuggingPriority="750" ambiguous="YES" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnSelection="YES" emptySelection="NO" autosaveColumns="NO" headerView="2623" id="394" customClass="FoodNSTableView" customModule="BeFit" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="603" height="498"/>
@@ -369,7 +369,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
                                         <clipView key="contentView" wantsLayer="YES" canDrawConcurrently="YES" focusRingType="none" ambiguous="YES" drawsBackground="NO" copiesOnScroll="NO" id="Psl-Hs-7BR">
                                             <rect key="frame" x="0.0" y="0.0" width="190" height="594"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view canDrawConcurrently="YES" focusRingType="none" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k79-ca-Tzd">
                                                     <rect key="frame" x="-4" y="-1" width="209" height="862"/>
@@ -940,7 +940,7 @@ CA
                 <outlet property="ScrollViewBeingEdited" destination="393" id="973"/>
             </connections>
         </customObject>
-        <customObject id="yco-bX-wVM" customClass="PreferenceWindow"/>
+        <customObject id="yco-bX-wVM" customClass="PreferenceWindow" customModule="BeFit" customModuleProvider="target"/>
         <menu title="DockMenu" id="2996" userLabel="DockMenu">
             <items>
                 <menuItem title="About BeFit" id="2997">
@@ -2860,7 +2860,7 @@ CA
                                                 <font key="font" metaFont="system"/>
                                                 <tabViewItems>
                                                     <tabViewItem label="Value" identifier="1" id="WQv-KS-VNb">
-                                                        <view key="view" id="wOW-tW-fAU">
+                                                        <view key="view" ambiguous="YES" id="wOW-tW-fAU">
                                                             <rect key="frame" x="0.0" y="0.0" width="206" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
@@ -3036,7 +3036,7 @@ IA
                                                         </view>
                                                     </tabViewItem>
                                                     <tabViewItem label="Percent" identifier="2" id="spw-Nb-Bcc">
-                                                        <view key="view" ambiguous="YES" id="lNR-ck-kAp">
+                                                        <view key="view" id="lNR-ck-kAp">
                                                             <rect key="frame" x="0.0" y="0.0" width="206" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
@@ -3269,7 +3269,7 @@ IA
                                                 <font key="font" metaFont="system"/>
                                                 <tabViewItems>
                                                     <tabViewItem label="Value" identifier="1" id="PKo-Sl-Ku7">
-                                                        <view key="view" id="eth-UG-kj6">
+                                                        <view key="view" ambiguous="YES" id="eth-UG-kj6">
                                                             <rect key="frame" x="0.0" y="0.0" width="206" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
@@ -3446,7 +3446,7 @@ IA
                                                         </view>
                                                     </tabViewItem>
                                                     <tabViewItem label="Percent" identifier="2" id="VnH-JW-gSF">
-                                                        <view key="view" ambiguous="YES" id="kTP-jd-LIM">
+                                                        <view key="view" id="kTP-jd-LIM">
                                                             <rect key="frame" x="0.0" y="0.0" width="206" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
@@ -3651,7 +3651,7 @@ IA
                                                 <font key="font" metaFont="system"/>
                                                 <tabViewItems>
                                                     <tabViewItem label="Value" identifier="1" id="68W-pu-K0Z">
-                                                        <view key="view" id="xnc-FQ-kT4">
+                                                        <view key="view" ambiguous="YES" id="xnc-FQ-kT4">
                                                             <rect key="frame" x="0.0" y="0.0" width="206" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
@@ -3827,7 +3827,7 @@ IA
                                                         </view>
                                                     </tabViewItem>
                                                     <tabViewItem label="Percent" identifier="2" id="1fQ-Kh-AXY">
-                                                        <view key="view" ambiguous="YES" id="kjf-V8-xnI">
+                                                        <view key="view" id="kjf-V8-xnI">
                                                             <rect key="frame" x="0.0" y="0.0" width="206" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>

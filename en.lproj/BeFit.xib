@@ -941,7 +941,7 @@ CA
                 <outlet property="ScrollViewBeingEdited" destination="393" id="973"/>
             </connections>
         </customObject>
-        <customObject id="yco-bX-wVM" customClass="PreferenceWindow"/>
+        <customObject id="yco-bX-wVM" customClass="PreferenceWindow" customModule="BeFit" customModuleProvider="target"/>
         <menu title="DockMenu" id="2996" userLabel="DockMenu">
             <items>
                 <menuItem title="About BeFit" id="2997">
@@ -2865,7 +2865,7 @@ CA
                                                 <font key="font" metaFont="system"/>
                                                 <tabViewItems>
                                                     <tabViewItem label="Value" identifier="1" id="WQv-KS-VNb">
-                                                        <view key="view" id="wOW-tW-fAU">
+                                                        <view key="view" ambiguous="YES" id="wOW-tW-fAU">
                                                             <rect key="frame" x="0.0" y="0.0" width="206" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
@@ -3041,7 +3041,7 @@ IA
                                                         </view>
                                                     </tabViewItem>
                                                     <tabViewItem label="Percent" identifier="2" id="spw-Nb-Bcc">
-                                                        <view key="view" ambiguous="YES" id="lNR-ck-kAp">
+                                                        <view key="view" id="lNR-ck-kAp">
                                                             <rect key="frame" x="0.0" y="0.0" width="206" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
@@ -3274,7 +3274,7 @@ IA
                                                 <font key="font" metaFont="system"/>
                                                 <tabViewItems>
                                                     <tabViewItem label="Value" identifier="1" id="PKo-Sl-Ku7">
-                                                        <view key="view" id="eth-UG-kj6">
+                                                        <view key="view" ambiguous="YES" id="eth-UG-kj6">
                                                             <rect key="frame" x="0.0" y="0.0" width="206" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
@@ -3451,7 +3451,7 @@ IA
                                                         </view>
                                                     </tabViewItem>
                                                     <tabViewItem label="Percent" identifier="2" id="VnH-JW-gSF">
-                                                        <view key="view" ambiguous="YES" id="kTP-jd-LIM">
+                                                        <view key="view" id="kTP-jd-LIM">
                                                             <rect key="frame" x="0.0" y="0.0" width="206" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
@@ -3656,7 +3656,7 @@ IA
                                                 <font key="font" metaFont="system"/>
                                                 <tabViewItems>
                                                     <tabViewItem label="Value" identifier="1" id="68W-pu-K0Z">
-                                                        <view key="view" id="xnc-FQ-kT4">
+                                                        <view key="view" ambiguous="YES" id="xnc-FQ-kT4">
                                                             <rect key="frame" x="0.0" y="0.0" width="206" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
@@ -3832,7 +3832,7 @@ IA
                                                         </view>
                                                     </tabViewItem>
                                                     <tabViewItem label="Percent" identifier="2" id="1fQ-Kh-AXY">
-                                                        <view key="view" ambiguous="YES" id="kjf-V8-xnI">
+                                                        <view key="view" id="kjf-V8-xnI">
                                                             <rect key="frame" x="0.0" y="0.0" width="206" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>

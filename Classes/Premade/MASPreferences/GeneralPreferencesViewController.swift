@@ -7,6 +7,7 @@
 
 import Foundation
 import Cocoa
+import MASPreferences
 
 class GeneralPreferencesViewController: NSViewController, MASPreferencesViewController {
     @IBOutlet var lbsName: NSTextField!
