@@ -7,7 +7,6 @@
 #import "mySheetController.h"
 #import "INAppStoreWindow.h"
 #import "INWindowButton.h"
-#import "LNClipView.h"
 #import "ITProgressBar.h"
 #import "UAAppReviewManager.h"
 #import "PFMoveApplication.h"

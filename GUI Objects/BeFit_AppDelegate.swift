@@ -368,7 +368,7 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
         Timer.scheduledTimer(timeInterval: 60, target: self, selector: #selector(onlineCheck), userInfo: nil, repeats: true)
         Timer.scheduledTimer(timeInterval: 60, target: self, selector: #selector(contSave), userInfo: nil, repeats: true)
         
-        CalorieScrollView.setPattern(NSImage(named: "Black"))
+        CalorieScrollView.pattern = NSImage(named: "Black")
         
         splitViewDelegate = PrioritySplitViewDelegate()
         splitViewDelegate.setPriority(LEFT_VIEW_PRIORITY, forViewAt: LEFT_VIEW_INDEX)
