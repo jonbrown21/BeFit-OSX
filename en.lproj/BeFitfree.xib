@@ -394,7 +394,7 @@
                                                 <rect key="frame" x="-2" y="-34" width="5" height="96"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             </box>
-                                            <segmentedControl canDrawConcurrently="YES" focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gs1-cI-8Bd" customClass="ANSegmentedControl">
+                                            <segmentedControl canDrawConcurrently="YES" focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gs1-cI-8Bd" customClass="ANSegmentedControl" customModule="BeFit_Lite" customModuleProvider="target">
                                                 <rect key="frame" x="9" y="8" width="81" height="25"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <segmentedCell key="cell" borderStyle="border" focusRingType="none" alignment="left" style="rounded" trackingMode="selectOne" id="6hi-Fh-5gq">

@@ -10,6 +10,5 @@
 #import "LNClipView.h"
 #import "MCViewFlipController.h"
 #import "ITProgressBar.h"
-#import "ANSegmentedControl.h"
 #import "UAAppReviewManager.h"
 #import "PFMoveApplication.h"
