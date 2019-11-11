@@ -1178,12 +1178,13 @@ CA
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8j7-7f-jPa" customClass="ITProgressBar">
+                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8j7-7f-jPa" customClass="ITProgressBar" customModule="BeFit_Lite" customModuleProvider="target">
                         <rect key="frame" x="10" y="15" width="254" height="7"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     </customView>
                 </subviews>
             </view>
+            <point key="canvasLocation" x="140" y="148"/>
         </window>
         <menu title="NSTableHeaderMenu" id="GUz-Qe-3IU">
             <items>
