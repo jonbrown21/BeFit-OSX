@@ -72,6 +72,14 @@
 		436B947F237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B947D237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift */; };
 		436B9480237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B947D237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift */; };
 		436B9481237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B947D237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift */; };
+		436B948323795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948223795C1500AEE7A9 /* NSShadow+MCAdditions.swift */; };
+		436B948423795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948223795C1500AEE7A9 /* NSShadow+MCAdditions.swift */; };
+		436B948523795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948223795C1500AEE7A9 /* NSShadow+MCAdditions.swift */; };
+		436B948623795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948223795C1500AEE7A9 /* NSShadow+MCAdditions.swift */; };
+		436B948823795CEF00AEE7A9 /* ANSegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948723795CEF00AEE7A9 /* ANSegmentedCell.swift */; };
+		436B948923795CEF00AEE7A9 /* ANSegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948723795CEF00AEE7A9 /* ANSegmentedCell.swift */; };
+		436B948A23795CEF00AEE7A9 /* ANSegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948723795CEF00AEE7A9 /* ANSegmentedCell.swift */; };
+		436B948B23795CEF00AEE7A9 /* ANSegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948723795CEF00AEE7A9 /* ANSegmentedCell.swift */; };
 		4375CA262370478B008A4B02 /* FoodListNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA252370478A008A4B02 /* FoodListNSTableView.swift */; };
 		4375CA272370478B008A4B02 /* FoodListNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA252370478A008A4B02 /* FoodListNSTableView.swift */; };
 		4375CA282370478B008A4B02 /* FoodListNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA252370478A008A4B02 /* FoodListNSTableView.swift */; };
@@ -371,18 +379,10 @@
 		FC946EEB1A19079C00692D04 /* AMDarkButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */; };
 		FC946EEC1A19079C00692D04 /* AMDarkButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */; };
 		FC946EED1A19079C00692D04 /* AMDarkButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */; };
-		FC946F2B1A19A2B900692D04 /* ANSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F241A19A2B900692D04 /* ANSegmentedCell.m */; };
-		FC946F2C1A19A2B900692D04 /* ANSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F241A19A2B900692D04 /* ANSegmentedCell.m */; };
-		FC946F2D1A19A2B900692D04 /* ANSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F241A19A2B900692D04 /* ANSegmentedCell.m */; };
-		FC946F2E1A19A2B900692D04 /* ANSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F241A19A2B900692D04 /* ANSegmentedCell.m */; };
 		FC946F2F1A19A2B900692D04 /* ANSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F261A19A2B900692D04 /* ANSegmentedControl.m */; };
 		FC946F301A19A2B900692D04 /* ANSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F261A19A2B900692D04 /* ANSegmentedControl.m */; };
 		FC946F311A19A2B900692D04 /* ANSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F261A19A2B900692D04 /* ANSegmentedControl.m */; };
 		FC946F321A19A2B900692D04 /* ANSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F261A19A2B900692D04 /* ANSegmentedControl.m */; };
-		FC946F371A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F2A1A19A2B900692D04 /* NSShadow+MCAdditions.m */; };
-		FC946F381A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F2A1A19A2B900692D04 /* NSShadow+MCAdditions.m */; };
-		FC946F391A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F2A1A19A2B900692D04 /* NSShadow+MCAdditions.m */; };
-		FC946F3A1A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F2A1A19A2B900692D04 /* NSShadow+MCAdditions.m */; };
 		FC946F421A1CB0DB00692D04 /* pieindexprint.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946F411A1CB0DB00692D04 /* pieindexprint.html */; };
 		FC946F431A1CB0DB00692D04 /* pieindexprint.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946F411A1CB0DB00692D04 /* pieindexprint.html */; };
 		FC946F441A1CB0DB00692D04 /* pieindexprint.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946F411A1CB0DB00692D04 /* pieindexprint.html */; };
@@ -512,6 +512,8 @@
 		435727A323700FAE00755BE1 /* Food+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Food+UI.swift"; sourceTree = "<group>"; };
 		435727A8237018B700755BE1 /* FoodList+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodList+UI.swift"; sourceTree = "<group>"; };
 		436B947D237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSBezierPath+MCAdditions.swift"; sourceTree = "<group>"; };
+		436B948223795C1500AEE7A9 /* NSShadow+MCAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSShadow+MCAdditions.swift"; sourceTree = "<group>"; };
+		436B948723795CEF00AEE7A9 /* ANSegmentedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANSegmentedCell.swift; sourceTree = "<group>"; };
 		4375CA252370478A008A4B02 /* FoodListNSTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodListNSTableView.swift; sourceTree = "<group>"; };
 		4375CA2A23704E0B008A4B02 /* FoodListArrayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListArrayController.swift; sourceTree = "<group>"; };
 		43B3E72D2375CFCE008A6420 /* OpenFeedback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OpenFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -638,12 +640,8 @@
 		FC946ED11A12F47D00692D04 /* owl.carousel.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = owl.carousel.min.js; path = htdocs/JS/owl.carousel.min.js; sourceTree = "<group>"; };
 		FC946EE81A19079C00692D04 /* AMDarkButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDarkButtonCell.h; sourceTree = "<group>"; };
 		FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDarkButtonCell.m; sourceTree = "<group>"; };
-		FC946F231A19A2B900692D04 /* ANSegmentedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSegmentedCell.h; sourceTree = "<group>"; };
-		FC946F241A19A2B900692D04 /* ANSegmentedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSegmentedCell.m; sourceTree = "<group>"; };
 		FC946F251A19A2B900692D04 /* ANSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSegmentedControl.h; sourceTree = "<group>"; };
 		FC946F261A19A2B900692D04 /* ANSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSegmentedControl.m; sourceTree = "<group>"; };
-		FC946F291A19A2B900692D04 /* NSShadow+MCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSShadow+MCAdditions.h"; sourceTree = "<group>"; };
-		FC946F2A1A19A2B900692D04 /* NSShadow+MCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSShadow+MCAdditions.m"; sourceTree = "<group>"; };
 		FC946F411A1CB0DB00692D04 /* pieindexprint.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = pieindexprint.html; path = htdocs/pieindexprint.html; sourceTree = "<group>"; };
 		FC946F461A1CB11F00692D04 /* pieindex2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = pieindex2.html; path = htdocs/pieindex2.html; sourceTree = "<group>"; };
 		FC946F9E1A1F510800692D04 /* gauge.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = gauge.min.js; path = htdocs/JS/gauge.min.js; sourceTree = "<group>"; };
@@ -1098,13 +1096,11 @@
 		FC946F3B1A19AE7F00692D04 /* ANSegment */ = {
 			isa = PBXGroup;
 			children = (
-				FC946F231A19A2B900692D04 /* ANSegmentedCell.h */,
-				FC946F241A19A2B900692D04 /* ANSegmentedCell.m */,
 				FC946F251A19A2B900692D04 /* ANSegmentedControl.h */,
 				FC946F261A19A2B900692D04 /* ANSegmentedControl.m */,
-				FC946F291A19A2B900692D04 /* NSShadow+MCAdditions.h */,
-				FC946F2A1A19A2B900692D04 /* NSShadow+MCAdditions.m */,
 				436B947D237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift */,
+				436B948223795C1500AEE7A9 /* NSShadow+MCAdditions.swift */,
+				436B948723795CEF00AEE7A9 /* ANSegmentedCell.swift */,
 			);
 			name = ANSegment;
 			path = Classes/Premade/ANSegmentedControl;
@@ -1761,7 +1757,6 @@
 				4348C1E3237170FA00071B9C /* GUIController.swift in Sources */,
 				FC89572A19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
 				4348C1E823719EF000071B9C /* AddGramsValueTransformer.swift in Sources */,
-				FC946F381A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D319EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
 				4357279923700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
 				43C800FB2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
@@ -1779,7 +1774,7 @@
 				43C801232372F63100E08913 /* LegendCals.swift in Sources */,
 				FC89564319F4494200420ADC /* OnlineCheck.m in Sources */,
 				43C800F62372CB6100E08913 /* RightGraphView.swift in Sources */,
-				FC946F2C1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
+				436B948A23795CEF00AEE7A9 /* ANSegmentedCell.swift in Sources */,
 				4375CA2D23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
 				43C8015A2375A2E000E08913 /* GeneralPreferencesViewController.swift in Sources */,
 				43C800E72372BE5700E08913 /* CustomError.swift in Sources */,
@@ -1789,6 +1784,7 @@
 				FC08738519EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
 				FC946FBF1A21886D00692D04 /* CustomCornerView.m in Sources */,
 				43C801322372FA6E00E08913 /* LegendChol.swift in Sources */,
+				436B948523795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */,
 				FC08739019EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
 				435727AB237018B700755BE1 /* FoodList+UI.swift in Sources */,
 				FC08740819EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
@@ -1828,7 +1824,6 @@
 				4348C1E1237170FA00071B9C /* GUIController.swift in Sources */,
 				4375CA262370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
 				FC89572919F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
-				FC946F371A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D219EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
 				436B947E237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift in Sources */,
 				4348C1D223715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
@@ -1846,10 +1841,10 @@
 				4357279323700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
 				43C800EF2372C55B00E08913 /* BeFitGraphView.swift in Sources */,
 				FC89564219F4494200420ADC /* OnlineCheck.m in Sources */,
-				FC946F2B1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
 				FC08738419EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
 				43C8013F2375560700E08913 /* GeneralPreferencesViewController.swift in Sources */,
 				43C8014123757E5200E08913 /* UpdatePreferenceViewController.swift in Sources */,
+				436B948323795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */,
 				4348C1CD23706D9700071B9C /* FoodArrayController.swift in Sources */,
 				43C801552375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */,
 				FC946FBE1A21886D00692D04 /* CustomCornerView.m in Sources */,
@@ -1879,6 +1874,7 @@
 				43C8010D2372EDF800E08913 /* SearchFieldforLists.swift in Sources */,
 				43C801172372F09F00E08913 /* SubBarBlk.swift in Sources */,
 				43C801262372F83500E08913 /* LegendFat.swift in Sources */,
+				436B948823795CEF00AEE7A9 /* ANSegmentedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1894,7 +1890,6 @@
 				4348C1E4237170FA00071B9C /* GUIController.swift in Sources */,
 				4375CA292370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
 				FC89572B19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
-				FC946F391A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D419EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
 				436B9481237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift in Sources */,
 				4348C1D523715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
@@ -1911,11 +1906,11 @@
 				4357279623700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
 				43C800F22372C55B00E08913 /* BeFitGraphView.swift in Sources */,
 				FC89564419F4494200420ADC /* OnlineCheck.m in Sources */,
-				FC946F2D1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
 				FC08738619EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
 				4348C1D023706D9700071B9C /* FoodArrayController.swift in Sources */,
 				FC946FC01A21886D00692D04 /* CustomCornerView.m in Sources */,
 				FC08739119EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
+				436B948623795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */,
 				43C8015B2375A2E100E08913 /* GeneralPreferencesViewController.swift in Sources */,
 				FC24B112204C96A100E4D1E8 /* PFMoveApplication.m in Sources */,
 				43C8010B2372ECE300E08913 /* SideFooter.swift in Sources */,
@@ -1945,6 +1940,7 @@
 				43C8011A2372F09F00E08913 /* SubBarBlk.swift in Sources */,
 				43C8014423757E5500E08913 /* UpdatePreferenceViewController.swift in Sources */,
 				43C801292372F83500E08913 /* LegendFat.swift in Sources */,
+				436B948B23795CEF00AEE7A9 /* ANSegmentedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1960,7 +1956,6 @@
 				4348C1E2237170FA00071B9C /* GUIController.swift in Sources */,
 				4375CA272370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
 				FC89572C19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
-				FC946F3A1A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D519EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
 				436B947F237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift in Sources */,
 				4348C1D323715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
@@ -1977,11 +1972,11 @@
 				4357279423700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
 				43C800F02372C55B00E08913 /* BeFitGraphView.swift in Sources */,
 				FC89564519F4494200420ADC /* OnlineCheck.m in Sources */,
-				FC946F2E1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
 				4348C1CE23706D9700071B9C /* FoodArrayController.swift in Sources */,
 				FC08738719EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
 				FC946FC11A21886D00692D04 /* CustomCornerView.m in Sources */,
 				FC08739219EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
+				436B948423795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */,
 				43C801592375A2E000E08913 /* GeneralPreferencesViewController.swift in Sources */,
 				FC08740A19EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
 				43C801092372ECE300E08913 /* SideFooter.swift in Sources */,
@@ -2011,6 +2006,7 @@
 				43C801182372F09F00E08913 /* SubBarBlk.swift in Sources */,
 				43C8014223757E5500E08913 /* UpdatePreferenceViewController.swift in Sources */,
 				43C801272372F83500E08913 /* LegendFat.swift in Sources */,
+				436B948923795CEF00AEE7A9 /* ANSegmentedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

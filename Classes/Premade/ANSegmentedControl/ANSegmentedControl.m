@@ -7,8 +7,6 @@
 //
 
 #import "ANSegmentedControl.h"
-#import "ANSegmentedCell.h"
-#import "NSShadow+MCAdditions.h"
 #import "BeFit-Swift.h"
 
 @interface ANKnobAnimation : NSAnimation {
