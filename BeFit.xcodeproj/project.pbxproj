@@ -379,10 +379,6 @@
 		FC946EDF1A13102E00692D04 /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FC08736F19EBA3B800ACB943 /* bootstrap.min.css */; };
 		FC946EE01A13102E00692D04 /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FC08736F19EBA3B800ACB943 /* bootstrap.min.css */; };
 		FC946EE11A13102E00692D04 /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FC08736F19EBA3B800ACB943 /* bootstrap.min.css */; };
-		FC946EEA1A19079C00692D04 /* AMDarkButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */; };
-		FC946EEB1A19079C00692D04 /* AMDarkButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */; };
-		FC946EEC1A19079C00692D04 /* AMDarkButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */; };
-		FC946EED1A19079C00692D04 /* AMDarkButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */; };
 		FC946F421A1CB0DB00692D04 /* pieindexprint.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946F411A1CB0DB00692D04 /* pieindexprint.html */; };
 		FC946F431A1CB0DB00692D04 /* pieindexprint.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946F411A1CB0DB00692D04 /* pieindexprint.html */; };
 		FC946F441A1CB0DB00692D04 /* pieindexprint.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946F411A1CB0DB00692D04 /* pieindexprint.html */; };
@@ -634,8 +630,6 @@
 		FC946EC31A12F46F00692D04 /* owl.transitions.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = owl.transitions.css; path = htdocs/CSS/owl.transitions.css; sourceTree = "<group>"; };
 		FC946ED01A12F47D00692D04 /* owl.carousel.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = owl.carousel.js; path = htdocs/JS/owl.carousel.js; sourceTree = "<group>"; };
 		FC946ED11A12F47D00692D04 /* owl.carousel.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = owl.carousel.min.js; path = htdocs/JS/owl.carousel.min.js; sourceTree = "<group>"; };
-		FC946EE81A19079C00692D04 /* AMDarkButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDarkButtonCell.h; sourceTree = "<group>"; };
-		FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDarkButtonCell.m; sourceTree = "<group>"; };
 		FC946F411A1CB0DB00692D04 /* pieindexprint.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = pieindexprint.html; path = htdocs/pieindexprint.html; sourceTree = "<group>"; };
 		FC946F461A1CB11F00692D04 /* pieindex2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = pieindex2.html; path = htdocs/pieindex2.html; sourceTree = "<group>"; };
 		FC946F9E1A1F510800692D04 /* gauge.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = gauge.min.js; path = htdocs/JS/gauge.min.js; sourceTree = "<group>"; };
@@ -1121,8 +1115,6 @@
 		FCC174C519EBCF30001A184A /* Subclass */ = {
 			isa = PBXGroup;
 			children = (
-				FC946EE81A19079C00692D04 /* AMDarkButtonCell.h */,
-				FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */,
 				4375CA252370478A008A4B02 /* FoodListNSTableView.swift */,
 				4348C1C72370647B00071B9C /* FoodNSTableView.swift */,
 				43C800F82372E86E00E08913 /* ColumnControllerPopUpButton.swift */,
@@ -1738,7 +1730,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				43C8012D2372F95F00E08913 /* LegendSatFat.swift in Sources */,
-				FC946EEB1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
 				4357279D23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */,
 				436B94942379736B00AEE7A9 /* ANKnobAnimation.swift in Sources */,
 				43C801002372E9D800E08913 /* FilterFoodCell.swift in Sources */,
@@ -1806,7 +1797,6 @@
 			files = (
 				435727A9237018B700755BE1 /* FoodList+UI.swift in Sources */,
 				4375CA2B23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
-				FC946EEA1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
 				43C800E52372BE5700E08913 /* CustomError.swift in Sources */,
 				43C801032372EA9900E08913 /* SearchFieldForFood.swift in Sources */,
 				4348C1E1237170FA00071B9C /* GUIController.swift in Sources */,
@@ -1872,7 +1862,6 @@
 			files = (
 				435727AC237018B700755BE1 /* FoodList+UI.swift in Sources */,
 				4375CA2E23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
-				FC946EEC1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
 				43C800E82372BE5700E08913 /* CustomError.swift in Sources */,
 				43C801062372EA9A00E08913 /* SearchFieldForFood.swift in Sources */,
 				4348C1E4237170FA00071B9C /* GUIController.swift in Sources */,
@@ -1938,7 +1927,6 @@
 			files = (
 				435727AA237018B700755BE1 /* FoodList+UI.swift in Sources */,
 				4375CA2C23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
-				FC946EED1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
 				43C800E62372BE5700E08913 /* CustomError.swift in Sources */,
 				43C801042372EA9900E08913 /* SearchFieldForFood.swift in Sources */,
 				4348C1E2237170FA00071B9C /* GUIController.swift in Sources */,
