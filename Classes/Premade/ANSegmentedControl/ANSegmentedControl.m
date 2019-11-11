@@ -8,8 +8,8 @@
 
 #import "ANSegmentedControl.h"
 #import "ANSegmentedCell.h"
-#import "NSBezierPath+MCAdditions.h"
 #import "NSShadow+MCAdditions.h"
+#import "BeFit-Swift.h"
 
 @interface ANKnobAnimation : NSAnimation {
     int start, range;

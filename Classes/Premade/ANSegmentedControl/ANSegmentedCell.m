@@ -7,8 +7,8 @@
 //
 
 #import "ANSegmentedCell.h"
-#import "NSBezierPath+MCAdditions.h"
 #import "NSShadow+MCAdditions.h"
+#import "BeFit-Swift.h"
 
 @implementation ANSegmentedCell
 

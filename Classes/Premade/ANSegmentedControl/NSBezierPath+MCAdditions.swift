@@ -11,11 +11,11 @@ import Cocoa
 
 extension NSBezierPath {
     // Credit for the next two methods goes to Matt Gemmell
-    func strokeInside() {
+    @objc func strokeInside() {
         strokeInsideWithin(rect: .zero)
     }
     
-    func strokeInsideWithin(rect clipRect: NSRect) {
+    @objc func strokeInsideWithin(rect clipRect: NSRect) {
         guard let context = NSGraphicsContext.current else {
             return
         }
