@@ -8,7 +8,6 @@
 #import "INAppStoreWindow.h"
 #import "INWindowButton.h"
 #import "LNClipView.h"
-#import "MCViewFlipController.h"
 #import "ITProgressBar.h"
 #import "UAAppReviewManager.h"
 #import "PFMoveApplication.h"

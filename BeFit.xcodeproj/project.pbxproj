@@ -92,6 +92,10 @@
 		436B9498237984F900AEE7A9 /* SSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B9496237984F900AEE7A9 /* SSTextField.swift */; };
 		436B9499237984F900AEE7A9 /* SSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B9496237984F900AEE7A9 /* SSTextField.swift */; };
 		436B949A237984F900AEE7A9 /* SSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B9496237984F900AEE7A9 /* SSTextField.swift */; };
+		436B949C23798D0A00AEE7A9 /* MCViewFlipController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B949B23798D0A00AEE7A9 /* MCViewFlipController.swift */; };
+		436B949D23798D0A00AEE7A9 /* MCViewFlipController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B949B23798D0A00AEE7A9 /* MCViewFlipController.swift */; };
+		436B949E23798D0A00AEE7A9 /* MCViewFlipController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B949B23798D0A00AEE7A9 /* MCViewFlipController.swift */; };
+		436B949F23798D0A00AEE7A9 /* MCViewFlipController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B949B23798D0A00AEE7A9 /* MCViewFlipController.swift */; };
 		4375CA262370478B008A4B02 /* FoodListNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA252370478A008A4B02 /* FoodListNSTableView.swift */; };
 		4375CA272370478B008A4B02 /* FoodListNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA252370478A008A4B02 /* FoodListNSTableView.swift */; };
 		4375CA282370478B008A4B02 /* FoodListNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA252370478A008A4B02 /* FoodListNSTableView.swift */; };
@@ -245,14 +249,6 @@
 		FC0873DA19EBA6DE00ACB943 /* UpdatePreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873B619EBA6DE00ACB943 /* UpdatePreferencesView.xib */; };
 		FC0873DB19EBA6DE00ACB943 /* UpdatePreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873B619EBA6DE00ACB943 /* UpdatePreferencesView.xib */; };
 		FC0873DC19EBA6DE00ACB943 /* UpdatePreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873B619EBA6DE00ACB943 /* UpdatePreferencesView.xib */; };
-		FC0873E619EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E319EBA6FA00ACB943 /* FlipAnimationAppDelegate.m */; };
-		FC0873E719EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E319EBA6FA00ACB943 /* FlipAnimationAppDelegate.m */; };
-		FC0873E819EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E319EBA6FA00ACB943 /* FlipAnimationAppDelegate.m */; };
-		FC0873E919EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E319EBA6FA00ACB943 /* FlipAnimationAppDelegate.m */; };
-		FC0873EA19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */; };
-		FC0873EB19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */; };
-		FC0873EC19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */; };
-		FC0873ED19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */; };
 		FC08740719EBA72900ACB943 /* UAAppReviewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08740619EBA72900ACB943 /* UAAppReviewManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		FC08740819EBA72900ACB943 /* UAAppReviewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08740619EBA72900ACB943 /* UAAppReviewManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		FC08740919EBA72900ACB943 /* UAAppReviewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08740619EBA72900ACB943 /* UAAppReviewManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
@@ -521,6 +517,7 @@
 		436B948C23795D6900AEE7A9 /* ANSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANSegmentedControl.swift; sourceTree = "<group>"; };
 		436B94912379736B00AEE7A9 /* ANKnobAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANKnobAnimation.swift; sourceTree = "<group>"; };
 		436B9496237984F900AEE7A9 /* SSTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSTextField.swift; sourceTree = "<group>"; };
+		436B949B23798D0A00AEE7A9 /* MCViewFlipController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCViewFlipController.swift; sourceTree = "<group>"; };
 		4375CA252370478A008A4B02 /* FoodListNSTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodListNSTableView.swift; sourceTree = "<group>"; };
 		4375CA2A23704E0B008A4B02 /* FoodListArrayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListArrayController.swift; sourceTree = "<group>"; };
 		43B3E72D2375CFCE008A6420 /* OpenFeedback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OpenFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -579,10 +576,6 @@
 		FC0873A819EBA6DE00ACB943 /* AdvancedPreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvancedPreferencesView.xib; sourceTree = "<group>"; };
 		FC0873AB19EBA6DE00ACB943 /* GeneralPreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralPreferencesView.xib; sourceTree = "<group>"; };
 		FC0873B619EBA6DE00ACB943 /* UpdatePreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpdatePreferencesView.xib; sourceTree = "<group>"; };
-		FC0873E219EBA6FA00ACB943 /* FlipAnimationAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipAnimationAppDelegate.h; sourceTree = "<group>"; };
-		FC0873E319EBA6FA00ACB943 /* FlipAnimationAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipAnimationAppDelegate.m; sourceTree = "<group>"; };
-		FC0873E419EBA6FA00ACB943 /* MCViewFlipController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCViewFlipController.h; sourceTree = "<group>"; };
-		FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCViewFlipController.m; sourceTree = "<group>"; };
 		FC0873FD19EBA71C00ACB943 /* RMAppDelegate+Trial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RMAppDelegate+Trial.h"; sourceTree = "<group>"; };
 		FC0873FE19EBA71C00ACB943 /* RMAppDelegate+Trial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RMAppDelegate+Trial.m"; sourceTree = "<group>"; };
 		FC0873FF19EBA71C00ACB943 /* TrialConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrialConstants.h; sourceTree = "<group>"; };
@@ -1000,10 +993,7 @@
 		FC0873E119EBA6FA00ACB943 /* MCViewFlilp */ = {
 			isa = PBXGroup;
 			children = (
-				FC0873E219EBA6FA00ACB943 /* FlipAnimationAppDelegate.h */,
-				FC0873E319EBA6FA00ACB943 /* FlipAnimationAppDelegate.m */,
-				FC0873E419EBA6FA00ACB943 /* MCViewFlipController.h */,
-				FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */,
+				436B949B23798D0A00AEE7A9 /* MCViewFlipController.swift */,
 			);
 			name = MCViewFlilp;
 			path = Classes/Premade/MCViewFlilp;
@@ -1776,6 +1766,7 @@
 				FCC174CC19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */,
 				4348C1CF23706D9700071B9C /* FoodArrayController.swift in Sources */,
 				4348C1CA2370647E00071B9C /* FoodNSTableView.swift in Sources */,
+				436B949E23798D0A00AEE7A9 /* MCViewFlipController.swift in Sources */,
 				43C801232372F63100E08913 /* LegendCals.swift in Sources */,
 				FC89564319F4494200420ADC /* OnlineCheck.m in Sources */,
 				43C800F62372CB6100E08913 /* RightGraphView.swift in Sources */,
@@ -1803,12 +1794,10 @@
 				4348C1DE23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */,
 				43C801372372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */,
 				4348C1D423715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
-				FC0873EB19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */,
 				43C800E22371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */,
 				43C801522375856D00E08913 /* PrefSetter.swift in Sources */,
 				FC0873A419EBA6D200ACB943 /* LNClipView.m in Sources */,
 				43C800F12372C55B00E08913 /* BeFitGraphView.swift in Sources */,
-				FC0873E719EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */,
 				FC08738919EBA69B00ACB943 /* INWindowButton.m in Sources */,
 				4348C1ED2371A44E00071B9C /* AddMGValueTransformer.swift in Sources */,
 				4375CA282370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
@@ -1839,6 +1828,7 @@
 				43C8014B237583C000E08913 /* AdvancedPreferencesViewController.swift in Sources */,
 				4357279F23700D4E00755BE1 /* FoodList+CoreDataProperties.swift in Sources */,
 				4348C1C82370647B00071B9C /* FoodNSTableView.swift in Sources */,
+				436B949C23798D0A00AEE7A9 /* MCViewFlipController.swift in Sources */,
 				43C801212372F63100E08913 /* LegendCals.swift in Sources */,
 				43C801122372EF2600E08913 /* WhiteBackground.swift in Sources */,
 				4357279723700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
@@ -1861,13 +1851,11 @@
 				43C800FE2372E9D800E08913 /* FilterFoodCell.swift in Sources */,
 				436B94922379736B00AEE7A9 /* ANKnobAnimation.swift in Sources */,
 				4357279B23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */,
-				FC0873EA19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */,
 				43C801352372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */,
 				43C801302372FA6E00E08913 /* LegendChol.swift in Sources */,
 				43C8012B2372F95F00E08913 /* LegendSatFat.swift in Sources */,
 				FC0873A319EBA6D200ACB943 /* LNClipView.m in Sources */,
 				4348C1E623719EF000071B9C /* AddGramsValueTransformer.swift in Sources */,
-				FC0873E619EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */,
 				43C800EA2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */,
 				43C800F42372CB6100E08913 /* RightGraphView.swift in Sources */,
 				43C801502375856D00E08913 /* PrefSetter.swift in Sources */,
@@ -1906,6 +1894,7 @@
 				43C8014923757FFF00E08913 /* PreferenceWindow.swift in Sources */,
 				4348C1CB2370647E00071B9C /* FoodNSTableView.swift in Sources */,
 				4357279A23700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
+				436B949F23798D0A00AEE7A9 /* MCViewFlipController.swift in Sources */,
 				43C801242372F63100E08913 /* LegendCals.swift in Sources */,
 				43C801152372EF2600E08913 /* WhiteBackground.swift in Sources */,
 				4357279623700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
@@ -1928,13 +1917,11 @@
 				43C801012372E9D800E08913 /* FilterFoodCell.swift in Sources */,
 				436B94952379736B00AEE7A9 /* ANKnobAnimation.swift in Sources */,
 				4357279E23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */,
-				FC0873EC19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */,
 				43C801382372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */,
 				43C801332372FA6E00E08913 /* LegendChol.swift in Sources */,
 				43C8012E2372F95F00E08913 /* LegendSatFat.swift in Sources */,
 				FC0873A519EBA6D200ACB943 /* LNClipView.m in Sources */,
 				4348C1E923719EF000071B9C /* AddGramsValueTransformer.swift in Sources */,
-				FC0873E819EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */,
 				43C800ED2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */,
 				43C800F72372CB6100E08913 /* RightGraphView.swift in Sources */,
 				4348C1DF23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */,
@@ -1973,6 +1960,7 @@
 				43C8014723757FFF00E08913 /* PreferenceWindow.swift in Sources */,
 				4348C1C92370647E00071B9C /* FoodNSTableView.swift in Sources */,
 				4357279823700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
+				436B949D23798D0A00AEE7A9 /* MCViewFlipController.swift in Sources */,
 				43C801222372F63100E08913 /* LegendCals.swift in Sources */,
 				43C801132372EF2600E08913 /* WhiteBackground.swift in Sources */,
 				4357279423700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
@@ -1995,13 +1983,11 @@
 				43C800FF2372E9D800E08913 /* FilterFoodCell.swift in Sources */,
 				436B94932379736B00AEE7A9 /* ANKnobAnimation.swift in Sources */,
 				4357279C23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */,
-				FC0873ED19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */,
 				43C801362372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */,
 				43C801312372FA6E00E08913 /* LegendChol.swift in Sources */,
 				43C8012C2372F95F00E08913 /* LegendSatFat.swift in Sources */,
 				FC0873A619EBA6D200ACB943 /* LNClipView.m in Sources */,
 				4348C1E723719EF000071B9C /* AddGramsValueTransformer.swift in Sources */,
-				FC0873E919EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */,
 				43C800EB2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */,
 				43C800F52372CB6100E08913 /* RightGraphView.swift in Sources */,
 				4348C1DD23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */,

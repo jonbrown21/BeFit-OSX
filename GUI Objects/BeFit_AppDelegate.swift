@@ -381,7 +381,7 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
         window.center()
         window.makeKeyAndOrderFront(self)
         
-        flipController = MCViewFlipController(hostView: hostView, frontView: frontView, back: backView)
+        flipController = MCViewFlipController(hostView: hostView, frontView: frontView, backView: backView)
     }
     
     func applicationWillFinishLaunching(_ notification: Notification) {
