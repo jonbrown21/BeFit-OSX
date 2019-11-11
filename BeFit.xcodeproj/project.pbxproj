@@ -88,6 +88,10 @@
 		436B94932379736B00AEE7A9 /* ANKnobAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B94912379736B00AEE7A9 /* ANKnobAnimation.swift */; };
 		436B94942379736B00AEE7A9 /* ANKnobAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B94912379736B00AEE7A9 /* ANKnobAnimation.swift */; };
 		436B94952379736B00AEE7A9 /* ANKnobAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B94912379736B00AEE7A9 /* ANKnobAnimation.swift */; };
+		436B9497237984F900AEE7A9 /* SSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B9496237984F900AEE7A9 /* SSTextField.swift */; };
+		436B9498237984F900AEE7A9 /* SSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B9496237984F900AEE7A9 /* SSTextField.swift */; };
+		436B9499237984F900AEE7A9 /* SSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B9496237984F900AEE7A9 /* SSTextField.swift */; };
+		436B949A237984F900AEE7A9 /* SSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B9496237984F900AEE7A9 /* SSTextField.swift */; };
 		4375CA262370478B008A4B02 /* FoodListNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA252370478A008A4B02 /* FoodListNSTableView.swift */; };
 		4375CA272370478B008A4B02 /* FoodListNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA252370478A008A4B02 /* FoodListNSTableView.swift */; };
 		4375CA282370478B008A4B02 /* FoodListNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA252370478A008A4B02 /* FoodListNSTableView.swift */; };
@@ -249,10 +253,6 @@
 		FC0873EB19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */; };
 		FC0873EC19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */; };
 		FC0873ED19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */; };
-		FC0873F819EBA71000ACB943 /* SSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873F719EBA71000ACB943 /* SSTextField.m */; };
-		FC0873F919EBA71000ACB943 /* SSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873F719EBA71000ACB943 /* SSTextField.m */; };
-		FC0873FA19EBA71000ACB943 /* SSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873F719EBA71000ACB943 /* SSTextField.m */; };
-		FC0873FB19EBA71000ACB943 /* SSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873F719EBA71000ACB943 /* SSTextField.m */; };
 		FC08740719EBA72900ACB943 /* UAAppReviewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08740619EBA72900ACB943 /* UAAppReviewManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		FC08740819EBA72900ACB943 /* UAAppReviewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08740619EBA72900ACB943 /* UAAppReviewManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		FC08740919EBA72900ACB943 /* UAAppReviewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08740619EBA72900ACB943 /* UAAppReviewManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
@@ -520,6 +520,7 @@
 		436B948723795CEF00AEE7A9 /* ANSegmentedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANSegmentedCell.swift; sourceTree = "<group>"; };
 		436B948C23795D6900AEE7A9 /* ANSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANSegmentedControl.swift; sourceTree = "<group>"; };
 		436B94912379736B00AEE7A9 /* ANKnobAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANKnobAnimation.swift; sourceTree = "<group>"; };
+		436B9496237984F900AEE7A9 /* SSTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSTextField.swift; sourceTree = "<group>"; };
 		4375CA252370478A008A4B02 /* FoodListNSTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodListNSTableView.swift; sourceTree = "<group>"; };
 		4375CA2A23704E0B008A4B02 /* FoodListArrayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListArrayController.swift; sourceTree = "<group>"; };
 		43B3E72D2375CFCE008A6420 /* OpenFeedback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OpenFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -582,8 +583,6 @@
 		FC0873E319EBA6FA00ACB943 /* FlipAnimationAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipAnimationAppDelegate.m; sourceTree = "<group>"; };
 		FC0873E419EBA6FA00ACB943 /* MCViewFlipController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCViewFlipController.h; sourceTree = "<group>"; };
 		FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCViewFlipController.m; sourceTree = "<group>"; };
-		FC0873F619EBA71000ACB943 /* SSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTextField.h; sourceTree = "<group>"; };
-		FC0873F719EBA71000ACB943 /* SSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTextField.m; sourceTree = "<group>"; };
 		FC0873FD19EBA71C00ACB943 /* RMAppDelegate+Trial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RMAppDelegate+Trial.h"; sourceTree = "<group>"; };
 		FC0873FE19EBA71C00ACB943 /* RMAppDelegate+Trial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RMAppDelegate+Trial.m"; sourceTree = "<group>"; };
 		FC0873FF19EBA71C00ACB943 /* TrialConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrialConstants.h; sourceTree = "<group>"; };
@@ -1022,8 +1021,7 @@
 		FC0873F519EBA71000ACB943 /* SSTextField */ = {
 			isa = PBXGroup;
 			children = (
-				FC0873F619EBA71000ACB943 /* SSTextField.h */,
-				FC0873F719EBA71000ACB943 /* SSTextField.m */,
+				436B9496237984F900AEE7A9 /* SSTextField.swift */,
 			);
 			name = SSTextField;
 			path = Classes/Premade/SSTextField;
@@ -1770,6 +1768,7 @@
 				4357279523700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
 				435727A623700FAE00755BE1 /* Food+UI.swift in Sources */,
 				43C8014823757FFF00E08913 /* PreferenceWindow.swift in Sources */,
+				436B9499237984F900AEE7A9 /* SSTextField.swift in Sources */,
 				43C8014D237583C000E08913 /* AdvancedPreferencesViewController.swift in Sources */,
 				43C8010F2372EDF800E08913 /* SearchFieldforLists.swift in Sources */,
 				436B948F23795D6900AEE7A9 /* ANSegmentedControl.swift in Sources */,
@@ -1804,7 +1803,6 @@
 				4348C1DE23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */,
 				43C801372372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */,
 				4348C1D423715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
-				FC0873F919EBA71000ACB943 /* SSTextField.m in Sources */,
 				FC0873EB19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */,
 				43C800E22371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */,
 				43C801522375856D00E08913 /* PrefSetter.swift in Sources */,
@@ -1860,7 +1858,6 @@
 				43C8011C2372F3D200E08913 /* SubBar.swift in Sources */,
 				43C800F92372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
 				FC89567F19F4499F00420ADC /* RMBlurredView.m in Sources */,
-				FC0873F819EBA71000ACB943 /* SSTextField.m in Sources */,
 				43C800FE2372E9D800E08913 /* FilterFoodCell.swift in Sources */,
 				436B94922379736B00AEE7A9 /* ANKnobAnimation.swift in Sources */,
 				4357279B23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */,
@@ -1881,6 +1878,7 @@
 				43C801172372F09F00E08913 /* SubBarBlk.swift in Sources */,
 				43C801262372F83500E08913 /* LegendFat.swift in Sources */,
 				436B948823795CEF00AEE7A9 /* ANSegmentedCell.swift in Sources */,
+				436B9497237984F900AEE7A9 /* SSTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1926,7 +1924,6 @@
 				FC08740919EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
 				43C801582375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */,
 				43C8014E237583C000E08913 /* AdvancedPreferencesViewController.swift in Sources */,
-				FC0873FA19EBA71000ACB943 /* SSTextField.m in Sources */,
 				43C801532375856D00E08913 /* PrefSetter.swift in Sources */,
 				43C801012372E9D800E08913 /* FilterFoodCell.swift in Sources */,
 				436B94952379736B00AEE7A9 /* ANKnobAnimation.swift in Sources */,
@@ -1948,6 +1945,7 @@
 				43C8014423757E5500E08913 /* UpdatePreferenceViewController.swift in Sources */,
 				43C801292372F83500E08913 /* LegendFat.swift in Sources */,
 				436B948B23795CEF00AEE7A9 /* ANSegmentedCell.swift in Sources */,
+				436B949A237984F900AEE7A9 /* SSTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1993,7 +1991,6 @@
 				43C800FA2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
 				43C801562375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */,
 				43C8014C237583C000E08913 /* AdvancedPreferencesViewController.swift in Sources */,
-				FC0873FB19EBA71000ACB943 /* SSTextField.m in Sources */,
 				43C801512375856D00E08913 /* PrefSetter.swift in Sources */,
 				43C800FF2372E9D800E08913 /* FilterFoodCell.swift in Sources */,
 				436B94932379736B00AEE7A9 /* ANKnobAnimation.swift in Sources */,
@@ -2015,6 +2012,7 @@
 				43C8014223757E5500E08913 /* UpdatePreferenceViewController.swift in Sources */,
 				43C801272372F83500E08913 /* LegendFat.swift in Sources */,
 				436B948923795CEF00AEE7A9 /* ANSegmentedCell.swift in Sources */,
+				436B9498237984F900AEE7A9 /* SSTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
