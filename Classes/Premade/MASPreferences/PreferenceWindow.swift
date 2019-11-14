@@ -9,9 +9,7 @@ import Foundation
 import Cocoa
 import MASPreferences
 
-class PreferenceWindow: NSWindowController {
-    @IBOutlet var prefwindow: NSWindow?
-    
+class PreferenceWindow: NSObject {
     private lazy var preferencesWindowController: NSWindowController = {
         let generalViewController = GeneralPreferencesViewController()
         let updateViewController = UpdatePreferenceViewController()
@@ -32,12 +30,7 @@ class PreferenceWindow: NSWindowController {
     }()
     
     @IBAction func openPreferences(_ sender: AnyObject) {
+        preferencesWindowController.window?.backgroundColor = NSColor(patternImage: NSImage(named: "Black")!)
         preferencesWindowController.showWindow(nil)
-    }
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        
-        prefwindow?.backgroundColor = NSColor(patternImage: NSImage(named: "Black")!)
     }
 }
