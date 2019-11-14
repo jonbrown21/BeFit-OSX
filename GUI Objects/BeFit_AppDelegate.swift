@@ -49,7 +49,6 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
     @IBOutlet var FoodTableView: NSArrayController!
     @IBOutlet var submitFood: NSButton!
     
-    @IBOutlet var showStore: NSWindow!
     @IBOutlet var arrayController_: NSArrayController!
     @IBOutlet var tableView_: NSTableView!
     @IBOutlet var frontView: NSView!
@@ -611,14 +610,5 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
     
     func windowWillClose(_ notification: Notification) {
         NSApp.terminate(self)
-    }
-    
-    @IBAction func showStore(_ sender: AnyObject) {
-        window.beginSheet(showStore, completionHandler: nil)
-    }
-    
-    @IBAction func hideStore(_ sender: AnyObject) {
-        showStore.orderOut(nil)
-        window.endSheet(showStore)
     }
 }
