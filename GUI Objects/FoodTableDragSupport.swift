@@ -45,8 +45,9 @@ class FoodTableDragSupport: NSObject, NSTableViewDataSource, NSTableViewDelegate
             return object.objectID.uriRepresentation()
         }
         
+        let data = try! NSKeyedArchiver.archivedData(withRootObject: objectURIs, requiringSecureCoding: false)
         pboard.declareTypes([.foodDataDragType], owner: nil)
-        pboard.setData(NSArchiver.archivedData(withRootObject: objectURIs), forType: .foodDataDragType)
+        pboard.setData(data, forType: .foodDataDragType)
         
         return true
     }

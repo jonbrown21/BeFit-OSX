@@ -51,7 +51,7 @@ class FoodListTableDropSupport: NSObject, NSTableViewDelegate, NSTableViewDataSo
         }
         
         let data = info.draggingPasteboard.data(forType: .foodDataDragType) ?? Data()
-        guard let objectURIs = NSUnarchiver.unarchiveObject(with: data) as? [URL] else {
+        guard let objectURIs = (try? NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(data)) as? [URL] else {
             return false
         }
         
