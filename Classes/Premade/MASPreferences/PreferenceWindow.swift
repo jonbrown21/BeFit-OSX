@@ -26,11 +26,12 @@ class PreferenceWindow: NSObject {
         #endif
         
         let title = NSLocalizedString("Preferences", comment: "Common title for Preferences window")
-        return MASPreferencesWindowController(viewControllers: controllers, title: title)
+        let vc = MASPreferencesWindowController(viewControllers: controllers, title: title)
+        vc.window?.backgroundColor = NSColor(patternImage: NSImage(named: "Black")!)
+        return vc
     }()
     
     @IBAction func openPreferences(_ sender: AnyObject) {
-        preferencesWindowController.window?.backgroundColor = NSColor(patternImage: NSImage(named: "Black")!)
         preferencesWindowController.showWindow(nil)
     }
 }
