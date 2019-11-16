@@ -44,7 +44,7 @@
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                         <clipView key="contentView" ambiguous="YES" drawsBackground="NO" id="a9e-TO-Ga5">
                                             <rect key="frame" x="0.0" y="0.0" width="201" height="610"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <tableView focusRingType="none" verticalHuggingPriority="750" ambiguous="YES" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" selectionHighlightStyle="sourceList" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="35" rowSizeStyle="automatic" viewBased="YES" floatsGroupRows="NO" id="KbJ-R5-DkY" customClass="FoodListNSTableView" customModule="BeFit_Lite" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="201" height="610"/>
@@ -211,7 +211,7 @@
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <clipView key="contentView" focusRingType="none" ambiguous="YES" copiesOnScroll="NO" id="Td3-QF-MHi">
                                             <rect key="frame" x="0.0" y="0.0" width="603" height="515"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <tableView focusRingType="none" verticalHuggingPriority="750" ambiguous="YES" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnSelection="YES" emptySelection="NO" autosaveColumns="NO" headerView="2623" id="394" customClass="FoodNSTableView" customModule="BeFit_Lite" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="603" height="498"/>
@@ -369,7 +369,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
                                         <clipView key="contentView" wantsLayer="YES" canDrawConcurrently="YES" focusRingType="none" ambiguous="YES" drawsBackground="NO" copiesOnScroll="NO" id="Psl-Hs-7BR">
                                             <rect key="frame" x="0.0" y="0.0" width="190" height="594"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view canDrawConcurrently="YES" focusRingType="none" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k79-ca-Tzd">
                                                     <rect key="frame" x="-4" y="-1" width="209" height="862"/>
@@ -702,36 +702,11 @@ CA
                                     <action selector="loadSupport:" target="406" id="2885"/>
                                 </connections>
                             </menuItem>
-                            <menuItem isSeparatorItem="YES" id="2949">
-                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
-                            </menuItem>
-                            <menuItem title="Contact the Developer" id="2954">
-                                <connections>
-                                    <action selector="loadEmaildev:" target="406" id="2958"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem isSeparatorItem="YES" id="2951">
-                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
-                            </menuItem>
-                            <menuItem title="Share on I Use This" id="2883">
-                                <connections>
-                                    <action selector="loadWebsite:" target="406" id="2884"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem title="Share this on Facebook" id="2724">
-                                <connections>
-                                    <action selector="loadFacebook:" target="406" id="2726"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem title="Share this on Twitter" id="2727">
-                                <connections>
-                                    <action selector="loadTwitter:" target="406" id="2730"/>
-                                </connections>
-                            </menuItem>
                         </items>
                     </menu>
                 </menuItem>
             </items>
+            <point key="canvasLocation" x="140" y="9"/>
         </menu>
         <customObject id="205" userLabel="BeFit_AppDelegate" customClass="BeFit_AppDelegate" customModule="BeFit_Lite" customModuleProvider="target">
             <connections>
@@ -966,6 +941,7 @@ CA
                     </connections>
                 </menuItem>
             </items>
+            <point key="canvasLocation" x="140" y="290"/>
         </menu>
         <customView id="KMG-Gx-aog" customClass="INTitlebarView">
             <rect key="frame" x="0.0" y="0.0" width="668" height="91"/>
@@ -1271,6 +1247,7 @@ CA
                     </connections>
                 </menuItem>
             </items>
+            <point key="canvasLocation" x="140" y="432"/>
         </menu>
         <window title="Reference Data" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="QPw-wf-S7t" customClass="NSPanel">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" utility="YES"/>

@@ -198,30 +198,6 @@ class GUIController: NSObject, NSTableViewDelegate, NSWindowDelegate {
         }
     }
     
-    @IBAction func loadEmaildev(_ sender: AnyObject) {
-        if let url = URL(string: "mailto:jon@jonbrown.org?subject=BeFit%20Feedback&body=Feedback") {
-            NSWorkspace.shared.open(url)
-        }
-    }
-    
-    @IBAction func loadWebsite(_ sender: AnyObject) {
-        if let url = URL(string: "http://osx.iusethis.com/app/befit") {
-            NSWorkspace.shared.open(url)
-        }
-    }
-    
-    @IBAction func loadFacebook(_ sender: AnyObject) {
-        if let url = URL(string: "http://www.facebook.com/sharer.php?s=100&p[url]=http://www.jonbrown.org/befit/&p[title]=BeFit&p[summary]=BeFit+is+the+ultimate+calorie+tracking+tool.+Based+on+the+nutrition+data+for+the+foods+that+you+eat.+Enter+the+coupon+code+%23BF2014+and+get+BeFit+at+30%25+off+for+a+limited+time%21") {
-            NSWorkspace.shared.open(url)
-        }
-    }
-    
-    @IBAction func loadTwitter(_ sender: AnyObject) {
-        if let url = URL(string: "http://twitter.com/share?url=http%3A%2F%2Fwww.jonbrown.org%2Fbefit%2F&via=JonBrownDesigns&text=BeFit+is+the+ultimate+calorie+tracking+tool.+Based+on+the+nutrition+data+for+the+foods+that+you+eat.+Enter+the+coupon+code+%23BF2014+and+get+BeFit+at+30%25+off+for+a+limited+time%21") {
-            NSWorkspace.shared.open(url)
-        }
-    }
-    
     @IBAction func ShowHideGraphPanel(_ sender: AnyObject) {
         //Change whatever the current setting is for the graph panel's hide/show value
         GraphPanelWinNSView.isHidden = !GraphPanelWinNSView.isHidden
