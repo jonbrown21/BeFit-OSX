@@ -395,10 +395,6 @@
 		FC946FB41A20F2BA00692D04 /* justgage.1.0.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC946FB21A20F2BA00692D04 /* justgage.1.0.1.min.js */; };
 		FC946FB51A20F2BA00692D04 /* justgage.1.0.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC946FB21A20F2BA00692D04 /* justgage.1.0.1.min.js */; };
 		FC946FB61A20F2BA00692D04 /* justgage.1.0.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC946FB21A20F2BA00692D04 /* justgage.1.0.1.min.js */; };
-		FC946FBE1A21886D00692D04 /* CustomCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946FBD1A21886D00692D04 /* CustomCornerView.m */; };
-		FC946FBF1A21886D00692D04 /* CustomCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946FBD1A21886D00692D04 /* CustomCornerView.m */; };
-		FC946FC01A21886D00692D04 /* CustomCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946FBD1A21886D00692D04 /* CustomCornerView.m */; };
-		FC946FC11A21886D00692D04 /* CustomCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946FBD1A21886D00692D04 /* CustomCornerView.m */; };
 		FC94C8EB19F4B6A800152A2C /* BeFitHelp in Resources */ = {isa = PBXBuildFile; fileRef = FC94C8EA19F4B6A800152A2C /* BeFitHelp */; };
 		FC94C8EC19F4B6A800152A2C /* BeFitHelp in Resources */ = {isa = PBXBuildFile; fileRef = FC94C8EA19F4B6A800152A2C /* BeFitHelp */; };
 		FC94C8ED19F4B6A800152A2C /* BeFitHelp in Resources */ = {isa = PBXBuildFile; fileRef = FC94C8EA19F4B6A800152A2C /* BeFitHelp */; };
@@ -413,10 +409,6 @@
 		FCBA5BB61876580A007C6CE2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1FA2621871335600E96FEE /* QuartzCore.framework */; };
 		FCBA5BB718765820007C6CE2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1FA25318712EFE00E96FEE /* SystemConfiguration.framework */; };
 		FCBAB3A9181CD7C0006BC4DE /* BeFit.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC5465761809AAA400E69CEB /* BeFit.xib */; };
-		FCC174CB19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC174CA19EBD4A2001A184A /* iTableColumnHeaderCell.m */; };
-		FCC174CC19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC174CA19EBD4A2001A184A /* iTableColumnHeaderCell.m */; };
-		FCC174CD19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC174CA19EBD4A2001A184A /* iTableColumnHeaderCell.m */; };
-		FCC174CE19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC174CA19EBD4A2001A184A /* iTableColumnHeaderCell.m */; };
 		FCC174D219EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC174D119EBD4CF001A184A /* OSBBadgeTextFieldCell.m */; };
 		FCC174D319EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC174D119EBD4CF001A184A /* OSBBadgeTextFieldCell.m */; };
 		FCC174D419EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC174D119EBD4CF001A184A /* OSBBadgeTextFieldCell.m */; };
@@ -631,13 +623,9 @@
 		FC946FA81A20F13A00692D04 /* justgage.1.0.1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = justgage.1.0.1.js; path = htdocs/JS/justgage.1.0.1.js; sourceTree = "<group>"; };
 		FC946FA91A20F13A00692D04 /* raphael.2.1.0.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = raphael.2.1.0.min.js; path = htdocs/JS/raphael.2.1.0.min.js; sourceTree = "<group>"; };
 		FC946FB21A20F2BA00692D04 /* justgage.1.0.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = justgage.1.0.1.min.js; path = htdocs/JS/justgage.1.0.1.min.js; sourceTree = "<group>"; };
-		FC946FBC1A21886D00692D04 /* CustomCornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCornerView.h; sourceTree = "<group>"; };
-		FC946FBD1A21886D00692D04 /* CustomCornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCornerView.m; sourceTree = "<group>"; };
 		FC94C8EA19F4B6A800152A2C /* BeFitHelp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BeFitHelp; sourceTree = "<group>"; };
 		FC9FA83D1FC5BF340030F407 /* Paddle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Paddle.framework; sourceTree = "<group>"; };
 		FCBFE7B218EE73960033F407 /* BeFit Trial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "BeFit Trial.entitlements"; sourceTree = "<group>"; };
-		FCC174C919EBD4A2001A184A /* iTableColumnHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTableColumnHeaderCell.h; sourceTree = "<group>"; };
-		FCC174CA19EBD4A2001A184A /* iTableColumnHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTableColumnHeaderCell.m; sourceTree = "<group>"; };
 		FCC174D019EBD4CF001A184A /* OSBBadgeTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSBBadgeTextFieldCell.h; sourceTree = "<group>"; };
 		FCC174D119EBD4CF001A184A /* OSBBadgeTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSBBadgeTextFieldCell.m; sourceTree = "<group>"; };
 		FCCB059718824ED000BE315E /* BeFit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = BeFit.entitlements; sourceTree = "<group>"; };
@@ -902,7 +890,6 @@
 			children = (
 				FC946F3B1A19AE7F00692D04 /* ANSegment */,
 				FCC174CF19EBD4CF001A184A /* OSBBadgeTextCell */,
-				FCC174C819EBD4A2001A184A /* iTableColumnHeader */,
 				FC08740419EBA72900ACB943 /* UAAppReviewManager */,
 				FC0873FC19EBA71C00ACB943 /* TrialFiles */,
 				FC0873F519EBA71000ACB943 /* SSTextField */,
@@ -1151,18 +1138,6 @@
 				43C800E92372C3C200E08913 /* NSPasteboard+FoodDrag.swift */,
 			);
 			path = "GUI Objects";
-			sourceTree = "<group>";
-		};
-		FCC174C819EBD4A2001A184A /* iTableColumnHeader */ = {
-			isa = PBXGroup;
-			children = (
-				FC946FBC1A21886D00692D04 /* CustomCornerView.h */,
-				FC946FBD1A21886D00692D04 /* CustomCornerView.m */,
-				FCC174C919EBD4A2001A184A /* iTableColumnHeaderCell.h */,
-				FCC174CA19EBD4A2001A184A /* iTableColumnHeaderCell.m */,
-			);
-			name = iTableColumnHeader;
-			path = Classes/Premade/iTableColumnHeader;
 			sourceTree = "<group>";
 		};
 		FCC174CF19EBD4CF001A184A /* OSBBadgeTextCell */ = {
@@ -1742,7 +1717,6 @@
 				43C8010F2372EDF800E08913 /* SearchFieldforLists.swift in Sources */,
 				436B948F23795D6900AEE7A9 /* ANSegmentedControl.swift in Sources */,
 				435727A123700D4E00755BE1 /* FoodList+CoreDataProperties.swift in Sources */,
-				FCC174CC19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */,
 				4348C1CF23706D9700071B9C /* FoodArrayController.swift in Sources */,
 				4348C1CA2370647E00071B9C /* FoodNSTableView.swift in Sources */,
 				436B949E23798D0A00AEE7A9 /* MCViewFlipController.swift in Sources */,
@@ -1757,7 +1731,6 @@
 				43C801572375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */,
 				436B9480237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift in Sources */,
 				FC08738519EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
-				FC946FBF1A21886D00692D04 /* CustomCornerView.m in Sources */,
 				43C801322372FA6E00E08913 /* LegendChol.swift in Sources */,
 				436B94A32379973500AEE7A9 /* LNClipView.swift in Sources */,
 				436B948523795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */,
@@ -1800,7 +1773,6 @@
 				4348C1D7237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
 				4348C1EB2371A44E00071B9C /* AddMGValueTransformer.swift in Sources */,
 				436B94A62379A24900AEE7A9 /* ITProgressBar.swift in Sources */,
-				FCC174CB19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */,
 				43C800E02371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */,
 				436B948D23795D6900AEE7A9 /* ANSegmentedControl.swift in Sources */,
 				436B94A12379973500AEE7A9 /* LNClipView.swift in Sources */,
@@ -1821,7 +1793,6 @@
 				436B948323795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */,
 				4348C1CD23706D9700071B9C /* FoodArrayController.swift in Sources */,
 				43C801552375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */,
-				FC946FBE1A21886D00692D04 /* CustomCornerView.m in Sources */,
 				43C801082372ECE300E08913 /* SideFooter.swift in Sources */,
 				FC08740719EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
 				43C8011C2372F3D200E08913 /* SubBar.swift in Sources */,
@@ -1865,7 +1836,6 @@
 				4348C1DA237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
 				4348C1EE2371A44E00071B9C /* AddMGValueTransformer.swift in Sources */,
 				436B94A92379A24900AEE7A9 /* ITProgressBar.swift in Sources */,
-				FCC174CD19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */,
 				435727A223700D4E00755BE1 /* FoodList+CoreDataProperties.swift in Sources */,
 				436B949023795D6900AEE7A9 /* ANSegmentedControl.swift in Sources */,
 				436B94A42379973500AEE7A9 /* LNClipView.swift in Sources */,
@@ -1881,7 +1851,6 @@
 				FC89564419F4494200420ADC /* OnlineCheck.m in Sources */,
 				FC08738619EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
 				4348C1D023706D9700071B9C /* FoodArrayController.swift in Sources */,
-				FC946FC01A21886D00692D04 /* CustomCornerView.m in Sources */,
 				436B948623795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */,
 				43C8015B2375A2E100E08913 /* GeneralPreferencesViewController.swift in Sources */,
 				FC24B112204C96A100E4D1E8 /* PFMoveApplication.m in Sources */,
@@ -1930,7 +1899,6 @@
 				4348C1D8237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
 				4348C1EC2371A44E00071B9C /* AddMGValueTransformer.swift in Sources */,
 				436B94A72379A24900AEE7A9 /* ITProgressBar.swift in Sources */,
-				FCC174CE19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */,
 				435727A023700D4E00755BE1 /* FoodList+CoreDataProperties.swift in Sources */,
 				436B948E23795D6900AEE7A9 /* ANSegmentedControl.swift in Sources */,
 				436B94A22379973500AEE7A9 /* LNClipView.swift in Sources */,
@@ -1946,7 +1914,6 @@
 				FC89564519F4494200420ADC /* OnlineCheck.m in Sources */,
 				4348C1CE23706D9700071B9C /* FoodArrayController.swift in Sources */,
 				FC08738719EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
-				FC946FC11A21886D00692D04 /* CustomCornerView.m in Sources */,
 				436B948423795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */,
 				43C801592375A2E000E08913 /* GeneralPreferencesViewController.swift in Sources */,
 				FC08740A19EBA72900ACB943 /* UAAppReviewManager.m in Sources */,

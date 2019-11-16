@@ -103,18 +103,6 @@ class GUIController: NSObject, NSTableViewDelegate, NSWindowDelegate {
         var frame_head = tableView2.headerView?.frame ?? .zero
         frame_head.size.height = 20
         tableView2.headerView?.frame = frame_head
-        
-        //    NSArray *columns = [tableView2 tableColumns];
-        //    NSEnumerator *cols = [columns objectEnumerator];
-        //    NSTableColumn *col = nil;
-        //
-        //    iTableColumnHeaderCell *iHeaderCell;
-        //
-        //    while (col = [cols nextObject]) {
-        //    iHeaderCell = [[iTableColumnHeaderCell alloc]
-        //    initTextCell:[[col headerCell] stringValue]];
-        //    [col setHeaderCell:iHeaderCell];
-        //    }
 
         //Setting this so we can disable items in the menu
         

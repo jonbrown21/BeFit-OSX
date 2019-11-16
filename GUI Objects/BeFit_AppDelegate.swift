@@ -560,24 +560,6 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
     
     //MARK: - NSTableViewDelegate
     
-    func tableView(_ tableView: NSTableView, didClick tableColumn: NSTableColumn) {
-        for column in tableView.tableColumns {
-            let cell = column.headerCell as? iTableColumnHeaderCell
-            let ascending: Bool
-            let priority: Int
-            
-            if column == tableColumn {
-                ascending = arrayController_.sortDescriptors.first?.ascending ?? false
-                priority = 0
-            } else {
-                ascending = false
-                priority = 1
-            }
-            
-            cell?.setSortAscending(ascending, priority: priority)
-        }
-    }
-    
     //MARK: - Printing Variables
     
     @objc var goalPref: String {
