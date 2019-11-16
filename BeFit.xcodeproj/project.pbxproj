@@ -112,8 +112,6 @@
 		4375CA2C23704E0B008A4B02 /* FoodListArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA2A23704E0B008A4B02 /* FoodListArrayController.swift */; };
 		4375CA2D23704E0B008A4B02 /* FoodListArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA2A23704E0B008A4B02 /* FoodListArrayController.swift */; };
 		4375CA2E23704E0B008A4B02 /* FoodListArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA2A23704E0B008A4B02 /* FoodListArrayController.swift */; };
-		43B3E72E2375CFCE008A6420 /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B3E72D2375CFCE008A6420 /* OpenFeedback.framework */; };
-		43B3E72F2375CFCE008A6420 /* OpenFeedback.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43B3E72D2375CFCE008A6420 /* OpenFeedback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		43C800E02371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800DF2371B6E100E08913 /* BeFit_AppDelegate.swift */; };
 		43C800E12371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800DF2371B6E100E08913 /* BeFit_AppDelegate.swift */; };
 		43C800E22371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800DF2371B6E100E08913 /* BeFit_AppDelegate.swift */; };
@@ -210,8 +208,6 @@
 		43C801592375A2E000E08913 /* GeneralPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */; };
 		43C8015A2375A2E000E08913 /* GeneralPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */; };
 		43C8015B2375A2E100E08913 /* GeneralPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */; };
-		43CC52E92375D73900FE4C78 /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B3E72D2375CFCE008A6420 /* OpenFeedback.framework */; };
-		43CC52EA2375D73900FE4C78 /* OpenFeedback.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43B3E72D2375CFCE008A6420 /* OpenFeedback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		49D8C83A2C61EFB1DD12F7F1 /* Pods_BeFitFree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F996651F339E047069541D83 /* Pods_BeFitFree.framework */; };
 		602CEDAA613D7AAEF8326BBE /* Pods_BeFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44F5C715CC271A121C9BDF8 /* Pods_BeFit.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -460,7 +456,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				11A49BE42159EF5E00A0AC3D /* LetsMove.framework in CopyFiles */,
-				43B3E72F2375CFCE008A6420 /* OpenFeedback.framework in CopyFiles */,
 				FCF3D7331E77AC22004A8525 /* Sparkle.framework in CopyFiles */,
 				FC9FA8421FC5BF720030F407 /* Paddle.framework in CopyFiles */,
 			);
@@ -473,7 +468,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				11A49BE32159EEE300A0AC3D /* LetsMove.framework in CopyFiles */,
-				43CC52EA2375D73900FE4C78 /* OpenFeedback.framework in CopyFiles */,
 				FCF3D7351E77AC2F004A8525 /* Sparkle.framework in CopyFiles */,
 				FC9FA8431FC5BF750030F407 /* Paddle.framework in CopyFiles */,
 			);
@@ -665,7 +659,6 @@
 				FCFAE94B180B08C200108FDE /* Cocoa.framework in Frameworks */,
 				FCD4445C1804CFF90036C533 /* CoreData.framework in Frameworks */,
 				2565F9770EFDBC13005CD70F /* OpenGL.framework in Frameworks */,
-				43B3E72E2375CFCE008A6420 /* OpenFeedback.framework in Frameworks */,
 				FC24B10F204C96A100E4D1E8 /* LetsMove.framework in Frameworks */,
 				1721D91B23BC3CF5BC74D96E /* Pods_BeFitDemo.framework in Frameworks */,
 			);
@@ -699,7 +692,6 @@
 				FC1694CA181C747100C54052 /* Cocoa.framework in Frameworks */,
 				FC1694CB181C747100C54052 /* CoreData.framework in Frameworks */,
 				FC1694CC181C747100C54052 /* OpenGL.framework in Frameworks */,
-				43CC52E92375D73900FE4C78 /* OpenFeedback.framework in Frameworks */,
 				FC24B110204C96A100E4D1E8 /* LetsMove.framework in Frameworks */,
 				FC93F6932982CCDCF7291AD3 /* Pods_BeFitWebsite.framework in Frameworks */,
 			);

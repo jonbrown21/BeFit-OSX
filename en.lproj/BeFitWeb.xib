@@ -707,24 +707,6 @@ CA
                                     <action selector="loadSupport:" target="406" id="2885"/>
                                 </connections>
                             </menuItem>
-                            <menuItem isSeparatorItem="YES" id="2949">
-                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
-                            </menuItem>
-                            <menuItem title="Submit a support request" id="5TJ-2C-XM2">
-                                <connections>
-                                    <action selector="presentFeedbackPanelForSupport:" target="Igd-xe-WwS" id="wfB-bi-NzH"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem title="Submit a feature request" id="9G9-oo-fgr">
-                                <connections>
-                                    <action selector="presentFeedbackPanelForFeature:" target="Igd-xe-WwS" id="zpR-sd-zSE"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem title="Submit a bug report" id="kkz-wP-9WH">
-                                <connections>
-                                    <action selector="presentFeedbackPanelForBug:" target="Igd-xe-WwS" id="CBI-i8-6We"/>
-                                </connections>
-                            </menuItem>
                         </items>
                     </menu>
                 </menuItem>
@@ -5983,7 +5965,6 @@ IA
             <point key="canvasLocation" x="389.5" y="-694.5"/>
         </customView>
         <customObject id="ksf-WQ-8Ic" customClass="SUUpdater"/>
-        <customObject id="Igd-xe-WwS" customClass="OpenFeedback"/>
     </objects>
     <resources>
         <image name="ClosePanel" width="13" height="11"/>
