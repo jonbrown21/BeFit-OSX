@@ -179,13 +179,6 @@ class GUIController: NSObject, NSTableViewDelegate, NSWindowDelegate {
         NSApp.terminate(self)
     }
     
-    // Actions
-    @IBAction func loadSupport(_ sender: AnyObject) {
-        if let url = URL(string: "http://www.jonbrown.org/support/") {
-            NSWorkspace.shared.open(url)
-        }
-    }
-    
     @IBAction func ShowHideGraphPanel(_ sender: AnyObject) {
         //Change whatever the current setting is for the graph panel's hide/show value
         GraphPanelWinNSView.isHidden = !GraphPanelWinNSView.isHidden
