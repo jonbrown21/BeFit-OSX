@@ -15,6 +15,7 @@ target 'BeFitDemo' do
 
   # Pods for BeFitDemo
   pod 'MASPreferences'
+  pod 'Sparkle'
 end
 
 target 'BeFitFree' do
@@ -31,4 +32,5 @@ target 'BeFitWebsite' do
 
   # Pods for BeFitWebsite
   pod 'MASPreferences'
+  pod 'Sparkle'
 end
