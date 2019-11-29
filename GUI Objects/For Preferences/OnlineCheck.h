@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+/*
 @interface OnlineCheck : NSObject
 {
 
@@ -24,3 +25,4 @@
 - (IBAction)installWidget:(id)sender;
 
 @end
+*/

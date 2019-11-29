@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleHelpBookFolder</key>
-	<string>BeFitHelpBook</string>
+	<string>BeFitHelp</string>
 	<key>CFBundleHelpBookName</key>
 	<string>Be Fit</string>
 	<key>CFBundleIdentifier</key>

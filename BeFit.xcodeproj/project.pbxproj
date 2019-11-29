@@ -7,14 +7,210 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11693055215A6DBF00BF4F77 /* OpenFeedback.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		11A49BE32159EEE300A0AC3D /* LetsMove.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC24B10D204C969F00E4D1E8 /* LetsMove.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		11A49BE42159EF5E00A0AC3D /* LetsMove.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC24B10D204C969F00E4D1E8 /* LetsMove.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1721D91B23BC3CF5BC74D96E /* Pods_BeFitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6C3A12412CBC17E2355719 /* Pods_BeFitDemo.framework */; };
 		2565F9770EFDBC13005CD70F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC71A8EC0E3E592D0010389E /* OpenGL.framework */; };
-		2565F9780EFDBC23005CD70F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		2565F98E0EFDBC31005CD70F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		4348C1C82370647B00071B9C /* FoodNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1C72370647B00071B9C /* FoodNSTableView.swift */; };
+		4348C1C92370647E00071B9C /* FoodNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1C72370647B00071B9C /* FoodNSTableView.swift */; };
+		4348C1CA2370647E00071B9C /* FoodNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1C72370647B00071B9C /* FoodNSTableView.swift */; };
+		4348C1CB2370647E00071B9C /* FoodNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1C72370647B00071B9C /* FoodNSTableView.swift */; };
+		4348C1CD23706D9700071B9C /* FoodArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1CC23706D9700071B9C /* FoodArrayController.swift */; };
+		4348C1CE23706D9700071B9C /* FoodArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1CC23706D9700071B9C /* FoodArrayController.swift */; };
+		4348C1CF23706D9700071B9C /* FoodArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1CC23706D9700071B9C /* FoodArrayController.swift */; };
+		4348C1D023706D9700071B9C /* FoodArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1CC23706D9700071B9C /* FoodArrayController.swift */; };
+		4348C1D223715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D123715B8C00071B9C /* FoodListTableDropSupport.swift */; };
+		4348C1D323715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D123715B8C00071B9C /* FoodListTableDropSupport.swift */; };
+		4348C1D423715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D123715B8C00071B9C /* FoodListTableDropSupport.swift */; };
+		4348C1D523715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D123715B8C00071B9C /* FoodListTableDropSupport.swift */; };
+		4348C1D7237163B200071B9C /* FoodTableDragSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D6237163B200071B9C /* FoodTableDragSupport.swift */; };
+		4348C1D8237163B200071B9C /* FoodTableDragSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D6237163B200071B9C /* FoodTableDragSupport.swift */; };
+		4348C1D9237163B200071B9C /* FoodTableDragSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D6237163B200071B9C /* FoodTableDragSupport.swift */; };
+		4348C1DA237163B200071B9C /* FoodTableDragSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1D6237163B200071B9C /* FoodTableDragSupport.swift */; };
+		4348C1DC23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1DB23716A0A00071B9C /* ColumnAttributeSelector.swift */; };
+		4348C1DD23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1DB23716A0A00071B9C /* ColumnAttributeSelector.swift */; };
+		4348C1DE23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1DB23716A0A00071B9C /* ColumnAttributeSelector.swift */; };
+		4348C1DF23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1DB23716A0A00071B9C /* ColumnAttributeSelector.swift */; };
+		4348C1E1237170FA00071B9C /* GUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1E0237170FA00071B9C /* GUIController.swift */; };
+		4348C1E2237170FA00071B9C /* GUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1E0237170FA00071B9C /* GUIController.swift */; };
+		4348C1E3237170FA00071B9C /* GUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1E0237170FA00071B9C /* GUIController.swift */; };
+		4348C1E4237170FA00071B9C /* GUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1E0237170FA00071B9C /* GUIController.swift */; };
+		4348C1E623719EF000071B9C /* AddGramsValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1E523719EF000071B9C /* AddGramsValueTransformer.swift */; };
+		4348C1E723719EF000071B9C /* AddGramsValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1E523719EF000071B9C /* AddGramsValueTransformer.swift */; };
+		4348C1E823719EF000071B9C /* AddGramsValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1E523719EF000071B9C /* AddGramsValueTransformer.swift */; };
+		4348C1E923719EF000071B9C /* AddGramsValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1E523719EF000071B9C /* AddGramsValueTransformer.swift */; };
+		4348C1EB2371A44E00071B9C /* AddMGValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1EA2371A44E00071B9C /* AddMGValueTransformer.swift */; };
+		4348C1EC2371A44E00071B9C /* AddMGValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1EA2371A44E00071B9C /* AddMGValueTransformer.swift */; };
+		4348C1ED2371A44E00071B9C /* AddMGValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1EA2371A44E00071B9C /* AddMGValueTransformer.swift */; };
+		4348C1EE2371A44E00071B9C /* AddMGValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348C1EA2371A44E00071B9C /* AddMGValueTransformer.swift */; };
+		4357279323700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357278F23700D4E00755BE1 /* Food+CoreDataClass.swift */; };
+		4357279423700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357278F23700D4E00755BE1 /* Food+CoreDataClass.swift */; };
+		4357279523700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357278F23700D4E00755BE1 /* Food+CoreDataClass.swift */; };
+		4357279623700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357278F23700D4E00755BE1 /* Food+CoreDataClass.swift */; };
+		4357279723700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357279023700D4E00755BE1 /* Food+CoreDataProperties.swift */; };
+		4357279823700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357279023700D4E00755BE1 /* Food+CoreDataProperties.swift */; };
+		4357279923700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357279023700D4E00755BE1 /* Food+CoreDataProperties.swift */; };
+		4357279A23700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357279023700D4E00755BE1 /* Food+CoreDataProperties.swift */; };
+		4357279B23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357279123700D4E00755BE1 /* FoodList+CoreDataClass.swift */; };
+		4357279C23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357279123700D4E00755BE1 /* FoodList+CoreDataClass.swift */; };
+		4357279D23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357279123700D4E00755BE1 /* FoodList+CoreDataClass.swift */; };
+		4357279E23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357279123700D4E00755BE1 /* FoodList+CoreDataClass.swift */; };
+		4357279F23700D4E00755BE1 /* FoodList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357279223700D4E00755BE1 /* FoodList+CoreDataProperties.swift */; };
+		435727A023700D4E00755BE1 /* FoodList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357279223700D4E00755BE1 /* FoodList+CoreDataProperties.swift */; };
+		435727A123700D4E00755BE1 /* FoodList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357279223700D4E00755BE1 /* FoodList+CoreDataProperties.swift */; };
+		435727A223700D4E00755BE1 /* FoodList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357279223700D4E00755BE1 /* FoodList+CoreDataProperties.swift */; };
+		435727A423700FAE00755BE1 /* Food+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435727A323700FAE00755BE1 /* Food+UI.swift */; };
+		435727A523700FAE00755BE1 /* Food+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435727A323700FAE00755BE1 /* Food+UI.swift */; };
+		435727A623700FAE00755BE1 /* Food+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435727A323700FAE00755BE1 /* Food+UI.swift */; };
+		435727A723700FAE00755BE1 /* Food+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435727A323700FAE00755BE1 /* Food+UI.swift */; };
+		435727A9237018B700755BE1 /* FoodList+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435727A8237018B700755BE1 /* FoodList+UI.swift */; };
+		435727AA237018B700755BE1 /* FoodList+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435727A8237018B700755BE1 /* FoodList+UI.swift */; };
+		435727AB237018B700755BE1 /* FoodList+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435727A8237018B700755BE1 /* FoodList+UI.swift */; };
+		435727AC237018B700755BE1 /* FoodList+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435727A8237018B700755BE1 /* FoodList+UI.swift */; };
+		436B947E237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B947D237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift */; };
+		436B947F237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B947D237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift */; };
+		436B9480237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B947D237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift */; };
+		436B9481237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B947D237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift */; };
+		436B948323795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948223795C1500AEE7A9 /* NSShadow+MCAdditions.swift */; };
+		436B948423795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948223795C1500AEE7A9 /* NSShadow+MCAdditions.swift */; };
+		436B948523795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948223795C1500AEE7A9 /* NSShadow+MCAdditions.swift */; };
+		436B948623795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948223795C1500AEE7A9 /* NSShadow+MCAdditions.swift */; };
+		436B948823795CEF00AEE7A9 /* ANSegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948723795CEF00AEE7A9 /* ANSegmentedCell.swift */; };
+		436B948923795CEF00AEE7A9 /* ANSegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948723795CEF00AEE7A9 /* ANSegmentedCell.swift */; };
+		436B948A23795CEF00AEE7A9 /* ANSegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948723795CEF00AEE7A9 /* ANSegmentedCell.swift */; };
+		436B948B23795CEF00AEE7A9 /* ANSegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948723795CEF00AEE7A9 /* ANSegmentedCell.swift */; };
+		436B948D23795D6900AEE7A9 /* ANSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948C23795D6900AEE7A9 /* ANSegmentedControl.swift */; };
+		436B948E23795D6900AEE7A9 /* ANSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948C23795D6900AEE7A9 /* ANSegmentedControl.swift */; };
+		436B948F23795D6900AEE7A9 /* ANSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948C23795D6900AEE7A9 /* ANSegmentedControl.swift */; };
+		436B949023795D6900AEE7A9 /* ANSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B948C23795D6900AEE7A9 /* ANSegmentedControl.swift */; };
+		436B94922379736B00AEE7A9 /* ANKnobAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B94912379736B00AEE7A9 /* ANKnobAnimation.swift */; };
+		436B94932379736B00AEE7A9 /* ANKnobAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B94912379736B00AEE7A9 /* ANKnobAnimation.swift */; };
+		436B94942379736B00AEE7A9 /* ANKnobAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B94912379736B00AEE7A9 /* ANKnobAnimation.swift */; };
+		436B94952379736B00AEE7A9 /* ANKnobAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B94912379736B00AEE7A9 /* ANKnobAnimation.swift */; };
+		436B9497237984F900AEE7A9 /* SSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B9496237984F900AEE7A9 /* SSTextField.swift */; };
+		436B9498237984F900AEE7A9 /* SSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B9496237984F900AEE7A9 /* SSTextField.swift */; };
+		436B9499237984F900AEE7A9 /* SSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B9496237984F900AEE7A9 /* SSTextField.swift */; };
+		436B949A237984F900AEE7A9 /* SSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B9496237984F900AEE7A9 /* SSTextField.swift */; };
+		436B949C23798D0A00AEE7A9 /* MCViewFlipController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B949B23798D0A00AEE7A9 /* MCViewFlipController.swift */; };
+		436B949D23798D0A00AEE7A9 /* MCViewFlipController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B949B23798D0A00AEE7A9 /* MCViewFlipController.swift */; };
+		436B949E23798D0A00AEE7A9 /* MCViewFlipController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B949B23798D0A00AEE7A9 /* MCViewFlipController.swift */; };
+		436B949F23798D0A00AEE7A9 /* MCViewFlipController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B949B23798D0A00AEE7A9 /* MCViewFlipController.swift */; };
+		436B94A12379973500AEE7A9 /* LNClipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B94A02379973500AEE7A9 /* LNClipView.swift */; };
+		436B94A22379973500AEE7A9 /* LNClipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B94A02379973500AEE7A9 /* LNClipView.swift */; };
+		436B94A32379973500AEE7A9 /* LNClipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B94A02379973500AEE7A9 /* LNClipView.swift */; };
+		436B94A42379973500AEE7A9 /* LNClipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B94A02379973500AEE7A9 /* LNClipView.swift */; };
+		436B94A62379A24900AEE7A9 /* ITProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B94A52379A24900AEE7A9 /* ITProgressBar.swift */; };
+		436B94A72379A24900AEE7A9 /* ITProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B94A52379A24900AEE7A9 /* ITProgressBar.swift */; };
+		436B94A82379A24900AEE7A9 /* ITProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B94A52379A24900AEE7A9 /* ITProgressBar.swift */; };
+		436B94A92379A24900AEE7A9 /* ITProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B94A52379A24900AEE7A9 /* ITProgressBar.swift */; };
+		4375CA262370478B008A4B02 /* FoodListNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA252370478A008A4B02 /* FoodListNSTableView.swift */; };
+		4375CA272370478B008A4B02 /* FoodListNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA252370478A008A4B02 /* FoodListNSTableView.swift */; };
+		4375CA282370478B008A4B02 /* FoodListNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA252370478A008A4B02 /* FoodListNSTableView.swift */; };
+		4375CA292370478B008A4B02 /* FoodListNSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA252370478A008A4B02 /* FoodListNSTableView.swift */; };
+		4375CA2B23704E0B008A4B02 /* FoodListArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA2A23704E0B008A4B02 /* FoodListArrayController.swift */; };
+		4375CA2C23704E0B008A4B02 /* FoodListArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA2A23704E0B008A4B02 /* FoodListArrayController.swift */; };
+		4375CA2D23704E0B008A4B02 /* FoodListArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA2A23704E0B008A4B02 /* FoodListArrayController.swift */; };
+		4375CA2E23704E0B008A4B02 /* FoodListArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375CA2A23704E0B008A4B02 /* FoodListArrayController.swift */; };
+		43C800E02371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800DF2371B6E100E08913 /* BeFit_AppDelegate.swift */; };
+		43C800E12371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800DF2371B6E100E08913 /* BeFit_AppDelegate.swift */; };
+		43C800E22371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800DF2371B6E100E08913 /* BeFit_AppDelegate.swift */; };
+		43C800E32371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800DF2371B6E100E08913 /* BeFit_AppDelegate.swift */; };
+		43C800E52372BE5700E08913 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800E42372BE5700E08913 /* CustomError.swift */; };
+		43C800E62372BE5700E08913 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800E42372BE5700E08913 /* CustomError.swift */; };
+		43C800E72372BE5700E08913 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800E42372BE5700E08913 /* CustomError.swift */; };
+		43C800E82372BE5700E08913 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800E42372BE5700E08913 /* CustomError.swift */; };
+		43C800EA2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800E92372C3C200E08913 /* NSPasteboard+FoodDrag.swift */; };
+		43C800EB2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800E92372C3C200E08913 /* NSPasteboard+FoodDrag.swift */; };
+		43C800EC2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800E92372C3C200E08913 /* NSPasteboard+FoodDrag.swift */; };
+		43C800ED2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800E92372C3C200E08913 /* NSPasteboard+FoodDrag.swift */; };
+		43C800EF2372C55B00E08913 /* BeFitGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800EE2372C55B00E08913 /* BeFitGraphView.swift */; };
+		43C800F02372C55B00E08913 /* BeFitGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800EE2372C55B00E08913 /* BeFitGraphView.swift */; };
+		43C800F12372C55B00E08913 /* BeFitGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800EE2372C55B00E08913 /* BeFitGraphView.swift */; };
+		43C800F22372C55B00E08913 /* BeFitGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800EE2372C55B00E08913 /* BeFitGraphView.swift */; };
+		43C800F42372CB6100E08913 /* RightGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F32372CB6100E08913 /* RightGraphView.swift */; };
+		43C800F52372CB6100E08913 /* RightGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F32372CB6100E08913 /* RightGraphView.swift */; };
+		43C800F62372CB6100E08913 /* RightGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F32372CB6100E08913 /* RightGraphView.swift */; };
+		43C800F72372CB6100E08913 /* RightGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F32372CB6100E08913 /* RightGraphView.swift */; };
+		43C800F92372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F82372E86E00E08913 /* ColumnControllerPopUpButton.swift */; };
+		43C800FA2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F82372E86E00E08913 /* ColumnControllerPopUpButton.swift */; };
+		43C800FB2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F82372E86E00E08913 /* ColumnControllerPopUpButton.swift */; };
+		43C800FC2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800F82372E86E00E08913 /* ColumnControllerPopUpButton.swift */; };
+		43C800FE2372E9D800E08913 /* FilterFoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800FD2372E9D800E08913 /* FilterFoodCell.swift */; };
+		43C800FF2372E9D800E08913 /* FilterFoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800FD2372E9D800E08913 /* FilterFoodCell.swift */; };
+		43C801002372E9D800E08913 /* FilterFoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800FD2372E9D800E08913 /* FilterFoodCell.swift */; };
+		43C801012372E9D800E08913 /* FilterFoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C800FD2372E9D800E08913 /* FilterFoodCell.swift */; };
+		43C801032372EA9900E08913 /* SearchFieldForFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801022372EA9900E08913 /* SearchFieldForFood.swift */; };
+		43C801042372EA9900E08913 /* SearchFieldForFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801022372EA9900E08913 /* SearchFieldForFood.swift */; };
+		43C801052372EA9900E08913 /* SearchFieldForFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801022372EA9900E08913 /* SearchFieldForFood.swift */; };
+		43C801062372EA9A00E08913 /* SearchFieldForFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801022372EA9900E08913 /* SearchFieldForFood.swift */; };
+		43C801082372ECE300E08913 /* SideFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801072372ECE300E08913 /* SideFooter.swift */; };
+		43C801092372ECE300E08913 /* SideFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801072372ECE300E08913 /* SideFooter.swift */; };
+		43C8010A2372ECE300E08913 /* SideFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801072372ECE300E08913 /* SideFooter.swift */; };
+		43C8010B2372ECE300E08913 /* SideFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801072372ECE300E08913 /* SideFooter.swift */; };
+		43C8010D2372EDF800E08913 /* SearchFieldforLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8010C2372EDF800E08913 /* SearchFieldforLists.swift */; };
+		43C8010E2372EDF800E08913 /* SearchFieldforLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8010C2372EDF800E08913 /* SearchFieldforLists.swift */; };
+		43C8010F2372EDF800E08913 /* SearchFieldforLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8010C2372EDF800E08913 /* SearchFieldforLists.swift */; };
+		43C801102372EDF800E08913 /* SearchFieldforLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8010C2372EDF800E08913 /* SearchFieldforLists.swift */; };
+		43C801122372EF2600E08913 /* WhiteBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801112372EF2600E08913 /* WhiteBackground.swift */; };
+		43C801132372EF2600E08913 /* WhiteBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801112372EF2600E08913 /* WhiteBackground.swift */; };
+		43C801142372EF2600E08913 /* WhiteBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801112372EF2600E08913 /* WhiteBackground.swift */; };
+		43C801152372EF2600E08913 /* WhiteBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801112372EF2600E08913 /* WhiteBackground.swift */; };
+		43C801172372F09F00E08913 /* SubBarBlk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801162372F09F00E08913 /* SubBarBlk.swift */; };
+		43C801182372F09F00E08913 /* SubBarBlk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801162372F09F00E08913 /* SubBarBlk.swift */; };
+		43C801192372F09F00E08913 /* SubBarBlk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801162372F09F00E08913 /* SubBarBlk.swift */; };
+		43C8011A2372F09F00E08913 /* SubBarBlk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801162372F09F00E08913 /* SubBarBlk.swift */; };
+		43C8011C2372F3D200E08913 /* SubBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8011B2372F3D200E08913 /* SubBar.swift */; };
+		43C8011D2372F3D200E08913 /* SubBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8011B2372F3D200E08913 /* SubBar.swift */; };
+		43C8011E2372F3D200E08913 /* SubBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8011B2372F3D200E08913 /* SubBar.swift */; };
+		43C8011F2372F3D200E08913 /* SubBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8011B2372F3D200E08913 /* SubBar.swift */; };
+		43C801212372F63100E08913 /* LegendCals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801202372F63100E08913 /* LegendCals.swift */; };
+		43C801222372F63100E08913 /* LegendCals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801202372F63100E08913 /* LegendCals.swift */; };
+		43C801232372F63100E08913 /* LegendCals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801202372F63100E08913 /* LegendCals.swift */; };
+		43C801242372F63100E08913 /* LegendCals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801202372F63100E08913 /* LegendCals.swift */; };
+		43C801262372F83500E08913 /* LegendFat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801252372F83500E08913 /* LegendFat.swift */; };
+		43C801272372F83500E08913 /* LegendFat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801252372F83500E08913 /* LegendFat.swift */; };
+		43C801282372F83500E08913 /* LegendFat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801252372F83500E08913 /* LegendFat.swift */; };
+		43C801292372F83500E08913 /* LegendFat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801252372F83500E08913 /* LegendFat.swift */; };
+		43C8012B2372F95F00E08913 /* LegendSatFat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8012A2372F95F00E08913 /* LegendSatFat.swift */; };
+		43C8012C2372F95F00E08913 /* LegendSatFat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8012A2372F95F00E08913 /* LegendSatFat.swift */; };
+		43C8012D2372F95F00E08913 /* LegendSatFat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8012A2372F95F00E08913 /* LegendSatFat.swift */; };
+		43C8012E2372F95F00E08913 /* LegendSatFat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8012A2372F95F00E08913 /* LegendSatFat.swift */; };
+		43C801302372FA6E00E08913 /* LegendChol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8012F2372FA6E00E08913 /* LegendChol.swift */; };
+		43C801312372FA6E00E08913 /* LegendChol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8012F2372FA6E00E08913 /* LegendChol.swift */; };
+		43C801322372FA6E00E08913 /* LegendChol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8012F2372FA6E00E08913 /* LegendChol.swift */; };
+		43C801332372FA6E00E08913 /* LegendChol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8012F2372FA6E00E08913 /* LegendChol.swift */; };
+		43C801352372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */; };
+		43C801362372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */; };
+		43C801372372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */; };
+		43C801382372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */; };
+		43C8013F2375560700E08913 /* GeneralPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */; };
+		43C8014123757E5200E08913 /* UpdatePreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014023757E5200E08913 /* UpdatePreferenceViewController.swift */; };
+		43C8014223757E5500E08913 /* UpdatePreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014023757E5200E08913 /* UpdatePreferenceViewController.swift */; };
+		43C8014323757E5500E08913 /* UpdatePreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014023757E5200E08913 /* UpdatePreferenceViewController.swift */; };
+		43C8014423757E5500E08913 /* UpdatePreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014023757E5200E08913 /* UpdatePreferenceViewController.swift */; };
+		43C8014623757FF800E08913 /* PreferenceWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014523757FF800E08913 /* PreferenceWindow.swift */; };
+		43C8014723757FFF00E08913 /* PreferenceWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014523757FF800E08913 /* PreferenceWindow.swift */; };
+		43C8014823757FFF00E08913 /* PreferenceWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014523757FF800E08913 /* PreferenceWindow.swift */; };
+		43C8014923757FFF00E08913 /* PreferenceWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014523757FF800E08913 /* PreferenceWindow.swift */; };
+		43C8014B237583C000E08913 /* AdvancedPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014A237583C000E08913 /* AdvancedPreferencesViewController.swift */; };
+		43C8014C237583C000E08913 /* AdvancedPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014A237583C000E08913 /* AdvancedPreferencesViewController.swift */; };
+		43C8014D237583C000E08913 /* AdvancedPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014A237583C000E08913 /* AdvancedPreferencesViewController.swift */; };
+		43C8014E237583C000E08913 /* AdvancedPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014A237583C000E08913 /* AdvancedPreferencesViewController.swift */; };
+		43C801502375856D00E08913 /* PrefSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014F2375856D00E08913 /* PrefSetter.swift */; };
+		43C801512375856D00E08913 /* PrefSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014F2375856D00E08913 /* PrefSetter.swift */; };
+		43C801522375856D00E08913 /* PrefSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014F2375856D00E08913 /* PrefSetter.swift */; };
+		43C801532375856D00E08913 /* PrefSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014F2375856D00E08913 /* PrefSetter.swift */; };
+		43C801552375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801542375999C00E08913 /* PrioritySplitViewDelegate.swift */; };
+		43C801562375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801542375999C00E08913 /* PrioritySplitViewDelegate.swift */; };
+		43C801572375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801542375999C00E08913 /* PrioritySplitViewDelegate.swift */; };
+		43C801582375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801542375999C00E08913 /* PrioritySplitViewDelegate.swift */; };
+		43C801592375A2E000E08913 /* GeneralPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */; };
+		43C8015A2375A2E000E08913 /* GeneralPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */; };
+		43C8015B2375A2E100E08913 /* GeneralPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */; };
+		49D8C83A2C61EFB1DD12F7F1 /* Pods_BeFitFree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F996651F339E047069541D83 /* Pods_BeFitFree.framework */; };
+		602CEDAA613D7AAEF8326BBE /* Pods_BeFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44F5C715CC271A121C9BDF8 /* Pods_BeFit.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
-		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		DC71A8ED0E3E592D0010389E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC71A8EC0E3E592D0010389E /* OpenGL.framework */; };
 		FC08736119EBA39B00ACB943 /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC08735C19EBA39B00ACB943 /* jquery-1.7.1.min.js */; };
@@ -37,76 +233,23 @@
 		FC08738919EBA69B00ACB943 /* INWindowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08738319EBA69B00ACB943 /* INWindowButton.m */; };
 		FC08738A19EBA69B00ACB943 /* INWindowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08738319EBA69B00ACB943 /* INWindowButton.m */; };
 		FC08738B19EBA69B00ACB943 /* INWindowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08738319EBA69B00ACB943 /* INWindowButton.m */; };
-		FC08738F19EBA6AE00ACB943 /* ITProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08738E19EBA6AE00ACB943 /* ITProgressBar.m */; };
-		FC08739019EBA6AE00ACB943 /* ITProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08738E19EBA6AE00ACB943 /* ITProgressBar.m */; };
-		FC08739119EBA6AE00ACB943 /* ITProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08738E19EBA6AE00ACB943 /* ITProgressBar.m */; };
-		FC08739219EBA6AE00ACB943 /* ITProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08738E19EBA6AE00ACB943 /* ITProgressBar.m */; };
-		FC0873A319EBA6D200ACB943 /* LNClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873A219EBA6D200ACB943 /* LNClipView.m */; };
-		FC0873A419EBA6D200ACB943 /* LNClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873A219EBA6D200ACB943 /* LNClipView.m */; };
-		FC0873A519EBA6D200ACB943 /* LNClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873A219EBA6D200ACB943 /* LNClipView.m */; };
-		FC0873A619EBA6D200ACB943 /* LNClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873A219EBA6D200ACB943 /* LNClipView.m */; };
 		FC0873B919EBA6DE00ACB943 /* AdvancedPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873A819EBA6DE00ACB943 /* AdvancedPreferencesView.xib */; };
 		FC0873BA19EBA6DE00ACB943 /* AdvancedPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873A819EBA6DE00ACB943 /* AdvancedPreferencesView.xib */; };
 		FC0873BB19EBA6DE00ACB943 /* AdvancedPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873A819EBA6DE00ACB943 /* AdvancedPreferencesView.xib */; };
 		FC0873BC19EBA6DE00ACB943 /* AdvancedPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873A819EBA6DE00ACB943 /* AdvancedPreferencesView.xib */; };
-		FC0873BD19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873AA19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m */; };
-		FC0873BE19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873AA19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m */; };
-		FC0873BF19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873AA19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m */; };
-		FC0873C019EBA6DE00ACB943 /* AdvancedPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873AA19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m */; };
 		FC0873C119EBA6DE00ACB943 /* GeneralPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873AB19EBA6DE00ACB943 /* GeneralPreferencesView.xib */; };
 		FC0873C219EBA6DE00ACB943 /* GeneralPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873AB19EBA6DE00ACB943 /* GeneralPreferencesView.xib */; };
 		FC0873C319EBA6DE00ACB943 /* GeneralPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873AB19EBA6DE00ACB943 /* GeneralPreferencesView.xib */; };
 		FC0873C419EBA6DE00ACB943 /* GeneralPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873AB19EBA6DE00ACB943 /* GeneralPreferencesView.xib */; };
-		FC0873C519EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873AD19EBA6DE00ACB943 /* GeneralPreferencesViewController.m */; };
-		FC0873C619EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873AD19EBA6DE00ACB943 /* GeneralPreferencesViewController.m */; };
-		FC0873C719EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873AD19EBA6DE00ACB943 /* GeneralPreferencesViewController.m */; };
-		FC0873C819EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873AD19EBA6DE00ACB943 /* GeneralPreferencesViewController.m */; };
-		FC0873C919EBA6DE00ACB943 /* MASPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873AF19EBA6DE00ACB943 /* MASPreferencesWindow.xib */; };
-		FC0873CA19EBA6DE00ACB943 /* MASPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873AF19EBA6DE00ACB943 /* MASPreferencesWindow.xib */; };
-		FC0873CB19EBA6DE00ACB943 /* MASPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873AF19EBA6DE00ACB943 /* MASPreferencesWindow.xib */; };
-		FC0873CC19EBA6DE00ACB943 /* MASPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873AF19EBA6DE00ACB943 /* MASPreferencesWindow.xib */; };
-		FC0873CD19EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B119EBA6DE00ACB943 /* MASPreferencesWindowController.m */; };
-		FC0873CE19EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B119EBA6DE00ACB943 /* MASPreferencesWindowController.m */; };
-		FC0873CF19EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B119EBA6DE00ACB943 /* MASPreferencesWindowController.m */; };
-		FC0873D019EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B119EBA6DE00ACB943 /* MASPreferencesWindowController.m */; };
-		FC0873D119EBA6DE00ACB943 /* PreferenceWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B319EBA6DE00ACB943 /* PreferenceWindow.m */; };
-		FC0873D219EBA6DE00ACB943 /* PreferenceWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B319EBA6DE00ACB943 /* PreferenceWindow.m */; };
-		FC0873D319EBA6DE00ACB943 /* PreferenceWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B319EBA6DE00ACB943 /* PreferenceWindow.m */; };
-		FC0873D419EBA6DE00ACB943 /* PreferenceWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B319EBA6DE00ACB943 /* PreferenceWindow.m */; };
-		FC0873D519EBA6DE00ACB943 /* PrefSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B519EBA6DE00ACB943 /* PrefSetter.m */; };
-		FC0873D619EBA6DE00ACB943 /* PrefSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B519EBA6DE00ACB943 /* PrefSetter.m */; };
-		FC0873D719EBA6DE00ACB943 /* PrefSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B519EBA6DE00ACB943 /* PrefSetter.m */; };
-		FC0873D819EBA6DE00ACB943 /* PrefSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B519EBA6DE00ACB943 /* PrefSetter.m */; };
 		FC0873D919EBA6DE00ACB943 /* UpdatePreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873B619EBA6DE00ACB943 /* UpdatePreferencesView.xib */; };
 		FC0873DA19EBA6DE00ACB943 /* UpdatePreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873B619EBA6DE00ACB943 /* UpdatePreferencesView.xib */; };
 		FC0873DB19EBA6DE00ACB943 /* UpdatePreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873B619EBA6DE00ACB943 /* UpdatePreferencesView.xib */; };
 		FC0873DC19EBA6DE00ACB943 /* UpdatePreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873B619EBA6DE00ACB943 /* UpdatePreferencesView.xib */; };
-		FC0873DD19EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B819EBA6DE00ACB943 /* UpdatePreferenceViewController.m */; };
-		FC0873DE19EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B819EBA6DE00ACB943 /* UpdatePreferenceViewController.m */; };
-		FC0873DF19EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B819EBA6DE00ACB943 /* UpdatePreferenceViewController.m */; };
-		FC0873E019EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873B819EBA6DE00ACB943 /* UpdatePreferenceViewController.m */; };
-		FC0873E619EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E319EBA6FA00ACB943 /* FlipAnimationAppDelegate.m */; };
-		FC0873E719EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E319EBA6FA00ACB943 /* FlipAnimationAppDelegate.m */; };
-		FC0873E819EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E319EBA6FA00ACB943 /* FlipAnimationAppDelegate.m */; };
-		FC0873E919EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E319EBA6FA00ACB943 /* FlipAnimationAppDelegate.m */; };
-		FC0873EA19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */; };
-		FC0873EB19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */; };
-		FC0873EC19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */; };
-		FC0873ED19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */; };
-		FC0873F119EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873F019EBA70600ACB943 /* PrioritySplitViewDelegate.m */; };
-		FC0873F219EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873F019EBA70600ACB943 /* PrioritySplitViewDelegate.m */; };
-		FC0873F319EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873F019EBA70600ACB943 /* PrioritySplitViewDelegate.m */; };
-		FC0873F419EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873F019EBA70600ACB943 /* PrioritySplitViewDelegate.m */; };
-		FC0873F819EBA71000ACB943 /* SSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873F719EBA71000ACB943 /* SSTextField.m */; };
-		FC0873F919EBA71000ACB943 /* SSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873F719EBA71000ACB943 /* SSTextField.m */; };
-		FC0873FA19EBA71000ACB943 /* SSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873F719EBA71000ACB943 /* SSTextField.m */; };
-		FC0873FB19EBA71000ACB943 /* SSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0873F719EBA71000ACB943 /* SSTextField.m */; };
 		FC08740719EBA72900ACB943 /* UAAppReviewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08740619EBA72900ACB943 /* UAAppReviewManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		FC08740819EBA72900ACB943 /* UAAppReviewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08740619EBA72900ACB943 /* UAAppReviewManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		FC08740919EBA72900ACB943 /* UAAppReviewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08740619EBA72900ACB943 /* UAAppReviewManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		FC08740A19EBA72900ACB943 /* UAAppReviewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08740619EBA72900ACB943 /* UAAppReviewManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		FC169490181C747100C54052 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
-		FC1694AE181C747100C54052 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		FC1694C9181C747100C54052 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1DBA8D180BCADA00202B92 /* Security.framework */; };
 		FC1694CA181C747100C54052 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		FC1694CB181C747100C54052 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C82804067257F0000B614F /* CoreData.framework */; };
@@ -123,9 +266,6 @@
 		FC24B112204C96A100E4D1E8 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FC24B10E204C96A000E4D1E8 /* PFMoveApplication.m */; };
 		FC24B113204C96B400E4D1E8 /* LetsMove.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC24B10D204C969F00E4D1E8 /* LetsMove.framework */; };
 		FC24B114204C96BB00E4D1E8 /* LetsMove.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC24B10D204C969F00E4D1E8 /* LetsMove.framework */; };
-		FC4D03831E30E6C1001B95AB /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
-		FC4D03851E30E6D4001B95AB /* OpenFeedback.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
-		FC4D038A1E30E985001B95AB /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
 		FC5821851FB904AB00D34CAA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC5821841FB904AB00D34CAA /* icon.icns */; };
 		FC5821861FB904AB00D34CAA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC5821841FB904AB00D34CAA /* icon.icns */; };
 		FC5821871FB904AB00D34CAA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC5821841FB904AB00D34CAA /* icon.icns */; };
@@ -136,98 +276,10 @@
 		FC632F2C19EA350F008E3D72 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC632F2819EA350F008E3D72 /* Media.xcassets */; };
 		FC7EF86F1882508300B4A647 /* BeFitWeb.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCBAB3A5181CD7AE006BC4DE /* BeFitWeb.xib */; };
 		FC7EF8701882508300B4A647 /* BeFitWeb.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCBAB3A5181CD7AE006BC4DE /* BeFitWeb.xib */; };
-		FC8955F619F4489200420ADC /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8955F319F4489200420ADC /* Food.m */; };
-		FC8955F719F4489200420ADC /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8955F319F4489200420ADC /* Food.m */; };
-		FC8955F819F4489200420ADC /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8955F319F4489200420ADC /* Food.m */; };
-		FC8955F919F4489200420ADC /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8955F319F4489200420ADC /* Food.m */; };
-		FC8955FA19F4489200420ADC /* FoodList.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8955F519F4489200420ADC /* FoodList.m */; };
-		FC8955FB19F4489200420ADC /* FoodList.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8955F519F4489200420ADC /* FoodList.m */; };
-		FC8955FC19F4489200420ADC /* FoodList.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8955F519F4489200420ADC /* FoodList.m */; };
-		FC8955FD19F4489200420ADC /* FoodList.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8955F519F4489200420ADC /* FoodList.m */; };
-		FC89561019F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8955FF19F448C700420ADC /* ColumnControllerPopUpButton.m */; };
-		FC89561119F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8955FF19F448C700420ADC /* ColumnControllerPopUpButton.m */; };
-		FC89561219F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8955FF19F448C700420ADC /* ColumnControllerPopUpButton.m */; };
-		FC89561319F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8955FF19F448C700420ADC /* ColumnControllerPopUpButton.m */; };
-		FC89561419F448C700420ADC /* FilterFoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560119F448C700420ADC /* FilterFoodCell.m */; };
-		FC89561519F448C700420ADC /* FilterFoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560119F448C700420ADC /* FilterFoodCell.m */; };
-		FC89561619F448C700420ADC /* FilterFoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560119F448C700420ADC /* FilterFoodCell.m */; };
-		FC89561719F448C700420ADC /* FilterFoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560119F448C700420ADC /* FilterFoodCell.m */; };
-		FC89561819F448C700420ADC /* FoodListNSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560319F448C700420ADC /* FoodListNSTableView.m */; };
-		FC89561919F448C700420ADC /* FoodListNSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560319F448C700420ADC /* FoodListNSTableView.m */; };
-		FC89561A19F448C700420ADC /* FoodListNSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560319F448C700420ADC /* FoodListNSTableView.m */; };
-		FC89561B19F448C700420ADC /* FoodListNSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560319F448C700420ADC /* FoodListNSTableView.m */; };
-		FC89561C19F448C700420ADC /* FoodNSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560519F448C700420ADC /* FoodNSTableView.m */; };
-		FC89561D19F448C700420ADC /* FoodNSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560519F448C700420ADC /* FoodNSTableView.m */; };
-		FC89561E19F448C700420ADC /* FoodNSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560519F448C700420ADC /* FoodNSTableView.m */; };
-		FC89561F19F448C700420ADC /* FoodNSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560519F448C700420ADC /* FoodNSTableView.m */; };
-		FC89562019F448C700420ADC /* SearchFieldForFood.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560719F448C700420ADC /* SearchFieldForFood.m */; };
-		FC89562119F448C700420ADC /* SearchFieldForFood.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560719F448C700420ADC /* SearchFieldForFood.m */; };
-		FC89562219F448C700420ADC /* SearchFieldForFood.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560719F448C700420ADC /* SearchFieldForFood.m */; };
-		FC89562319F448C700420ADC /* SearchFieldForFood.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560719F448C700420ADC /* SearchFieldForFood.m */; };
-		FC89562419F448C700420ADC /* SearchFieldforLists.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560919F448C700420ADC /* SearchFieldforLists.m */; };
-		FC89562519F448C700420ADC /* SearchFieldforLists.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560919F448C700420ADC /* SearchFieldforLists.m */; };
-		FC89562619F448C700420ADC /* SearchFieldforLists.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560919F448C700420ADC /* SearchFieldforLists.m */; };
-		FC89562719F448C700420ADC /* SearchFieldforLists.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560919F448C700420ADC /* SearchFieldforLists.m */; };
-		FC89562819F448C700420ADC /* sideFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560B19F448C700420ADC /* sideFooter.m */; };
-		FC89562919F448C700420ADC /* sideFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560B19F448C700420ADC /* sideFooter.m */; };
-		FC89562A19F448C700420ADC /* sideFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560B19F448C700420ADC /* sideFooter.m */; };
-		FC89562B19F448C700420ADC /* sideFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560B19F448C700420ADC /* sideFooter.m */; };
-		FC89562C19F448C700420ADC /* subBar_blk.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560D19F448C700420ADC /* subBar_blk.m */; };
-		FC89562D19F448C700420ADC /* subBar_blk.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560D19F448C700420ADC /* subBar_blk.m */; };
-		FC89562E19F448C700420ADC /* subBar_blk.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560D19F448C700420ADC /* subBar_blk.m */; };
-		FC89562F19F448C700420ADC /* subBar_blk.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560D19F448C700420ADC /* subBar_blk.m */; };
-		FC89563019F448C700420ADC /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560F19F448C700420ADC /* subBar.m */; };
-		FC89563119F448C700420ADC /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560F19F448C700420ADC /* subBar.m */; };
-		FC89563219F448C700420ADC /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560F19F448C700420ADC /* subBar.m */; };
-		FC89563319F448C700420ADC /* subBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89560F19F448C700420ADC /* subBar.m */; };
-		FC89563819F4490200420ADC /* BeFitGraphOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89563519F4490200420ADC /* BeFitGraphOpenGLView.m */; };
-		FC89563919F4490200420ADC /* BeFitGraphOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89563519F4490200420ADC /* BeFitGraphOpenGLView.m */; };
-		FC89563A19F4490200420ADC /* BeFitGraphOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89563519F4490200420ADC /* BeFitGraphOpenGLView.m */; };
-		FC89563B19F4490200420ADC /* BeFitGraphOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89563519F4490200420ADC /* BeFitGraphOpenGLView.m */; };
-		FC89563C19F4490200420ADC /* RightGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89563719F4490200420ADC /* RightGraphView.m */; };
-		FC89563D19F4490200420ADC /* RightGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89563719F4490200420ADC /* RightGraphView.m */; };
-		FC89563E19F4490200420ADC /* RightGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89563719F4490200420ADC /* RightGraphView.m */; };
-		FC89563F19F4490200420ADC /* RightGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89563719F4490200420ADC /* RightGraphView.m */; };
 		FC89564219F4494200420ADC /* OnlineCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89564119F4494200420ADC /* OnlineCheck.m */; };
 		FC89564319F4494200420ADC /* OnlineCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89564119F4494200420ADC /* OnlineCheck.m */; };
 		FC89564419F4494200420ADC /* OnlineCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89564119F4494200420ADC /* OnlineCheck.m */; };
 		FC89564519F4494200420ADC /* OnlineCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89564119F4494200420ADC /* OnlineCheck.m */; };
-		FC89564A19F4494900420ADC /* AddGramsValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89564719F4494900420ADC /* AddGramsValueTransformer.m */; };
-		FC89564B19F4494900420ADC /* AddGramsValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89564719F4494900420ADC /* AddGramsValueTransformer.m */; };
-		FC89564C19F4494900420ADC /* AddGramsValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89564719F4494900420ADC /* AddGramsValueTransformer.m */; };
-		FC89564D19F4494900420ADC /* AddGramsValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89564719F4494900420ADC /* AddGramsValueTransformer.m */; };
-		FC89564E19F4494900420ADC /* AddMGValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89564919F4494900420ADC /* AddMGValueTransformer.m */; };
-		FC89564F19F4494900420ADC /* AddMGValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89564919F4494900420ADC /* AddMGValueTransformer.m */; };
-		FC89565019F4494900420ADC /* AddMGValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89564919F4494900420ADC /* AddMGValueTransformer.m */; };
-		FC89565119F4494900420ADC /* AddMGValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89564919F4494900420ADC /* AddMGValueTransformer.m */; };
-		FC89566119F4496600420ADC /* BeFit_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565319F4496600420ADC /* BeFit_AppDelegate.m */; };
-		FC89566219F4496600420ADC /* BeFit_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565319F4496600420ADC /* BeFit_AppDelegate.m */; };
-		FC89566319F4496600420ADC /* BeFit_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565319F4496600420ADC /* BeFit_AppDelegate.m */; };
-		FC89566419F4496600420ADC /* BeFit_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565319F4496600420ADC /* BeFit_AppDelegate.m */; };
-		FC89566519F4496600420ADC /* ColumnAttributeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565519F4496600420ADC /* ColumnAttributeSelector.m */; };
-		FC89566619F4496600420ADC /* ColumnAttributeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565519F4496600420ADC /* ColumnAttributeSelector.m */; };
-		FC89566719F4496600420ADC /* ColumnAttributeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565519F4496600420ADC /* ColumnAttributeSelector.m */; };
-		FC89566819F4496600420ADC /* ColumnAttributeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565519F4496600420ADC /* ColumnAttributeSelector.m */; };
-		FC89566919F4496600420ADC /* FoodArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565719F4496600420ADC /* FoodArrayController.m */; };
-		FC89566A19F4496600420ADC /* FoodArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565719F4496600420ADC /* FoodArrayController.m */; };
-		FC89566B19F4496600420ADC /* FoodArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565719F4496600420ADC /* FoodArrayController.m */; };
-		FC89566C19F4496600420ADC /* FoodArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565719F4496600420ADC /* FoodArrayController.m */; };
-		FC89566D19F4496600420ADC /* FoodListArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565A19F4496600420ADC /* FoodListArrayController.m */; };
-		FC89566E19F4496600420ADC /* FoodListArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565A19F4496600420ADC /* FoodListArrayController.m */; };
-		FC89566F19F4496600420ADC /* FoodListArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565A19F4496600420ADC /* FoodListArrayController.m */; };
-		FC89567019F4496600420ADC /* FoodListArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565A19F4496600420ADC /* FoodListArrayController.m */; };
-		FC89567119F4496600420ADC /* FoodListTableDropSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565C19F4496600420ADC /* FoodListTableDropSupport.m */; };
-		FC89567219F4496600420ADC /* FoodListTableDropSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565C19F4496600420ADC /* FoodListTableDropSupport.m */; };
-		FC89567319F4496600420ADC /* FoodListTableDropSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565C19F4496600420ADC /* FoodListTableDropSupport.m */; };
-		FC89567419F4496600420ADC /* FoodListTableDropSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565C19F4496600420ADC /* FoodListTableDropSupport.m */; };
-		FC89567519F4496600420ADC /* FoodTableDragSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565E19F4496600420ADC /* FoodTableDragSupport.m */; };
-		FC89567619F4496600420ADC /* FoodTableDragSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565E19F4496600420ADC /* FoodTableDragSupport.m */; };
-		FC89567719F4496600420ADC /* FoodTableDragSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565E19F4496600420ADC /* FoodTableDragSupport.m */; };
-		FC89567819F4496600420ADC /* FoodTableDragSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89565E19F4496600420ADC /* FoodTableDragSupport.m */; };
-		FC89567919F4496600420ADC /* GUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89566019F4496600420ADC /* GUIController.m */; };
-		FC89567A19F4496600420ADC /* GUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89566019F4496600420ADC /* GUIController.m */; };
-		FC89567B19F4496600420ADC /* GUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89566019F4496600420ADC /* GUIController.m */; };
-		FC89567C19F4496600420ADC /* GUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89566019F4496600420ADC /* GUIController.m */; };
 		FC89567F19F4499F00420ADC /* RMBlurredView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89567E19F4499F00420ADC /* RMBlurredView.m */; };
 		FC89568019F4499F00420ADC /* RMBlurredView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89567E19F4499F00420ADC /* RMBlurredView.m */; };
 		FC89568219F4499F00420ADC /* RMBlurredView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89567E19F4499F00420ADC /* RMBlurredView.m */; };
@@ -255,7 +307,6 @@
 		FC89576519F44C8F00420ADC /* mac_app_identity.cer in Resources */ = {isa = PBXBuildFile; fileRef = FC89573919F44C8F00420ADC /* mac_app_identity.cer */; };
 		FC898675184A70DC00BE530A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC898674184A70DC00BE530A /* WebKit.framework */; };
 		FC91C30018EE53B300960571 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
-		FC91C33618EE53B300960571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		FC91C36518EE53B300960571 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1FA25318712EFE00E96FEE /* SystemConfiguration.framework */; };
 		FC91C36618EE53B300960571 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1FA2621871335600E96FEE /* QuartzCore.framework */; };
 		FC91C36718EE53B300960571 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC898674184A70DC00BE530A /* WebKit.framework */; };
@@ -263,6 +314,7 @@
 		FC91C36918EE53B300960571 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		FC91C36A18EE53B300960571 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C82804067257F0000B614F /* CoreData.framework */; };
 		FC91C36B18EE53B300960571 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC71A8EC0E3E592D0010389E /* OpenGL.framework */; };
+		FC93F6932982CCDCF7291AD3 /* Pods_BeFitWebsite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3C7F3CE54396E67D8544D2 /* Pods_BeFitWebsite.framework */; };
 		FC946E681A0DC13200692D04 /* fullpieindex.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946E671A0DC13200692D04 /* fullpieindex.html */; };
 		FC946E691A0DC13200692D04 /* fullpieindex.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946E671A0DC13200692D04 /* fullpieindex.html */; };
 		FC946E6A1A0DC13200692D04 /* fullpieindex.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946E671A0DC13200692D04 /* fullpieindex.html */; };
@@ -291,26 +343,6 @@
 		FC946E871A0FFC5800692D04 /* piestyle.css in Resources */ = {isa = PBXBuildFile; fileRef = FC946E811A0FFC5800692D04 /* piestyle.css */; };
 		FC946E881A0FFC5800692D04 /* piestyle.css in Resources */ = {isa = PBXBuildFile; fileRef = FC946E811A0FFC5800692D04 /* piestyle.css */; };
 		FC946E891A0FFC5800692D04 /* piestyle.css in Resources */ = {isa = PBXBuildFile; fileRef = FC946E811A0FFC5800692D04 /* piestyle.css */; };
-		FC946E8C1A10359D00692D04 /* Legend-Cals.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E8B1A10359D00692D04 /* Legend-Cals.m */; };
-		FC946E8D1A10359D00692D04 /* Legend-Cals.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E8B1A10359D00692D04 /* Legend-Cals.m */; };
-		FC946E8E1A10359D00692D04 /* Legend-Cals.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E8B1A10359D00692D04 /* Legend-Cals.m */; };
-		FC946E8F1A10359D00692D04 /* Legend-Cals.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E8B1A10359D00692D04 /* Legend-Cals.m */; };
-		FC946E921A10381A00692D04 /* Legend-Fat.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E911A10381A00692D04 /* Legend-Fat.m */; };
-		FC946E931A10381A00692D04 /* Legend-Fat.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E911A10381A00692D04 /* Legend-Fat.m */; };
-		FC946E941A10381A00692D04 /* Legend-Fat.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E911A10381A00692D04 /* Legend-Fat.m */; };
-		FC946E951A10381A00692D04 /* Legend-Fat.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E911A10381A00692D04 /* Legend-Fat.m */; };
-		FC946E981A1039EE00692D04 /* Legend-SatFat.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E971A1039EE00692D04 /* Legend-SatFat.m */; };
-		FC946E991A1039EE00692D04 /* Legend-SatFat.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E971A1039EE00692D04 /* Legend-SatFat.m */; };
-		FC946E9A1A1039EE00692D04 /* Legend-SatFat.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E971A1039EE00692D04 /* Legend-SatFat.m */; };
-		FC946E9B1A1039EE00692D04 /* Legend-SatFat.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E971A1039EE00692D04 /* Legend-SatFat.m */; };
-		FC946E9E1A103A4A00692D04 /* Legend-Chol.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E9D1A103A4A00692D04 /* Legend-Chol.m */; };
-		FC946E9F1A103A4A00692D04 /* Legend-Chol.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E9D1A103A4A00692D04 /* Legend-Chol.m */; };
-		FC946EA01A103A4A00692D04 /* Legend-Chol.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E9D1A103A4A00692D04 /* Legend-Chol.m */; };
-		FC946EA11A103A4A00692D04 /* Legend-Chol.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946E9D1A103A4A00692D04 /* Legend-Chol.m */; };
-		FC946EAE1A11939D00692D04 /* whiteBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946EAD1A11939D00692D04 /* whiteBackground.m */; };
-		FC946EAF1A11939D00692D04 /* whiteBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946EAD1A11939D00692D04 /* whiteBackground.m */; };
-		FC946EB01A11939D00692D04 /* whiteBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946EAD1A11939D00692D04 /* whiteBackground.m */; };
-		FC946EB11A11939D00692D04 /* whiteBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946EAD1A11939D00692D04 /* whiteBackground.m */; };
 		FC946EB31A11B41C00692D04 /* pieindex3.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946EB21A11B41C00692D04 /* pieindex3.html */; };
 		FC946EB41A11B41C00692D04 /* pieindex3.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946EB21A11B41C00692D04 /* pieindex3.html */; };
 		FC946EB51A11B41C00692D04 /* pieindex3.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946EB21A11B41C00692D04 /* pieindex3.html */; };
@@ -343,26 +375,6 @@
 		FC946EDF1A13102E00692D04 /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FC08736F19EBA3B800ACB943 /* bootstrap.min.css */; };
 		FC946EE01A13102E00692D04 /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FC08736F19EBA3B800ACB943 /* bootstrap.min.css */; };
 		FC946EE11A13102E00692D04 /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FC08736F19EBA3B800ACB943 /* bootstrap.min.css */; };
-		FC946EEA1A19079C00692D04 /* AMDarkButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */; };
-		FC946EEB1A19079C00692D04 /* AMDarkButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */; };
-		FC946EEC1A19079C00692D04 /* AMDarkButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */; };
-		FC946EED1A19079C00692D04 /* AMDarkButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */; };
-		FC946F2B1A19A2B900692D04 /* ANSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F241A19A2B900692D04 /* ANSegmentedCell.m */; };
-		FC946F2C1A19A2B900692D04 /* ANSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F241A19A2B900692D04 /* ANSegmentedCell.m */; };
-		FC946F2D1A19A2B900692D04 /* ANSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F241A19A2B900692D04 /* ANSegmentedCell.m */; };
-		FC946F2E1A19A2B900692D04 /* ANSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F241A19A2B900692D04 /* ANSegmentedCell.m */; };
-		FC946F2F1A19A2B900692D04 /* ANSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F261A19A2B900692D04 /* ANSegmentedControl.m */; };
-		FC946F301A19A2B900692D04 /* ANSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F261A19A2B900692D04 /* ANSegmentedControl.m */; };
-		FC946F311A19A2B900692D04 /* ANSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F261A19A2B900692D04 /* ANSegmentedControl.m */; };
-		FC946F321A19A2B900692D04 /* ANSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F261A19A2B900692D04 /* ANSegmentedControl.m */; };
-		FC946F331A19A2B900692D04 /* NSBezierPath+MCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F281A19A2B900692D04 /* NSBezierPath+MCAdditions.m */; };
-		FC946F341A19A2B900692D04 /* NSBezierPath+MCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F281A19A2B900692D04 /* NSBezierPath+MCAdditions.m */; };
-		FC946F351A19A2B900692D04 /* NSBezierPath+MCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F281A19A2B900692D04 /* NSBezierPath+MCAdditions.m */; };
-		FC946F361A19A2B900692D04 /* NSBezierPath+MCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F281A19A2B900692D04 /* NSBezierPath+MCAdditions.m */; };
-		FC946F371A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F2A1A19A2B900692D04 /* NSShadow+MCAdditions.m */; };
-		FC946F381A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F2A1A19A2B900692D04 /* NSShadow+MCAdditions.m */; };
-		FC946F391A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F2A1A19A2B900692D04 /* NSShadow+MCAdditions.m */; };
-		FC946F3A1A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F2A1A19A2B900692D04 /* NSShadow+MCAdditions.m */; };
 		FC946F421A1CB0DB00692D04 /* pieindexprint.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946F411A1CB0DB00692D04 /* pieindexprint.html */; };
 		FC946F431A1CB0DB00692D04 /* pieindexprint.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946F411A1CB0DB00692D04 /* pieindexprint.html */; };
 		FC946F441A1CB0DB00692D04 /* pieindexprint.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946F411A1CB0DB00692D04 /* pieindexprint.html */; };
@@ -371,10 +383,6 @@
 		FC946F481A1CB11F00692D04 /* pieindex2.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946F461A1CB11F00692D04 /* pieindex2.html */; };
 		FC946F491A1CB11F00692D04 /* pieindex2.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946F461A1CB11F00692D04 /* pieindex2.html */; };
 		FC946F4A1A1CB11F00692D04 /* pieindex2.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946F461A1CB11F00692D04 /* pieindex2.html */; };
-		FC946F9A1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F991A1D9DDB00692D04 /* CustomLevelIndicatorCell.m */; };
-		FC946F9B1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F991A1D9DDB00692D04 /* CustomLevelIndicatorCell.m */; };
-		FC946F9C1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F991A1D9DDB00692D04 /* CustomLevelIndicatorCell.m */; };
-		FC946F9D1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946F991A1D9DDB00692D04 /* CustomLevelIndicatorCell.m */; };
 		FC946FA41A1F512400692D04 /* gauge.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946FA31A1F512400692D04 /* gauge.html */; };
 		FC946FA51A1F512400692D04 /* gauge.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946FA31A1F512400692D04 /* gauge.html */; };
 		FC946FA61A1F512400692D04 /* gauge.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946FA31A1F512400692D04 /* gauge.html */; };
@@ -387,10 +395,6 @@
 		FC946FB41A20F2BA00692D04 /* justgage.1.0.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC946FB21A20F2BA00692D04 /* justgage.1.0.1.min.js */; };
 		FC946FB51A20F2BA00692D04 /* justgage.1.0.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC946FB21A20F2BA00692D04 /* justgage.1.0.1.min.js */; };
 		FC946FB61A20F2BA00692D04 /* justgage.1.0.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC946FB21A20F2BA00692D04 /* justgage.1.0.1.min.js */; };
-		FC946FBE1A21886D00692D04 /* CustomCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946FBD1A21886D00692D04 /* CustomCornerView.m */; };
-		FC946FBF1A21886D00692D04 /* CustomCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946FBD1A21886D00692D04 /* CustomCornerView.m */; };
-		FC946FC01A21886D00692D04 /* CustomCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946FBD1A21886D00692D04 /* CustomCornerView.m */; };
-		FC946FC11A21886D00692D04 /* CustomCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC946FBD1A21886D00692D04 /* CustomCornerView.m */; };
 		FC94C8EB19F4B6A800152A2C /* BeFitHelp in Resources */ = {isa = PBXBuildFile; fileRef = FC94C8EA19F4B6A800152A2C /* BeFitHelp */; };
 		FC94C8EC19F4B6A800152A2C /* BeFitHelp in Resources */ = {isa = PBXBuildFile; fileRef = FC94C8EA19F4B6A800152A2C /* BeFitHelp */; };
 		FC94C8ED19F4B6A800152A2C /* BeFitHelp in Resources */ = {isa = PBXBuildFile; fileRef = FC94C8EA19F4B6A800152A2C /* BeFitHelp */; };
@@ -405,17 +409,12 @@
 		FCBA5BB61876580A007C6CE2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1FA2621871335600E96FEE /* QuartzCore.framework */; };
 		FCBA5BB718765820007C6CE2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1FA25318712EFE00E96FEE /* SystemConfiguration.framework */; };
 		FCBAB3A9181CD7C0006BC4DE /* BeFit.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC5465761809AAA400E69CEB /* BeFit.xib */; };
-		FCC174CB19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC174CA19EBD4A2001A184A /* iTableColumnHeaderCell.m */; };
-		FCC174CC19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC174CA19EBD4A2001A184A /* iTableColumnHeaderCell.m */; };
-		FCC174CD19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC174CA19EBD4A2001A184A /* iTableColumnHeaderCell.m */; };
-		FCC174CE19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC174CA19EBD4A2001A184A /* iTableColumnHeaderCell.m */; };
 		FCC174D219EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC174D119EBD4CF001A184A /* OSBBadgeTextFieldCell.m */; };
 		FCC174D319EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC174D119EBD4CF001A184A /* OSBBadgeTextFieldCell.m */; };
 		FCC174D419EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC174D119EBD4CF001A184A /* OSBBadgeTextFieldCell.m */; };
 		FCC174D519EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC174D119EBD4CF001A184A /* OSBBadgeTextFieldCell.m */; };
 		FCD4445B1804CFF90036C533 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C82804067257F0000B614F /* CoreData.framework */; };
 		FCD4445C1804CFF90036C533 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C82804067257F0000B614F /* CoreData.framework */; };
-		FCEEDC711E3320E900CD141A /* OpenFeedback.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */; };
 		FCF3D7301E77ABD0004A8525 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF3D72E1E77ABD0004A8525 /* Sparkle.framework */; };
 		FCF3D7311E77ABD0004A8525 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF3D72E1E77ABD0004A8525 /* Sparkle.framework */; };
 		FCF3D7331E77AC22004A8525 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FCF3D72E1E77ABD0004A8525 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -461,7 +460,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				11A49BE32159EEE300A0AC3D /* LetsMove.framework in CopyFiles */,
-				11693055215A6DBF00BF4F77 /* OpenFeedback.framework in CopyFiles */,
 				FCF3D7351E77AC2F004A8525 /* Sparkle.framework in CopyFiles */,
 				FC9FA8431FC5BF750030F407 /* Paddle.framework in CopyFiles */,
 			);
@@ -471,14 +469,78 @@
 
 /* Begin PBXFileReference section */
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16DA05639FEB25CF5427773F /* Pods-BeFitDemo.device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeFitDemo.device.xcconfig"; path = "Target Support Files/Pods-BeFitDemo/Pods-BeFitDemo.device.xcconfig"; sourceTree = "<group>"; };
+		1B6C3A12412CBC17E2355719 /* Pods_BeFitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeFitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2CF584F9A2E147BB878B69EA /* Pods-BeFit.device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeFit.device.xcconfig"; path = "Target Support Files/Pods-BeFit/Pods-BeFit.device.xcconfig"; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* BeFit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeFit_Prefix.pch; sourceTree = "<group>"; };
+		4348C1C72370647B00071B9C /* FoodNSTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodNSTableView.swift; sourceTree = "<group>"; };
+		4348C1CC23706D9700071B9C /* FoodArrayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodArrayController.swift; sourceTree = "<group>"; };
+		4348C1D123715B8C00071B9C /* FoodListTableDropSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListTableDropSupport.swift; sourceTree = "<group>"; };
+		4348C1D6237163B200071B9C /* FoodTableDragSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableDragSupport.swift; sourceTree = "<group>"; };
+		4348C1DB23716A0A00071B9C /* ColumnAttributeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnAttributeSelector.swift; sourceTree = "<group>"; };
+		4348C1E0237170FA00071B9C /* GUIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GUIController.swift; sourceTree = "<group>"; };
+		4348C1E523719EF000071B9C /* AddGramsValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGramsValueTransformer.swift; sourceTree = "<group>"; };
+		4348C1EA2371A44E00071B9C /* AddMGValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMGValueTransformer.swift; sourceTree = "<group>"; };
+		43572786237007DF00755BE1 /* BeFit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFit-Bridging-Header.h"; sourceTree = "<group>"; };
+		43572787237007DF00755BE1 /* BeFitFree-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFitFree-Bridging-Header.h"; sourceTree = "<group>"; };
+		43572788237007DF00755BE1 /* BeFitDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFitDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		43572789237007DF00755BE1 /* BeFitWebsite-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeFitWebsite-Bridging-Header.h"; sourceTree = "<group>"; };
+		4357278F23700D4E00755BE1 /* Food+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Food+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4357279023700D4E00755BE1 /* Food+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Food+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4357279123700D4E00755BE1 /* FoodList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4357279223700D4E00755BE1 /* FoodList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		435727A323700FAE00755BE1 /* Food+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Food+UI.swift"; sourceTree = "<group>"; };
+		435727A8237018B700755BE1 /* FoodList+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodList+UI.swift"; sourceTree = "<group>"; };
+		436B947D237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSBezierPath+MCAdditions.swift"; sourceTree = "<group>"; };
+		436B948223795C1500AEE7A9 /* NSShadow+MCAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSShadow+MCAdditions.swift"; sourceTree = "<group>"; };
+		436B948723795CEF00AEE7A9 /* ANSegmentedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANSegmentedCell.swift; sourceTree = "<group>"; };
+		436B948C23795D6900AEE7A9 /* ANSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANSegmentedControl.swift; sourceTree = "<group>"; };
+		436B94912379736B00AEE7A9 /* ANKnobAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANKnobAnimation.swift; sourceTree = "<group>"; };
+		436B9496237984F900AEE7A9 /* SSTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSTextField.swift; sourceTree = "<group>"; };
+		436B949B23798D0A00AEE7A9 /* MCViewFlipController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCViewFlipController.swift; sourceTree = "<group>"; };
+		436B94A02379973500AEE7A9 /* LNClipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LNClipView.swift; sourceTree = "<group>"; };
+		436B94A52379A24900AEE7A9 /* ITProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITProgressBar.swift; sourceTree = "<group>"; };
+		4375CA252370478A008A4B02 /* FoodListNSTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodListNSTableView.swift; sourceTree = "<group>"; };
+		4375CA2A23704E0B008A4B02 /* FoodListArrayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListArrayController.swift; sourceTree = "<group>"; };
+		43B3E72D2375CFCE008A6420 /* OpenFeedback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OpenFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C800DF2371B6E100E08913 /* BeFit_AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeFit_AppDelegate.swift; sourceTree = "<group>"; };
+		43C800E42372BE5700E08913 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		43C800E92372C3C200E08913 /* NSPasteboard+FoodDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSPasteboard+FoodDrag.swift"; sourceTree = "<group>"; };
+		43C800EE2372C55B00E08913 /* BeFitGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeFitGraphView.swift; sourceTree = "<group>"; };
+		43C800F32372CB6100E08913 /* RightGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightGraphView.swift; sourceTree = "<group>"; };
+		43C800F82372E86E00E08913 /* ColumnControllerPopUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnControllerPopUpButton.swift; sourceTree = "<group>"; };
+		43C800FD2372E9D800E08913 /* FilterFoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterFoodCell.swift; sourceTree = "<group>"; };
+		43C801022372EA9900E08913 /* SearchFieldForFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldForFood.swift; sourceTree = "<group>"; };
+		43C801072372ECE300E08913 /* SideFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideFooter.swift; sourceTree = "<group>"; };
+		43C8010C2372EDF800E08913 /* SearchFieldforLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldforLists.swift; sourceTree = "<group>"; };
+		43C801112372EF2600E08913 /* WhiteBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBackground.swift; sourceTree = "<group>"; };
+		43C801162372F09F00E08913 /* SubBarBlk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubBarBlk.swift; sourceTree = "<group>"; };
+		43C8011B2372F3D200E08913 /* SubBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubBar.swift; sourceTree = "<group>"; };
+		43C801202372F63100E08913 /* LegendCals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendCals.swift; sourceTree = "<group>"; };
+		43C801252372F83500E08913 /* LegendFat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendFat.swift; sourceTree = "<group>"; };
+		43C8012A2372F95F00E08913 /* LegendSatFat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendSatFat.swift; sourceTree = "<group>"; };
+		43C8012F2372FA6E00E08913 /* LegendChol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendChol.swift; sourceTree = "<group>"; };
+		43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLevelIndicatorCell.swift; sourceTree = "<group>"; };
+		43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralPreferencesViewController.swift; sourceTree = "<group>"; };
+		43C8014023757E5200E08913 /* UpdatePreferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePreferenceViewController.swift; sourceTree = "<group>"; };
+		43C8014523757FF800E08913 /* PreferenceWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceWindow.swift; sourceTree = "<group>"; };
+		43C8014A237583C000E08913 /* AdvancedPreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedPreferencesViewController.swift; sourceTree = "<group>"; };
+		43C8014F2375856D00E08913 /* PrefSetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefSetter.swift; sourceTree = "<group>"; };
+		43C801542375999C00E08913 /* PrioritySplitViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrioritySplitViewDelegate.swift; sourceTree = "<group>"; };
+		5A3C7F3CE54396E67D8544D2 /* Pods_BeFitWebsite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeFitWebsite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F893C765809F2444229958D /* Pods-BeFitWebsite.device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeFitWebsite.device.xcconfig"; path = "Target Support Files/Pods-BeFitWebsite/Pods-BeFitWebsite.device.xcconfig"; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		7B907B66BDE2E08C2BC9414F /* Pods-BeFitFree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeFitFree.debug.xcconfig"; path = "Target Support Files/Pods-BeFitFree/Pods-BeFitFree.debug.xcconfig"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* BeFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeFit.app; sourceTree = BUILT_PRODUCTS_DIR; wrapsLines = 0; };
 		9C4B5ABA128501B200060A19 /* BeFit Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeFit Trial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B137B25A869216B0CA8D7DF8 /* Pods-BeFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeFit.debug.xcconfig"; path = "Target Support Files/Pods-BeFit/Pods-BeFit.debug.xcconfig"; sourceTree = "<group>"; };
+		B44F5C715CC271A121C9BDF8 /* Pods_BeFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A4E61868FF4D36DA40F367 /* Pods-BeFitFree.device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeFitFree.device.xcconfig"; path = "Target Support Files/Pods-BeFitFree/Pods-BeFitFree.device.xcconfig"; sourceTree = "<group>"; };
+		D6D0F291F640502B4D7D0DAA /* Pods-BeFitWebsite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeFitWebsite.debug.xcconfig"; path = "Target Support Files/Pods-BeFitWebsite/Pods-BeFitWebsite.debug.xcconfig"; sourceTree = "<group>"; };
 		DC71A8EC0E3E592D0010389E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		F996651F339E047069541D83 /* Pods_BeFitFree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeFitFree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0399B5188CDCEF00AB6785 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		FC08735B19EBA39B00ACB943 /* bootstrap.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = bootstrap.min.js; path = htdocs/JS/bootstrap.min.js; sourceTree = "<group>"; };
 		FC08735C19EBA39B00ACB943 /* jquery-1.7.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "jquery-1.7.1.min.js"; path = "htdocs/JS/jquery-1.7.1.min.js"; sourceTree = "<group>"; };
@@ -491,35 +553,9 @@
 		FC08738119EBA69B00ACB943 /* INAppStoreWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INAppStoreWindow.m; sourceTree = "<group>"; };
 		FC08738219EBA69B00ACB943 /* INWindowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INWindowButton.h; sourceTree = "<group>"; };
 		FC08738319EBA69B00ACB943 /* INWindowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INWindowButton.m; sourceTree = "<group>"; };
-		FC08738D19EBA6AE00ACB943 /* ITProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITProgressBar.h; sourceTree = "<group>"; };
-		FC08738E19EBA6AE00ACB943 /* ITProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITProgressBar.m; sourceTree = "<group>"; };
-		FC0873A119EBA6D200ACB943 /* LNClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNClipView.h; sourceTree = "<group>"; };
-		FC0873A219EBA6D200ACB943 /* LNClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNClipView.m; sourceTree = "<group>"; };
 		FC0873A819EBA6DE00ACB943 /* AdvancedPreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvancedPreferencesView.xib; sourceTree = "<group>"; };
-		FC0873A919EBA6DE00ACB943 /* AdvancedPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedPreferencesViewController.h; sourceTree = "<group>"; };
-		FC0873AA19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedPreferencesViewController.m; sourceTree = "<group>"; };
 		FC0873AB19EBA6DE00ACB943 /* GeneralPreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralPreferencesView.xib; sourceTree = "<group>"; };
-		FC0873AC19EBA6DE00ACB943 /* GeneralPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralPreferencesViewController.h; sourceTree = "<group>"; };
-		FC0873AD19EBA6DE00ACB943 /* GeneralPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralPreferencesViewController.m; sourceTree = "<group>"; };
-		FC0873AE19EBA6DE00ACB943 /* MASPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesViewController.h; sourceTree = "<group>"; };
-		FC0873AF19EBA6DE00ACB943 /* MASPreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MASPreferencesWindow.xib; sourceTree = "<group>"; };
-		FC0873B019EBA6DE00ACB943 /* MASPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesWindowController.h; sourceTree = "<group>"; };
-		FC0873B119EBA6DE00ACB943 /* MASPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASPreferencesWindowController.m; sourceTree = "<group>"; };
-		FC0873B219EBA6DE00ACB943 /* PreferenceWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceWindow.h; sourceTree = "<group>"; };
-		FC0873B319EBA6DE00ACB943 /* PreferenceWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceWindow.m; sourceTree = "<group>"; };
-		FC0873B419EBA6DE00ACB943 /* PrefSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefSetter.h; sourceTree = "<group>"; };
-		FC0873B519EBA6DE00ACB943 /* PrefSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefSetter.m; sourceTree = "<group>"; };
 		FC0873B619EBA6DE00ACB943 /* UpdatePreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpdatePreferencesView.xib; sourceTree = "<group>"; };
-		FC0873B719EBA6DE00ACB943 /* UpdatePreferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdatePreferenceViewController.h; sourceTree = "<group>"; };
-		FC0873B819EBA6DE00ACB943 /* UpdatePreferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdatePreferenceViewController.m; sourceTree = "<group>"; };
-		FC0873E219EBA6FA00ACB943 /* FlipAnimationAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipAnimationAppDelegate.h; sourceTree = "<group>"; };
-		FC0873E319EBA6FA00ACB943 /* FlipAnimationAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipAnimationAppDelegate.m; sourceTree = "<group>"; };
-		FC0873E419EBA6FA00ACB943 /* MCViewFlipController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCViewFlipController.h; sourceTree = "<group>"; };
-		FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCViewFlipController.m; sourceTree = "<group>"; };
-		FC0873EF19EBA70600ACB943 /* PrioritySplitViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrioritySplitViewDelegate.h; sourceTree = "<group>"; };
-		FC0873F019EBA70600ACB943 /* PrioritySplitViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrioritySplitViewDelegate.m; sourceTree = "<group>"; };
-		FC0873F619EBA71000ACB943 /* SSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTextField.h; sourceTree = "<group>"; };
-		FC0873F719EBA71000ACB943 /* SSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTextField.m; sourceTree = "<group>"; };
 		FC0873FD19EBA71C00ACB943 /* RMAppDelegate+Trial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RMAppDelegate+Trial.h"; sourceTree = "<group>"; };
 		FC0873FE19EBA71C00ACB943 /* RMAppDelegate+Trial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RMAppDelegate+Trial.m"; sourceTree = "<group>"; };
 		FC0873FF19EBA71C00ACB943 /* TrialConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrialConstants.h; sourceTree = "<group>"; };
@@ -539,56 +575,10 @@
 		FC262C3B2360A8180033F990 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BeFitWeb.xib; sourceTree = "<group>"; };
 		FC262C3C2360A8190033F990 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BeFitfree.xib; sourceTree = "<group>"; };
 		FC262C3D2360A81A0033F990 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenFeedback.framework; sourceTree = "<group>"; };
 		FC5821841FB904AB00D34CAA /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		FC632F2819EA350F008E3D72 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		FC8955F219F4489200420ADC /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Food.h; path = ManagedContext/Food.h; sourceTree = "<group>"; };
-		FC8955F319F4489200420ADC /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Food.m; path = ManagedContext/Food.m; sourceTree = "<group>"; };
-		FC8955F419F4489200420ADC /* FoodList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodList.h; path = ManagedContext/FoodList.h; sourceTree = "<group>"; };
-		FC8955F519F4489200420ADC /* FoodList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodList.m; path = ManagedContext/FoodList.m; sourceTree = "<group>"; };
-		FC8955FE19F448C700420ADC /* ColumnControllerPopUpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColumnControllerPopUpButton.h; path = Subclass/ColumnControllerPopUpButton.h; sourceTree = "<group>"; };
-		FC8955FF19F448C700420ADC /* ColumnControllerPopUpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColumnControllerPopUpButton.m; path = Subclass/ColumnControllerPopUpButton.m; sourceTree = "<group>"; };
-		FC89560019F448C700420ADC /* FilterFoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterFoodCell.h; path = Subclass/FilterFoodCell.h; sourceTree = "<group>"; };
-		FC89560119F448C700420ADC /* FilterFoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FilterFoodCell.m; path = Subclass/FilterFoodCell.m; sourceTree = "<group>"; };
-		FC89560219F448C700420ADC /* FoodListNSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodListNSTableView.h; path = Subclass/FoodListNSTableView.h; sourceTree = "<group>"; };
-		FC89560319F448C700420ADC /* FoodListNSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodListNSTableView.m; path = Subclass/FoodListNSTableView.m; sourceTree = "<group>"; };
-		FC89560419F448C700420ADC /* FoodNSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodNSTableView.h; path = Subclass/FoodNSTableView.h; sourceTree = "<group>"; };
-		FC89560519F448C700420ADC /* FoodNSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodNSTableView.m; path = Subclass/FoodNSTableView.m; sourceTree = "<group>"; };
-		FC89560619F448C700420ADC /* SearchFieldForFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchFieldForFood.h; path = Subclass/SearchFieldForFood.h; sourceTree = "<group>"; };
-		FC89560719F448C700420ADC /* SearchFieldForFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchFieldForFood.m; path = Subclass/SearchFieldForFood.m; sourceTree = "<group>"; };
-		FC89560819F448C700420ADC /* SearchFieldforLists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchFieldforLists.h; path = Subclass/SearchFieldforLists.h; sourceTree = "<group>"; };
-		FC89560919F448C700420ADC /* SearchFieldforLists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchFieldforLists.m; path = Subclass/SearchFieldforLists.m; sourceTree = "<group>"; };
-		FC89560A19F448C700420ADC /* sideFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sideFooter.h; path = Subclass/sideFooter.h; sourceTree = "<group>"; };
-		FC89560B19F448C700420ADC /* sideFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sideFooter.m; path = Subclass/sideFooter.m; sourceTree = "<group>"; };
-		FC89560C19F448C700420ADC /* subBar_blk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = subBar_blk.h; path = Subclass/subBar_blk.h; sourceTree = "<group>"; };
-		FC89560D19F448C700420ADC /* subBar_blk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = subBar_blk.m; path = Subclass/subBar_blk.m; sourceTree = "<group>"; };
-		FC89560E19F448C700420ADC /* subBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = subBar.h; path = Subclass/subBar.h; sourceTree = "<group>"; };
-		FC89560F19F448C700420ADC /* subBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = subBar.m; path = Subclass/subBar.m; sourceTree = "<group>"; };
-		FC89563419F4490200420ADC /* BeFitGraphOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeFitGraphOpenGLView.h; path = Graphing/BeFitGraphOpenGLView.h; sourceTree = "<group>"; };
-		FC89563519F4490200420ADC /* BeFitGraphOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeFitGraphOpenGLView.m; path = Graphing/BeFitGraphOpenGLView.m; sourceTree = "<group>"; };
-		FC89563619F4490200420ADC /* RightGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RightGraphView.h; path = Graphing/RightGraphView.h; sourceTree = "<group>"; };
-		FC89563719F4490200420ADC /* RightGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RightGraphView.m; path = Graphing/RightGraphView.m; sourceTree = "<group>"; };
-		FC89564019F4494200420ADC /* OnlineCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OnlineCheck.h; path = "GUI Objects/For Preferences/OnlineCheck.h"; sourceTree = "<group>"; };
-		FC89564119F4494200420ADC /* OnlineCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OnlineCheck.m; path = "GUI Objects/For Preferences/OnlineCheck.m"; sourceTree = "<group>"; };
-		FC89564619F4494900420ADC /* AddGramsValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddGramsValueTransformer.h; path = "GUI Objects/Value Transformers/AddGramsValueTransformer.h"; sourceTree = "<group>"; };
-		FC89564719F4494900420ADC /* AddGramsValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddGramsValueTransformer.m; path = "GUI Objects/Value Transformers/AddGramsValueTransformer.m"; sourceTree = "<group>"; };
-		FC89564819F4494900420ADC /* AddMGValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddMGValueTransformer.h; path = "GUI Objects/Value Transformers/AddMGValueTransformer.h"; sourceTree = "<group>"; };
-		FC89564919F4494900420ADC /* AddMGValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddMGValueTransformer.m; path = "GUI Objects/Value Transformers/AddMGValueTransformer.m"; sourceTree = "<group>"; };
-		FC89565219F4496600420ADC /* BeFit_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeFit_AppDelegate.h; path = "GUI Objects/BeFit_AppDelegate.h"; sourceTree = "<group>"; };
-		FC89565319F4496600420ADC /* BeFit_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeFit_AppDelegate.m; path = "GUI Objects/BeFit_AppDelegate.m"; sourceTree = "<group>"; };
-		FC89565419F4496600420ADC /* ColumnAttributeSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColumnAttributeSelector.h; path = "GUI Objects/ColumnAttributeSelector.h"; sourceTree = "<group>"; };
-		FC89565519F4496600420ADC /* ColumnAttributeSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColumnAttributeSelector.m; path = "GUI Objects/ColumnAttributeSelector.m"; sourceTree = "<group>"; };
-		FC89565619F4496600420ADC /* FoodArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodArrayController.h; path = "GUI Objects/FoodArrayController.h"; sourceTree = "<group>"; };
-		FC89565719F4496600420ADC /* FoodArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodArrayController.m; path = "GUI Objects/FoodArrayController.m"; sourceTree = "<group>"; };
-		FC89565819F4496600420ADC /* FoodDragSupportBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodDragSupportBase.h; path = "GUI Objects/FoodDragSupportBase.h"; sourceTree = "<group>"; };
-		FC89565919F4496600420ADC /* FoodListArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodListArrayController.h; path = "GUI Objects/FoodListArrayController.h"; sourceTree = "<group>"; };
-		FC89565A19F4496600420ADC /* FoodListArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodListArrayController.m; path = "GUI Objects/FoodListArrayController.m"; sourceTree = "<group>"; };
-		FC89565B19F4496600420ADC /* FoodListTableDropSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodListTableDropSupport.h; path = "GUI Objects/FoodListTableDropSupport.h"; sourceTree = "<group>"; };
-		FC89565C19F4496600420ADC /* FoodListTableDropSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodListTableDropSupport.m; path = "GUI Objects/FoodListTableDropSupport.m"; sourceTree = "<group>"; };
-		FC89565D19F4496600420ADC /* FoodTableDragSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodTableDragSupport.h; path = "GUI Objects/FoodTableDragSupport.h"; sourceTree = "<group>"; };
-		FC89565E19F4496600420ADC /* FoodTableDragSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodTableDragSupport.m; path = "GUI Objects/FoodTableDragSupport.m"; sourceTree = "<group>"; };
-		FC89565F19F4496600420ADC /* GUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GUIController.h; path = "GUI Objects/GUIController.h"; sourceTree = "<group>"; };
-		FC89566019F4496600420ADC /* GUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GUIController.m; path = "GUI Objects/GUIController.m"; sourceTree = "<group>"; };
+		FC89564019F4494200420ADC /* OnlineCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlineCheck.h; sourceTree = "<group>"; };
+		FC89564119F4494200420ADC /* OnlineCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlineCheck.m; sourceTree = "<group>"; };
 		FC89567D19F4499F00420ADC /* RMBlurredView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMBlurredView.h; path = "Interface Files/RMBlurredView.h"; sourceTree = "<group>"; };
 		FC89567E19F4499F00420ADC /* RMBlurredView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMBlurredView.m; path = "Interface Files/RMBlurredView.m"; sourceTree = "<group>"; };
 		FC89568319F44A5900420ADC /* GraphObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GraphObject.h; path = "Not Using/GraphObject.h"; sourceTree = "<group>"; };
@@ -619,16 +609,6 @@
 		FC946E7B1A0FFC4900692D04 /* pieindex.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = pieindex.js; path = htdocs/JS/pieindex.js; sourceTree = "<group>"; };
 		FC946E801A0FFC5800692D04 /* pienormalize.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = pienormalize.css; path = htdocs/CSS/pienormalize.css; sourceTree = "<group>"; };
 		FC946E811A0FFC5800692D04 /* piestyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = piestyle.css; path = htdocs/CSS/piestyle.css; sourceTree = "<group>"; };
-		FC946E8A1A10359D00692D04 /* Legend-Cals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Legend-Cals.h"; path = "Subclass/Legend-Cals.h"; sourceTree = "<group>"; };
-		FC946E8B1A10359D00692D04 /* Legend-Cals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Legend-Cals.m"; path = "Subclass/Legend-Cals.m"; sourceTree = "<group>"; };
-		FC946E901A10381A00692D04 /* Legend-Fat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Legend-Fat.h"; path = "Subclass/Legend-Fat.h"; sourceTree = "<group>"; };
-		FC946E911A10381A00692D04 /* Legend-Fat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Legend-Fat.m"; path = "Subclass/Legend-Fat.m"; sourceTree = "<group>"; };
-		FC946E961A1039EE00692D04 /* Legend-SatFat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Legend-SatFat.h"; path = "Subclass/Legend-SatFat.h"; sourceTree = "<group>"; };
-		FC946E971A1039EE00692D04 /* Legend-SatFat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Legend-SatFat.m"; path = "Subclass/Legend-SatFat.m"; sourceTree = "<group>"; };
-		FC946E9C1A103A4A00692D04 /* Legend-Chol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Legend-Chol.h"; path = "Subclass/Legend-Chol.h"; sourceTree = "<group>"; };
-		FC946E9D1A103A4A00692D04 /* Legend-Chol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Legend-Chol.m"; path = "Subclass/Legend-Chol.m"; sourceTree = "<group>"; };
-		FC946EAC1A11939D00692D04 /* whiteBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = whiteBackground.h; path = Subclass/whiteBackground.h; sourceTree = "<group>"; };
-		FC946EAD1A11939D00692D04 /* whiteBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = whiteBackground.m; path = Subclass/whiteBackground.m; sourceTree = "<group>"; };
 		FC946EB21A11B41C00692D04 /* pieindex3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = pieindex3.html; path = htdocs/pieindex3.html; sourceTree = "<group>"; };
 		FC946EB81A12F45000692D04 /* grabbing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grabbing.png; path = Images/grabbing.png; sourceTree = "<group>"; };
 		FC946EC11A12F46F00692D04 /* owl.carousel.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = owl.carousel.css; path = htdocs/CSS/owl.carousel.css; sourceTree = "<group>"; };
@@ -636,36 +616,21 @@
 		FC946EC31A12F46F00692D04 /* owl.transitions.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = owl.transitions.css; path = htdocs/CSS/owl.transitions.css; sourceTree = "<group>"; };
 		FC946ED01A12F47D00692D04 /* owl.carousel.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = owl.carousel.js; path = htdocs/JS/owl.carousel.js; sourceTree = "<group>"; };
 		FC946ED11A12F47D00692D04 /* owl.carousel.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = owl.carousel.min.js; path = htdocs/JS/owl.carousel.min.js; sourceTree = "<group>"; };
-		FC946EE81A19079C00692D04 /* AMDarkButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMDarkButtonCell.h; path = Subclass/AMDarkButtonCell.h; sourceTree = "<group>"; };
-		FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMDarkButtonCell.m; path = Subclass/AMDarkButtonCell.m; sourceTree = "<group>"; };
-		FC946F231A19A2B900692D04 /* ANSegmentedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ANSegmentedCell.h; path = Classes/Premade/ANSegmentedControl/ANSegmentedCell.h; sourceTree = "<group>"; };
-		FC946F241A19A2B900692D04 /* ANSegmentedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ANSegmentedCell.m; path = Classes/Premade/ANSegmentedControl/ANSegmentedCell.m; sourceTree = "<group>"; };
-		FC946F251A19A2B900692D04 /* ANSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ANSegmentedControl.h; path = Classes/Premade/ANSegmentedControl/ANSegmentedControl.h; sourceTree = "<group>"; };
-		FC946F261A19A2B900692D04 /* ANSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ANSegmentedControl.m; path = Classes/Premade/ANSegmentedControl/ANSegmentedControl.m; sourceTree = "<group>"; };
-		FC946F271A19A2B900692D04 /* NSBezierPath+MCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+MCAdditions.h"; path = "Classes/Premade/ANSegmentedControl/NSBezierPath+MCAdditions.h"; sourceTree = "<group>"; };
-		FC946F281A19A2B900692D04 /* NSBezierPath+MCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBezierPath+MCAdditions.m"; path = "Classes/Premade/ANSegmentedControl/NSBezierPath+MCAdditions.m"; sourceTree = "<group>"; };
-		FC946F291A19A2B900692D04 /* NSShadow+MCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSShadow+MCAdditions.h"; path = "Classes/Premade/ANSegmentedControl/NSShadow+MCAdditions.h"; sourceTree = "<group>"; };
-		FC946F2A1A19A2B900692D04 /* NSShadow+MCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSShadow+MCAdditions.m"; path = "Classes/Premade/ANSegmentedControl/NSShadow+MCAdditions.m"; sourceTree = "<group>"; };
 		FC946F411A1CB0DB00692D04 /* pieindexprint.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = pieindexprint.html; path = htdocs/pieindexprint.html; sourceTree = "<group>"; };
 		FC946F461A1CB11F00692D04 /* pieindex2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = pieindex2.html; path = htdocs/pieindex2.html; sourceTree = "<group>"; };
-		FC946F981A1D9DDB00692D04 /* CustomLevelIndicatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomLevelIndicatorCell.h; path = Subclass/CustomLevelIndicatorCell.h; sourceTree = "<group>"; };
-		FC946F991A1D9DDB00692D04 /* CustomLevelIndicatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomLevelIndicatorCell.m; path = Subclass/CustomLevelIndicatorCell.m; sourceTree = "<group>"; };
 		FC946F9E1A1F510800692D04 /* gauge.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = gauge.min.js; path = htdocs/JS/gauge.min.js; sourceTree = "<group>"; };
 		FC946FA31A1F512400692D04 /* gauge.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = gauge.html; path = htdocs/gauge.html; sourceTree = "<group>"; };
 		FC946FA81A20F13A00692D04 /* justgage.1.0.1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = justgage.1.0.1.js; path = htdocs/JS/justgage.1.0.1.js; sourceTree = "<group>"; };
 		FC946FA91A20F13A00692D04 /* raphael.2.1.0.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = raphael.2.1.0.min.js; path = htdocs/JS/raphael.2.1.0.min.js; sourceTree = "<group>"; };
 		FC946FB21A20F2BA00692D04 /* justgage.1.0.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = justgage.1.0.1.min.js; path = htdocs/JS/justgage.1.0.1.min.js; sourceTree = "<group>"; };
-		FC946FBC1A21886D00692D04 /* CustomCornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCornerView.h; sourceTree = "<group>"; };
-		FC946FBD1A21886D00692D04 /* CustomCornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCornerView.m; sourceTree = "<group>"; };
 		FC94C8EA19F4B6A800152A2C /* BeFitHelp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BeFitHelp; sourceTree = "<group>"; };
 		FC9FA83D1FC5BF340030F407 /* Paddle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Paddle.framework; sourceTree = "<group>"; };
 		FCBFE7B218EE73960033F407 /* BeFit Trial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "BeFit Trial.entitlements"; sourceTree = "<group>"; };
-		FCC174C919EBD4A2001A184A /* iTableColumnHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTableColumnHeaderCell.h; sourceTree = "<group>"; };
-		FCC174CA19EBD4A2001A184A /* iTableColumnHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTableColumnHeaderCell.m; sourceTree = "<group>"; };
 		FCC174D019EBD4CF001A184A /* OSBBadgeTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSBBadgeTextFieldCell.h; sourceTree = "<group>"; };
 		FCC174D119EBD4CF001A184A /* OSBBadgeTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSBBadgeTextFieldCell.m; sourceTree = "<group>"; };
 		FCCB059718824ED000BE315E /* BeFit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = BeFit.entitlements; sourceTree = "<group>"; };
 		FCF3D72E1E77ABD0004A8525 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		FE175FA2EF730710E69EC12B /* Pods-BeFitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeFitDemo.debug.xcconfig"; path = "Target Support Files/Pods-BeFitDemo/Pods-BeFitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -673,7 +638,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4D03831E30E6C1001B95AB /* OpenFeedback.framework in Frameworks */,
 				FCBA5BB718765820007C6CE2 /* SystemConfiguration.framework in Frameworks */,
 				FCBA5BB61876580A007C6CE2 /* QuartzCore.framework in Frameworks */,
 				FC1F03C4185540AC00299046 /* WebKit.framework in Frameworks */,
@@ -684,6 +648,7 @@
 				FCD4445C1804CFF90036C533 /* CoreData.framework in Frameworks */,
 				2565F9770EFDBC13005CD70F /* OpenGL.framework in Frameworks */,
 				FC24B10F204C96A100E4D1E8 /* LetsMove.framework in Frameworks */,
+				1721D91B23BC3CF5BC74D96E /* Pods_BeFitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,6 +663,7 @@
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				FCD4445B1804CFF90036C533 /* CoreData.framework in Frameworks */,
 				DC71A8ED0E3E592D0010389E /* OpenGL.framework in Frameworks */,
+				602CEDAA613D7AAEF8326BBE /* Pods_BeFit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,7 +671,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4D038A1E30E985001B95AB /* OpenFeedback.framework in Frameworks */,
 				FC977A6D18764568002631C2 /* SystemConfiguration.framework in Frameworks */,
 				FC977A6C1876455D002631C2 /* QuartzCore.framework in Frameworks */,
 				FC1F03C31855407600299046 /* WebKit.framework in Frameworks */,
@@ -716,6 +681,7 @@
 				FC1694CB181C747100C54052 /* CoreData.framework in Frameworks */,
 				FC1694CC181C747100C54052 /* OpenGL.framework in Frameworks */,
 				FC24B110204C96A100E4D1E8 /* LetsMove.framework in Frameworks */,
+				FC93F6932982CCDCF7291AD3 /* Pods_BeFitWebsite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -730,6 +696,7 @@
 				FC91C36918EE53B300960571 /* Cocoa.framework in Frameworks */,
 				FC91C36A18EE53B300960571 /* CoreData.framework in Frameworks */,
 				FC91C36B18EE53B300960571 /* OpenGL.framework in Frameworks */,
+				49D8C83A2C61EFB1DD12F7F1 /* Pods_BeFitFree.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -792,6 +759,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				7BE5B6D7B96362F58CACE048 /* Pods */,
 			);
 			name = BeFit;
 			sourceTree = "<group>";
@@ -800,7 +768,6 @@
 			isa = PBXGroup;
 			children = (
 				32CA4F630368D1EE00C91783 /* BeFit_Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -812,6 +779,10 @@
 				FC89573719F44C8F00420ADC /* Credits.rtf */,
 				FC89573819F44C8F00420ADC /* dsa_pub.pem */,
 				FC89573919F44C8F00420ADC /* mac_app_identity.cer */,
+				43572786237007DF00755BE1 /* BeFit-Bridging-Header.h */,
+				43572787237007DF00755BE1 /* BeFitFree-Bridging-Header.h */,
+				43572788237007DF00755BE1 /* BeFitDemo-Bridging-Header.h */,
+				43572789237007DF00755BE1 /* BeFitWebsite-Bridging-Header.h */,
 				FC632EFE19E9CC77008E3D72 /* Interface Files */,
 				FC632EFF19E9CC87008E3D72 /* PLIST Files */,
 				FCCF9731188BA3BA00FAA65B /* BeFit3V2 */,
@@ -824,9 +795,9 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43B3E72D2375CFCE008A6420 /* OpenFeedback.framework */,
 				FC9FA83D1FC5BF340030F407 /* Paddle.framework */,
 				FCF3D72E1E77ABD0004A8525 /* Sparkle.framework */,
-				FC4D03821E30E6C1001B95AB /* OpenFeedback.framework */,
 				FC0399B5188CDCEF00AB6785 /* Quartz.framework */,
 				FC1FA2621871335600E96FEE /* QuartzCore.framework */,
 				FC1FA25318712EFE00E96FEE /* SystemConfiguration.framework */,
@@ -835,6 +806,10 @@
 				FC898674184A70DC00BE530A /* WebKit.framework */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				B44F5C715CC271A121C9BDF8 /* Pods_BeFit.framework */,
+				1B6C3A12412CBC17E2355719 /* Pods_BeFitDemo.framework */,
+				F996651F339E047069541D83 /* Pods_BeFitFree.framework */,
+				5A3C7F3CE54396E67D8544D2 /* Pods_BeFitWebsite.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -845,6 +820,21 @@
 				FC89572619F44C6700420ADC /* BeFit_DataModel.xcdatamodeld */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		7BE5B6D7B96362F58CACE048 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CF584F9A2E147BB878B69EA /* Pods-BeFit.device.xcconfig */,
+				B137B25A869216B0CA8D7DF8 /* Pods-BeFit.debug.xcconfig */,
+				16DA05639FEB25CF5427773F /* Pods-BeFitDemo.device.xcconfig */,
+				FE175FA2EF730710E69EC12B /* Pods-BeFitDemo.debug.xcconfig */,
+				C1A4E61868FF4D36DA40F367 /* Pods-BeFitFree.device.xcconfig */,
+				7B907B66BDE2E08C2BC9414F /* Pods-BeFitFree.debug.xcconfig */,
+				6F893C765809F2444229958D /* Pods-BeFitWebsite.device.xcconfig */,
+				D6D0F291F640502B4D7D0DAA /* Pods-BeFitWebsite.debug.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		FC08735819EB999200ACB943 /* Not Using */ = {
@@ -900,7 +890,6 @@
 			children = (
 				FC946F3B1A19AE7F00692D04 /* ANSegment */,
 				FCC174CF19EBD4CF001A184A /* OSBBadgeTextCell */,
-				FCC174C819EBD4A2001A184A /* iTableColumnHeader */,
 				FC08740419EBA72900ACB943 /* UAAppReviewManager */,
 				FC0873FC19EBA71C00ACB943 /* TrialFiles */,
 				FC0873F519EBA71000ACB943 /* SSTextField */,
@@ -930,8 +919,7 @@
 		FC08738C19EBA6AE00ACB943 /* ITProgressBar */ = {
 			isa = PBXGroup;
 			children = (
-				FC08738D19EBA6AE00ACB943 /* ITProgressBar.h */,
-				FC08738E19EBA6AE00ACB943 /* ITProgressBar.m */,
+				436B94A52379A24900AEE7A9 /* ITProgressBar.swift */,
 			);
 			name = ITProgressBar;
 			path = Classes/Premade/ITProgressBar;
@@ -951,8 +939,7 @@
 		FC0873A019EBA6D200ACB943 /* LNClipView */ = {
 			isa = PBXGroup;
 			children = (
-				FC0873A119EBA6D200ACB943 /* LNClipView.h */,
-				FC0873A219EBA6D200ACB943 /* LNClipView.m */,
+				436B94A02379973500AEE7A9 /* LNClipView.swift */,
 			);
 			name = LNClipView;
 			path = Classes/Premade/LNClipView;
@@ -962,19 +949,11 @@
 			isa = PBXGroup;
 			children = (
 				FCC174D719EBE24C001A184A /* PreferencePanes */,
-				FC0873A919EBA6DE00ACB943 /* AdvancedPreferencesViewController.h */,
-				FC0873AA19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m */,
-				FC0873AC19EBA6DE00ACB943 /* GeneralPreferencesViewController.h */,
-				FC0873AD19EBA6DE00ACB943 /* GeneralPreferencesViewController.m */,
-				FC0873AE19EBA6DE00ACB943 /* MASPreferencesViewController.h */,
-				FC0873B019EBA6DE00ACB943 /* MASPreferencesWindowController.h */,
-				FC0873B119EBA6DE00ACB943 /* MASPreferencesWindowController.m */,
-				FC0873B219EBA6DE00ACB943 /* PreferenceWindow.h */,
-				FC0873B319EBA6DE00ACB943 /* PreferenceWindow.m */,
-				FC0873B419EBA6DE00ACB943 /* PrefSetter.h */,
-				FC0873B519EBA6DE00ACB943 /* PrefSetter.m */,
-				FC0873B719EBA6DE00ACB943 /* UpdatePreferenceViewController.h */,
-				FC0873B819EBA6DE00ACB943 /* UpdatePreferenceViewController.m */,
+				43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */,
+				43C8014A237583C000E08913 /* AdvancedPreferencesViewController.swift */,
+				43C8014023757E5200E08913 /* UpdatePreferenceViewController.swift */,
+				43C8014523757FF800E08913 /* PreferenceWindow.swift */,
+				43C8014F2375856D00E08913 /* PrefSetter.swift */,
 			);
 			name = MASPreferences;
 			path = Classes/Premade/MASPreferences;
@@ -983,10 +962,7 @@
 		FC0873E119EBA6FA00ACB943 /* MCViewFlilp */ = {
 			isa = PBXGroup;
 			children = (
-				FC0873E219EBA6FA00ACB943 /* FlipAnimationAppDelegate.h */,
-				FC0873E319EBA6FA00ACB943 /* FlipAnimationAppDelegate.m */,
-				FC0873E419EBA6FA00ACB943 /* MCViewFlipController.h */,
-				FC0873E519EBA6FA00ACB943 /* MCViewFlipController.m */,
+				436B949B23798D0A00AEE7A9 /* MCViewFlipController.swift */,
 			);
 			name = MCViewFlilp;
 			path = Classes/Premade/MCViewFlilp;
@@ -995,8 +971,7 @@
 		FC0873EE19EBA70600ACB943 /* PrioritySplitView */ = {
 			isa = PBXGroup;
 			children = (
-				FC0873EF19EBA70600ACB943 /* PrioritySplitViewDelegate.h */,
-				FC0873F019EBA70600ACB943 /* PrioritySplitViewDelegate.m */,
+				43C801542375999C00E08913 /* PrioritySplitViewDelegate.swift */,
 			);
 			name = PrioritySplitView;
 			path = Classes/Premade/PrioritySplitView;
@@ -1005,8 +980,7 @@
 		FC0873F519EBA71000ACB943 /* SSTextField */ = {
 			isa = PBXGroup;
 			children = (
-				FC0873F619EBA71000ACB943 /* SSTextField.h */,
-				FC0873F719EBA71000ACB943 /* SSTextField.m */,
+				436B9496237984F900AEE7A9 /* SSTextField.swift */,
 			);
 			name = SSTextField;
 			path = Classes/Premade/SSTextField;
@@ -1083,16 +1057,14 @@
 		FC946F3B1A19AE7F00692D04 /* ANSegment */ = {
 			isa = PBXGroup;
 			children = (
-				FC946F231A19A2B900692D04 /* ANSegmentedCell.h */,
-				FC946F241A19A2B900692D04 /* ANSegmentedCell.m */,
-				FC946F251A19A2B900692D04 /* ANSegmentedControl.h */,
-				FC946F261A19A2B900692D04 /* ANSegmentedControl.m */,
-				FC946F271A19A2B900692D04 /* NSBezierPath+MCAdditions.h */,
-				FC946F281A19A2B900692D04 /* NSBezierPath+MCAdditions.m */,
-				FC946F291A19A2B900692D04 /* NSShadow+MCAdditions.h */,
-				FC946F2A1A19A2B900692D04 /* NSShadow+MCAdditions.m */,
+				436B947D237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift */,
+				436B948223795C1500AEE7A9 /* NSShadow+MCAdditions.swift */,
+				436B948723795CEF00AEE7A9 /* ANSegmentedCell.swift */,
+				436B948C23795D6900AEE7A9 /* ANSegmentedControl.swift */,
+				436B94912379736B00AEE7A9 /* ANKnobAnimation.swift */,
 			);
 			name = ANSegment;
+			path = Classes/Premade/ANSegmentedControl;
 			sourceTree = "<group>";
 		};
 		FCAAEFE1180A40E3001BF31A /* Custom GUI */ = {
@@ -1109,98 +1081,63 @@
 		FCC174C419EBCF18001A184A /* ManagedContext */ = {
 			isa = PBXGroup;
 			children = (
-				FC8955F219F4489200420ADC /* Food.h */,
-				FC8955F319F4489200420ADC /* Food.m */,
-				FC8955F419F4489200420ADC /* FoodList.h */,
-				FC8955F519F4489200420ADC /* FoodList.m */,
+				435727A323700FAE00755BE1 /* Food+UI.swift */,
+				435727A8237018B700755BE1 /* FoodList+UI.swift */,
+				4357278F23700D4E00755BE1 /* Food+CoreDataClass.swift */,
+				4357279023700D4E00755BE1 /* Food+CoreDataProperties.swift */,
+				4357279123700D4E00755BE1 /* FoodList+CoreDataClass.swift */,
+				4357279223700D4E00755BE1 /* FoodList+CoreDataProperties.swift */,
 			);
-			name = ManagedContext;
+			path = ManagedContext;
 			sourceTree = "<group>";
 		};
 		FCC174C519EBCF30001A184A /* Subclass */ = {
 			isa = PBXGroup;
 			children = (
-				FC946EE81A19079C00692D04 /* AMDarkButtonCell.h */,
-				FC946EE91A19079C00692D04 /* AMDarkButtonCell.m */,
-				FC8955FE19F448C700420ADC /* ColumnControllerPopUpButton.h */,
-				FC8955FF19F448C700420ADC /* ColumnControllerPopUpButton.m */,
-				FC89560019F448C700420ADC /* FilterFoodCell.h */,
-				FC89560119F448C700420ADC /* FilterFoodCell.m */,
-				FC89560219F448C700420ADC /* FoodListNSTableView.h */,
-				FC89560319F448C700420ADC /* FoodListNSTableView.m */,
-				FC89560419F448C700420ADC /* FoodNSTableView.h */,
-				FC89560519F448C700420ADC /* FoodNSTableView.m */,
-				FC89560619F448C700420ADC /* SearchFieldForFood.h */,
-				FC89560719F448C700420ADC /* SearchFieldForFood.m */,
-				FC89560819F448C700420ADC /* SearchFieldforLists.h */,
-				FC89560919F448C700420ADC /* SearchFieldforLists.m */,
-				FC89560A19F448C700420ADC /* sideFooter.h */,
-				FC89560B19F448C700420ADC /* sideFooter.m */,
-				FC946EAC1A11939D00692D04 /* whiteBackground.h */,
-				FC946EAD1A11939D00692D04 /* whiteBackground.m */,
-				FC89560C19F448C700420ADC /* subBar_blk.h */,
-				FC89560D19F448C700420ADC /* subBar_blk.m */,
-				FC89560E19F448C700420ADC /* subBar.h */,
-				FC89560F19F448C700420ADC /* subBar.m */,
-				FC946E8A1A10359D00692D04 /* Legend-Cals.h */,
-				FC946E8B1A10359D00692D04 /* Legend-Cals.m */,
-				FC946E901A10381A00692D04 /* Legend-Fat.h */,
-				FC946E911A10381A00692D04 /* Legend-Fat.m */,
-				FC946E961A1039EE00692D04 /* Legend-SatFat.h */,
-				FC946E971A1039EE00692D04 /* Legend-SatFat.m */,
-				FC946E9C1A103A4A00692D04 /* Legend-Chol.h */,
-				FC946E9D1A103A4A00692D04 /* Legend-Chol.m */,
-				FC946F981A1D9DDB00692D04 /* CustomLevelIndicatorCell.h */,
-				FC946F991A1D9DDB00692D04 /* CustomLevelIndicatorCell.m */,
+				4375CA252370478A008A4B02 /* FoodListNSTableView.swift */,
+				4348C1C72370647B00071B9C /* FoodNSTableView.swift */,
+				43C800F82372E86E00E08913 /* ColumnControllerPopUpButton.swift */,
+				43C800FD2372E9D800E08913 /* FilterFoodCell.swift */,
+				43C801022372EA9900E08913 /* SearchFieldForFood.swift */,
+				43C801072372ECE300E08913 /* SideFooter.swift */,
+				43C8010C2372EDF800E08913 /* SearchFieldforLists.swift */,
+				43C801112372EF2600E08913 /* WhiteBackground.swift */,
+				43C801162372F09F00E08913 /* SubBarBlk.swift */,
+				43C8011B2372F3D200E08913 /* SubBar.swift */,
+				43C801202372F63100E08913 /* LegendCals.swift */,
+				43C801252372F83500E08913 /* LegendFat.swift */,
+				43C8012A2372F95F00E08913 /* LegendSatFat.swift */,
+				43C8012F2372FA6E00E08913 /* LegendChol.swift */,
+				43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */,
 			);
-			name = Subclass;
+			path = Subclass;
 			sourceTree = "<group>";
 		};
 		FCC174C619EBCFD8001A184A /* Graphing */ = {
 			isa = PBXGroup;
 			children = (
-				FC89563419F4490200420ADC /* BeFitGraphOpenGLView.h */,
-				FC89563519F4490200420ADC /* BeFitGraphOpenGLView.m */,
-				FC89563619F4490200420ADC /* RightGraphView.h */,
-				FC89563719F4490200420ADC /* RightGraphView.m */,
+				43C800EE2372C55B00E08913 /* BeFitGraphView.swift */,
+				43C800F32372CB6100E08913 /* RightGraphView.swift */,
 			);
-			name = Graphing;
+			path = Graphing;
 			sourceTree = "<group>";
 		};
 		FCC174C719EBD2ED001A184A /* GUI Objects */ = {
 			isa = PBXGroup;
 			children = (
-				FC89565219F4496600420ADC /* BeFit_AppDelegate.h */,
-				FC89565319F4496600420ADC /* BeFit_AppDelegate.m */,
-				FC89565419F4496600420ADC /* ColumnAttributeSelector.h */,
-				FC89565519F4496600420ADC /* ColumnAttributeSelector.m */,
-				FC89565619F4496600420ADC /* FoodArrayController.h */,
-				FC89565719F4496600420ADC /* FoodArrayController.m */,
-				FC89565819F4496600420ADC /* FoodDragSupportBase.h */,
-				FC89565919F4496600420ADC /* FoodListArrayController.h */,
-				FC89565A19F4496600420ADC /* FoodListArrayController.m */,
-				FC89565B19F4496600420ADC /* FoodListTableDropSupport.h */,
-				FC89565C19F4496600420ADC /* FoodListTableDropSupport.m */,
-				FC89565D19F4496600420ADC /* FoodTableDragSupport.h */,
-				FC89565E19F4496600420ADC /* FoodTableDragSupport.m */,
-				FC89565F19F4496600420ADC /* GUIController.h */,
-				FC89566019F4496600420ADC /* GUIController.m */,
 				FCC174D619EBE17F001A184A /* ValueTransformers */,
 				FCC174E219EBE63A001A184A /* ForPreferences */,
+				4375CA2A23704E0B008A4B02 /* FoodListArrayController.swift */,
+				4348C1CC23706D9700071B9C /* FoodArrayController.swift */,
+				4348C1D123715B8C00071B9C /* FoodListTableDropSupport.swift */,
+				4348C1D6237163B200071B9C /* FoodTableDragSupport.swift */,
+				4348C1DB23716A0A00071B9C /* ColumnAttributeSelector.swift */,
+				4348C1E0237170FA00071B9C /* GUIController.swift */,
+				43C800DF2371B6E100E08913 /* BeFit_AppDelegate.swift */,
+				43C800E42372BE5700E08913 /* CustomError.swift */,
+				43C800E92372C3C200E08913 /* NSPasteboard+FoodDrag.swift */,
 			);
-			name = "GUI Objects";
-			sourceTree = "<group>";
-		};
-		FCC174C819EBD4A2001A184A /* iTableColumnHeader */ = {
-			isa = PBXGroup;
-			children = (
-				FC946FBC1A21886D00692D04 /* CustomCornerView.h */,
-				FC946FBD1A21886D00692D04 /* CustomCornerView.m */,
-				FCC174C919EBD4A2001A184A /* iTableColumnHeaderCell.h */,
-				FCC174CA19EBD4A2001A184A /* iTableColumnHeaderCell.m */,
-			);
-			name = iTableColumnHeader;
-			path = Classes/Premade/iTableColumnHeader;
+			path = "GUI Objects";
 			sourceTree = "<group>";
 		};
 		FCC174CF19EBD4CF001A184A /* OSBBadgeTextCell */ = {
@@ -1216,12 +1153,11 @@
 		FCC174D619EBE17F001A184A /* ValueTransformers */ = {
 			isa = PBXGroup;
 			children = (
-				FC89564619F4494900420ADC /* AddGramsValueTransformer.h */,
-				FC89564719F4494900420ADC /* AddGramsValueTransformer.m */,
-				FC89564819F4494900420ADC /* AddMGValueTransformer.h */,
-				FC89564919F4494900420ADC /* AddMGValueTransformer.m */,
+				4348C1E523719EF000071B9C /* AddGramsValueTransformer.swift */,
+				4348C1EA2371A44E00071B9C /* AddMGValueTransformer.swift */,
 			);
 			name = ValueTransformers;
+			path = "Value Transformers";
 			sourceTree = "<group>";
 		};
 		FCC174D719EBE24C001A184A /* PreferencePanes */ = {
@@ -1229,7 +1165,6 @@
 			children = (
 				FC0873A819EBA6DE00ACB943 /* AdvancedPreferencesView.xib */,
 				FC0873AB19EBA6DE00ACB943 /* GeneralPreferencesView.xib */,
-				FC0873AF19EBA6DE00ACB943 /* MASPreferencesWindow.xib */,
 				FC0873B619EBA6DE00ACB943 /* UpdatePreferencesView.xib */,
 			);
 			name = PreferencePanes;
@@ -1242,6 +1177,7 @@
 				FC89564119F4494200420ADC /* OnlineCheck.m */,
 			);
 			name = ForPreferences;
+			path = "For Preferences";
 			sourceTree = "<group>";
 		};
 		FCCF9730188BA3A000FAA65B /* BeFit3V1 */ = {
@@ -1269,10 +1205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2565F9630EFDBBB3005CD70F /* Build configuration list for PBXNativeTarget "BeFitDemo" */;
 			buildPhases = (
+				FB5A9D16AAFF34B34529751E /* [CP] Check Pods Manifest.lock */,
 				2565F9590EFDBBB2005CD70F /* Resources */,
 				2565F95A0EFDBBB2005CD70F /* Sources */,
 				2565F95B0EFDBBB2005CD70F /* Frameworks */,
 				FCF3D7321E77AC1C004A8525 /* CopyFiles */,
+				0A1337C4F164FE1C1A66E889 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1287,10 +1225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "BeFit" */;
 			buildPhases = (
+				60A692709F874690CB21E2A2 /* [CP] Check Pods Manifest.lock */,
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
 				254DB4770ED6291800A3B954 /* CopyFiles */,
+				B2CC6CB6785E6C5E96F90E9F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1306,10 +1246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC1694CE181C747100C54052 /* Build configuration list for PBXNativeTarget "BeFitWebsite" */;
 			buildPhases = (
+				A18EC6B5093760FC7DE861D2 /* [CP] Check Pods Manifest.lock */,
 				FC16948E181C747100C54052 /* Resources */,
 				FC1694AC181C747100C54052 /* Sources */,
 				FC1694C8181C747100C54052 /* Frameworks */,
 				FCF3D7341E77AC29004A8525 /* CopyFiles */,
+				CFCF986ECC9002D6414615B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1325,10 +1267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC91C36C18EE53B300960571 /* Build configuration list for PBXNativeTarget "BeFitFree" */;
 			buildPhases = (
+				2DA522A766B57C0AA4DFCC0A /* [CP] Check Pods Manifest.lock */,
 				FC91C2F218EE53B300960571 /* Resources */,
 				FC91C33518EE53B300960571 /* Sources */,
 				FC91C36218EE53B300960571 /* Frameworks */,
 				FC9FA8401FC5BF4E0030F407 /* CopyFiles */,
+				814143472E70A6C301DF22FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1349,6 +1293,7 @@
 				TargetAttributes = {
 					2565F95C0EFDBBB2005CD70F = {
 						DevelopmentTeam = 2D4Z7WQ7RS;
+						LastSwiftMigration = 1110;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 0;
@@ -1357,6 +1302,7 @@
 					};
 					8D1107260486CEB800E47090 = {
 						DevelopmentTeam = 2D4Z7WQ7RS;
+						LastSwiftMigration = 1110;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 1;
@@ -1365,6 +1311,7 @@
 					};
 					FC16948D181C747100C54052 = {
 						DevelopmentTeam = 2D4Z7WQ7RS;
+						LastSwiftMigration = 1110;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 0;
@@ -1373,6 +1320,7 @@
 					};
 					FC91C2F118EE53B300960571 = {
 						DevelopmentTeam = 2D4Z7WQ7RS;
+						LastSwiftMigration = 1110;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 1;
@@ -1393,6 +1341,7 @@
 				fr,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* BeFit */;
+			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1410,7 +1359,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC24B114204C96BB00E4D1E8 /* LetsMove.framework in Resources */,
-				FCEEDC711E3320E900CD141A /* OpenFeedback.framework in Resources */,
 				FC946ECD1A12F46F00692D04 /* owl.transitions.css in Resources */,
 				FC7EF86F1882508300B4A647 /* BeFitWeb.xib in Resources */,
 				FC946FB41A20F2BA00692D04 /* justgage.1.0.1.min.js in Resources */,
@@ -1447,7 +1395,6 @@
 				FC632F2A19EA350F008E3D72 /* Media.xcassets in Resources */,
 				FC0873C219EBA6DE00ACB943 /* GeneralPreferencesView.xib in Resources */,
 				FC946EDB1A13102A00692D04 /* bootstrap.min.js in Resources */,
-				FC0873CA19EBA6DE00ACB943 /* MASPreferencesWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1478,7 +1425,6 @@
 				FC0873B919EBA6DE00ACB943 /* AdvancedPreferencesView.xib in Resources */,
 				FC94C8EB19F4B6A800152A2C /* BeFitHelp in Resources */,
 				FC946E681A0DC13200692D04 /* fullpieindex.html in Resources */,
-				FC0873C919EBA6DE00ACB943 /* MASPreferencesWindow.xib in Resources */,
 				FC946EC81A12F46F00692D04 /* owl.theme.css in Resources */,
 				FC946F471A1CB11F00692D04 /* pieindex2.html in Resources */,
 				FC0873C119EBA6DE00ACB943 /* GeneralPreferencesView.xib in Resources */,
@@ -1499,7 +1445,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC24B113204C96B400E4D1E8 /* LetsMove.framework in Resources */,
-				FC4D03851E30E6D4001B95AB /* OpenFeedback.framework in Resources */,
 				FC946ECE1A12F46F00692D04 /* owl.transitions.css in Resources */,
 				FC7EF8701882508300B4A647 /* BeFitWeb.xib in Resources */,
 				FC946FB51A20F2BA00692D04 /* justgage.1.0.1.min.js in Resources */,
@@ -1536,7 +1481,6 @@
 				FC0873C319EBA6DE00ACB943 /* GeneralPreferencesView.xib in Resources */,
 				FC946EDC1A13102B00692D04 /* bootstrap.min.js in Resources */,
 				FC89570B19F44AE000420ADC /* BeFit2.dat in Resources */,
-				FC0873CB19EBA6DE00ACB943 /* MASPreferencesWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1556,7 +1500,6 @@
 				FC946E751A0DC14700692D04 /* fullpiestyle.css in Resources */,
 				FC946EDD1A13102B00692D04 /* bootstrap.min.js in Resources */,
 				FC946EB61A11B41C00692D04 /* pieindex3.html in Resources */,
-				FC0873CC19EBA6DE00ACB943 /* MASPreferencesWindow.xib in Resources */,
 				FC94C8EE19F4B6A800152A2C /* BeFitHelp in Resources */,
 				FC946E7F1A0FFC4900692D04 /* pieindex.js in Resources */,
 				FCA5D41B18FED2AA00CDBC50 /* BeFitfree.xib in Resources */,
@@ -1585,67 +1528,231 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A1337C4F164FE1C1A66E889 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeFitDemo/Pods-BeFitDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MASPreferences/MASPreferences.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASPreferences.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeFitDemo/Pods-BeFitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DA522A766B57C0AA4DFCC0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeFitFree-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60A692709F874690CB21E2A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeFit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		814143472E70A6C301DF22FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeFitFree/Pods-BeFitFree-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MASPreferences/MASPreferences.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASPreferences.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeFitFree/Pods-BeFitFree-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A18EC6B5093760FC7DE861D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeFitWebsite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2CC6CB6785E6C5E96F90E9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeFit/Pods-BeFit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MASPreferences/MASPreferences.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASPreferences.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeFit/Pods-BeFit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFCF986ECC9002D6414615B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeFitWebsite/Pods-BeFitWebsite-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MASPreferences/MASPreferences.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASPreferences.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeFitWebsite/Pods-BeFitWebsite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB5A9D16AAFF34B34529751E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeFitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2565F95A0EFDBBB2005CD70F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2565F9780EFDBC23005CD70F /* main.m in Sources */,
-				FC0873C619EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */,
-				FC946EEB1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
-				FC0873CE19EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */,
-				FC89562519F448C700420ADC /* SearchFieldforLists.m in Sources */,
-				FC89561919F448C700420ADC /* FoodListNSTableView.m in Sources */,
-				FC89567A19F4496600420ADC /* GUIController.m in Sources */,
-				FC89566619F4496600420ADC /* ColumnAttributeSelector.m in Sources */,
+				43C8012D2372F95F00E08913 /* LegendSatFat.swift in Sources */,
+				4357279D23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */,
+				436B94942379736B00AEE7A9 /* ANKnobAnimation.swift in Sources */,
+				43C801002372E9D800E08913 /* FilterFoodCell.swift in Sources */,
+				4348C1D9237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
+				4348C1E3237170FA00071B9C /* GUIController.swift in Sources */,
 				FC89572A19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
-				FC89567619F4496600420ADC /* FoodTableDragSupport.m in Sources */,
-				FC946F381A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
+				4348C1E823719EF000071B9C /* AddGramsValueTransformer.swift in Sources */,
 				FCC174D319EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
-				FC89564B19F4494900420ADC /* AddGramsValueTransformer.m in Sources */,
-				FC89562919F448C700420ADC /* sideFooter.m in Sources */,
-				FC946EAF1A11939D00692D04 /* whiteBackground.m in Sources */,
-				FC89561519F448C700420ADC /* FilterFoodCell.m in Sources */,
-				FC946F9B1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
-				FC946E991A1039EE00692D04 /* Legend-SatFat.m in Sources */,
-				FC89562D19F448C700420ADC /* subBar_blk.m in Sources */,
-				FCC174CC19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */,
-				FC8955F719F4489200420ADC /* Food.m in Sources */,
-				FC89566E19F4496600420ADC /* FoodListArrayController.m in Sources */,
-				FC946E8D1A10359D00692D04 /* Legend-Cals.m in Sources */,
-				FC89561119F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */,
+				4357279923700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
+				43C800FB2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
+				43C801052372EA9900E08913 /* SearchFieldForFood.swift in Sources */,
+				43C801192372F09F00E08913 /* SubBarBlk.swift in Sources */,
+				4357279523700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
+				435727A623700FAE00755BE1 /* Food+UI.swift in Sources */,
+				43C8014823757FFF00E08913 /* PreferenceWindow.swift in Sources */,
+				436B9499237984F900AEE7A9 /* SSTextField.swift in Sources */,
+				43C8014D237583C000E08913 /* AdvancedPreferencesViewController.swift in Sources */,
+				43C8010F2372EDF800E08913 /* SearchFieldforLists.swift in Sources */,
+				436B948F23795D6900AEE7A9 /* ANSegmentedControl.swift in Sources */,
+				435727A123700D4E00755BE1 /* FoodList+CoreDataProperties.swift in Sources */,
+				4348C1CF23706D9700071B9C /* FoodArrayController.swift in Sources */,
+				4348C1CA2370647E00071B9C /* FoodNSTableView.swift in Sources */,
+				436B949E23798D0A00AEE7A9 /* MCViewFlipController.swift in Sources */,
+				43C801232372F63100E08913 /* LegendCals.swift in Sources */,
 				FC89564319F4494200420ADC /* OnlineCheck.m in Sources */,
-				FC89567219F4496600420ADC /* FoodListTableDropSupport.m in Sources */,
-				FC0873D619EBA6DE00ACB943 /* PrefSetter.m in Sources */,
-				FC946F2C1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
-				FC0873BE19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m in Sources */,
-				FC89563D19F4490200420ADC /* RightGraphView.m in Sources */,
-				FC89563919F4490200420ADC /* BeFitGraphOpenGLView.m in Sources */,
+				43C800F62372CB6100E08913 /* RightGraphView.swift in Sources */,
+				436B948A23795CEF00AEE7A9 /* ANSegmentedCell.swift in Sources */,
+				4375CA2D23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
+				43C8015A2375A2E000E08913 /* GeneralPreferencesViewController.swift in Sources */,
+				43C800E72372BE5700E08913 /* CustomError.swift in Sources */,
+				43C8014323757E5500E08913 /* UpdatePreferenceViewController.swift in Sources */,
+				43C801572375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */,
+				436B9480237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift in Sources */,
 				FC08738519EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
-				FC946FBF1A21886D00692D04 /* CustomCornerView.m in Sources */,
-				FC08739019EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
-				FC89563119F448C700420ADC /* subBar.m in Sources */,
-				FC89562119F448C700420ADC /* SearchFieldForFood.m in Sources */,
+				43C801322372FA6E00E08913 /* LegendChol.swift in Sources */,
+				436B94A32379973500AEE7A9 /* LNClipView.swift in Sources */,
+				436B948523795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */,
+				435727AB237018B700755BE1 /* FoodList+UI.swift in Sources */,
 				FC08740819EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
-				FC946E931A10381A00692D04 /* Legend-Fat.m in Sources */,
-				FC89564F19F4494900420ADC /* AddMGValueTransformer.m in Sources */,
+				43C8010A2372ECE300E08913 /* SideFooter.swift in Sources */,
+				43C8011E2372F3D200E08913 /* SubBar.swift in Sources */,
+				43C801142372EF2600E08913 /* WhiteBackground.swift in Sources */,
+				43C800EC2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */,
 				FC24B111204C96A100E4D1E8 /* PFMoveApplication.m in Sources */,
+				436B94A82379A24900AEE7A9 /* ITProgressBar.swift in Sources */,
 				FC89568019F4499F00420ADC /* RMBlurredView.m in Sources */,
-				FC946F301A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
-				FC946E9F1A103A4A00692D04 /* Legend-Chol.m in Sources */,
-				FC0873DE19EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */,
-				FC0873F919EBA71000ACB943 /* SSTextField.m in Sources */,
-				FC89561D19F448C700420ADC /* FoodNSTableView.m in Sources */,
-				FC0873EB19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */,
-				FC0873D219EBA6DE00ACB943 /* PreferenceWindow.m in Sources */,
-				FC0873A419EBA6D200ACB943 /* LNClipView.m in Sources */,
-				FC8955FB19F4489200420ADC /* FoodList.m in Sources */,
-				FC89566A19F4496600420ADC /* FoodArrayController.m in Sources */,
-				FC0873E719EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */,
-				FC89566219F4496600420ADC /* BeFit_AppDelegate.m in Sources */,
+				43C801282372F83500E08913 /* LegendFat.swift in Sources */,
+				4348C1DE23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */,
+				43C801372372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */,
+				4348C1D423715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
+				43C800E22371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */,
+				43C801522375856D00E08913 /* PrefSetter.swift in Sources */,
+				43C800F12372C55B00E08913 /* BeFitGraphView.swift in Sources */,
 				FC08738919EBA69B00ACB943 /* INWindowButton.m in Sources */,
-				FC0873F219EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */,
-				FC946F341A19A2B900692D04 /* NSBezierPath+MCAdditions.m in Sources */,
+				4348C1ED2371A44E00071B9C /* AddMGValueTransformer.swift in Sources */,
+				4375CA282370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1653,61 +1760,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072D0486CEB800E47090 /* main.m in Sources */,
-				FC0873C519EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */,
-				FC946EEA1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
-				FC0873CD19EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */,
-				FC89562419F448C700420ADC /* SearchFieldforLists.m in Sources */,
-				FC89561819F448C700420ADC /* FoodListNSTableView.m in Sources */,
-				FC89567919F4496600420ADC /* GUIController.m in Sources */,
-				FC89566519F4496600420ADC /* ColumnAttributeSelector.m in Sources */,
+				435727A9237018B700755BE1 /* FoodList+UI.swift in Sources */,
+				4375CA2B23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
+				43C800E52372BE5700E08913 /* CustomError.swift in Sources */,
+				43C801032372EA9900E08913 /* SearchFieldForFood.swift in Sources */,
+				4348C1E1237170FA00071B9C /* GUIController.swift in Sources */,
+				4375CA262370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
 				FC89572919F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
-				FC89567519F4496600420ADC /* FoodTableDragSupport.m in Sources */,
-				FC946F371A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D219EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
-				FC89564A19F4494900420ADC /* AddGramsValueTransformer.m in Sources */,
-				FC89562819F448C700420ADC /* sideFooter.m in Sources */,
-				FC946EAE1A11939D00692D04 /* whiteBackground.m in Sources */,
-				FC89561419F448C700420ADC /* FilterFoodCell.m in Sources */,
-				FC946F9A1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
-				FC946E981A1039EE00692D04 /* Legend-SatFat.m in Sources */,
-				FC89562C19F448C700420ADC /* subBar_blk.m in Sources */,
-				FCC174CB19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */,
-				FC0873D519EBA6DE00ACB943 /* PrefSetter.m in Sources */,
-				FC89566D19F4496600420ADC /* FoodListArrayController.m in Sources */,
-				FC946E8C1A10359D00692D04 /* Legend-Cals.m in Sources */,
-				FC8955F619F4489200420ADC /* Food.m in Sources */,
+				436B947E237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift in Sources */,
+				4348C1D223715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
+				4348C1D7237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
+				4348C1EB2371A44E00071B9C /* AddMGValueTransformer.swift in Sources */,
+				436B94A62379A24900AEE7A9 /* ITProgressBar.swift in Sources */,
+				43C800E02371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */,
+				436B948D23795D6900AEE7A9 /* ANSegmentedControl.swift in Sources */,
+				436B94A12379973500AEE7A9 /* LNClipView.swift in Sources */,
+				43C8014623757FF800E08913 /* PreferenceWindow.swift in Sources */,
+				43C8014B237583C000E08913 /* AdvancedPreferencesViewController.swift in Sources */,
+				4357279F23700D4E00755BE1 /* FoodList+CoreDataProperties.swift in Sources */,
+				4348C1C82370647B00071B9C /* FoodNSTableView.swift in Sources */,
+				436B949C23798D0A00AEE7A9 /* MCViewFlipController.swift in Sources */,
+				43C801212372F63100E08913 /* LegendCals.swift in Sources */,
+				43C801122372EF2600E08913 /* WhiteBackground.swift in Sources */,
+				4357279723700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
+				4357279323700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
+				43C800EF2372C55B00E08913 /* BeFitGraphView.swift in Sources */,
 				FC89564219F4494200420ADC /* OnlineCheck.m in Sources */,
-				FC89567119F4496600420ADC /* FoodListTableDropSupport.m in Sources */,
-				FC89561019F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */,
-				FC946F2B1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
-				FC0873BD19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m in Sources */,
 				FC08738419EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
-				FC89563C19F4490200420ADC /* RightGraphView.m in Sources */,
-				FC89563819F4490200420ADC /* BeFitGraphOpenGLView.m in Sources */,
-				FC946FBE1A21886D00692D04 /* CustomCornerView.m in Sources */,
-				FC08738F19EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
-				FC89563019F448C700420ADC /* subBar.m in Sources */,
-				FC89562019F448C700420ADC /* SearchFieldForFood.m in Sources */,
-				FC0873DD19EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */,
-				FC946E921A10381A00692D04 /* Legend-Fat.m in Sources */,
-				FC89564E19F4494900420ADC /* AddMGValueTransformer.m in Sources */,
+				43C8013F2375560700E08913 /* GeneralPreferencesViewController.swift in Sources */,
+				43C8014123757E5200E08913 /* UpdatePreferenceViewController.swift in Sources */,
+				436B948323795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */,
+				4348C1CD23706D9700071B9C /* FoodArrayController.swift in Sources */,
+				43C801552375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */,
+				43C801082372ECE300E08913 /* SideFooter.swift in Sources */,
 				FC08740719EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
-				FC946F2F1A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
-				FC946E9E1A103A4A00692D04 /* Legend-Chol.m in Sources */,
+				43C8011C2372F3D200E08913 /* SubBar.swift in Sources */,
+				43C800F92372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
 				FC89567F19F4499F00420ADC /* RMBlurredView.m in Sources */,
-				FC0873F819EBA71000ACB943 /* SSTextField.m in Sources */,
-				FC89561C19F448C700420ADC /* FoodNSTableView.m in Sources */,
-				FC0873EA19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */,
-				FC0873D119EBA6DE00ACB943 /* PreferenceWindow.m in Sources */,
-				FC0873A319EBA6D200ACB943 /* LNClipView.m in Sources */,
-				FC8955FA19F4489200420ADC /* FoodList.m in Sources */,
-				FC89566919F4496600420ADC /* FoodArrayController.m in Sources */,
-				FC0873E619EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */,
-				FC89566119F4496600420ADC /* BeFit_AppDelegate.m in Sources */,
+				43C800FE2372E9D800E08913 /* FilterFoodCell.swift in Sources */,
+				436B94922379736B00AEE7A9 /* ANKnobAnimation.swift in Sources */,
+				4357279B23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */,
+				43C801352372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */,
+				43C801302372FA6E00E08913 /* LegendChol.swift in Sources */,
+				43C8012B2372F95F00E08913 /* LegendSatFat.swift in Sources */,
+				4348C1E623719EF000071B9C /* AddGramsValueTransformer.swift in Sources */,
+				43C800EA2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */,
+				43C800F42372CB6100E08913 /* RightGraphView.swift in Sources */,
+				43C801502375856D00E08913 /* PrefSetter.swift in Sources */,
+				4348C1DC23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */,
 				FC08738819EBA69B00ACB943 /* INWindowButton.m in Sources */,
-				FC0873F119EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */,
-				FC946F331A19A2B900692D04 /* NSBezierPath+MCAdditions.m in Sources */,
+				435727A423700FAE00755BE1 /* Food+UI.swift in Sources */,
+				43C8010D2372EDF800E08913 /* SearchFieldforLists.swift in Sources */,
+				43C801172372F09F00E08913 /* SubBarBlk.swift in Sources */,
+				43C801262372F83500E08913 /* LegendFat.swift in Sources */,
+				436B948823795CEF00AEE7A9 /* ANSegmentedCell.swift in Sources */,
+				436B9497237984F900AEE7A9 /* SSTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1715,61 +1823,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC1694AE181C747100C54052 /* main.m in Sources */,
-				FC0873C719EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */,
-				FC946EEC1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
-				FC0873CF19EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */,
-				FC89562619F448C700420ADC /* SearchFieldforLists.m in Sources */,
-				FC89561A19F448C700420ADC /* FoodListNSTableView.m in Sources */,
-				FC89567B19F4496600420ADC /* GUIController.m in Sources */,
-				FC89566719F4496600420ADC /* ColumnAttributeSelector.m in Sources */,
+				435727AC237018B700755BE1 /* FoodList+UI.swift in Sources */,
+				4375CA2E23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
+				43C800E82372BE5700E08913 /* CustomError.swift in Sources */,
+				43C801062372EA9A00E08913 /* SearchFieldForFood.swift in Sources */,
+				4348C1E4237170FA00071B9C /* GUIController.swift in Sources */,
+				4375CA292370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
 				FC89572B19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
-				FC89567719F4496600420ADC /* FoodTableDragSupport.m in Sources */,
-				FC946F391A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D419EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
-				FC89564C19F4494900420ADC /* AddGramsValueTransformer.m in Sources */,
-				FC89562A19F448C700420ADC /* sideFooter.m in Sources */,
-				FC946EB01A11939D00692D04 /* whiteBackground.m in Sources */,
-				FC89561619F448C700420ADC /* FilterFoodCell.m in Sources */,
-				FC946F9C1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
-				FC946E9A1A1039EE00692D04 /* Legend-SatFat.m in Sources */,
-				FC89562E19F448C700420ADC /* subBar_blk.m in Sources */,
-				FCC174CD19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */,
-				FC8955F819F4489200420ADC /* Food.m in Sources */,
-				FC89566F19F4496600420ADC /* FoodListArrayController.m in Sources */,
-				FC946E8E1A10359D00692D04 /* Legend-Cals.m in Sources */,
-				FC89561219F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */,
+				436B9481237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift in Sources */,
+				4348C1D523715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
+				4348C1DA237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
+				4348C1EE2371A44E00071B9C /* AddMGValueTransformer.swift in Sources */,
+				436B94A92379A24900AEE7A9 /* ITProgressBar.swift in Sources */,
+				435727A223700D4E00755BE1 /* FoodList+CoreDataProperties.swift in Sources */,
+				436B949023795D6900AEE7A9 /* ANSegmentedControl.swift in Sources */,
+				436B94A42379973500AEE7A9 /* LNClipView.swift in Sources */,
+				43C800E32371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */,
+				43C8014923757FFF00E08913 /* PreferenceWindow.swift in Sources */,
+				4348C1CB2370647E00071B9C /* FoodNSTableView.swift in Sources */,
+				4357279A23700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
+				436B949F23798D0A00AEE7A9 /* MCViewFlipController.swift in Sources */,
+				43C801242372F63100E08913 /* LegendCals.swift in Sources */,
+				43C801152372EF2600E08913 /* WhiteBackground.swift in Sources */,
+				4357279623700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
+				43C800F22372C55B00E08913 /* BeFitGraphView.swift in Sources */,
 				FC89564419F4494200420ADC /* OnlineCheck.m in Sources */,
-				FC89567319F4496600420ADC /* FoodListTableDropSupport.m in Sources */,
-				FC0873D719EBA6DE00ACB943 /* PrefSetter.m in Sources */,
-				FC946F2D1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
-				FC0873BF19EBA6DE00ACB943 /* AdvancedPreferencesViewController.m in Sources */,
 				FC08738619EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
-				FC89563E19F4490200420ADC /* RightGraphView.m in Sources */,
-				FC89563A19F4490200420ADC /* BeFitGraphOpenGLView.m in Sources */,
-				FC946FC01A21886D00692D04 /* CustomCornerView.m in Sources */,
-				FC08739119EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
-				FC89563219F448C700420ADC /* subBar.m in Sources */,
-				FC89562219F448C700420ADC /* SearchFieldForFood.m in Sources */,
-				FC0873DF19EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */,
+				4348C1D023706D9700071B9C /* FoodArrayController.swift in Sources */,
+				436B948623795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */,
+				43C8015B2375A2E100E08913 /* GeneralPreferencesViewController.swift in Sources */,
 				FC24B112204C96A100E4D1E8 /* PFMoveApplication.m in Sources */,
-				FC946E941A10381A00692D04 /* Legend-Fat.m in Sources */,
-				FC89565019F4494900420ADC /* AddMGValueTransformer.m in Sources */,
-				FC946F311A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
-				FC946EA01A103A4A00692D04 /* Legend-Chol.m in Sources */,
+				43C8010B2372ECE300E08913 /* SideFooter.swift in Sources */,
+				43C8011F2372F3D200E08913 /* SubBar.swift in Sources */,
+				43C800FC2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
 				FC08740919EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
-				FC0873FA19EBA71000ACB943 /* SSTextField.m in Sources */,
-				FC89561E19F448C700420ADC /* FoodNSTableView.m in Sources */,
-				FC0873EC19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */,
-				FC0873D319EBA6DE00ACB943 /* PreferenceWindow.m in Sources */,
-				FC0873A519EBA6D200ACB943 /* LNClipView.m in Sources */,
-				FC8955FC19F4489200420ADC /* FoodList.m in Sources */,
-				FC89566B19F4496600420ADC /* FoodArrayController.m in Sources */,
-				FC0873E819EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */,
-				FC89566319F4496600420ADC /* BeFit_AppDelegate.m in Sources */,
+				43C801582375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */,
+				43C8014E237583C000E08913 /* AdvancedPreferencesViewController.swift in Sources */,
+				43C801532375856D00E08913 /* PrefSetter.swift in Sources */,
+				43C801012372E9D800E08913 /* FilterFoodCell.swift in Sources */,
+				436B94952379736B00AEE7A9 /* ANKnobAnimation.swift in Sources */,
+				4357279E23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */,
+				43C801382372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */,
+				43C801332372FA6E00E08913 /* LegendChol.swift in Sources */,
+				43C8012E2372F95F00E08913 /* LegendSatFat.swift in Sources */,
+				4348C1E923719EF000071B9C /* AddGramsValueTransformer.swift in Sources */,
+				43C800ED2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */,
+				43C800F72372CB6100E08913 /* RightGraphView.swift in Sources */,
+				4348C1DF23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */,
 				FC08738A19EBA69B00ACB943 /* INWindowButton.m in Sources */,
-				FC0873F319EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */,
-				FC946F351A19A2B900692D04 /* NSBezierPath+MCAdditions.m in Sources */,
+				435727A723700FAE00755BE1 /* Food+UI.swift in Sources */,
+				43C801102372EDF800E08913 /* SearchFieldforLists.swift in Sources */,
+				43C8011A2372F09F00E08913 /* SubBarBlk.swift in Sources */,
+				43C8014423757E5500E08913 /* UpdatePreferenceViewController.swift in Sources */,
+				43C801292372F83500E08913 /* LegendFat.swift in Sources */,
+				436B948B23795CEF00AEE7A9 /* ANSegmentedCell.swift in Sources */,
+				436B949A237984F900AEE7A9 /* SSTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1777,61 +1886,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC91C33618EE53B300960571 /* main.m in Sources */,
-				FC0873C819EBA6DE00ACB943 /* GeneralPreferencesViewController.m in Sources */,
-				FC946EED1A19079C00692D04 /* AMDarkButtonCell.m in Sources */,
-				FC0873D019EBA6DE00ACB943 /* MASPreferencesWindowController.m in Sources */,
-				FC89562719F448C700420ADC /* SearchFieldforLists.m in Sources */,
-				FC89561B19F448C700420ADC /* FoodListNSTableView.m in Sources */,
-				FC89567C19F4496600420ADC /* GUIController.m in Sources */,
-				FC89566819F4496600420ADC /* ColumnAttributeSelector.m in Sources */,
+				435727AA237018B700755BE1 /* FoodList+UI.swift in Sources */,
+				4375CA2C23704E0B008A4B02 /* FoodListArrayController.swift in Sources */,
+				43C800E62372BE5700E08913 /* CustomError.swift in Sources */,
+				43C801042372EA9900E08913 /* SearchFieldForFood.swift in Sources */,
+				4348C1E2237170FA00071B9C /* GUIController.swift in Sources */,
+				4375CA272370478B008A4B02 /* FoodListNSTableView.swift in Sources */,
 				FC89572C19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */,
-				FC89567819F4496600420ADC /* FoodTableDragSupport.m in Sources */,
-				FC946F3A1A19A2B900692D04 /* NSShadow+MCAdditions.m in Sources */,
 				FCC174D519EBD4CF001A184A /* OSBBadgeTextFieldCell.m in Sources */,
-				FC89564D19F4494900420ADC /* AddGramsValueTransformer.m in Sources */,
-				FC89562B19F448C700420ADC /* sideFooter.m in Sources */,
-				FC946EB11A11939D00692D04 /* whiteBackground.m in Sources */,
-				FC89561719F448C700420ADC /* FilterFoodCell.m in Sources */,
-				FC946F9D1A1D9DDB00692D04 /* CustomLevelIndicatorCell.m in Sources */,
-				FC946E9B1A1039EE00692D04 /* Legend-SatFat.m in Sources */,
-				FC89562F19F448C700420ADC /* subBar_blk.m in Sources */,
-				FCC174CE19EBD4A2001A184A /* iTableColumnHeaderCell.m in Sources */,
-				FC8955F919F4489200420ADC /* Food.m in Sources */,
-				FC89567019F4496600420ADC /* FoodListArrayController.m in Sources */,
-				FC946E8F1A10359D00692D04 /* Legend-Cals.m in Sources */,
-				FC89561319F448C700420ADC /* ColumnControllerPopUpButton.m in Sources */,
+				436B947F237956E900AEE7A9 /* NSBezierPath+MCAdditions.swift in Sources */,
+				4348C1D323715B8C00071B9C /* FoodListTableDropSupport.swift in Sources */,
+				4348C1D8237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
+				4348C1EC2371A44E00071B9C /* AddMGValueTransformer.swift in Sources */,
+				436B94A72379A24900AEE7A9 /* ITProgressBar.swift in Sources */,
+				435727A023700D4E00755BE1 /* FoodList+CoreDataProperties.swift in Sources */,
+				436B948E23795D6900AEE7A9 /* ANSegmentedControl.swift in Sources */,
+				436B94A22379973500AEE7A9 /* LNClipView.swift in Sources */,
+				43C800E12371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */,
+				43C8014723757FFF00E08913 /* PreferenceWindow.swift in Sources */,
+				4348C1C92370647E00071B9C /* FoodNSTableView.swift in Sources */,
+				4357279823700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
+				436B949D23798D0A00AEE7A9 /* MCViewFlipController.swift in Sources */,
+				43C801222372F63100E08913 /* LegendCals.swift in Sources */,
+				43C801132372EF2600E08913 /* WhiteBackground.swift in Sources */,
+				4357279423700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
+				43C800F02372C55B00E08913 /* BeFitGraphView.swift in Sources */,
 				FC89564519F4494200420ADC /* OnlineCheck.m in Sources */,
-				FC89567419F4496600420ADC /* FoodListTableDropSupport.m in Sources */,
-				FC0873D819EBA6DE00ACB943 /* PrefSetter.m in Sources */,
-				FC946F2E1A19A2B900692D04 /* ANSegmentedCell.m in Sources */,
-				FC0873C019EBA6DE00ACB943 /* AdvancedPreferencesViewController.m in Sources */,
-				FC89563F19F4490200420ADC /* RightGraphView.m in Sources */,
-				FC89563B19F4490200420ADC /* BeFitGraphOpenGLView.m in Sources */,
+				4348C1CE23706D9700071B9C /* FoodArrayController.swift in Sources */,
 				FC08738719EBA69B00ACB943 /* INAppStoreWindow.m in Sources */,
-				FC946FC11A21886D00692D04 /* CustomCornerView.m in Sources */,
-				FC08739219EBA6AE00ACB943 /* ITProgressBar.m in Sources */,
-				FC89563319F448C700420ADC /* subBar.m in Sources */,
-				FC89562319F448C700420ADC /* SearchFieldForFood.m in Sources */,
+				436B948423795C1500AEE7A9 /* NSShadow+MCAdditions.swift in Sources */,
+				43C801592375A2E000E08913 /* GeneralPreferencesViewController.swift in Sources */,
 				FC08740A19EBA72900ACB943 /* UAAppReviewManager.m in Sources */,
-				FC946E951A10381A00692D04 /* Legend-Fat.m in Sources */,
-				FC89565119F4494900420ADC /* AddMGValueTransformer.m in Sources */,
+				43C801092372ECE300E08913 /* SideFooter.swift in Sources */,
 				FC89568219F4499F00420ADC /* RMBlurredView.m in Sources */,
-				FC946F321A19A2B900692D04 /* ANSegmentedControl.m in Sources */,
-				FC946EA11A103A4A00692D04 /* Legend-Chol.m in Sources */,
-				FC0873E019EBA6DE00ACB943 /* UpdatePreferenceViewController.m in Sources */,
-				FC0873FB19EBA71000ACB943 /* SSTextField.m in Sources */,
-				FC89561F19F448C700420ADC /* FoodNSTableView.m in Sources */,
-				FC0873ED19EBA6FA00ACB943 /* MCViewFlipController.m in Sources */,
-				FC0873D419EBA6DE00ACB943 /* PreferenceWindow.m in Sources */,
-				FC0873A619EBA6D200ACB943 /* LNClipView.m in Sources */,
-				FC8955FD19F4489200420ADC /* FoodList.m in Sources */,
-				FC89566C19F4496600420ADC /* FoodArrayController.m in Sources */,
-				FC0873E919EBA6FA00ACB943 /* FlipAnimationAppDelegate.m in Sources */,
-				FC89566419F4496600420ADC /* BeFit_AppDelegate.m in Sources */,
+				43C8011D2372F3D200E08913 /* SubBar.swift in Sources */,
+				43C800FA2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
+				43C801562375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */,
+				43C8014C237583C000E08913 /* AdvancedPreferencesViewController.swift in Sources */,
+				43C801512375856D00E08913 /* PrefSetter.swift in Sources */,
+				43C800FF2372E9D800E08913 /* FilterFoodCell.swift in Sources */,
+				436B94932379736B00AEE7A9 /* ANKnobAnimation.swift in Sources */,
+				4357279C23700D4E00755BE1 /* FoodList+CoreDataClass.swift in Sources */,
+				43C801362372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */,
+				43C801312372FA6E00E08913 /* LegendChol.swift in Sources */,
+				43C8012C2372F95F00E08913 /* LegendSatFat.swift in Sources */,
+				4348C1E723719EF000071B9C /* AddGramsValueTransformer.swift in Sources */,
+				43C800EB2372C3C200E08913 /* NSPasteboard+FoodDrag.swift in Sources */,
+				43C800F52372CB6100E08913 /* RightGraphView.swift in Sources */,
+				4348C1DD23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */,
 				FC08738B19EBA69B00ACB943 /* INWindowButton.m in Sources */,
-				FC0873F419EBA70600ACB943 /* PrioritySplitViewDelegate.m in Sources */,
-				FC946F361A19A2B900692D04 /* NSBezierPath+MCAdditions.m in Sources */,
+				435727A523700FAE00755BE1 /* Food+UI.swift in Sources */,
+				43C8010E2372EDF800E08913 /* SearchFieldforLists.swift in Sources */,
+				43C801182372F09F00E08913 /* SubBarBlk.swift in Sources */,
+				43C8014223757E5500E08913 /* UpdatePreferenceViewController.swift in Sources */,
+				43C801272372F83500E08913 /* LegendFat.swift in Sources */,
+				436B948923795CEF00AEE7A9 /* ANSegmentedCell.swift in Sources */,
+				436B9498237984F900AEE7A9 /* SSTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1875,10 +1985,12 @@
 /* Begin XCBuildConfiguration section */
 		2565F9600EFDBBB3005CD70F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE175FA2EF730710E69EC12B /* Pods-BeFitDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_MODULES_AUTOLINK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1886,6 +1998,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1898,31 +2011,41 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				GCC_PREPROCESSOR_DEFINITIONS = TRIAL;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					TRIAL,
+				);
 				GCC_WARN_UNUSED_FUNCTION = NO;
 				GCC_WARN_UNUSED_LABEL = NO;
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "PLIST/BeFitDemo-Info.plist";
 				INSTALL_PATH = /Applications;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDemoMode=0";
-				OTHER_LDFLAGS = "-Wl,-rpath,@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonbrowndesigns.befitdemoapp;
 				PRODUCT_NAME = "BeFit Trial";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = TRIAL;
+				SWIFT_OBJC_BRIDGING_HEADER = "BeFitDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		2565F9610EFDBBB3005CD70F /* Device */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16DA05639FEB25CF5427773F /* Pods-BeFitDemo.device.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_MODULES_AUTOLINK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1930,6 +2053,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1941,7 +2065,10 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				GCC_PREPROCESSOR_DEFINITIONS = TRIAL;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					TRIAL,
+				);
 				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -1952,30 +2079,37 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "PLIST/BeFitDemo-Info.plist";
 				INSTALL_PATH = /Applications;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDemoMode=0";
-				OTHER_LDFLAGS = "-Wl,-rpath,@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonbrowndesigns.befitdemoapp;
 				PRODUCT_NAME = "BeFit Trial";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = TRIAL;
+				SWIFT_OBJC_BRIDGING_HEADER = "BeFitDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				ZERO_LINK = NO;
 			};
 			name = Device;
 		};
 		26FC0A850875C7B200E6366F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B137B25A869216B0CA8D7DF8 /* Pods-BeFit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = BeFit.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1997,12 +2131,17 @@
 				IBC_ERRORS = NO;
 				INFOPLIST_FILE = PLIST/Info.plist;
 				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				OTHER_CFLAGS = "-DDemoMode=0";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;
 				PRODUCT_NAME = BeFit;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "BeFit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = x86_64;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
@@ -2011,9 +2150,11 @@
 		};
 		26FC0A860875C7B200E6366F /* Device */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF584F9A2E147BB878B69EA /* Pods-BeFit.device.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = BeFit.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -2022,6 +2163,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_POSTPROCESSING = NO;
+				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2042,15 +2184,19 @@
 				IBC_ERRORS = NO;
 				INFOPLIST_FILE = PLIST/Info.plist;
 				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DDemoMode=0";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;
 				PRODUCT_NAME = BeFit;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 				STRIP_STYLE = all;
+				SWIFT_OBJC_BRIDGING_HEADER = "BeFit-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = x86_64;
 				WRAPPER_EXTENSION = app;
 			};
@@ -2150,10 +2296,12 @@
 		};
 		FC1694CF181C747100C54052 /* Device */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F893C765809F2444229958D /* Pods-BeFitWebsite.device.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
@@ -2176,32 +2324,40 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = BeFit_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = WEBSITE;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					WEBSITE,
+				);
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INFOPLIST_FILE = "PLIST/BeFit-Info.plist";
 				INSTALL_PATH = /Applications;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DDemoMode=0";
-				OTHER_LDFLAGS = "-Wl,-rpath,@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;
 				PRODUCT_NAME = BeFit;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 				STRIP_STYLE = all;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = WEBSITE;
+				SWIFT_OBJC_BRIDGING_HEADER = "BeFitWebsite-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Device;
 		};
 		FC1694D0181C747100C54052 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6D0F291F640502B4D7D0DAA /* Pods-BeFitWebsite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
@@ -2223,19 +2379,26 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = BeFit_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = WEBSITE;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					WEBSITE,
+				);
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INFOPLIST_FILE = "PLIST/BeFit-Info.plist";
 				INSTALL_PATH = /Applications;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_CFLAGS = "-DDemoMode=0";
-				OTHER_LDFLAGS = "-Wl,-rpath,@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;
 				PRODUCT_NAME = BeFit;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = WEBSITE;
+				SWIFT_OBJC_BRIDGING_HEADER = "BeFitWebsite-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
@@ -2243,9 +2406,11 @@
 		};
 		FC91C36D18EE53B300960571 /* Device */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A4E61868FF4D36DA40F367 /* Pods-BeFitFree.device.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_MODULES_AUTOLINK = YES;
 				CODE_SIGN_ENTITLEMENTS = BeFit.entitlements;
@@ -2264,7 +2429,10 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				GCC_PREPROCESSOR_DEFINITIONS = STORE;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					STORE,
+				);
 				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -2275,22 +2443,28 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "PLIST/BeFitFree-Info.plist";
 				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDemoMode=0";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitAppFree;
 				PRODUCT_NAME = "BeFit Lite";
 				PROVISIONING_PROFILE = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = STORE;
+				SWIFT_OBJC_BRIDGING_HEADER = "BeFitFree-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				ZERO_LINK = NO;
 			};
 			name = Device;
 		};
 		FC91C36E18EE53B300960571 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B907B66BDE2E08C2BC9414F /* Pods-BeFitFree.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_MODULES_AUTOLINK = YES;
 				CODE_SIGN_ENTITLEMENTS = BeFit.entitlements;
@@ -2310,20 +2484,28 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				GCC_PREPROCESSOR_DEFINITIONS = STORE;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					STORE,
+				);
 				GCC_WARN_UNUSED_FUNCTION = NO;
 				GCC_WARN_UNUSED_LABEL = NO;
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "PLIST/BeFitFree-Info.plist";
 				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDemoMode=0";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitAppFree;
 				PRODUCT_NAME = "BeFit Lite";
 				PROVISIONING_PROFILE = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = STORE;
+				SWIFT_OBJC_BRIDGING_HEADER = "BeFitFree-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};

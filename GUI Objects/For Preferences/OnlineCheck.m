@@ -8,6 +8,7 @@
 
 #import "OnlineCheck.h"
 
+/*
 @implementation OnlineCheck
 @synthesize webData;
 
@@ -187,3 +188,4 @@
 
 
 @end
+*/
