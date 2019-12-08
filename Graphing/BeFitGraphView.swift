@@ -12,6 +12,17 @@ import WebKit
 class BeFitGraphView: WebView {
     @IBOutlet var FoodListController: NSArrayController!
     
+    deinit {
+        FoodListController.removeObserver(self, forKeyPath: "arrangedObjects")
+    }
+    
+    override func awakeFromNib() {
+        
+        drawGraphFromSelectedFoodList()
+        FoodListController.addObserver(self, forKeyPath: "arrangedObjects", options: .new, context: nil)
+        
+    }
+    
     private func getMagnitudeForGraph(_ averageForList: Double) -> Float {
         //Want 2X the average for all foods to be the 100 percentile mark which is a value of 100. So:
         //Magnitude = ( 100 * Average for list) / (Average For all * 2)
@@ -24,6 +35,12 @@ class BeFitGraphView: WebView {
         //{ ReturnValue = 100; }
         
         return returnValue
+    }
+    
+    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+        if keyPath?.isEqual("arrangedObjects") ?? false {
+            needsDisplay = true
+        }
     }
     
     private func drawGraphFromSelectedFoodList() {
@@ -99,9 +116,23 @@ class BeFitGraphView: WebView {
             
             //pass that to webview with javascript
             let javascriptString = String(format: "myFunction('%@','%@','%@','%d','%d','%d','%d','%@')", calString, fatString, protString, carbInteger, sugarInteger, fiberInteger, sodiumInteger, lbspref)
+            print(javascriptString)
+            
+            
+            stringByEvaluatingJavaScript(from: javascriptString)
+            
+            
+            
+            
             
             let response = stringByEvaluatingJavaScript(from: javascriptString)
             print("drawGraphFromSelectedFoodList:\n", response ?? "")
         }
     }
+    
+    override func draw(_ dirtyRect: NSRect) {
+           drawGraphFromSelectedFoodList()
+       }
+    
+    
 }

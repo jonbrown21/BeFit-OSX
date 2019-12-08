@@ -226,7 +226,7 @@ extension Food {
         }
         
         let totalFat = (saturatedFat?.doubleValue ?? 0.0) + (monosaturatedFat?.doubleValue ?? 0.0) + (polyFat?.doubleValue ?? 0.0)
-        let servingWeight = selectedServingWeight.doubleValue * QuantityActualValue
+        //let servingWeight = selectedServingWeight.doubleValue * QuantityActualValue
         let userResult = round(totalFat)
         
         //let calculatedFat = ((totalFat * servingWeight) / 100) * QuantityActualValue

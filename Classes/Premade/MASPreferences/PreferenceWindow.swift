@@ -15,12 +15,8 @@ class PreferenceWindow: NSObject {
         let updateViewController = UpdatePreferenceViewController()
         //let advancedViewController = AdvancedPreferencesViewController()
         
-        #if TRIAL
+        #if WEBSITE
         let controllers: [NSViewController] = [generalViewController, updateViewController]
-        #elseif WEBSITE
-        let controllers: [NSViewController] = [generalViewController, updateViewController]
-        #elseif STORE
-        let controllers: [NSViewController] = [generalViewController]
         #else
         let controllers: [NSViewController] = [generalViewController]
         #endif

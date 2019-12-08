@@ -8,7 +8,7 @@
 import Foundation
 import Cocoa
 
-#if TRIAL || WEBSITE
+#if WEBSITE
 //import Sparkle
 import Paddle
 #endif
@@ -19,14 +19,8 @@ private let LEFT_VIEW_MINIMUM_WIDTH: CGFloat = 200
 private let MAIN_VIEW_INDEX = 1
 private let MAIN_VIEW_PRIORITY = 0
 private let MAIN_VIEW_MINIMUM_WIDTH: CGFloat = 735
-
-#if TRIAL || STORE
-private let APP_SUPPORT_SUBDIR = "BeFit Trial"
-private let DATABASE_FILE = "BeFit2D.dat"
-#else
 private let APP_SUPPORT_SUBDIR = "BeFit"
 private let DATABASE_FILE = "BeFit2.dat"
-#endif
 
 @NSApplicationMain
 class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, NSWindowDelegate {
@@ -44,9 +38,7 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
     @IBOutlet var window: NSWindow!
     @IBOutlet var SavingLabel: NSTextField!
     @IBOutlet var splitView: NSSplitView!
-    @IBOutlet var isOnline: NSImageView!
     @IBOutlet var FoodTableView: NSArrayController!
-    @IBOutlet var submitFood: NSButton!
     
     @IBOutlet var arrayController_: NSArrayController!
     @IBOutlet var tableView_: NSTableView!
@@ -77,13 +69,12 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
     @IBOutlet var gmwt1: NSTextField!
     @IBOutlet var gmwt_desc1: NSTextField!
     
-    @IBOutlet var CalorieScrollView: LNScrollView!
+    @IBOutlet var CalorieScrollView: NSScrollView!
     @IBOutlet var progressBar: ITProgressBar!
     @IBOutlet var mySuperview: NSView?
     
     private var flipController: MCViewFlipController!
     private var splitViewDelegate: PrioritySplitViewDelegate!
-    private var segment: ANSegmentedControl!
     private var focusedAdvancedControlIndex: Int = 0
     
     /**
@@ -177,33 +168,7 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
      by merging all of the models found in the application bundle and all of the
      framework bundles.
      */
-    
-    // Setup the UA App Review Manager
-    
-    static func setupUAAppReviewManager() {
-        #if WEBSITE || TRIAL || STORE
-        UAAppReviewManager.setAppID("854891012")
-        #else
-        UAAppReviewManager.setAppID("402924047")
-        #endif
-        
-        UAAppReviewManager.setDebug(true)
-    }
-    
-    // Trigger the UA App Review Manager
-    @IBAction func presentStandardPrompt(_ sender: AnyObject) {
-        UAAppReviewManager.showPrompt { trackingInfo in
-            // This is the block syntx for showing prompts.
-            // It lets you decide if it should be shown now or not based on
-            // the UAAppReviewManager trackingInfo or any other factor.
-            print("UAAppReviewManager trackingInfo: \(String(describing: trackingInfo))")
-            // Don't show the prompt now, but do it from the buttons in the example app
-            return true
-        }
-        
-        // YES here means it is ok to show, it is the only override to Debug == YES.
-        UAAppReviewManager.userDidSignificantEvent(true)
-    }
+
     
     /**
        Returns the NSUndoManager for the application.  In this case, the manager
@@ -242,46 +207,15 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
     @objc func contSave(_ autoSave: Timer) {
         trySaveManagedObjectContext()
         
-        SavingLabel.stringValue = "SAVING..."
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            self.SavingLabel.stringValue = ""
-        }
     }
     
-    func checkInternet() -> Bool {
-        guard let url = URL(string: "http://www.google.com") else {
-            return false
-        }
-        
-        do {
-            try NSURLConnection.sendSynchronousRequest(URLRequest(url: url), returning: nil)
-            return true
-        } catch {
-            return false
-        }
-    }
     
-    @objc func onlineCheck(_ labelCheck: Timer) {
-        if checkInternet() {
-            let connected = NSImage(named: "Green")
-            isOnline.image = connected
-            isOnline.toolTip = "Online"
-            isOnline.needsDisplay = true
-        } else {
-            let notConnected = NSImage(named: "Grey")
-            isOnline.image = notConnected
-            isOnline.toolTip = "Offline"
-            isOnline.needsDisplay = true
-        }
-    }
+    
     
     func applicationDidFinishLaunching(_ notification: Notification) {
-        BeFit_AppDelegate.setupUAAppReviewManager()
         
-        let notConnected = NSImage(named: "Grey")
-        isOnline.image = notConnected
-        isOnline.toolTip = "Offline"
-        isOnline.needsDisplay = true
+        UserDefaults.standard.set(false, forKey: "NSConstraintBasedLayoutLogUnsatisfiable")
+        UserDefaults.standard.set(false, forKey: "__NSConstraintBasedLayoutLogUnsatisfiable")
         
         let lbspref = UserDefaults.standard.object(forKey: "goal-name") as? NSNumber
         let yourLong = lbspref?.doubleValue ?? 0
@@ -323,11 +257,7 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
         LevelInd7.maxValue = 50
         LevelInd7.warningValue = 50 / 3
         LevelInd7.criticalValue = 50 / 2
-        
-        // Present Rating Window if needed.
-        
-        UAAppReviewManager.showPromptIfNecessary()
-        
+                
         // Set Default Preference Values
         
         let flipin = UserDefaults.standard.bool(forKey: "flipPref")
@@ -336,33 +266,48 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
         
         // Check if Trial and if so ask if they want to move this app to applications folder.
         
-        #if TRIAL || WEBSITE
-        PFMoveToApplicationsFolderIfNecessary()
+        #if WEBSITE
+        _ = PADDisplayConfiguration.init(PADDisplayType.sheet, hideNavigationButtons: false, parentWindow: self.window)
         
         // Check if Trial and if so present expired message
-        let paddle = Paddle.sharedInstance()
-        paddle.setProductId("520775")
-        paddle.setVendorId("25300")
-        paddle.setApiKey("411430c46d02e5a5bc45c309068cd6e7")
+        let myPaddleVendorID = "25300"
+        let myPaddleProductID = "520775"
+        let myPaddleAPIKey = "411430c46d02e5a5bc45c309068cd6e7"
+
+        // Default Product Config in case we're unable to reach our servers on first run
+        let defaultProductConfig = PADProductConfiguration()
+        defaultProductConfig.productName = "BeFit"
+        defaultProductConfig.vendorName = "Grove Designs"
         
-        let productInfo = [
-            kPADCurrentPrice: "4.99",
-            kPADDevName: "Jon Brown Designs",
-            kPADCurrency: "USD",
-            kPADProductName: "BeFit",
-            kPADTrialDuration: "30",
-            kPADTrialText: "Thanks for downloading a trial of BeFit for Mac",
-            kPADProductImage: "icon_512x512.png" //Image file in your project
-        ]
+
+        // Initialize the SDK singleton with the config
+        let paddle = Paddle.sharedInstance(withVendorID: myPaddleVendorID,
+                                           apiKey: myPaddleAPIKey,
+                                           productID: myPaddleProductID,
+                                           configuration: defaultProductConfig,
+                                           delegate:self as? PaddleDelegate)
+
+        // Initialize the Product you'd like to work with
         
-        Paddle.sharedInstance().startLicensing(productInfo, timeTrial: true, with: window)
+        
+        
+        
+        let paddleProduct = PADProduct(productID: myPaddleProductID,
+                                       productType: PADProductType.sdkProduct,
+                                       configuration: defaultProductConfig)
+
+        // Ask the Product to get its latest state and info from the Paddle Platform
+        paddleProduct?.refresh({ (delta: [AnyHashable : Any]?, error: Error?) in
+            // Optionally show the default "Product Access" UI to gatekeep your app
+            
+            paddle?.showProductAccessDialog(with: paddleProduct!)
+            
+        })
+        
         #endif
         
-        Timer.scheduledTimer(timeInterval: 60, target: self, selector: #selector(onlineCheck), userInfo: nil, repeats: true)
         Timer.scheduledTimer(timeInterval: 60, target: self, selector: #selector(contSave), userInfo: nil, repeats: true)
-        
-        CalorieScrollView.pattern = NSImage(named: "Black")
-        
+                
         splitViewDelegate = PrioritySplitViewDelegate()
         splitViewDelegate.setPriority(LEFT_VIEW_PRIORITY, forViewAt: LEFT_VIEW_INDEX)
         splitViewDelegate.setMinimumLength(LEFT_VIEW_MINIMUM_WIDTH, forViewAt: LEFT_VIEW_INDEX)
@@ -450,16 +395,13 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
         print(entity)
         print(user)
         
-        if !user {
-            submitFood.isEnabled = false
-        } else {
-            submitFood.isEnabled = true
+        if user {
+            
             let flipin = UserDefaults.standard.bool(forKey: "flipPref")
-            print("Checkbox Status: \(submitFood.state)")
             print("Flip Preference: \(flipin)")
             
-            if flipin && submitFood.state == .on {
-                SendFood(self)
+            if flipin {
+                
                 progressBar.animates = progressBar.animates
                 //[self.progressBar.animator setFloatValue:0];
                 progressBar.floatValue = 0
@@ -490,73 +432,7 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
         }
     }
     
-    @IBAction func SendFood(_ sender: AnyObject) {
-        let food_name2 = food_name.stringValue
-        let calories2 = calories.doubleValue
-        let protein2 = protein.doubleValue
-        let carbohydrates2 = carbohydrates.doubleValue
-        let dietary_fiber2 = dietary_fiber.doubleValue
-        let sugar2 = sugar.doubleValue
-        let calcium2 = calcium.doubleValue
-        let iron2 = iron.doubleValue
-        let sodium2 = sodium.doubleValue
-        let vitC2 = vitC.doubleValue
-        let vitA2 = vitA.doubleValue
-        let vitE2 = vitE.doubleValue
-        let saturated_fat2 = saturated_fat.doubleValue
-        let monounsaturated_fat2 = monounsaturated_fat.doubleValue
-        let polyunsaturated_fat2 = polyunsaturated_fat.doubleValue
-        let cholesterol2 = cholesterol.doubleValue
-        let gmwt12 = gmwt1.doubleValue
-        let gmwt_desc12 = gmwt_desc1.stringValue
-        
-        if checkInternet() {
-            // Register Reg Code
-            print("web request started")
-            let post = String(format: "food_name=%@&calories=%f&protein=%f&carbohydrates=%f&dietary_fiber=%f&sugar=%f&calcium=%f&iron=%f&sodium=%f&vitC=%f&vitA=%f&vitE=%f&saturated_fat=%f&monounsaturated_fat=%f&polyunsaturated_fat=%f&cholesterol=%f&gmwt1=%f&gmwt_desc1=%@", food_name2, calories2, protein2, carbohydrates2, dietary_fiber2, sugar2, calcium2, iron2, sodium2, vitC2, vitA2, vitE2, saturated_fat2, monounsaturated_fat2, polyunsaturated_fat2, cholesterol2, gmwt12, gmwt_desc12)
-            
-            guard let postData = post.data(using: .utf8),
-                let url = URL(string: "http://products.jonbrown.org/tracker/customer_befit.php") else {
-                assertionFailure()
-                return
-            }
-            
-            var request = URLRequest(url: url)
-            request.httpMethod = "POST"
-            request.setValue(String(postData.count), forHTTPHeaderField: "Content-Length")
-            request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
-            request.httpBody = postData
-            
-            URLSession.shared.dataTask(with: request) { (data, response, error) in
-                DispatchQueue.main.async {
-                    print("connection received response")
-                    
-                    if let err = error {
-                        print("Conn Err: \(err.localizedDescription)")
-                        return
-                    }
-                    
-                    guard let httpResponse = response as? HTTPURLResponse else {
-                        print("Invalid HTTP response")
-                        return
-                    }
-                    
-                    if httpResponse.statusCode == 200 {
-                        print("connection state is \(httpResponse.statusCode) - all okay")
-                    } else {
-                        print("connection state is NOT 200")
-                    }
-                }
-            }.resume()
-            
-            print("connection initiated")
-        } else {
-            print("Offline")
-            let alert = NSAlert()
-            alert.messageText = "You need to be online to save custom food entries to the cloud."
-            alert.runModal()
-        }
-    }
+    
     
     //MARK: - NSTableViewDelegate
     

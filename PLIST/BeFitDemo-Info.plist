@@ -37,10 +37,8 @@
 	<string>BeFitWeb</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
-	<key>OFSubmitFeedbackURL</key>
-	<string>https://shine.jonbrown.org/of.php</string>
 	<key>SUFeedURL</key>
-	<string>https://shine.jonbrown.org/appcast.php?id=1</string>
+	<string>https://shine.grovedesigns.co/appcast.php?id=1</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
 </dict>

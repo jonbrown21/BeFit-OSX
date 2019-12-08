@@ -32,18 +32,19 @@ class GUIController: NSObject, NSTableViewDelegate, NSWindowDelegate {
     @IBOutlet var myBackView: NSScrollView!
     @IBOutlet var finalBackView: NSView!
     @IBOutlet var PrintView: NSView!
-    @IBOutlet var lowerGraphView: WebView?
+    //@IBOutlet var lowerGraphView: WebView?
     @IBOutlet var littleGraphView: WebView!
     @IBOutlet var littleGraphViewPrint: WebView!
     @IBOutlet var littleGraphView2: WebView!
     @IBOutlet var littleGraphView2Print: AnyObject?
     @IBOutlet var littleGraphView3: WebView!
     @IBOutlet var littleGraphView3Print: WebView!
-    @IBOutlet var window: INAppStoreWindow!
-    @IBOutlet var titleView: INTitlebarView!
+    @IBOutlet var window: NSWindow!
+    @IBOutlet var titleView: NSView!
     @IBOutlet var webView: WebView!
     @IBOutlet var healthPopover: NSPopover!
     @IBOutlet var healthPopoverQtyOnly: NSPopover!
+    @IBOutlet var topToolbar: NSToolbar!
     
     private func loadHTMLString(fromResource resource: String, to view: WebView?) {
         guard let path = Bundle.main.path(forResource: resource, ofType: "html") else {
@@ -61,6 +62,10 @@ class GUIController: NSObject, NSTableViewDelegate, NSWindowDelegate {
         view?.drawsBackground = false
     }
     
+    
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -72,8 +77,9 @@ class GUIController: NSObject, NSTableViewDelegate, NSWindowDelegate {
         
         // Set graphing system
         
-        loadHTMLString(fromResource: "index", to: webView)
-        loadHTMLString(fromResource: "foodgraph", to: lowerGraphView)
+        
+        loadHTMLString(fromResource: "maingraph", to: webView)
+       // loadHTMLString(fromResource: "foodgraph", to: lowerGraphView)
         loadHTMLString(fromResource: "pieindex", to: littleGraphView)
         loadHTMLString(fromResource: "pieindex2", to: littleGraphView2)
         loadHTMLString(fromResource: "pieindex3", to: littleGraphView3)
@@ -82,21 +88,7 @@ class GUIController: NSObject, NSTableViewDelegate, NSWindowDelegate {
         
         // Set preference defaults
         UserDefaults.standard.register(defaults: ["NSDisabledCharacterPaletteMenuItem": NSNumber(value: true)])
-        
-        // Setup InAppStoreWindow
-        
-        self.window.trafficLightButtonsLeftMargin = 10.0
-        self.window.centerTrafficLightButtons = false
-        self.window.centerFullScreenButton = false
-        self.window.titleBarHeight = 80.0
-        self.window.trafficLightButtonsTopMargin = 10
-        self.window.fullScreenButtonRightMargin = 5
-        self.window.fullScreenButtonTopMargin = 5
-        self.window.showsTitle = true
-        self.titleView.frame = window.titleBarView.bounds
-        self.titleView.autoresizingMask = [.width, .height]
-        self.window.titleBarView.addSubview(titleView)
-        
+                
         tableView2.reloadData()
         
         // Set height of the TableHeader

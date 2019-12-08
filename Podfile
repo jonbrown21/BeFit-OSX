@@ -16,6 +16,7 @@ target 'BeFitDemo' do
   # Pods for BeFitDemo
   pod 'MASPreferences'
   pod 'Sparkle'
+  
 end
 
 target 'BeFitFree' do
