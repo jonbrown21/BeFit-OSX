@@ -31,7 +31,7 @@ class UpdatePreferenceViewController: NSViewController, MASPreferencesViewContro
     }
     
     var toolbarItemImage: NSImage? {
-        return NSImage(named: "Update")
+        return NSImage(named: "refresh-cloud")
     }
     
     //MARK: - Methods

@@ -61,11 +61,11 @@ class GeneralPreferencesViewController: NSViewController, MASPreferencesViewCont
     }
     
     var toolbarItemLabel: String? {
-        return NSLocalizedString("General", comment: "Toolbar item name for the General preference pane")
+        return NSLocalizedString("BMI", comment: "Toolbar item name for the General preference pane")
     }
     
     var toolbarItemImage: NSImage? {
-        return NSImage(named: "Cog")
+        return NSImage(named: "gym")
     }
     
     //MARK: - Actions

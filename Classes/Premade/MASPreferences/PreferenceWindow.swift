@@ -13,7 +13,6 @@ class PreferenceWindow: NSObject {
     private lazy var preferencesWindowController: NSWindowController = {
         let generalViewController = GeneralPreferencesViewController()
         let updateViewController = UpdatePreferenceViewController()
-        //let advancedViewController = AdvancedPreferencesViewController()
         
         #if WEBSITE
         let controllers: [NSViewController] = [generalViewController, updateViewController]
@@ -23,7 +22,7 @@ class PreferenceWindow: NSObject {
         
         let title = NSLocalizedString("Preferences", comment: "Common title for Preferences window")
         let vc = MASPreferencesWindowController(viewControllers: controllers, title: title)
-        vc.window?.backgroundColor = NSColor(patternImage: NSImage(named: "Black")!)
+        //vc.window?.backgroundColor = NSColor(patternImage: NSImage(named: "Black")!)
         return vc
     }()
     

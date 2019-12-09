@@ -33,23 +33,12 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
     @IBOutlet var LevelInd7: NSLevelIndicator!
     @IBOutlet var Cals: NSTextField!
     @IBOutlet var SaveWindow: NSWindow!
-    @IBOutlet var SendWindow: NSWindow!
-    @IBOutlet var myProgress: NSProgressIndicator!
     @IBOutlet var window: NSWindow!
-    @IBOutlet var SavingLabel: NSTextField!
     @IBOutlet var splitView: NSSplitView!
     @IBOutlet var FoodTableView: NSArrayController!
-    
     @IBOutlet var arrayController_: NSArrayController!
     @IBOutlet var tableView_: NSTableView!
-    @IBOutlet var frontView: NSView!
-    @IBOutlet var backView: NSView!
-    @IBOutlet var hostView: NSView!
-    
-    @IBOutlet var backScrollView: NSScrollView!
-    @IBOutlet var myScrollView: NSScrollView!
     @IBOutlet var PrintView: NSView!
-    
     @IBOutlet var food_name: NSTextField!
     @IBOutlet var calories: NSTextField!
     @IBOutlet var protein: NSTextField!
@@ -68,12 +57,14 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
     @IBOutlet var cholesterol: NSTextField!
     @IBOutlet var gmwt1: NSTextField!
     @IBOutlet var gmwt_desc1: NSTextField!
+    @IBOutlet var ToggleSwitch: NSSegmentedControl!
+    @IBOutlet var EyeSwitch: NSButton!
+    @IBOutlet var NutritionPanelWinBackgroundNSView: NSView!
+    @IBOutlet var frontView: NSView!
+    @IBOutlet var backView: NSView!
+    @IBOutlet var frontViewScrollView: NSScrollView!
+    @IBOutlet var backViewScrollView: NSScrollView!
     
-    @IBOutlet var CalorieScrollView: NSScrollView!
-    @IBOutlet var progressBar: ITProgressBar!
-    @IBOutlet var mySuperview: NSView?
-    
-    private var flipController: MCViewFlipController!
     private var splitViewDelegate: PrioritySplitViewDelegate!
     private var focusedAdvancedControlIndex: Int = 0
     
@@ -90,8 +81,6 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
         }
         
         let applicationSupportFolder = (pathString as NSString).appendingPathComponent(APP_SUPPORT_SUBDIR)
-        //applicationSupportFolder = [self applicationSupportFolder];
-        //NSString *aappSupportFolder = [applicationSupportFolder stringByAppendingPathComponent: @"BeFit"];
         
         do {
             if !FileManager.default.fileExists(atPath: applicationSupportFolder) {
@@ -140,36 +129,7 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
         context.persistentStoreCoordinator = persistentStoreCoordinator
         return context
     }()
-    
-    /**
-     Returns the support folder for the application, used to store the Core Data
-     store file.  This code uses a folder named "BeFit" for
-     the content, either in the NSApplicationSupportDirectory location or (if the
-     former cannot be found), the system's temporary directory.
-     */
-    
-    //- (NSString *)applicationSupportFolder
-    //{
-    //    NSArray * paths;
-    //
-    //    paths = NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, YES);
-    //    if([paths count] > 0 )
-    //    {
-    //        return( [paths objectAtIndex: 0] );
-    //    }
-    //
-    //    /* else, return a path to the resource directory */
-    //    return [[NSBundle mainBundle] resourcePath];
-    //}
-    
-    
-    /**
-     Creates, retains, and returns the managed object model for the application
-     by merging all of the models found in the application bundle and all of the
-     framework bundles.
-     */
-
-    
+       
     /**
        Returns the NSUndoManager for the application.  In this case, the manager
        returned is that of the managed object context for the application.
@@ -195,7 +155,6 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
     @IBAction func saveAction(_ sender: AnyObject) {
         trySaveManagedObjectContext()
         
-        myProgress.startAnimation(self)
         window.beginSheet(SaveWindow, completionHandler: nil)
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
@@ -262,7 +221,7 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
         
         let flipin = UserDefaults.standard.bool(forKey: "flipPref")
         UserDefaults.standard.set(false, forKey: "flipPref")
-        print("Flip Preferencess: \(flipin)")
+        print("Flip Preferences: \(flipin)")
         
         // Check if Trial and if so ask if they want to move this app to applications folder.
         
@@ -288,10 +247,7 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
                                            delegate:self as? PaddleDelegate)
 
         // Initialize the Product you'd like to work with
-        
-        
-        
-        
+
         let paddleProduct = PADProduct(productID: myPaddleProductID,
                                        productType: PADProductType.sdkProduct,
                                        configuration: defaultProductConfig)
@@ -316,10 +272,6 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
         
         splitView.delegate = splitViewDelegate
         
-        window.center()
-        window.makeKeyAndOrderFront(self)
-        
-        flipController = MCViewFlipController(hostView: hostView, frontView: frontView, backView: backView)
     }
     
     func applicationWillFinishLaunching(_ notification: Notification) {
@@ -376,63 +328,55 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
     }
     
     @IBAction func flip(_ sender: AnyObject) {
-        flipController.flip(self)
-        let pt = NSPoint(x: 0, y: backScrollView.documentView?.bounds.size.height ?? 0)
-        backScrollView.documentView?.scroll(pt)
         
-        let pt2 = NSPoint(x: 0, y: myScrollView.documentView?.bounds.size.height ?? 0)
-        myScrollView.documentView?.scroll(pt2)
+        let flipin = UserDefaults.standard.bool(forKey: "flipPref")
+        UserDefaults.standard.set(true, forKey: "flipPref")
+        print("Flip Preference: \(flipin)")
         
-        //We can remove a food unless it is in the library
+        let animation = CATransition()
+        animation.type = CATransitionType(rawValue: "rippleEffect")
+        animation.subtype = .fromLeft
+        animation.duration = 0.85
+        animation.delegate = self as? CAAnimationDelegate
         
-        let selectedObjects = FoodTableView.selectedObjects as! [Food]
+        NutritionPanelWinBackgroundNSView.wantsLayer = true // Turn on backing layer
+        NutritionPanelWinBackgroundNSView.animations = ["subviews" : animation]
+        NutritionPanelWinBackgroundNSView.animator().replaceSubview(frontView, with:  backView)
         
-        guard let entity = selectedObjects.first else {
-            return
-        }
-        
-        let user = entity.userDefined?.boolValue ?? false
-        print(entity)
-        print(user)
-        
-        if user {
-            
-            let flipin = UserDefaults.standard.bool(forKey: "flipPref")
-            print("Flip Preference: \(flipin)")
-            
-            if flipin {
-                
-                progressBar.animates = progressBar.animates
-                //[self.progressBar.animator setFloatValue:0];
-                progressBar.floatValue = 0
-                
-                window.beginSheet(SendWindow, completionHandler: nil)
-                
-                Timer.scheduledTimer(timeInterval: 1.5, target: self, selector: #selector(timerFired), userInfo: nil, repeats: true)
-                
-                DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
-                    self.SendWindow.orderOut(self)
-                    self.window.endSheet(self.SendWindow)
-                }
-            }
+        if let documentView = backViewScrollView.documentView {
+                documentView.scroll(NSPoint(x: 0, y: documentView.bounds.size.height))
         }
     }
     
-    @objc private func timerFired(_ theTimer: Timer) {
-        if !(progressBar.floatValue == 1) {
-            _ = theTimer.isValid
-            
-            progressBar.floatValue = 1
-            
-            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-                self.progressBar.floatValue = 0
-            }
-        } else {
-            theTimer.invalidate()
+    @IBAction func flipback(_ sender: AnyObject) {
+        
+        let animation = CATransition()
+        animation.type = CATransitionType(rawValue: "rippleEffect")
+        animation.subtype = .fromRight
+        animation.duration = 0.85
+        animation.delegate = self as? CAAnimationDelegate
+        
+        NutritionPanelWinBackgroundNSView.wantsLayer = true // Turn on backing layer
+        NutritionPanelWinBackgroundNSView.animations = ["subviews" : animation]
+        NutritionPanelWinBackgroundNSView.animator().replaceSubview(backView, with:  frontView)
+        
+        if let documentView = frontViewScrollView.documentView {
+                       documentView.scroll(NSPoint(x: 0, y: documentView.bounds.size.height))
+               }
+        
+        let flipin = UserDefaults.standard.bool(forKey: "flipPref")
+        UserDefaults.standard.set(false, forKey: "flipPref")
+        print("Flip Preference: \(flipin)")
+        
+        window.beginSheet(SaveWindow, completionHandler: nil)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+            self.SaveWindow.orderOut(nil)
+            self.window.endSheet(self.SaveWindow)
         }
+        
     }
-    
-    
+
     
     //MARK: - NSTableViewDelegate
     

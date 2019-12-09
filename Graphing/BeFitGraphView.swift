@@ -121,10 +121,6 @@ class BeFitGraphView: WebView {
             
             stringByEvaluatingJavaScript(from: javascriptString)
             
-            
-            
-            
-            
             let response = stringByEvaluatingJavaScript(from: javascriptString)
             print("drawGraphFromSelectedFoodList:\n", response ?? "")
         }

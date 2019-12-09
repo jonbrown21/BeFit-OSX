@@ -25,25 +25,24 @@
   <link rel="stylesheet" href="piestyle.css" media="screen" type="text/css" />
   <link rel="stylesheet" href="pienormalize.css" media="screen" type="text/css" />
   
-  <style>
-       html { min-height: 100%; }
-       body {
-           background-color: transparent;
-           margin:0px auto;
-           cursor: default;
-           -webkit-user-select: none;
-           user-select: none;
-           color: #000 !important;
+     <style>
+        html { min-height: 100%; }
+        body {
+            background-color: transparent;
+            margin:0px auto;
+            cursor: default;
+            -webkit-user-select: none;
+            user-select: none;
+            color: #fff !important;
+        }
+       #doughnutSummaryTitle {
+           color: #fff !important;
        }
-      #doughnutSummaryTitle {
-          color: #000 !important;
-      }
-      #doughnutSummaryNumber {
-          color: #000 !important;
-      }
-       
-   </style>
-  
+       #doughnutSummaryNumber {
+           color: #fff !important;
+       }
+        
+    </style>
 </head>
 
 <body>
@@ -52,9 +51,9 @@
 
 <script>
     $(function(){
-      graphFunctionDCal(8531,99,99.2,82,21);
+      graphFunctionDCarb(10,20,1,5,16);
       });
-    function graphFunctionDCal(a,b,c,d,e)
+    function graphFunctionDCarb(a,b,c,d,e)
     {
         
         var item1 = parseInt(a);
@@ -78,18 +77,18 @@
         if(isNaN(calFromFat)) {
             var calFromFat = 0;
         }
-    
+
         
         clearBox('doughnutChart');
         
         $("#doughnutChart").drawDoughnutChart([
-                                               { title: "Cals", value: item1,   color: "#637b85" },
-                                               { title: "Fat", value: item2,   color: "#2c9c69" },
-                                               { title: "Sat Fat", value: item3,   color: "#dbba34" },
-                                               { title: "Chol", value: item4,   color: "#c62f29" }
+                                               { title: "Sod", value: item1,   color: "#dbba34" },
+                                               { title: "Fiber", value: item2,   color: "#2c9c69" },
+                                               { title: "Carbs", value: item3,   color: "#637b85" },
+                                               { title: "Sugars", value: item4,   color: "#c62f29" }
                                                ]);
      
-      document.getElementById("doughnutSummaryTitle").innerHTML = "Calories";
+      document.getElementById("doughnutSummaryTitle").innerHTML = "Carbs";
       document.getElementById("doughnutSummaryNumber").innerHTML = calFromFat.toString().substr(0, 3) + "%";
      
     }
