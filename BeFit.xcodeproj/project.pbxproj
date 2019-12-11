@@ -95,6 +95,8 @@
 		FC5821881FB904AB00D34CAA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC5821841FB904AB00D34CAA /* icon.icns */; };
 		FC632F2919EA350F008E3D72 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC632F2819EA350F008E3D72 /* Media.xcassets */; };
 		FC632F2B19EA350F008E3D72 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC632F2819EA350F008E3D72 /* Media.xcassets */; };
+		FC81BCEA23A0FB3100AF7431 /* BeFitHelp.help in Resources */ = {isa = PBXBuildFile; fileRef = FC81BCE923A0FB3100AF7431 /* BeFitHelp.help */; };
+		FC81BCEB23A0FB3100AF7431 /* BeFitHelp.help in Resources */ = {isa = PBXBuildFile; fileRef = FC81BCE923A0FB3100AF7431 /* BeFitHelp.help */; };
 		FC89570A19F44ADF00420ADC /* BeFit2.dat in Resources */ = {isa = PBXBuildFile; fileRef = FC89570819F44AD800420ADC /* BeFit2.dat */; };
 		FC89570B19F44AE000420ADC /* BeFit2.dat in Resources */ = {isa = PBXBuildFile; fileRef = FC89570819F44AD800420ADC /* BeFit2.dat */; };
 		FC89570E19F44AED00420ADC /* BeFit.dat in Resources */ = {isa = PBXBuildFile; fileRef = FC89570619F44ACF00420ADC /* BeFit.dat */; };
@@ -103,9 +105,6 @@
 		FC89572B19F44C6700420ADC /* BeFit_DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC89572619F44C6700420ADC /* BeFit_DataModel.xcdatamodeld */; };
 		FC89575A19F44C8F00420ADC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FC89573719F44C8F00420ADC /* Credits.rtf */; };
 		FC89575C19F44C8F00420ADC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FC89573719F44C8F00420ADC /* Credits.rtf */; };
-		FC89576019F44C8F00420ADC /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = FC89573819F44C8F00420ADC /* dsa_pub.pem */; };
-		FC89576219F44C8F00420ADC /* mac_app_identity.cer in Resources */ = {isa = PBXBuildFile; fileRef = FC89573919F44C8F00420ADC /* mac_app_identity.cer */; };
-		FC89576419F44C8F00420ADC /* mac_app_identity.cer in Resources */ = {isa = PBXBuildFile; fileRef = FC89573919F44C8F00420ADC /* mac_app_identity.cer */; };
 		FC946E681A0DC13200692D04 /* fullpieindex.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946E671A0DC13200692D04 /* fullpieindex.html */; };
 		FC946E6A1A0DC13200692D04 /* fullpieindex.html in Resources */ = {isa = PBXBuildFile; fileRef = FC946E671A0DC13200692D04 /* fullpieindex.html */; };
 		FC946E6D1A0DC13B00692D04 /* fullpieindex.js in Resources */ = {isa = PBXBuildFile; fileRef = FC946E6C1A0DC13B00692D04 /* fullpieindex.js */; };
@@ -144,8 +143,6 @@
 		FC946FB01A20F13A00692D04 /* raphael.2.1.0.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC946FA91A20F13A00692D04 /* raphael.2.1.0.min.js */; };
 		FC946FB31A20F2BA00692D04 /* justgage.1.0.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC946FB21A20F2BA00692D04 /* justgage.1.0.1.min.js */; };
 		FC946FB51A20F2BA00692D04 /* justgage.1.0.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC946FB21A20F2BA00692D04 /* justgage.1.0.1.min.js */; };
-		FC94C8EB19F4B6A800152A2C /* BeFitHelp in Resources */ = {isa = PBXBuildFile; fileRef = FC94C8EA19F4B6A800152A2C /* BeFitHelp */; };
-		FC94C8ED19F4B6A800152A2C /* BeFitHelp in Resources */ = {isa = PBXBuildFile; fileRef = FC94C8EA19F4B6A800152A2C /* BeFitHelp */; };
 		FC977A6D18764568002631C2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1FA25318712EFE00E96FEE /* SystemConfiguration.framework */; };
 		FC9F55D2239C5A55009A237A /* Paddle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9F55D0239C5A55009A237A /* Paddle.framework */; };
 		FC9F55D3239C5A5E009A237A /* Paddle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC9F55D0239C5A55009A237A /* Paddle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -263,6 +260,7 @@
 		FC262C3D2360A81A0033F990 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC5821841FB904AB00D34CAA /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		FC632F2819EA350F008E3D72 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		FC81BCE923A0FB3100AF7431 /* BeFitHelp.help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BeFitHelp.help; sourceTree = "<group>"; };
 		FC89570619F44ACF00420ADC /* BeFit.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = BeFit.dat; path = "Data Files/BeFit3V1/BeFit.dat"; sourceTree = "<group>"; };
 		FC89570719F44ACF00420ADC /* BeFitD.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = BeFitD.dat; path = "Data Files/BeFit3V1/BeFitD.dat"; sourceTree = "<group>"; };
 		FC89570819F44AD800420ADC /* BeFit2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = BeFit2.dat; path = "Data Files/BeFit3V2/BeFit2.dat"; sourceTree = "<group>"; };
@@ -270,11 +268,7 @@
 		FC89572719F44C6700420ADC /* BeFit_DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeFit_DataModel.xcdatamodel; sourceTree = "<group>"; };
 		FC89572819F44C6700420ADC /* BeFit_DataModel2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeFit_DataModel2.xcdatamodel; sourceTree = "<group>"; };
 		FC89573719F44C8F00420ADC /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Credits.rtf; path = Resources/Credits.rtf; sourceTree = "<group>"; };
-		FC89573819F44C8F00420ADC /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = Resources/dsa_pub.pem; sourceTree = "<group>"; };
-		FC89573919F44C8F00420ADC /* mac_app_identity.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = mac_app_identity.cer; path = Resources/mac_app_identity.cer; sourceTree = "<group>"; };
 		FC89576619F44CFA00420ADC /* BeFit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BeFit-Info.plist"; path = "PLIST/BeFit-Info.plist"; sourceTree = "<group>"; };
-		FC89576719F44CFA00420ADC /* BeFitDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BeFitDemo-Info.plist"; path = "PLIST/BeFitDemo-Info.plist"; sourceTree = "<group>"; };
-		FC89576819F44CFA00420ADC /* BeFitFree-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BeFitFree-Info.plist"; path = "PLIST/BeFitFree-Info.plist"; sourceTree = "<group>"; };
 		FC89576919F44CFA00420ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = PLIST/Info.plist; sourceTree = "<group>"; };
 		FC898674184A70DC00BE530A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		FC946E671A0DC13200692D04 /* fullpieindex.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = fullpieindex.html; path = htdocs/fullpieindex.html; sourceTree = "<group>"; };
@@ -294,7 +288,6 @@
 		FC946FA31A1F512400692D04 /* gauge.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = gauge.html; path = htdocs/gauge.html; sourceTree = "<group>"; };
 		FC946FA91A20F13A00692D04 /* raphael.2.1.0.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = raphael.2.1.0.min.js; path = htdocs/JS/raphael.2.1.0.min.js; sourceTree = "<group>"; };
 		FC946FB21A20F2BA00692D04 /* justgage.1.0.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = justgage.1.0.1.min.js; path = htdocs/JS/justgage.1.0.1.min.js; sourceTree = "<group>"; };
-		FC94C8EA19F4B6A800152A2C /* BeFitHelp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BeFitHelp; sourceTree = "<group>"; };
 		FC9F55D0239C5A55009A237A /* Paddle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Paddle.framework; path = Classes/Premade/Paddle.framework; sourceTree = "<group>"; };
 		FC9F55DC239CB83D009A237A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		FC9F55E1239CC13C009A237A /* BeFit Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BeFit Tracker.entitlements"; sourceTree = "<group>"; };
@@ -412,13 +405,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FC81BCE923A0FB3100AF7431 /* BeFitHelp.help */,
 				FC9F55E5239CD175009A237A /* BeFit-Bridging-Header.h */,
 				FC9F55E6239CD176009A237A /* BeFitWebsite-Bridging-Header.h */,
 				FC5821841FB904AB00D34CAA /* icon.icns */,
-				FC94C8EA19F4B6A800152A2C /* BeFitHelp */,
 				FC89573719F44C8F00420ADC /* Credits.rtf */,
-				FC89573819F44C8F00420ADC /* dsa_pub.pem */,
-				FC89573919F44C8F00420ADC /* mac_app_identity.cer */,
 				FC632EFE19E9CC77008E3D72 /* Interface Files */,
 				FC632EFF19E9CC87008E3D72 /* PLIST Files */,
 				FCCF9731188BA3BA00FAA65B /* BeFit3V2 */,
@@ -542,8 +533,6 @@
 			isa = PBXGroup;
 			children = (
 				FC89576619F44CFA00420ADC /* BeFit-Info.plist */,
-				FC89576719F44CFA00420ADC /* BeFitDemo-Info.plist */,
-				FC89576819F44CFA00420ADC /* BeFitFree-Info.plist */,
 				FC89576919F44CFA00420ADC /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 			);
@@ -817,8 +806,8 @@
 				FCBECC91239DB19F00FB2283 /* pieindexprint_dark.html in Resources */,
 				FC946EDA1A13102A00692D04 /* bootstrap.min.js in Resources */,
 				FC946FA41A1F512400692D04 /* gauge.html in Resources */,
-				FC94C8EB19F4B6A800152A2C /* BeFitHelp in Resources */,
 				FC946E681A0DC13200692D04 /* fullpieindex.html in Resources */,
+				FC81BCEA23A0FB3100AF7431 /* BeFitHelp.help in Resources */,
 				FCBECC97239DB2E300FB2283 /* foodgraph_dark.html in Resources */,
 				FCBECC8D239DB19F00FB2283 /* pieindex3_dark.html in Resources */,
 				FC946EC81A12F46F00692D04 /* owl.theme.css in Resources */,
@@ -829,7 +818,6 @@
 				FC946EB31A11B41C00692D04 /* pieindex3.html in Resources */,
 				FC946E7C1A0FFC4900692D04 /* pieindex.js in Resources */,
 				FCBECC95239DB2E300FB2283 /* gauge_dark.html in Resources */,
-				FC89576219F44C8F00420ADC /* mac_app_identity.cer in Resources */,
 				FC946E821A0FFC5800692D04 /* pienormalize.css in Resources */,
 				FC946ED21A12F47D00692D04 /* owl.carousel.js in Resources */,
 				FCBECC8F239DB19F00FB2283 /* pieindex2_dark.html in Resources */,
@@ -851,6 +839,7 @@
 				FC946E791A0FFC3E00692D04 /* pieindex.html in Resources */,
 				FC946E741A0DC14700692D04 /* fullpiestyle.css in Resources */,
 				FC0873DB19EBA6DE00ACB943 /* UpdatePreferencesView.xib in Resources */,
+				FC81BCEB23A0FB3100AF7431 /* BeFitHelp.help in Resources */,
 				FC946EC61A12F46F00692D04 /* owl.carousel.css in Resources */,
 				FC946E7E1A0FFC4900692D04 /* pieindex.js in Resources */,
 				FC89570F19F44AEE00420ADC /* BeFit.dat in Resources */,
@@ -864,17 +853,14 @@
 				FCBECC96239DB2E300FB2283 /* gauge_dark.html in Resources */,
 				FCBECC92239DB19F00FB2283 /* pieindexprint_dark.html in Resources */,
 				FCBECC98239DB2E300FB2283 /* foodgraph_dark.html in Resources */,
-				FC89576419F44C8F00420ADC /* mac_app_identity.cer in Resources */,
 				FC946ED41A12F47D00692D04 /* owl.carousel.js in Resources */,
 				FCBECC89239DB0D400FB2283 /* pieindex_dark.html in Resources */,
 				FC946E6A1A0DC13200692D04 /* fullpieindex.html in Resources */,
 				FC946EB51A11B41C00692D04 /* pieindex3.html in Resources */,
 				FC946FA61A1F512400692D04 /* gauge.html in Resources */,
-				FC94C8ED19F4B6A800152A2C /* BeFitHelp in Resources */,
 				FC946E841A0FFC5800692D04 /* pienormalize.css in Resources */,
 				FC946ECA1A12F46F00692D04 /* owl.theme.css in Resources */,
 				FC08736319EBA39B00ACB943 /* jquery-1.7.1.min.js in Resources */,
-				FC89576019F44C8F00420ADC /* dsa_pub.pem in Resources */,
 				FC08736D19EBA3AB00ACB943 /* maingraph.html in Resources */,
 				FC08736919EBA3AB00ACB943 /* foodgraph.html in Resources */,
 				FC946E881A0FFC5800692D04 /* piestyle.css in Resources */,

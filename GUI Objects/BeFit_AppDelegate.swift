@@ -39,31 +39,12 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
     @IBOutlet var arrayController_: NSArrayController!
     @IBOutlet var tableView_: NSTableView!
     @IBOutlet var PrintView: NSView!
-    @IBOutlet var food_name: NSTextField!
-    @IBOutlet var calories: NSTextField!
-    @IBOutlet var protein: NSTextField!
-    @IBOutlet var carbohydrates: NSTextField!
-    @IBOutlet var dietary_fiber: NSTextField!
-    @IBOutlet var sugar: NSTextField!
-    @IBOutlet var calcium: NSTextField!
-    @IBOutlet var iron: NSTextField!
-    @IBOutlet var sodium: NSTextField!
-    @IBOutlet var vitC: NSTextField!
-    @IBOutlet var vitA: NSTextField!
-    @IBOutlet var vitE: NSTextField!
-    @IBOutlet var saturated_fat: NSTextField!
-    @IBOutlet var monounsaturated_fat: NSTextField!
-    @IBOutlet var polyunsaturated_fat: NSTextField!
-    @IBOutlet var cholesterol: NSTextField!
-    @IBOutlet var gmwt1: NSTextField!
-    @IBOutlet var gmwt_desc1: NSTextField!
     @IBOutlet var ToggleSwitch: NSSegmentedControl!
     @IBOutlet var EyeSwitch: NSButton!
     @IBOutlet var NutritionPanelWinBackgroundNSView: NSView!
+    @IBOutlet var frontViewScrollView: NSScrollView!
     @IBOutlet var frontView: NSView!
     @IBOutlet var backView: NSView!
-    @IBOutlet var frontViewScrollView: NSScrollView!
-    @IBOutlet var backViewScrollView: NSScrollView!
     
     private var splitViewDelegate: PrioritySplitViewDelegate!
     private var focusedAdvancedControlIndex: Int = 0
@@ -338,12 +319,16 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
         animation.subtype = .fromLeft
         animation.duration = 0.85
         animation.delegate = self as? CAAnimationDelegate
+        frontViewScrollView.documentView?.setFrameSize(NSMakeSize(205, 1511))
+
+        frontViewScrollView.documentView?.wantsLayer = true // Turn on backing layer
+
+        frontViewScrollView.documentView?.animations = ["subviews" : animation]
+        frontViewScrollView.documentView?.animator().replaceSubview(frontView, with: backView)
         
-        NutritionPanelWinBackgroundNSView.wantsLayer = true // Turn on backing layer
-        NutritionPanelWinBackgroundNSView.animations = ["subviews" : animation]
-        NutritionPanelWinBackgroundNSView.animator().replaceSubview(frontView, with:  backView)
         
-        if let documentView = backViewScrollView.documentView {
+        
+        if let documentView = frontViewScrollView.documentView {
                 documentView.scroll(NSPoint(x: 0, y: documentView.bounds.size.height))
         }
     }
@@ -355,10 +340,12 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
         animation.subtype = .fromRight
         animation.duration = 0.85
         animation.delegate = self as? CAAnimationDelegate
+        frontViewScrollView.documentView?.setFrameSize(NSMakeSize(205, 1511))
         
-        NutritionPanelWinBackgroundNSView.wantsLayer = true // Turn on backing layer
-        NutritionPanelWinBackgroundNSView.animations = ["subviews" : animation]
-        NutritionPanelWinBackgroundNSView.animator().replaceSubview(backView, with:  frontView)
+        frontViewScrollView.documentView?.wantsLayer = true // Turn on backing layer
+        
+        frontViewScrollView.documentView?.animations = ["subviews" : animation]
+        frontViewScrollView.documentView?.animator().replaceSubview(backView, with: frontView)
         
         if let documentView = frontViewScrollView.documentView {
                        documentView.scroll(NSPoint(x: 0, y: documentView.bounds.size.height))

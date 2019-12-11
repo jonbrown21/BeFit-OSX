@@ -43,7 +43,6 @@ class FoodArrayController: NSArrayController {
         super.awakeFromNib()
         
         sortDescriptors = [NSSortDescriptor(key: "name", ascending: true)]
-        mPopupButton.isHidden = true
     }
     
     override func remove(_ sender: Any?) {

@@ -9,9 +9,9 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleHelpBookFolder</key>
-	<string>BeFitHelp</string>
+	<string>BeFitHelp.help</string>
 	<key>CFBundleHelpBookName</key>
-	<string>Be Fit</string>
+	<string>BeFit Tracker Help</string>
 	<key>CFBundleIconFiles</key>
 	<array>
 		<string>icon.icns</string>
@@ -33,7 +33,7 @@
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.healthcare-fitness</string>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.13</string>
+	<string>10.14</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>

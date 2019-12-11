@@ -35,10 +35,9 @@ class GUIController: NSObject, NSTableViewDelegate, NSWindowDelegate {
     @IBOutlet var healthPopover: NSPopover!
     @IBOutlet var healthPopoverQtyOnly: NSPopover!
     @IBOutlet var topToolbar: NSToolbar!
-    @IBOutlet var backView: NSView!
-    @IBOutlet var frontView: NSView!
     @IBOutlet var frontViewScrollView: NSScrollView!
-    @IBOutlet var backViewScrollView: NSScrollView!
+    @IBOutlet var frontView: NSView!
+    @IBOutlet var backView: NSView!
     @IBOutlet var showHideButton: NSButton!
     
     private func loadHTMLString(fromResource resource: String, to view: WebView?) {
@@ -117,9 +116,10 @@ class GUIController: NSObject, NSTableViewDelegate, NSWindowDelegate {
         FileMenu.autoenablesItems = false
         
         //Add the nutrition panel to the window
-        NutritionPanelWinBackgroundNSView.addSubview(frontView)
-        frontViewScrollView.documentView?.setFrameSize(NSMakeSize(205, 2815))
-        backViewScrollView.documentView?.setFrameSize(NSMakeSize(205, 2392))
+        
+        frontViewScrollView.documentView?.setFrameSize(NSMakeSize(205, 1511))
+        NutritionPanelWinBackgroundNSView.addSubview(frontViewScrollView)
+        frontViewScrollView.documentView?.addSubview(frontView)
         
         if let documentView = frontViewScrollView.documentView {
                 documentView.scroll(NSPoint(x: 0, y: documentView.bounds.size.height))
@@ -260,7 +260,7 @@ class GUIController: NSObject, NSTableViewDelegate, NSWindowDelegate {
     @IBAction func ShowHideNutritionPanel(_ sender: AnyObject) {
         //Change whatever the current setting is for the nutrition panel's hide/show value
         NutritionPanelWinBackgroundNSView.isHidden = !NutritionPanelWinBackgroundNSView.isHidden
-        backView.isHidden = !backView.isHidden
+        //backView.isHidden = !backView.isHidden
         NutritionPanelDetailWinNSView.isHidden = !NutritionPanelDetailWinNSView.isHidden
         
         let currentFrame = FoodNSTableView.frame
@@ -272,10 +272,7 @@ class GUIController: NSObject, NSTableViewDelegate, NSWindowDelegate {
             var frameToUse = currentFrame
             frameToUse.size.width = frameToUse.size.width + NutritionPanelWinBackgroundNSView.frame.size.width
             FoodNameColumn.width = FoodNameColumn.width + NutritionPanelWinBackgroundNSView.frame.size.width
-            
-            frameToUse.size.width = frameToUse.size.width + backView.frame.size.width
-            FoodNameColumn.width = FoodNameColumn.width + backView.frame.size.width
-            
+                        
             frameToUse.size.width = frameToUse.size.width + NutritionPanelDetailWinNSView.frame.size.width
             FoodNameColumn.width = FoodNameColumn.width + NutritionPanelDetailWinNSView.frame.size.width
             
@@ -296,9 +293,6 @@ class GUIController: NSObject, NSTableViewDelegate, NSWindowDelegate {
             var frameToUse = currentFrame
             frameToUse.size.width = frameToUse.size.width - NutritionPanelWinBackgroundNSView.frame.size.width
             FoodNameColumn.width = FoodNameColumn.width - NutritionPanelWinBackgroundNSView.frame.size.width
-            
-            frameToUse.size.width = frameToUse.size.width - backView.frame.size.width
-            FoodNameColumn.width = FoodNameColumn.width - backView.frame.size.width
 
             frameToUse.size.width = frameToUse.size.width - NutritionPanelWinBackgroundNSView.frame.size.width
             FoodNameColumn.width = FoodNameColumn.width - NutritionPanelWinBackgroundNSView.frame.size.width
@@ -315,11 +309,4 @@ class GUIController: NSObject, NSTableViewDelegate, NSWindowDelegate {
         }
     }
     
-    @IBAction func showHealthPopup(_ sender: NSView) {
-        healthPopover.show(relativeTo: sender.bounds, of: sender, preferredEdge: .maxY)
-    }
-    
-    @IBAction func showHealthPopupQtyOnly(_ sender: NSView) {
-        healthPopoverQtyOnly.show(relativeTo: sender.bounds, of: sender, preferredEdge: .maxY)
-    }
 }
