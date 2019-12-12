@@ -1,20 +1,16 @@
 PODS:
-  - MASPreferences (1.3)
   - Sparkle (1.22.0)
 
 DEPENDENCIES:
-  - MASPreferences
   - Sparkle
 
 SPEC REPOS:
   trunk:
-    - MASPreferences
     - Sparkle
 
 SPEC CHECKSUMS:
-  MASPreferences: c08b8622dd17b47da87669e741efd7c92e970e8c
   Sparkle: 593ac2e677c07bcb6c3b22d621240e7cbedaab57
 
-PODFILE CHECKSUM: 255a20726207dbd7b3749ec2598cf5809c29423d
+PODFILE CHECKSUM: 424bda502bda5a535b4f73262fa60d7004d92842
 
 COCOAPODS: 1.8.4

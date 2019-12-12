@@ -115,6 +115,9 @@ class GUIController: NSObject, NSTableViewDelegate, NSWindowDelegate {
         //Setting this so we can disable items in the menu
         FileMenu.autoenablesItems = false
         
+        //Set Flip Value
+        UserDefaults.standard.set(false, forKey: "flipPref")
+        
         //Add the nutrition panel to the window
         
         frontViewScrollView.documentView?.setFrameSize(NSMakeSize(205, 1511))

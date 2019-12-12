@@ -1,6 +1,0 @@
-framework module Pods_BeFitDemo {
-  umbrella header "Pods-BeFitDemo-umbrella.h"
-
-  export *
-  module * { export * }
-}

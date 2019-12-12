@@ -63,16 +63,10 @@
 		43C801332372FA6E00E08913 /* LegendChol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8012F2372FA6E00E08913 /* LegendChol.swift */; };
 		43C801352372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */; };
 		43C801382372FBB100E08913 /* CustomLevelIndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */; };
-		43C8013F2375560700E08913 /* GeneralPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */; };
-		43C8014123757E5200E08913 /* UpdatePreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014023757E5200E08913 /* UpdatePreferenceViewController.swift */; };
-		43C8014423757E5500E08913 /* UpdatePreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014023757E5200E08913 /* UpdatePreferenceViewController.swift */; };
-		43C8014623757FF800E08913 /* PreferenceWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014523757FF800E08913 /* PreferenceWindow.swift */; };
-		43C8014923757FFF00E08913 /* PreferenceWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014523757FF800E08913 /* PreferenceWindow.swift */; };
 		43C801502375856D00E08913 /* PrefSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014F2375856D00E08913 /* PrefSetter.swift */; };
 		43C801532375856D00E08913 /* PrefSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8014F2375856D00E08913 /* PrefSetter.swift */; };
 		43C801552375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801542375999C00E08913 /* PrioritySplitViewDelegate.swift */; };
 		43C801582375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801542375999C00E08913 /* PrioritySplitViewDelegate.swift */; };
-		43C8015B2375A2E100E08913 /* GeneralPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		FC08736119EBA39B00ACB943 /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC08735C19EBA39B00ACB943 /* jquery-1.7.1.min.js */; };
@@ -81,10 +75,6 @@
 		FC08736919EBA3AB00ACB943 /* foodgraph.html in Resources */ = {isa = PBXBuildFile; fileRef = FC08736519EBA3AB00ACB943 /* foodgraph.html */; };
 		FC08736B19EBA3AB00ACB943 /* maingraph.html in Resources */ = {isa = PBXBuildFile; fileRef = FC08736619EBA3AB00ACB943 /* maingraph.html */; };
 		FC08736D19EBA3AB00ACB943 /* maingraph.html in Resources */ = {isa = PBXBuildFile; fileRef = FC08736619EBA3AB00ACB943 /* maingraph.html */; };
-		FC0873C119EBA6DE00ACB943 /* GeneralPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873AB19EBA6DE00ACB943 /* GeneralPreferencesView.xib */; };
-		FC0873C319EBA6DE00ACB943 /* GeneralPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873AB19EBA6DE00ACB943 /* GeneralPreferencesView.xib */; };
-		FC0873D919EBA6DE00ACB943 /* UpdatePreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873B619EBA6DE00ACB943 /* UpdatePreferencesView.xib */; };
-		FC0873DB19EBA6DE00ACB943 /* UpdatePreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0873B619EBA6DE00ACB943 /* UpdatePreferencesView.xib */; };
 		FC169490181C747100C54052 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		FC1694C9181C747100C54052 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1DBA8D180BCADA00202B92 /* Security.framework */; };
 		FC1694CA181C747100C54052 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -95,6 +85,8 @@
 		FC5821881FB904AB00D34CAA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC5821841FB904AB00D34CAA /* icon.icns */; };
 		FC632F2919EA350F008E3D72 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC632F2819EA350F008E3D72 /* Media.xcassets */; };
 		FC632F2B19EA350F008E3D72 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC632F2819EA350F008E3D72 /* Media.xcassets */; };
+		FC74651D23A1EAFD00171CA2 /* BeFit.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9F55EB239CE39B009A237A /* BeFit.xib */; };
+		FC74651E23A1EB0C00171CA2 /* BeFit.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9F55EB239CE39B009A237A /* BeFit.xib */; };
 		FC81BCEA23A0FB3100AF7431 /* BeFitHelp.help in Resources */ = {isa = PBXBuildFile; fileRef = FC81BCE923A0FB3100AF7431 /* BeFitHelp.help */; };
 		FC81BCEB23A0FB3100AF7431 /* BeFitHelp.help in Resources */ = {isa = PBXBuildFile; fileRef = FC81BCE923A0FB3100AF7431 /* BeFitHelp.help */; };
 		FC89570A19F44ADF00420ADC /* BeFit2.dat in Resources */ = {isa = PBXBuildFile; fileRef = FC89570819F44AD800420ADC /* BeFit2.dat */; };
@@ -148,8 +140,6 @@
 		FC9F55D3239C5A5E009A237A /* Paddle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC9F55D0239C5A55009A237A /* Paddle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FC9F55E9239CD4B4009A237A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC898674184A70DC00BE530A /* WebKit.framework */; };
 		FC9F55EA239CD4BA009A237A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC898674184A70DC00BE530A /* WebKit.framework */; };
-		FC9F55EC239CE39B009A237A /* BeFit.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9F55EB239CE39B009A237A /* BeFit.xib */; };
-		FC9F55ED239CE39B009A237A /* BeFit.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9F55EB239CE39B009A237A /* BeFit.xib */; };
 		FCBECC85239DA85A00FB2283 /* maingraph_dark.html in Resources */ = {isa = PBXBuildFile; fileRef = FCBECC84239DA85A00FB2283 /* maingraph_dark.html */; };
 		FCBECC86239DA85A00FB2283 /* maingraph_dark.html in Resources */ = {isa = PBXBuildFile; fileRef = FCBECC84239DA85A00FB2283 /* maingraph_dark.html */; };
 		FCBECC88239DB0D400FB2283 /* pieindex_dark.html in Resources */ = {isa = PBXBuildFile; fileRef = FCBECC87239DB0D400FB2283 /* pieindex_dark.html */; };
@@ -227,9 +217,6 @@
 		43C8012A2372F95F00E08913 /* LegendSatFat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendSatFat.swift; sourceTree = "<group>"; };
 		43C8012F2372FA6E00E08913 /* LegendChol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendChol.swift; sourceTree = "<group>"; };
 		43C801342372FBB100E08913 /* CustomLevelIndicatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLevelIndicatorCell.swift; sourceTree = "<group>"; };
-		43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralPreferencesViewController.swift; sourceTree = "<group>"; };
-		43C8014023757E5200E08913 /* UpdatePreferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePreferenceViewController.swift; sourceTree = "<group>"; };
-		43C8014523757FF800E08913 /* PreferenceWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceWindow.swift; sourceTree = "<group>"; };
 		43C8014F2375856D00E08913 /* PrefSetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefSetter.swift; sourceTree = "<group>"; };
 		43C801542375999C00E08913 /* PrioritySplitViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrioritySplitViewDelegate.swift; sourceTree = "<group>"; };
 		46482DCBE6F4142A0FE1449A /* Pods-BeFit.device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeFit.device.xcconfig"; path = "Target Support Files/Pods-BeFit/Pods-BeFit.device.xcconfig"; sourceTree = "<group>"; };
@@ -248,8 +235,6 @@
 		FC08736519EBA3AB00ACB943 /* foodgraph.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = foodgraph.html; path = htdocs/foodgraph.html; sourceTree = "<group>"; };
 		FC08736619EBA3AB00ACB943 /* maingraph.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = maingraph.html; path = htdocs/maingraph.html; sourceTree = "<group>"; };
 		FC08736F19EBA3B800ACB943 /* bootstrap.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = bootstrap.min.css; path = htdocs/CSS/bootstrap.min.css; sourceTree = "<group>"; };
-		FC0873AB19EBA6DE00ACB943 /* GeneralPreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralPreferencesView.xib; sourceTree = "<group>"; };
-		FC0873B619EBA6DE00ACB943 /* UpdatePreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpdatePreferencesView.xib; sourceTree = "<group>"; };
 		FC1694D1181C747100C54052 /* BeFit Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeFit Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1DBA53180BC5EC00202B92 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FC1DBA8D180BCADA00202B92 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -494,22 +479,8 @@
 			isa = PBXGroup;
 			children = (
 				FC0873EE19EBA70600ACB943 /* PrioritySplitView */,
-				FC0873A719EBA6DE00ACB943 /* MASPreferences */,
 			);
 			name = PreMade;
-			sourceTree = "<group>";
-		};
-		FC0873A719EBA6DE00ACB943 /* MASPreferences */ = {
-			isa = PBXGroup;
-			children = (
-				FCC174D719EBE24C001A184A /* PreferencePanes */,
-				43C8013E2375560600E08913 /* GeneralPreferencesViewController.swift */,
-				43C8014023757E5200E08913 /* UpdatePreferenceViewController.swift */,
-				43C8014523757FF800E08913 /* PreferenceWindow.swift */,
-				43C8014F2375856D00E08913 /* PrefSetter.swift */,
-			);
-			name = MASPreferences;
-			path = Classes/Premade/MASPreferences;
 			sourceTree = "<group>";
 		};
 		FC0873EE19EBA70600ACB943 /* PrioritySplitView */ = {
@@ -641,6 +612,7 @@
 				4348C1E0237170FA00071B9C /* GUIController.swift */,
 				43C800DF2371B6E100E08913 /* BeFit_AppDelegate.swift */,
 				43C800E92372C3C200E08913 /* NSPasteboard+FoodDrag.swift */,
+				43C8014F2375856D00E08913 /* PrefSetter.swift */,
 			);
 			path = "GUI Objects";
 			sourceTree = "<group>";
@@ -653,15 +625,6 @@
 			);
 			name = ValueTransformers;
 			path = "Value Transformers";
-			sourceTree = "<group>";
-		};
-		FCC174D719EBE24C001A184A /* PreferencePanes */ = {
-			isa = PBXGroup;
-			children = (
-				FC0873AB19EBA6DE00ACB943 /* GeneralPreferencesView.xib */,
-				FC0873B619EBA6DE00ACB943 /* UpdatePreferencesView.xib */,
-			);
-			name = PreferencePanes;
 			sourceTree = "<group>";
 		};
 		FCCF9730188BA3A000FAA65B /* BeFit3V1 */ = {
@@ -694,7 +657,6 @@
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
 				254DB4770ED6291800A3B954 /* CopyFiles */,
-				D897EC4A41BBC1629A8AB412 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -788,7 +750,6 @@
 				FC946EDE1A13102D00692D04 /* bootstrap.min.css in Resources */,
 				FC946E6D1A0DC13B00692D04 /* fullpieindex.js in Resources */,
 				FC5821851FB904AB00D34CAA /* icon.icns in Resources */,
-				FC9F55EC239CE39B009A237A /* BeFit.xib in Resources */,
 				FC08736B19EBA3AB00ACB943 /* maingraph.html in Resources */,
 				FC89575A19F44C8F00420ADC /* Credits.rtf in Resources */,
 				FC08736119EBA39B00ACB943 /* jquery-1.7.1.min.js in Resources */,
@@ -800,6 +761,7 @@
 				FC946E721A0DC14700692D04 /* fullpiestyle.css in Resources */,
 				FC946F421A1CB0DB00692D04 /* pieindexprint.html in Resources */,
 				FC946FAE1A20F13A00692D04 /* raphael.2.1.0.min.js in Resources */,
+				FC74651E23A1EB0C00171CA2 /* BeFit.xib in Resources */,
 				FC89570E19F44AED00420ADC /* BeFit.dat in Resources */,
 				FC632F2919EA350F008E3D72 /* Media.xcassets in Resources */,
 				FC946E771A0FFC3E00692D04 /* pieindex.html in Resources */,
@@ -812,8 +774,6 @@
 				FCBECC8D239DB19F00FB2283 /* pieindex3_dark.html in Resources */,
 				FC946EC81A12F46F00692D04 /* owl.theme.css in Resources */,
 				FC946F471A1CB11F00692D04 /* pieindex2.html in Resources */,
-				FC0873C119EBA6DE00ACB943 /* GeneralPreferencesView.xib in Resources */,
-				FC0873D919EBA6DE00ACB943 /* UpdatePreferencesView.xib in Resources */,
 				FC08736719EBA3AB00ACB943 /* foodgraph.html in Resources */,
 				FC946EB31A11B41C00692D04 /* pieindex3.html in Resources */,
 				FC946E7C1A0FFC4900692D04 /* pieindex.js in Resources */,
@@ -838,17 +798,16 @@
 				FC946F441A1CB0DB00692D04 /* pieindexprint.html in Resources */,
 				FC946E791A0FFC3E00692D04 /* pieindex.html in Resources */,
 				FC946E741A0DC14700692D04 /* fullpiestyle.css in Resources */,
-				FC0873DB19EBA6DE00ACB943 /* UpdatePreferencesView.xib in Resources */,
 				FC81BCEB23A0FB3100AF7431 /* BeFitHelp.help in Resources */,
 				FC946EC61A12F46F00692D04 /* owl.carousel.css in Resources */,
 				FC946E7E1A0FFC4900692D04 /* pieindex.js in Resources */,
 				FC89570F19F44AEE00420ADC /* BeFit.dat in Resources */,
 				FC89575C19F44C8F00420ADC /* Credits.rtf in Resources */,
 				FC946E6F1A0DC13B00692D04 /* fullpieindex.js in Resources */,
+				FC74651D23A1EAFD00171CA2 /* BeFit.xib in Resources */,
 				FC5821881FB904AB00D34CAA /* icon.icns in Resources */,
 				FC946EE01A13102E00692D04 /* bootstrap.min.css in Resources */,
 				FCBECC86239DA85A00FB2283 /* maingraph_dark.html in Resources */,
-				FC9F55ED239CE39B009A237A /* BeFit.xib in Resources */,
 				FC946FB01A20F13A00692D04 /* raphael.2.1.0.min.js in Resources */,
 				FCBECC96239DB2E300FB2283 /* gauge_dark.html in Resources */,
 				FCBECC92239DB19F00FB2283 /* pieindexprint_dark.html in Resources */,
@@ -865,7 +824,6 @@
 				FC08736919EBA3AB00ACB943 /* foodgraph.html in Resources */,
 				FC946E881A0FFC5800692D04 /* piestyle.css in Resources */,
 				FC632F2B19EA350F008E3D72 /* Media.xcassets in Resources */,
-				FC0873C319EBA6DE00ACB943 /* GeneralPreferencesView.xib in Resources */,
 				FC946EDC1A13102B00692D04 /* bootstrap.min.js in Resources */,
 				FC89570B19F44AE000420ADC /* BeFit2.dat in Resources */,
 			);
@@ -903,37 +861,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BeFitWebsite/Pods-BeFitWebsite-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MASPreferences/MASPreferences.framework",
 				"${PODS_ROOT}/Sparkle/Sparkle.framework",
 				"${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASPreferences.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
 				"${DWARF_DSYM_FOLDER_PATH}/Sparkle.framework.dSYM",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeFitWebsite/Pods-BeFitWebsite-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D897EC4A41BBC1629A8AB412 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BeFit/Pods-BeFit-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MASPreferences/MASPreferences.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASPreferences.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeFit/Pods-BeFit-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DDC5ED5F077F1C3AE913E265 /* [CP] Check Pods Manifest.lock */ = {
@@ -991,15 +929,12 @@
 				4348C1D7237163B200071B9C /* FoodTableDragSupport.swift in Sources */,
 				4348C1EB2371A44E00071B9C /* AddMGValueTransformer.swift in Sources */,
 				43C800E02371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */,
-				43C8014623757FF800E08913 /* PreferenceWindow.swift in Sources */,
 				4357279F23700D4E00755BE1 /* FoodList+CoreDataProperties.swift in Sources */,
 				4348C1C82370647B00071B9C /* FoodNSTableView.swift in Sources */,
 				43C801212372F63100E08913 /* LegendCals.swift in Sources */,
 				4357279723700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
 				4357279323700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
 				43C800EF2372C55B00E08913 /* BeFitGraphView.swift in Sources */,
-				43C8013F2375560700E08913 /* GeneralPreferencesViewController.swift in Sources */,
-				43C8014123757E5200E08913 /* UpdatePreferenceViewController.swift in Sources */,
 				4348C1CD23706D9700071B9C /* FoodArrayController.swift in Sources */,
 				FCBECC9C239DEA9200FB2283 /* CustomError.swift in Sources */,
 				43C801552375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */,
@@ -1033,14 +968,12 @@
 				4348C1EE2371A44E00071B9C /* AddMGValueTransformer.swift in Sources */,
 				435727A223700D4E00755BE1 /* FoodList+CoreDataProperties.swift in Sources */,
 				43C800E32371B6E100E08913 /* BeFit_AppDelegate.swift in Sources */,
-				43C8014923757FFF00E08913 /* PreferenceWindow.swift in Sources */,
 				4348C1CB2370647E00071B9C /* FoodNSTableView.swift in Sources */,
 				4357279A23700D4E00755BE1 /* Food+CoreDataProperties.swift in Sources */,
 				43C801242372F63100E08913 /* LegendCals.swift in Sources */,
 				4357279623700D4E00755BE1 /* Food+CoreDataClass.swift in Sources */,
 				43C800F22372C55B00E08913 /* BeFitGraphView.swift in Sources */,
 				4348C1D023706D9700071B9C /* FoodArrayController.swift in Sources */,
-				43C8015B2375A2E100E08913 /* GeneralPreferencesViewController.swift in Sources */,
 				43C800FC2372E86E00E08913 /* ColumnControllerPopUpButton.swift in Sources */,
 				FCBECC9D239DEA9200FB2283 /* CustomError.swift in Sources */,
 				43C801582375999C00E08913 /* PrioritySplitViewDelegate.swift in Sources */,
@@ -1055,7 +988,6 @@
 				4348C1DF23716A0A00071B9C /* ColumnAttributeSelector.swift in Sources */,
 				435727A723700FAE00755BE1 /* Food+UI.swift in Sources */,
 				43C8011A2372F09F00E08913 /* SubBarBlk.swift in Sources */,
-				43C8014423757E5500E08913 /* UpdatePreferenceViewController.swift in Sources */,
 				43C801292372F83500E08913 /* LegendFat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1088,6 +1020,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 6.4;
 				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1111,12 +1044,14 @@
 				INSTALL_PATH = /Applications;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 6.4;
 				OTHER_CFLAGS = "-DDemoMode=0";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;
 				PRODUCT_NAME = "BeFit Tracker";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = STORE;
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "BeFit-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1141,6 +1076,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 6.4;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_POSTPROCESSING = NO;
 				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
@@ -1165,6 +1101,7 @@
 				INSTALL_PATH = /Applications;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 6.4;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DDemoMode=0";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -1174,6 +1111,7 @@
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 				STRIP_STYLE = all;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = STORE;
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "BeFit-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -1289,7 +1227,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 6.1.1;
+				CURRENT_PROJECT_VERSION = 6.4;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_POSTPROCESSING = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1315,8 +1253,8 @@
 				INFOPLIST_FILE = "PLIST/BeFit-Info.plist";
 				INSTALL_PATH = /Applications;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 6.1.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 6.4;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DDemoMode=0";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -1349,7 +1287,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 6.1.1;
+				CURRENT_PROJECT_VERSION = 6.4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1374,8 +1312,8 @@
 				INFOPLIST_FILE = "PLIST/BeFit-Info.plist";
 				INSTALL_PATH = /Applications;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 6.1.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 6.4;
 				OTHER_CFLAGS = "-DDemoMode=0";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;

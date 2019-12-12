@@ -20,320 +20,165 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0092DF6DCACCD941D6D228B95491A7E4 /* MASPreferencesWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD4D3E98AA7C029494FF8C89C160AB3 /* MASPreferencesWindowController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D37E1CC96365674A8BDC07ADF24066F /* MASPreferences-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F219C3EB7D0C25ED86790212979166 /* MASPreferences-dummy.m */; };
-		2DFD3D298667080A2082876EE2F54CAC /* Pods-BeFitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C69369C2AB3BBBBCF73B8E29A84C224A /* Pods-BeFitDemo-dummy.m */; };
-		3AA08CF47A36141528653FCB734BC2D0 /* Pods-BeFit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75685DB7FAF52441111B68B3348D533C /* Pods-BeFit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54DF23BDCE6A893EA310DC407D063F60 /* MASPreferences-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF16037F57E5E03567F6C7E1DCBC9E6F /* MASPreferences-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A490FD1C40422B5EA5BC7E4E094B018 /* Pods-BeFitFree-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00CB9B03037EBF6A02D077D9A14E6D3B /* Pods-BeFitFree-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B159D24F22D62F131ED12D6B81A540B /* Pods-BeFitWebsite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BC8559A3B17F987E550639AB038D9E /* Pods-BeFitWebsite-dummy.m */; };
-		72CD0B854EF51510D9DBA53962015561 /* MASPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4AA1D03F50C19A478FBAFD1ED739809 /* MASPreferencesWindow.xib */; };
-		77D9143333B2E39F2D333D13C0253291 /* MASPreferencesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 246578501811F255482880F846A51590 /* MASPreferencesViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C26E44EB25A0FB7460CB4FC4144F8A3 /* Pods-BeFitWebsite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B067A57A6C7C8E2AB9834B0FA59A898C /* Pods-BeFitWebsite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C90BF3B87D28E9D26D57B6262F94746 /* Pods-BeFit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA381D92E9FD23DA90629F7E14456F36 /* Pods-BeFit-dummy.m */; };
-		7D9B65D1BB5BA5EAD2C07C159BE12B3F /* Pods-BeFitFree-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A1E757F4E02397A54340BB540EE15F /* Pods-BeFitFree-dummy.m */; };
-		7F32D9E98265CEDC0446073C9AED4DD1 /* MASPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 7762CF1454EB4BBC9E09E0BB836470B2 /* MASPreferences.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		802FFAA3CD84F3D8C557BDB45704E71C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
-		8E10BE50FA906127F8A7FC3E0A57E92D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
-		982EC5E2F38F2267B5AD56EE59F1059B /* Pods-BeFitDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC59E0945F755DCD82B365DF206CE34 /* Pods-BeFitDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1DF4C148E90F6BDE4823A4AFECF375A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
-		A25383A8DB623C43AAF82B5BC9CC085B /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CEDD0DB747AA43BC391174F608C9FB /* MASPreferencesWindowController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B00514E06C3D6DA319751E130D8EBC49 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
-		E188F8D36C9F443D80E7A0A1E2474904 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		36317F082B209131F8FFAB250E93F84F /* Pods-BeFitWebsite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0875D1066929CEC9AF9A14629D4B94 /* Pods-BeFitWebsite-dummy.m */; };
+		3C0A372AE3A29E059386D610E275BE82 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		4E51A895A1E53CB3A28BFE0E9FB0278C /* Pods-BeFit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 085AE37CA52EADF85304FC1282EE961D /* Pods-BeFit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91C1F35FABA677B25DD593F9A0829786 /* Pods-BeFit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B5274DCFF267B94FF255F282DF0D4 /* Pods-BeFit-dummy.m */; };
+		9E5C734152A7EA82512994C7AA658BE5 /* Pods-BeFitWebsite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4AD5414F604E787AB895C7CBFB0D638 /* Pods-BeFitWebsite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADB6F7FC6F9425D3F05DF3EA8EAC7472 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0047245D6D101AEFB3349E0006318ED6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CCE0F64E83CEAFEE20D04DC7BD57303E;
-			remoteInfo = MASPreferences;
-		};
-		635A305E60A5DD1E5DAA800198DE2AB4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CCE0F64E83CEAFEE20D04DC7BD57303E;
-			remoteInfo = MASPreferences;
-		};
-		ACE9D226E2832AF7AF2F4F42D51237B8 /* PBXContainerItemProxy */ = {
+		21D3BE8829452A1CFFE651790BFEEEEB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ED77B4B88587C894E85C361023D67C53;
 			remoteInfo = Sparkle;
-		};
-		B2AE35203BEEBF1D69587E664F79168B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ED77B4B88587C894E85C361023D67C53;
-			remoteInfo = Sparkle;
-		};
-		C02C5F63FAF9697FBE947119F6A2C2E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CCE0F64E83CEAFEE20D04DC7BD57303E;
-			remoteInfo = MASPreferences;
-		};
-		CD75D58C042275F013E43A2AAE0435ED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CCE0F64E83CEAFEE20D04DC7BD57303E;
-			remoteInfo = MASPreferences;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00CB9B03037EBF6A02D077D9A14E6D3B /* Pods-BeFitFree-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeFitFree-umbrella.h"; sourceTree = "<group>"; };
-		0118380FECF42DA7CCE0EEE747F33080 /* Pods-BeFit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeFit.modulemap"; sourceTree = "<group>"; };
-		0392003AA100A76C5E98392D0736B6F9 /* SPUDownloadData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloadData.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloadData.h; sourceTree = "<group>"; };
-		04C8CE5358E6054AEBF581031ECB53AE /* SUUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdater.h; path = Sparkle.framework/Versions/A/Headers/SUUpdater.h; sourceTree = "<group>"; };
-		09251B92D05AE6050CB5F667160561A5 /* SPUURLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUURLRequest.h; path = Sparkle.framework/Versions/A/Headers/SPUURLRequest.h; sourceTree = "<group>"; };
-		0DF26610972EFF8C966A716403EDE8C0 /* SPUDownloaderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderProtocol.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderProtocol.h; sourceTree = "<group>"; };
-		10F1D6D25228196E10418336CFD5FFFD /* Pods-BeFitDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeFitDemo.modulemap"; sourceTree = "<group>"; };
-		242FB15336F5B0FAA4206BC4EF0459BC /* MASPreferences.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MASPreferences.xcconfig; sourceTree = "<group>"; };
-		246578501811F255482880F846A51590 /* MASPreferencesViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASPreferencesViewController.h; path = Framework/MASPreferencesViewController.h; sourceTree = "<group>"; };
-		25A2A34DF0844FF9DAEC9CB66DF87828 /* SUUpdaterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdaterDelegate.h; path = Sparkle.framework/Versions/A/Headers/SUUpdaterDelegate.h; sourceTree = "<group>"; };
-		260221B06E3EF8B3A73DF5F6299DEAC4 /* Pods-BeFitDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeFitDemo-frameworks.sh"; sourceTree = "<group>"; };
-		285E313219D356A788E32F53B7E3E23E /* SUAppcastItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcastItem.h; path = Sparkle.framework/Versions/A/Headers/SUAppcastItem.h; sourceTree = "<group>"; };
-		2FAA05743F06267793E6995AB057C674 /* Pods-BeFitFree.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeFitFree.modulemap"; sourceTree = "<group>"; };
-		38666023731DE6141AE8BFB2D86281BF /* MASPreferences-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MASPreferences-Info.plist"; sourceTree = "<group>"; };
-		39579E515FBCC245CD30E6E6EA2225AB /* Pods-BeFitFree-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeFitFree-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3A9E8B2811251A77D2C9860228F7649E /* Sparkle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sparkle.h; path = Sparkle.framework/Versions/A/Headers/Sparkle.h; sourceTree = "<group>"; };
+		0332A469918DDC7200DC05857FD3100A /* SPUDownloaderSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderSession.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderSession.h; sourceTree = "<group>"; };
+		05C8EC1E598BF8EFC6CE546C9CA3C3A2 /* SUVersionComparisonProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionComparisonProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionComparisonProtocol.h; sourceTree = "<group>"; };
+		085AE37CA52EADF85304FC1282EE961D /* Pods-BeFit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeFit-umbrella.h"; sourceTree = "<group>"; };
+		164A58EB240E3D712158E07256E9D04C /* Sparkle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sparkle.xcconfig; sourceTree = "<group>"; };
+		20B1BA6068BA2FBD15C3EA42CC318BBE /* SUVersionDisplayProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionDisplayProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionDisplayProtocol.h; sourceTree = "<group>"; };
+		2179011B680B8576C8D36EA8FCFDCF1F /* SUCodeSigningVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUCodeSigningVerifier.h; path = Sparkle.framework/Versions/A/Headers/SUCodeSigningVerifier.h; sourceTree = "<group>"; };
+		23A4C129EAD89A35261E5FE317CC8171 /* SPUURLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUURLRequest.h; path = Sparkle.framework/Versions/A/Headers/SPUURLRequest.h; sourceTree = "<group>"; };
+		31BEB153E597482D1318C94179448785 /* Pods-BeFitWebsite-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeFitWebsite-acknowledgements.markdown"; sourceTree = "<group>"; };
+		399C150840A1C2150618FB5BFE42DA9C /* SUAppcast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcast.h; path = Sparkle.framework/Versions/A/Headers/SUAppcast.h; sourceTree = "<group>"; };
+		3F0875D1066929CEC9AF9A14629D4B94 /* Pods-BeFitWebsite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeFitWebsite-dummy.m"; sourceTree = "<group>"; };
 		40DA77D937474EC499F01AF4AF30153D /* Pods_BeFitWebsite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeFitWebsite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43BC8559A3B17F987E550639AB038D9E /* Pods-BeFitWebsite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeFitWebsite-dummy.m"; sourceTree = "<group>"; };
-		43F9966E7614888A0CDCFAB2F62F2FDD /* MASPreferences.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MASPreferences.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		49BECE2E6F4ACCBCA27C388FCC9A2E4D /* Pods-BeFitDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeFitDemo-Info.plist"; sourceTree = "<group>"; };
-		50044D95EF826F4915BCA8F69A6F7F4B /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
-		573D652C2C279A0938EA4D1395B44D1A /* MASPreferences.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MASPreferences.modulemap; sourceTree = "<group>"; };
-		5775AB5DBA77EA02244FBA7DB9F5302D /* Pods-BeFitWebsite.device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeFitWebsite.device.xcconfig"; sourceTree = "<group>"; };
-		59F219C3EB7D0C25ED86790212979166 /* MASPreferences-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MASPreferences-dummy.m"; sourceTree = "<group>"; };
-		613A6E7A55595F78D7F840ED9EE85859 /* Pods-BeFitFree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeFitFree.debug.xcconfig"; sourceTree = "<group>"; };
-		630D3BB72C0E3444BB4CAF63E5E7A140 /* Pods-BeFit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeFit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4141435D9975E8E9CDCC84B3A32156A8 /* SUUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdater.h; path = Sparkle.framework/Versions/A/Headers/SUUpdater.h; sourceTree = "<group>"; };
+		424C2D0C3B70DFA7EB004C7D2CF64C7D /* Pods-BeFitWebsite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeFitWebsite.modulemap"; sourceTree = "<group>"; };
+		434E77750AEA936A76AE1470DB2A978B /* Pods-BeFit.device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeFit.device.xcconfig"; sourceTree = "<group>"; };
+		46B023E24F28228A4B1DA7F0B65B1D5B /* SPUDownloaderDeprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderDeprecated.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderDeprecated.h; sourceTree = "<group>"; };
 		66B9FB5279D9A3D0CCC7445FCC18DBA0 /* Pods_BeFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69A1E757F4E02397A54340BB540EE15F /* Pods-BeFitFree-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeFitFree-dummy.m"; sourceTree = "<group>"; };
-		69CC9FC311B3B503209E8BCFA4AE275F /* SPUDownloaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderDelegate.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderDelegate.h; sourceTree = "<group>"; };
-		71A2AB68EBAC9ABBA3A071772674F9CB /* Pods-BeFit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeFit-frameworks.sh"; sourceTree = "<group>"; };
-		75685DB7FAF52441111B68B3348D533C /* Pods-BeFit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeFit-umbrella.h"; sourceTree = "<group>"; };
-		75EEB39D3BE830BF7EE771D6D12485AC /* Pods_BeFitFree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeFitFree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7762CF1454EB4BBC9E09E0BB836470B2 /* MASPreferences.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASPreferences.h; path = Framework/MASPreferences.h; sourceTree = "<group>"; };
-		7C530B4A209E125B49CFFDB2C3B7755E /* SPUDownloaderSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderSession.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderSession.h; sourceTree = "<group>"; };
-		7CB4DE26FEBDE9892A451C90F6BD176D /* Pods_BeFitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeFitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CD4D3E98AA7C029494FF8C89C160AB3 /* MASPreferencesWindowController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASPreferencesWindowController.h; path = Framework/MASPreferencesWindowController.h; sourceTree = "<group>"; };
-		8AB2BA69300B12F1E52F0EF475A3E063 /* MASPreferences-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MASPreferences-prefix.pch"; sourceTree = "<group>"; };
-		93872DA7976583A4DC5A2136B3B6AFF5 /* SUExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUExport.h; path = Sparkle.framework/Versions/A/Headers/SUExport.h; sourceTree = "<group>"; };
-		9406B8774756072A2962194A5080907D /* MASPreferencesWindow.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MASPreferencesWindow.xib; path = en.lproj/MASPreferencesWindow.xib; sourceTree = "<group>"; };
-		988487CC6232F1F4560FFB40C6BA7EBB /* Pods-BeFitFree-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeFitFree-frameworks.sh"; sourceTree = "<group>"; };
-		9B366824DE8D21A54A9773F5665309C3 /* SUErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUErrors.h; path = Sparkle.framework/Versions/A/Headers/SUErrors.h; sourceTree = "<group>"; };
-		9BB042AB01C5721F3E081B4E141A5B4E /* Pods-BeFitFree-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeFitFree-Info.plist"; sourceTree = "<group>"; };
-		9BD2E4A7054176A3E64817744D771940 /* Pods-BeFitWebsite-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeFitWebsite-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A2B5274DCFF267B94FF255F282DF0D4 /* Pods-BeFit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeFit-dummy.m"; sourceTree = "<group>"; };
+		7158AA159B814F62930778807C15122C /* Pods-BeFitWebsite-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeFitWebsite-frameworks.sh"; sourceTree = "<group>"; };
+		75B6BAD4FC04FDB5CEFAD21C75978880 /* SPUDownloaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderDelegate.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderDelegate.h; sourceTree = "<group>"; };
+		777CD49A8E7656EEE6461DA232654CD5 /* Pods-BeFit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeFit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		77D2CA675A506ADCB89D4537373CCA26 /* Pods-BeFitWebsite-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeFitWebsite-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C4B85ACED8A4A539141162B46F38D5E /* SUErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUErrors.h; path = Sparkle.framework/Versions/A/Headers/SUErrors.h; sourceTree = "<group>"; };
+		88CBE879FF4DD55903E06901F54BDFBC /* Sparkle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sparkle.h; path = Sparkle.framework/Versions/A/Headers/Sparkle.h; sourceTree = "<group>"; };
+		978AB3BE3924B48C43C2DDAD30614D54 /* Pods-BeFit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeFit.modulemap"; sourceTree = "<group>"; };
+		9937672710EB6239F5CA04B80C11E3F4 /* Pods-BeFit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeFit-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C39DB852E4E36E99EE8EABDAE07F8DD /* Pods-BeFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeFit.debug.xcconfig"; sourceTree = "<group>"; };
+		9CACF7F2A510351E81BD04E60FF6EDAC /* Pods-BeFitWebsite.device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeFitWebsite.device.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A477E5362A3AE6C51D26EBC3841FC5C7 /* Sparkle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sparkle.xcconfig; sourceTree = "<group>"; };
-		A5CDC1D54326C2EA985FAB56D8FADEDB /* Pods-BeFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeFit.debug.xcconfig"; sourceTree = "<group>"; };
-		A5D920B0622B52FBFCD959F67F2E8129 /* Pods-BeFitWebsite-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeFitWebsite-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B067A57A6C7C8E2AB9834B0FA59A898C /* Pods-BeFitWebsite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeFitWebsite-umbrella.h"; sourceTree = "<group>"; };
-		B5F0F34662A11FA6A92EC77B42DE36F1 /* Pods-BeFitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeFitDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		B7626A493A3D143B46AAF4CB9C8A1B69 /* SPUDownloaderDeprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderDeprecated.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderDeprecated.h; sourceTree = "<group>"; };
-		BF16037F57E5E03567F6C7E1DCBC9E6F /* MASPreferences-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MASPreferences-umbrella.h"; sourceTree = "<group>"; };
-		C1CEDD0DB747AA43BC391174F608C9FB /* MASPreferencesWindowController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASPreferencesWindowController.m; path = Framework/MASPreferencesWindowController.m; sourceTree = "<group>"; };
-		C27FED047B44D1EA8A202C3A3C2C41C6 /* Pods-BeFitFree-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeFitFree-acknowledgements.plist"; sourceTree = "<group>"; };
-		C69369C2AB3BBBBCF73B8E29A84C224A /* Pods-BeFitDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeFitDemo-dummy.m"; sourceTree = "<group>"; };
-		C7C888F93A116781AF9EE81C04B097C2 /* Pods-BeFitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeFitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		C9CB860BD9DEB45297536DCBD4E107A7 /* Pods-BeFitWebsite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeFitWebsite.debug.xcconfig"; sourceTree = "<group>"; };
-		D09F6F91BBA2FA5BE625BD36A543D46E /* SPUDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloader.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloader.h; sourceTree = "<group>"; };
-		D201380CBFB8B33D745862B3B11C2733 /* SUAppcast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcast.h; path = Sparkle.framework/Versions/A/Headers/SUAppcast.h; sourceTree = "<group>"; };
-		D41AEB7B1F41BD3BC7DF24DF26F13233 /* SUStandardVersionComparator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUStandardVersionComparator.h; path = Sparkle.framework/Versions/A/Headers/SUStandardVersionComparator.h; sourceTree = "<group>"; };
-		D582ECF100CEFA57B33F11444067F713 /* SUVersionDisplayProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionDisplayProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionDisplayProtocol.h; sourceTree = "<group>"; };
-		D8B78796BFC3D2103B1F1C9B5B766CC5 /* Pods-BeFit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeFit-acknowledgements.plist"; sourceTree = "<group>"; };
-		DDC59E0945F755DCD82B365DF206CE34 /* Pods-BeFitDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeFitDemo-umbrella.h"; sourceTree = "<group>"; };
-		E2AEDCBE871EFEF2188D0D629F672ED3 /* SUCodeSigningVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUCodeSigningVerifier.h; path = Sparkle.framework/Versions/A/Headers/SUCodeSigningVerifier.h; sourceTree = "<group>"; };
-		E3F795D1B112D9DC278681290191CC11 /* Pods-BeFitWebsite-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeFitWebsite-frameworks.sh"; sourceTree = "<group>"; };
-		E4EBFAD88AB6611C74F0408CB80A3EF1 /* Pods-BeFitWebsite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeFitWebsite-Info.plist"; sourceTree = "<group>"; };
-		E5AFCE444DEF657586EED5C1328FE41C /* Pods-BeFit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeFit-Info.plist"; sourceTree = "<group>"; };
-		E8B1A1E18905AF0A74BFA0A55C292D61 /* SUVersionComparisonProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionComparisonProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionComparisonProtocol.h; sourceTree = "<group>"; };
-		E972CDF1642C2FA1D5998EFCD683D401 /* Pods-BeFitFree.device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeFitFree.device.xcconfig"; sourceTree = "<group>"; };
-		F1A864AB5E0F97FAD497EA15233ADD4F /* Pods-BeFitDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeFitDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F1F0E5ED0E43639DC861E2C594C35822 /* Pods-BeFitDemo.device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeFitDemo.device.xcconfig"; sourceTree = "<group>"; };
-		F3576B2CA72980FC0A0999FC6CE905EA /* Pods-BeFitWebsite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeFitWebsite.modulemap"; sourceTree = "<group>"; };
-		F6F8E44669C785303255CA24C66C3D44 /* Pods-BeFit.device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeFit.device.xcconfig"; sourceTree = "<group>"; };
+		A1DCDD048D9768B2491A5D8089A5D831 /* SUUpdaterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdaterDelegate.h; path = Sparkle.framework/Versions/A/Headers/SUUpdaterDelegate.h; sourceTree = "<group>"; };
+		A8D51759FC12EDB9BE2ECC669775F03D /* SPUDownloaderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderProtocol.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderProtocol.h; sourceTree = "<group>"; };
+		AB47098B18B0AA0B475BE81F48995DA3 /* SUAppcastItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcastItem.h; path = Sparkle.framework/Versions/A/Headers/SUAppcastItem.h; sourceTree = "<group>"; };
+		AC1D679DFE4A295F2C0AC6C04BE57433 /* SPUDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloader.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloader.h; sourceTree = "<group>"; };
+		ACFCACB1A9A0AB52E8633CFFD7FA7B6F /* SUStandardVersionComparator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUStandardVersionComparator.h; path = Sparkle.framework/Versions/A/Headers/SUStandardVersionComparator.h; sourceTree = "<group>"; };
+		BCCED882CB0090642487ADFEB3917F86 /* Pods-BeFitWebsite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeFitWebsite.debug.xcconfig"; sourceTree = "<group>"; };
+		C1C41C0B34DA9C481BE2B7DFE91FDA4D /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		C1FE5D1EC05D923EC7B0C4816C5EF449 /* SUExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUExport.h; path = Sparkle.framework/Versions/A/Headers/SUExport.h; sourceTree = "<group>"; };
+		D4AD5414F604E787AB895C7CBFB0D638 /* Pods-BeFitWebsite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeFitWebsite-umbrella.h"; sourceTree = "<group>"; };
+		E57989A7E0FAD0F3EABA48E780B7A186 /* Pods-BeFit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeFit-Info.plist"; sourceTree = "<group>"; };
+		E5A710B46FF7C977041D3A5FB03B3C7F /* SPUDownloadData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloadData.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloadData.h; sourceTree = "<group>"; };
+		F3E2A021A5F371EB18AD887B28018285 /* Pods-BeFitWebsite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeFitWebsite-Info.plist"; sourceTree = "<group>"; };
 		F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		FA381D92E9FD23DA90629F7E14456F36 /* Pods-BeFit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeFit-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1FDCD96CD02E13686ECB365FC917A5EF /* Frameworks */ = {
+		56B4F17B1CAE4C28EBFE361EDD4B26D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E188F8D36C9F443D80E7A0A1E2474904 /* Cocoa.framework in Frameworks */,
+				3C0A372AE3A29E059386D610E275BE82 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		350C0909AC243AB4A0E29724E154233D /* Frameworks */ = {
+		DD5B688BFEB1751199C3B40390398E47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1DF4C148E90F6BDE4823A4AFECF375A /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3966516CE6B47AE11454D0D442F08010 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				802FFAA3CD84F3D8C557BDB45704E71C /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C74254C1473CA578C5615C690091CAF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8E10BE50FA906127F8A7FC3E0A57E92D /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E435F36217989EF3005BB3661ADF3319 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B00514E06C3D6DA319751E130D8EBC49 /* Cocoa.framework in Frameworks */,
+				ADB6F7FC6F9425D3F05DF3EA8EAC7472 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F7A4BCD758A8F6053172E6E2D8FC5F6 /* Support Files */ = {
+		09AA76D6F08D825699008E6282A1F716 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				573D652C2C279A0938EA4D1395B44D1A /* MASPreferences.modulemap */,
-				242FB15336F5B0FAA4206BC4EF0459BC /* MASPreferences.xcconfig */,
-				59F219C3EB7D0C25ED86790212979166 /* MASPreferences-dummy.m */,
-				38666023731DE6141AE8BFB2D86281BF /* MASPreferences-Info.plist */,
-				8AB2BA69300B12F1E52F0EF475A3E063 /* MASPreferences-prefix.pch */,
-				BF16037F57E5E03567F6C7E1DCBC9E6F /* MASPreferences-umbrella.h */,
+				66B9FB5279D9A3D0CCC7445FCC18DBA0 /* Pods_BeFit.framework */,
+				40DA77D937474EC499F01AF4AF30153D /* Pods_BeFitWebsite.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/MASPreferences";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		395ACE354C63BE4E0C479613FD50525D /* Pods-BeFitDemo */ = {
+		44B941B14FB757B24F8A32FBEACF0A26 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				10F1D6D25228196E10418336CFD5FFFD /* Pods-BeFitDemo.modulemap */,
-				F1A864AB5E0F97FAD497EA15233ADD4F /* Pods-BeFitDemo-acknowledgements.markdown */,
-				C7C888F93A116781AF9EE81C04B097C2 /* Pods-BeFitDemo-acknowledgements.plist */,
-				C69369C2AB3BBBBCF73B8E29A84C224A /* Pods-BeFitDemo-dummy.m */,
-				260221B06E3EF8B3A73DF5F6299DEAC4 /* Pods-BeFitDemo-frameworks.sh */,
-				49BECE2E6F4ACCBCA27C388FCC9A2E4D /* Pods-BeFitDemo-Info.plist */,
-				DDC59E0945F755DCD82B365DF206CE34 /* Pods-BeFitDemo-umbrella.h */,
-				B5F0F34662A11FA6A92EC77B42DE36F1 /* Pods-BeFitDemo.debug.xcconfig */,
-				F1F0E5ED0E43639DC861E2C594C35822 /* Pods-BeFitDemo.device.xcconfig */,
-			);
-			name = "Pods-BeFitDemo";
-			path = "Target Support Files/Pods-BeFitDemo";
-			sourceTree = "<group>";
-		};
-		49595AEFB1857BF2FFCFD312867AE22D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D4AA1D03F50C19A478FBAFD1ED739809 /* MASPreferencesWindow.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		589264D36E2C382450AF2D1EB5427CD5 /* Pods-BeFitFree */ = {
-			isa = PBXGroup;
-			children = (
-				2FAA05743F06267793E6995AB057C674 /* Pods-BeFitFree.modulemap */,
-				39579E515FBCC245CD30E6E6EA2225AB /* Pods-BeFitFree-acknowledgements.markdown */,
-				C27FED047B44D1EA8A202C3A3C2C41C6 /* Pods-BeFitFree-acknowledgements.plist */,
-				69A1E757F4E02397A54340BB540EE15F /* Pods-BeFitFree-dummy.m */,
-				988487CC6232F1F4560FFB40C6BA7EBB /* Pods-BeFitFree-frameworks.sh */,
-				9BB042AB01C5721F3E081B4E141A5B4E /* Pods-BeFitFree-Info.plist */,
-				00CB9B03037EBF6A02D077D9A14E6D3B /* Pods-BeFitFree-umbrella.h */,
-				613A6E7A55595F78D7F840ED9EE85859 /* Pods-BeFitFree.debug.xcconfig */,
-				E972CDF1642C2FA1D5998EFCD683D401 /* Pods-BeFitFree.device.xcconfig */,
-			);
-			name = "Pods-BeFitFree";
-			path = "Target Support Files/Pods-BeFitFree";
-			sourceTree = "<group>";
-		};
-		71D0E1C8CDA5527FA15DA0396E88372E /* Sparkle */ = {
-			isa = PBXGroup;
-			children = (
-				3A9E8B2811251A77D2C9860228F7649E /* Sparkle.h */,
-				0392003AA100A76C5E98392D0736B6F9 /* SPUDownloadData.h */,
-				D09F6F91BBA2FA5BE625BD36A543D46E /* SPUDownloader.h */,
-				69CC9FC311B3B503209E8BCFA4AE275F /* SPUDownloaderDelegate.h */,
-				B7626A493A3D143B46AAF4CB9C8A1B69 /* SPUDownloaderDeprecated.h */,
-				0DF26610972EFF8C966A716403EDE8C0 /* SPUDownloaderProtocol.h */,
-				7C530B4A209E125B49CFFDB2C3B7755E /* SPUDownloaderSession.h */,
-				09251B92D05AE6050CB5F667160561A5 /* SPUURLRequest.h */,
-				D201380CBFB8B33D745862B3B11C2733 /* SUAppcast.h */,
-				285E313219D356A788E32F53B7E3E23E /* SUAppcastItem.h */,
-				E2AEDCBE871EFEF2188D0D629F672ED3 /* SUCodeSigningVerifier.h */,
-				9B366824DE8D21A54A9773F5665309C3 /* SUErrors.h */,
-				93872DA7976583A4DC5A2136B3B6AFF5 /* SUExport.h */,
-				D41AEB7B1F41BD3BC7DF24DF26F13233 /* SUStandardVersionComparator.h */,
-				04C8CE5358E6054AEBF581031ECB53AE /* SUUpdater.h */,
-				25A2A34DF0844FF9DAEC9CB66DF87828 /* SUUpdaterDelegate.h */,
-				E8B1A1E18905AF0A74BFA0A55C292D61 /* SUVersionComparisonProtocol.h */,
-				D582ECF100CEFA57B33F11444067F713 /* SUVersionDisplayProtocol.h */,
-				9BCD60EBF063EA049834EE7468058905 /* Frameworks */,
-				DD48494E8B31592BC400C61F7120A0D1 /* Support Files */,
-			);
-			path = Sparkle;
-			sourceTree = "<group>";
-		};
-		75C6E058E34FD1AF265E24286C648B13 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FB2D76E01DFC26322328BE12B5134E16 /* MASPreferences */,
-				71D0E1C8CDA5527FA15DA0396E88372E /* Sparkle */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		87302A6E855CE64A72B6B5D865E17156 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9BEE8030B365D22CB16522F07219F459 /* Pods-BeFit */,
-				395ACE354C63BE4E0C479613FD50525D /* Pods-BeFitDemo */,
-				589264D36E2C382450AF2D1EB5427CD5 /* Pods-BeFitFree */,
-				FF3F38724EA466565D97408948157C56 /* Pods-BeFitWebsite */,
+				FE3A40B7FF980B78B9897A4ED1128BF7 /* Pods-BeFit */,
+				4C3C6C37387C84AB91B45B4F80681ABB /* Pods-BeFitWebsite */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9BCD60EBF063EA049834EE7468058905 /* Frameworks */ = {
+		458F5FE2377A7011FB8CD827A459EE5A /* Sparkle */ = {
 			isa = PBXGroup;
 			children = (
-				50044D95EF826F4915BCA8F69A6F7F4B /* Sparkle.framework */,
+				88CBE879FF4DD55903E06901F54BDFBC /* Sparkle.h */,
+				E5A710B46FF7C977041D3A5FB03B3C7F /* SPUDownloadData.h */,
+				AC1D679DFE4A295F2C0AC6C04BE57433 /* SPUDownloader.h */,
+				75B6BAD4FC04FDB5CEFAD21C75978880 /* SPUDownloaderDelegate.h */,
+				46B023E24F28228A4B1DA7F0B65B1D5B /* SPUDownloaderDeprecated.h */,
+				A8D51759FC12EDB9BE2ECC669775F03D /* SPUDownloaderProtocol.h */,
+				0332A469918DDC7200DC05857FD3100A /* SPUDownloaderSession.h */,
+				23A4C129EAD89A35261E5FE317CC8171 /* SPUURLRequest.h */,
+				399C150840A1C2150618FB5BFE42DA9C /* SUAppcast.h */,
+				AB47098B18B0AA0B475BE81F48995DA3 /* SUAppcastItem.h */,
+				2179011B680B8576C8D36EA8FCFDCF1F /* SUCodeSigningVerifier.h */,
+				7C4B85ACED8A4A539141162B46F38D5E /* SUErrors.h */,
+				C1FE5D1EC05D923EC7B0C4816C5EF449 /* SUExport.h */,
+				ACFCACB1A9A0AB52E8633CFFD7FA7B6F /* SUStandardVersionComparator.h */,
+				4141435D9975E8E9CDCC84B3A32156A8 /* SUUpdater.h */,
+				A1DCDD048D9768B2491A5D8089A5D831 /* SUUpdaterDelegate.h */,
+				05C8EC1E598BF8EFC6CE546C9CA3C3A2 /* SUVersionComparisonProtocol.h */,
+				20B1BA6068BA2FBD15C3EA42CC318BBE /* SUVersionDisplayProtocol.h */,
+				F27610214F2DFB81D3505CB8D0773C27 /* Frameworks */,
+				9D967989E3894A7199B4724025FA7425 /* Support Files */,
 			);
-			name = Frameworks;
+			path = Sparkle;
 			sourceTree = "<group>";
 		};
-		9BEE8030B365D22CB16522F07219F459 /* Pods-BeFit */ = {
+		4C3C6C37387C84AB91B45B4F80681ABB /* Pods-BeFitWebsite */ = {
 			isa = PBXGroup;
 			children = (
-				0118380FECF42DA7CCE0EEE747F33080 /* Pods-BeFit.modulemap */,
-				630D3BB72C0E3444BB4CAF63E5E7A140 /* Pods-BeFit-acknowledgements.markdown */,
-				D8B78796BFC3D2103B1F1C9B5B766CC5 /* Pods-BeFit-acknowledgements.plist */,
-				FA381D92E9FD23DA90629F7E14456F36 /* Pods-BeFit-dummy.m */,
-				71A2AB68EBAC9ABBA3A071772674F9CB /* Pods-BeFit-frameworks.sh */,
-				E5AFCE444DEF657586EED5C1328FE41C /* Pods-BeFit-Info.plist */,
-				75685DB7FAF52441111B68B3348D533C /* Pods-BeFit-umbrella.h */,
-				A5CDC1D54326C2EA985FAB56D8FADEDB /* Pods-BeFit.debug.xcconfig */,
-				F6F8E44669C785303255CA24C66C3D44 /* Pods-BeFit.device.xcconfig */,
+				424C2D0C3B70DFA7EB004C7D2CF64C7D /* Pods-BeFitWebsite.modulemap */,
+				31BEB153E597482D1318C94179448785 /* Pods-BeFitWebsite-acknowledgements.markdown */,
+				77D2CA675A506ADCB89D4537373CCA26 /* Pods-BeFitWebsite-acknowledgements.plist */,
+				3F0875D1066929CEC9AF9A14629D4B94 /* Pods-BeFitWebsite-dummy.m */,
+				7158AA159B814F62930778807C15122C /* Pods-BeFitWebsite-frameworks.sh */,
+				F3E2A021A5F371EB18AD887B28018285 /* Pods-BeFitWebsite-Info.plist */,
+				D4AD5414F604E787AB895C7CBFB0D638 /* Pods-BeFitWebsite-umbrella.h */,
+				BCCED882CB0090642487ADFEB3917F86 /* Pods-BeFitWebsite.debug.xcconfig */,
+				9CACF7F2A510351E81BD04E60FF6EDAC /* Pods-BeFitWebsite.device.xcconfig */,
 			);
-			name = "Pods-BeFit";
-			path = "Target Support Files/Pods-BeFit";
+			name = "Pods-BeFitWebsite";
+			path = "Target Support Files/Pods-BeFitWebsite";
+			sourceTree = "<group>";
+		};
+		74924609A5200EB49EE32720C989B12D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				458F5FE2377A7011FB8CD827A459EE5A /* Sparkle */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D967989E3894A7199B4724025FA7425 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				164A58EB240E3D712158E07256E9D04C /* Sparkle.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Sparkle";
 			sourceTree = "<group>";
 		};
 		CBD43E0947D94E318A0ED1350CFF29ED /* OS X */ = {
@@ -349,31 +194,10 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
-				75C6E058E34FD1AF265E24286C648B13 /* Pods */,
-				DA569BB14E221BFE53A93724EABDE445 /* Products */,
-				87302A6E855CE64A72B6B5D865E17156 /* Targets Support Files */,
+				74924609A5200EB49EE32720C989B12D /* Pods */,
+				09AA76D6F08D825699008E6282A1F716 /* Products */,
+				44B941B14FB757B24F8A32FBEACF0A26 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		DA569BB14E221BFE53A93724EABDE445 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				43F9966E7614888A0CDCFAB2F62F2FDD /* MASPreferences.framework */,
-				66B9FB5279D9A3D0CCC7445FCC18DBA0 /* Pods_BeFit.framework */,
-				7CB4DE26FEBDE9892A451C90F6BD176D /* Pods_BeFitDemo.framework */,
-				75EEB39D3BE830BF7EE771D6D12485AC /* Pods_BeFitFree.framework */,
-				40DA77D937474EC499F01AF4AF30153D /* Pods_BeFitWebsite.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		DD48494E8B31592BC400C61F7120A0D1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A477E5362A3AE6C51D26EBC3841FC5C7 /* Sparkle.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Sparkle";
 			sourceTree = "<group>";
 		};
 		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
@@ -384,117 +208,64 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FB2D76E01DFC26322328BE12B5134E16 /* MASPreferences */ = {
+		F27610214F2DFB81D3505CB8D0773C27 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7762CF1454EB4BBC9E09E0BB836470B2 /* MASPreferences.h */,
-				246578501811F255482880F846A51590 /* MASPreferencesViewController.h */,
-				7CD4D3E98AA7C029494FF8C89C160AB3 /* MASPreferencesWindowController.h */,
-				C1CEDD0DB747AA43BC391174F608C9FB /* MASPreferencesWindowController.m */,
-				49595AEFB1857BF2FFCFD312867AE22D /* Resources */,
-				1F7A4BCD758A8F6053172E6E2D8FC5F6 /* Support Files */,
+				C1C41C0B34DA9C481BE2B7DFE91FDA4D /* Sparkle.framework */,
 			);
-			path = MASPreferences;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FF3F38724EA466565D97408948157C56 /* Pods-BeFitWebsite */ = {
+		FE3A40B7FF980B78B9897A4ED1128BF7 /* Pods-BeFit */ = {
 			isa = PBXGroup;
 			children = (
-				F3576B2CA72980FC0A0999FC6CE905EA /* Pods-BeFitWebsite.modulemap */,
-				A5D920B0622B52FBFCD959F67F2E8129 /* Pods-BeFitWebsite-acknowledgements.markdown */,
-				9BD2E4A7054176A3E64817744D771940 /* Pods-BeFitWebsite-acknowledgements.plist */,
-				43BC8559A3B17F987E550639AB038D9E /* Pods-BeFitWebsite-dummy.m */,
-				E3F795D1B112D9DC278681290191CC11 /* Pods-BeFitWebsite-frameworks.sh */,
-				E4EBFAD88AB6611C74F0408CB80A3EF1 /* Pods-BeFitWebsite-Info.plist */,
-				B067A57A6C7C8E2AB9834B0FA59A898C /* Pods-BeFitWebsite-umbrella.h */,
-				C9CB860BD9DEB45297536DCBD4E107A7 /* Pods-BeFitWebsite.debug.xcconfig */,
-				5775AB5DBA77EA02244FBA7DB9F5302D /* Pods-BeFitWebsite.device.xcconfig */,
+				978AB3BE3924B48C43C2DDAD30614D54 /* Pods-BeFit.modulemap */,
+				777CD49A8E7656EEE6461DA232654CD5 /* Pods-BeFit-acknowledgements.markdown */,
+				9937672710EB6239F5CA04B80C11E3F4 /* Pods-BeFit-acknowledgements.plist */,
+				6A2B5274DCFF267B94FF255F282DF0D4 /* Pods-BeFit-dummy.m */,
+				E57989A7E0FAD0F3EABA48E780B7A186 /* Pods-BeFit-Info.plist */,
+				085AE37CA52EADF85304FC1282EE961D /* Pods-BeFit-umbrella.h */,
+				9C39DB852E4E36E99EE8EABDAE07F8DD /* Pods-BeFit.debug.xcconfig */,
+				434E77750AEA936A76AE1470DB2A978B /* Pods-BeFit.device.xcconfig */,
 			);
-			name = "Pods-BeFitWebsite";
-			path = "Target Support Files/Pods-BeFitWebsite";
+			name = "Pods-BeFit";
+			path = "Target Support Files/Pods-BeFit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6C5FF06D0844A8DEC3A79E46983798CE /* Headers */ = {
+		50B0625F5CD8FCCBDC73DF970D487837 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C26E44EB25A0FB7460CB4FC4144F8A3 /* Pods-BeFitWebsite-umbrella.h in Headers */,
+				9E5C734152A7EA82512994C7AA658BE5 /* Pods-BeFitWebsite-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		811A9523198650141CDDD536AAA6C4AE /* Headers */ = {
+		5A37A8EB8A990090E4F2B35119E645BD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A490FD1C40422B5EA5BC7E4E094B018 /* Pods-BeFitFree-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3D7B181E72BE3E843A8EB3D2A308E92 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				982EC5E2F38F2267B5AD56EE59F1059B /* Pods-BeFitDemo-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA14F2CE2ACDBBFC74A81F91D0C0B3B0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54DF23BDCE6A893EA310DC407D063F60 /* MASPreferences-umbrella.h in Headers */,
-				7F32D9E98265CEDC0446073C9AED4DD1 /* MASPreferences.h in Headers */,
-				77D9143333B2E39F2D333D13C0253291 /* MASPreferencesViewController.h in Headers */,
-				0092DF6DCACCD941D6D228B95491A7E4 /* MASPreferencesWindowController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB51FE69C35C255075B5906C527288A1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3AA08CF47A36141528653FCB734BC2D0 /* Pods-BeFit-umbrella.h in Headers */,
+				4E51A895A1E53CB3A28BFE0E9FB0278C /* Pods-BeFit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		102941A7F15100497534E0ADFD7C5641 /* Pods-BeFitFree */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 63F2A7682A0034D681A1E417B5E3AC55 /* Build configuration list for PBXNativeTarget "Pods-BeFitFree" */;
-			buildPhases = (
-				811A9523198650141CDDD536AAA6C4AE /* Headers */,
-				2C83914F777379FD24829DE52A74D56E /* Sources */,
-				1FDCD96CD02E13686ECB365FC917A5EF /* Frameworks */,
-				0194540542E2C90D5D81DA7BE19DAC58 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				05FB597AEAFD77960059E632BF53A7EE /* PBXTargetDependency */,
-			);
-			name = "Pods-BeFitFree";
-			productName = "Pods-BeFitFree";
-			productReference = 75EEB39D3BE830BF7EE771D6D12485AC /* Pods_BeFitFree.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		22B7D77B1A969C812C6F44B4077F7F4B /* Pods-BeFit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E6E3F26D1AEDE54B2832FB170918C2E0 /* Build configuration list for PBXNativeTarget "Pods-BeFit" */;
+			buildConfigurationList = 4E1A761A6EF3126B24E03666871307C5 /* Build configuration list for PBXNativeTarget "Pods-BeFit" */;
 			buildPhases = (
-				EB51FE69C35C255075B5906C527288A1 /* Headers */,
-				ED1895599365CE2811DA891770AB9BFF /* Sources */,
-				3966516CE6B47AE11454D0D442F08010 /* Frameworks */,
-				02632600C61CAF0F8EC4ADA4B7CB45FA /* Resources */,
+				5A37A8EB8A990090E4F2B35119E645BD /* Headers */,
+				564F0E96ACA4D70E5639B2F6232E50C1 /* Sources */,
+				56B4F17B1CAE4C28EBFE361EDD4B26D1 /* Frameworks */,
+				91934DD53D49B7E4D8D7699051F7832A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BE270DF3E0797AE1A42D55D3D5C0119C /* PBXTargetDependency */,
 			);
 			name = "Pods-BeFit";
 			productName = "Pods-BeFit";
@@ -503,60 +274,21 @@
 		};
 		9E0029CAEC2256A03D3A4FB464A5D402 /* Pods-BeFitWebsite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFB460D59F3E22F5740DD3E062B7BAA2 /* Build configuration list for PBXNativeTarget "Pods-BeFitWebsite" */;
+			buildConfigurationList = EBE1F1A90B72C48E1AC62113E8CB5621 /* Build configuration list for PBXNativeTarget "Pods-BeFitWebsite" */;
 			buildPhases = (
-				6C5FF06D0844A8DEC3A79E46983798CE /* Headers */,
-				B5178212F95DB039C8D874322333D130 /* Sources */,
-				350C0909AC243AB4A0E29724E154233D /* Frameworks */,
-				C8BE9E3E853A4256601009A01F7FA55E /* Resources */,
+				50B0625F5CD8FCCBDC73DF970D487837 /* Headers */,
+				3F854D5F4FC6D2154C2EDEB12CC25706 /* Sources */,
+				DD5B688BFEB1751199C3B40390398E47 /* Frameworks */,
+				D6CCBF9F8CCB932A00C98092E903307A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9E884159A8884F508F92222E994A39E0 /* PBXTargetDependency */,
-				36BCD3AB77D12DBB8032C5984C376FBE /* PBXTargetDependency */,
+				6E0A879296B0D958B47AE69C8889FC60 /* PBXTargetDependency */,
 			);
 			name = "Pods-BeFitWebsite";
 			productName = "Pods-BeFitWebsite";
 			productReference = 40DA77D937474EC499F01AF4AF30153D /* Pods_BeFitWebsite.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CCE0F64E83CEAFEE20D04DC7BD57303E /* MASPreferences */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F4BA003A966BCBF5F1DED575F7E68EFA /* Build configuration list for PBXNativeTarget "MASPreferences" */;
-			buildPhases = (
-				EA14F2CE2ACDBBFC74A81F91D0C0B3B0 /* Headers */,
-				2ED35E26A5117CDA23C1C537A7EBEDA1 /* Sources */,
-				E435F36217989EF3005BB3661ADF3319 /* Frameworks */,
-				F76A4107E2BEE1E56DCAFCAFD7B3A503 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MASPreferences;
-			productName = MASPreferences;
-			productReference = 43F9966E7614888A0CDCFAB2F62F2FDD /* MASPreferences.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FD8D019C97CDFE8F7BCA7D872B981FD9 /* Pods-BeFitDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1AF88A84A53855313A85301FBA4110A5 /* Build configuration list for PBXNativeTarget "Pods-BeFitDemo" */;
-			buildPhases = (
-				C3D7B181E72BE3E843A8EB3D2A308E92 /* Headers */,
-				5B83495927CCC96BBC92724BF8A0108A /* Sources */,
-				9C74254C1473CA578C5615C690091CAF /* Frameworks */,
-				45FFDB2D28736E18D81923331AD74922 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D71050C20BFA22D556A95CA584A7EEF7 /* PBXTargetDependency */,
-				83430E7AA85D183565F2E9556589261F /* PBXTargetDependency */,
-			);
-			name = "Pods-BeFitDemo";
-			productName = "Pods-BeFitDemo";
-			productReference = 7CB4DE26FEBDE9892A451C90F6BD176D /* Pods_BeFitDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -566,7 +298,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1130;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -576,14 +308,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DA569BB14E221BFE53A93724EABDE445 /* Products */;
+			productRefGroup = 09AA76D6F08D825699008E6282A1F716 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CCE0F64E83CEAFEE20D04DC7BD57303E /* MASPreferences */,
 				22B7D77B1A969C812C6F44B4077F7F4B /* Pods-BeFit */,
-				FD8D019C97CDFE8F7BCA7D872B981FD9 /* Pods-BeFitDemo */,
-				102941A7F15100497534E0ADFD7C5641 /* Pods-BeFitFree */,
 				9E0029CAEC2256A03D3A4FB464A5D402 /* Pods-BeFitWebsite */,
 				ED77B4B88587C894E85C361023D67C53 /* Sparkle */,
 			);
@@ -591,144 +320,55 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0194540542E2C90D5D81DA7BE19DAC58 /* Resources */ = {
+		91934DD53D49B7E4D8D7699051F7832A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		02632600C61CAF0F8EC4ADA4B7CB45FA /* Resources */ = {
+		D6CCBF9F8CCB932A00C98092E903307A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45FFDB2D28736E18D81923331AD74922 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C8BE9E3E853A4256601009A01F7FA55E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F76A4107E2BEE1E56DCAFCAFD7B3A503 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				72CD0B854EF51510D9DBA53962015561 /* MASPreferencesWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2C83914F777379FD24829DE52A74D56E /* Sources */ = {
+		3F854D5F4FC6D2154C2EDEB12CC25706 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D9B65D1BB5BA5EAD2C07C159BE12B3F /* Pods-BeFitFree-dummy.m in Sources */,
+				36317F082B209131F8FFAB250E93F84F /* Pods-BeFitWebsite-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2ED35E26A5117CDA23C1C537A7EBEDA1 /* Sources */ = {
+		564F0E96ACA4D70E5639B2F6232E50C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D37E1CC96365674A8BDC07ADF24066F /* MASPreferences-dummy.m in Sources */,
-				A25383A8DB623C43AAF82B5BC9CC085B /* MASPreferencesWindowController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B83495927CCC96BBC92724BF8A0108A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DFD3D298667080A2082876EE2F54CAC /* Pods-BeFitDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5178212F95DB039C8D874322333D130 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6B159D24F22D62F131ED12D6B81A540B /* Pods-BeFitWebsite-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED1895599365CE2811DA891770AB9BFF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7C90BF3B87D28E9D26D57B6262F94746 /* Pods-BeFit-dummy.m in Sources */,
+				91C1F35FABA677B25DD593F9A0829786 /* Pods-BeFit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		05FB597AEAFD77960059E632BF53A7EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MASPreferences;
-			target = CCE0F64E83CEAFEE20D04DC7BD57303E /* MASPreferences */;
-			targetProxy = CD75D58C042275F013E43A2AAE0435ED /* PBXContainerItemProxy */;
-		};
-		36BCD3AB77D12DBB8032C5984C376FBE /* PBXTargetDependency */ = {
+		6E0A879296B0D958B47AE69C8889FC60 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Sparkle;
 			target = ED77B4B88587C894E85C361023D67C53 /* Sparkle */;
-			targetProxy = B2AE35203BEEBF1D69587E664F79168B /* PBXContainerItemProxy */;
-		};
-		83430E7AA85D183565F2E9556589261F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Sparkle;
-			target = ED77B4B88587C894E85C361023D67C53 /* Sparkle */;
-			targetProxy = ACE9D226E2832AF7AF2F4F42D51237B8 /* PBXContainerItemProxy */;
-		};
-		9E884159A8884F508F92222E994A39E0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MASPreferences;
-			target = CCE0F64E83CEAFEE20D04DC7BD57303E /* MASPreferences */;
-			targetProxy = C02C5F63FAF9697FBE947119F6A2C2E1 /* PBXContainerItemProxy */;
-		};
-		BE270DF3E0797AE1A42D55D3D5C0119C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MASPreferences;
-			target = CCE0F64E83CEAFEE20D04DC7BD57303E /* MASPreferences */;
-			targetProxy = 635A305E60A5DD1E5DAA800198DE2AB4 /* PBXContainerItemProxy */;
-		};
-		D71050C20BFA22D556A95CA584A7EEF7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MASPreferences;
-			target = CCE0F64E83CEAFEE20D04DC7BD57303E /* MASPreferences */;
-			targetProxy = 0047245D6D101AEFB3349E0006318ED6 /* PBXContainerItemProxy */;
+			targetProxy = 21D3BE8829452A1CFFE651790BFEEEEB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		D4AA1D03F50C19A478FBAFD1ED739809 /* MASPreferencesWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9406B8774756072A2962194A5080907D /* MASPreferencesWindow.xib */,
-			);
-			name = MASPreferencesWindow.xib;
-			path = Framework;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		093F37A5CFEFF78A2981A727DEC58D3E /* Device */ = {
+		05F05DD1FFBD0C5A36D8D54471680840 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 242FB15336F5B0FAA4206BC4EF0459BC /* MASPreferences.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -741,26 +381,97 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/MASPreferences/MASPreferences-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MASPreferences/MASPreferences-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BeFit/Pods-BeFit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				MODULEMAP_FILE = "Target Support Files/MASPreferences/MASPreferences.modulemap";
-				PRODUCT_MODULE_NAME = MASPreferences;
-				PRODUCT_NAME = MASPreferences;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeFit/Pods-BeFit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		262D331DBA0A4C964C541B5897AB561A /* Device */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434E77750AEA936A76AE1470DB2A978B /* Pods-BeFit.device.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-BeFit/Pods-BeFit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeFit/Pods-BeFit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Device;
 		};
+		28677155DACB028BA0B5F31315BFB931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCCED882CB0090642487ADFEB3917F86 /* Pods-BeFitWebsite.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-BeFitWebsite/Pods-BeFitWebsite-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeFitWebsite/Pods-BeFitWebsite.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		3BD826A5D2EA0AFC736B87B48F7699DE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A477E5362A3AE6C51D26EBC3841FC5C7 /* Sparkle.xcconfig */;
+			baseConfigurationReference = 164A58EB240E3D712158E07256E9D04C /* Sparkle.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
@@ -773,7 +484,7 @@
 		};
 		412CD40A2C4FC6EDFFEA88B8D721DE64 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A477E5362A3AE6C51D26EBC3841FC5C7 /* Sparkle.xcconfig */;
+			baseConfigurationReference = 164A58EB240E3D712158E07256E9D04C /* Sparkle.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
@@ -848,39 +559,6 @@
 			};
 			name = Debug;
 		};
-		49A9FA548267897BB5DB5E94840F16CF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 242FB15336F5B0FAA4206BC4EF0459BC /* MASPreferences.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/MASPreferences/MASPreferences-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MASPreferences/MASPreferences-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				MODULEMAP_FILE = "Target Support Files/MASPreferences/MASPreferences.modulemap";
-				PRODUCT_MODULE_NAME = MASPreferences;
-				PRODUCT_NAME = MASPreferences;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		597E092427DF423992C59C814880FE96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -940,44 +618,9 @@
 			};
 			name = Release;
 		};
-		63E0CC6968ECD8CC62A332EEFE9734F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5F0F34662A11FA6A92EC77B42DE36F1 /* Pods-BeFitDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-BeFitDemo/Pods-BeFitDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MODULEMAP_FILE = "Target Support Files/Pods-BeFitDemo/Pods-BeFitDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		6862943127AF11B270A3D8B890F58F73 /* Device */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A477E5362A3AE6C51D26EBC3841FC5C7 /* Sparkle.xcconfig */;
+			baseConfigurationReference = 164A58EB240E3D712158E07256E9D04C /* Sparkle.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
@@ -988,217 +631,9 @@
 			};
 			name = Device;
 		};
-		7B52CBAAF034489DF21051203D0958E4 /* Release */ = {
+		83E9C91527299AEEEA90C3E881FCC5B9 /* Device */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-BeFit/Pods-BeFit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MODULEMAP_FILE = "Target Support Files/Pods-BeFit/Pods-BeFit.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		88BD3E107B6D016D5E048DD5FFDD368E /* Device */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6F8E44669C785303255CA24C66C3D44 /* Pods-BeFit.device.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-BeFit/Pods-BeFit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MODULEMAP_FILE = "Target Support Files/Pods-BeFit/Pods-BeFit.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Device;
-		};
-		8A370D6A463F8D17E9DDA618B30C5CFB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 613A6E7A55595F78D7F840ED9EE85859 /* Pods-BeFitFree.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-BeFitFree/Pods-BeFitFree-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MODULEMAP_FILE = "Target Support Files/Pods-BeFitFree/Pods-BeFitFree.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8B8B9BFB19D4B3728071C441691FF53F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-BeFitFree/Pods-BeFitFree-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MODULEMAP_FILE = "Target Support Files/Pods-BeFitFree/Pods-BeFitFree.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9180883F4220A87BA6B5735E72180F31 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5CDC1D54326C2EA985FAB56D8FADEDB /* Pods-BeFit.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-BeFit/Pods-BeFit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MODULEMAP_FILE = "Target Support Files/Pods-BeFit/Pods-BeFit.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		962FAAA5275A9678DE013C8A0B99C9FF /* Device */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E972CDF1642C2FA1D5998EFCD683D401 /* Pods-BeFitFree.device.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-BeFitFree/Pods-BeFitFree-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MODULEMAP_FILE = "Target Support Files/Pods-BeFitFree/Pods-BeFitFree.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Device;
-		};
-		A1DE31DC78AE37375024DE9725796669 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9CB860BD9DEB45297536DCBD4E107A7 /* Pods-BeFitWebsite.debug.xcconfig */;
+			baseConfigurationReference = 9CACF7F2A510351E81BD04E60FF6EDAC /* Pods-BeFitWebsite.device.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1229,111 +664,9 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		AAAD4F0B4722C59CD42DBA97F423C00C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 242FB15336F5B0FAA4206BC4EF0459BC /* MASPreferences.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/MASPreferences/MASPreferences-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MASPreferences/MASPreferences-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				MODULEMAP_FILE = "Target Support Files/MASPreferences/MASPreferences.modulemap";
-				PRODUCT_MODULE_NAME = MASPreferences;
-				PRODUCT_NAME = MASPreferences;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B04406C863D216A5ECA1FC8A17E89868 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-BeFitDemo/Pods-BeFitDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MODULEMAP_FILE = "Target Support Files/Pods-BeFitDemo/Pods-BeFitDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C30555C00EE2C9DE651750B80E71E74A /* Device */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1F0E5ED0E43639DC861E2C594C35822 /* Pods-BeFitDemo.device.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-BeFitDemo/Pods-BeFitDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MODULEMAP_FILE = "Target Support Files/Pods-BeFitDemo/Pods-BeFitDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
 			name = Device;
 		};
-		CBECCE7131F058A3E7F48C8C2448C286 /* Release */ = {
+		AA9E601072285CB00A07E8DCFB28A790 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
@@ -1366,41 +699,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		DF3FEEE8F0CFA35ED2E84F8F3F628BC5 /* Device */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5775AB5DBA77EA02244FBA7DB9F5302D /* Pods-BeFitWebsite.device.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-BeFitWebsite/Pods-BeFitWebsite-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MODULEMAP_FILE = "Target Support Files/Pods-BeFitWebsite/Pods-BeFitWebsite.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Device;
 		};
 		EF76C84D9DF681A456FD57BB378A1D06 /* Device */ = {
 			isa = XCBuildConfiguration;
@@ -1461,19 +759,44 @@
 			};
 			name = Device;
 		};
+		F050823A088A60CAFB7538B134471563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C39DB852E4E36E99EE8EABDAE07F8DD /* Pods-BeFit.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-BeFit/Pods-BeFit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeFit/Pods-BeFit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1AF88A84A53855313A85301FBA4110A5 /* Build configuration list for PBXNativeTarget "Pods-BeFitDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				63E0CC6968ECD8CC62A332EEFE9734F3 /* Debug */,
-				C30555C00EE2C9DE651750B80E71E74A /* Device */,
-				B04406C863D216A5ECA1FC8A17E89868 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1484,12 +807,12 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63F2A7682A0034D681A1E417B5E3AC55 /* Build configuration list for PBXNativeTarget "Pods-BeFitFree" */ = {
+		4E1A761A6EF3126B24E03666871307C5 /* Build configuration list for PBXNativeTarget "Pods-BeFit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A370D6A463F8D17E9DDA618B30C5CFB /* Debug */,
-				962FAAA5275A9678DE013C8A0B99C9FF /* Device */,
-				8B8B9BFB19D4B3728071C441691FF53F /* Release */,
+				F050823A088A60CAFB7538B134471563 /* Debug */,
+				262D331DBA0A4C964C541B5897AB561A /* Device */,
+				05F05DD1FFBD0C5A36D8D54471680840 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1504,32 +827,12 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E6E3F26D1AEDE54B2832FB170918C2E0 /* Build configuration list for PBXNativeTarget "Pods-BeFit" */ = {
+		EBE1F1A90B72C48E1AC62113E8CB5621 /* Build configuration list for PBXNativeTarget "Pods-BeFitWebsite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9180883F4220A87BA6B5735E72180F31 /* Debug */,
-				88BD3E107B6D016D5E048DD5FFDD368E /* Device */,
-				7B52CBAAF034489DF21051203D0958E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F4BA003A966BCBF5F1DED575F7E68EFA /* Build configuration list for PBXNativeTarget "MASPreferences" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AAAD4F0B4722C59CD42DBA97F423C00C /* Debug */,
-				093F37A5CFEFF78A2981A727DEC58D3E /* Device */,
-				49A9FA548267897BB5DB5E94840F16CF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FFB460D59F3E22F5740DD3E062B7BAA2 /* Build configuration list for PBXNativeTarget "Pods-BeFitWebsite" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A1DE31DC78AE37375024DE9725796669 /* Debug */,
-				DF3FEEE8F0CFA35ED2E84F8F3F628BC5 /* Device */,
-				CBECCE7131F058A3E7F48C8C2448C286 /* Release */,
+				28677155DACB028BA0B5F31315BFB931 /* Debug */,
+				83E9C91527299AEEEA90C3E881FCC5B9 /* Device */,
+				AA9E601072285CB00A07E8DCFB28A790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

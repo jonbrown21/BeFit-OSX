@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15505" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15702" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15505"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="15505"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15702"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="15702"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -189,6 +190,10 @@
                                                 <rect key="frame" x="0.0" y="592" width="201" height="43"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                 <subviews>
+                                                    <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="Lzu-CW-0mr">
+                                                        <rect key="frame" x="0.0" y="1" width="201" height="5"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    </box>
                                                     <searchField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d3i-EL-9b9">
                                                         <rect key="frame" x="13" y="11" width="174" height="22"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -225,7 +230,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                                 <subviews>
                                                     <button canDrawConcurrently="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dce-n7-0Xr">
-                                                        <rect key="frame" x="166" y="9" width="28" height="21"/>
+                                                        <rect key="frame" x="166" y="7" width="28" height="21"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                         <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="NSQuickLookTemplate" imagePosition="right" alignment="center" imageScaling="proportionallyDown" inset="2" id="bmw-qC-8ld">
                                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -240,8 +245,24 @@
                                                             </binding>
                                                         </connections>
                                                     </button>
+                                                    <button canDrawConcurrently="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qNR-bU-SWo">
+                                                        <rect key="frame" x="138" y="7" width="28" height="21"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                        <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="gym" imagePosition="right" alignment="center" imageScaling="proportionallyDown" inset="2" id="nYa-3T-UWo">
+                                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                            <font key="font" metaFont="system"/>
+                                                        </buttonCell>
+                                                        <connections>
+                                                            <action selector="bmiLoad:" target="205" id="CtA-TT-HkH"/>
+                                                            <binding destination="IDb-bB-cpe" name="enabled" keyPath="values.flipPref" id="M9E-2v-GYN">
+                                                                <dictionary key="options">
+                                                                    <string key="NSValueTransformerName">NSNegateBoolean</string>
+                                                                </dictionary>
+                                                            </binding>
+                                                        </connections>
+                                                    </button>
                                                     <segmentedControl canDrawConcurrently="YES" focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gs1-cI-8Bd">
-                                                        <rect key="frame" x="13" y="6" width="79" height="23"/>
+                                                        <rect key="frame" x="12.5" y="6" width="80" height="23"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                         <segmentedCell key="cell" borderStyle="border" focusRingType="none" alignment="left" style="texturedRounded" trackingMode="selectOne" id="6hi-Fh-5gq">
                                                             <font key="font" metaFont="system"/>
@@ -454,13 +475,13 @@
                     <toolbarItem implicitItemIdentifier="968A5B3D-3803-4400-B331-7112A23E1719" label="" paletteLabel="" image="NSAddTemplate" id="3Qd-h3-kmD">
                         <nil key="toolTip"/>
                         <size key="minSize" width="91" height="19"/>
-                        <size key="maxSize" width="91" height="20"/>
+                        <size key="maxSize" width="92" height="24"/>
                         <button key="view" focusRingType="none" verticalHuggingPriority="750" id="KcV-UM-dAI">
-                            <rect key="frame" x="0.0" y="14" width="91" height="20"/>
+                            <rect key="frame" x="0.0" y="14" width="92" height="24"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                            <buttonCell key="cell" type="roundRect" title="Add Food" bezelStyle="roundedRect" image="NSAddTemplate" imagePosition="left" alignment="left" alternateImage="NSAddTemplate" borderStyle="border" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="I9u-Kb-e2x">
+                            <buttonCell key="cell" type="roundTextured" title="Add Food" bezelStyle="texturedRounded" image="NSAddTemplate" imagePosition="leading" alignment="center" borderStyle="border" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="I9u-Kb-e2x">
                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                <font key="font" metaFont="cellTitle"/>
+                                <font key="font" metaFont="system"/>
                             </buttonCell>
                             <connections>
                                 <action selector="add:" target="433" id="hM3-bk-sMh"/>
@@ -482,11 +503,11 @@
                         <size key="minSize" width="125" height="17"/>
                         <size key="maxSize" width="136" height="26"/>
                         <popUpButton key="view" focusRingType="none" tag="99" id="WjP-CO-3UT" customClass="ColumnControllerPopUpButton" customModule="BeFit_Tracker" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="14" width="136" height="20"/>
+                            <rect key="frame" x="0.0" y="14" width="136" height="24"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                            <popUpButtonCell key="cell" type="roundRect" title=" Total Fat" bezelStyle="roundedRect" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" focusRingType="none" imageScaling="proportionallyDown" inset="2" selectedItem="ysG-Fi-rew" id="keu-5C-gb5">
+                            <popUpButtonCell key="cell" type="roundTextured" title=" Total Fat" bezelStyle="texturedRounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" focusRingType="none" imageScaling="proportionallyDown" inset="2" selectedItem="ysG-Fi-rew" id="keu-5C-gb5">
                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                <font key="font" metaFont="cellTitle"/>
+                                <font key="font" metaFont="menu"/>
                                 <menu key="menu" title="OtherViews" id="BDU-tB-p4A">
                                     <items>
                                         <menuItem title=" Total Fat" state="on" id="ysG-Fi-rew">
@@ -569,16 +590,16 @@
                             </popUpButtonCell>
                         </popUpButton>
                     </toolbarItem>
-                    <toolbarItem implicitItemIdentifier="0E2ADA34-886D-49A0-8AE3-AF90E347B7C3" label="" paletteLabel="" id="Fhk-UW-3VZ">
+                    <toolbarItem implicitItemIdentifier="0E2ADA34-886D-49A0-8AE3-AF90E347B7C3" label="" paletteLabel="" image="NSRightFacingTriangleTemplate" id="Fhk-UW-3VZ">
                         <nil key="toolTip"/>
                         <size key="minSize" width="64" height="19"/>
-                        <size key="maxSize" width="64" height="20"/>
-                        <button key="view" focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" imageHugsTitle="YES" id="Fko-v0-1tk">
-                            <rect key="frame" x="0.0" y="14" width="64" height="20"/>
+                        <size key="maxSize" width="65" height="24"/>
+                        <button key="view" focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="Fko-v0-1tk">
+                            <rect key="frame" x="0.0" y="14" width="65" height="24"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                            <buttonCell key="cell" type="roundRect" title="Hide" alternateTitle="Show" bezelStyle="roundedRect" alignment="center" borderStyle="border" focusRingType="none" inset="2" id="VUo-tH-x75">
+                            <buttonCell key="cell" type="roundTextured" title="Hide" alternateTitle="Show" bezelStyle="texturedRounded" image="NSRightFacingTriangleTemplate" imagePosition="trailing" alignment="center" borderStyle="border" focusRingType="none" inset="2" id="VUo-tH-x75">
                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                <font key="font" metaFont="cellTitle"/>
+                                <font key="font" metaFont="system"/>
                             </buttonCell>
                             <connections>
                                 <action selector="ShowHideNutritionPanel:" target="406" id="ZB2-K4-Yfy"/>
@@ -602,7 +623,7 @@
                 </binding>
                 <outlet property="delegate" destination="205" id="gnD-iP-q3Y"/>
             </connections>
-            <point key="canvasLocation" x="-898" y="-509"/>
+            <point key="canvasLocation" x="560" y="-342"/>
         </window>
         <menu title="MainMenu" systemMenu="main" id="29" userLabel="BeFit">
             <items>
@@ -618,9 +639,9 @@
                             <menuItem isSeparatorItem="YES" id="196">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Preferences..." id="2PG-Ao-xvX">
+                            <menuItem title="Check for updates..." id="sSF-va-IqQ">
                                 <connections>
-                                    <action selector="openPreferences:" target="yco-bX-wVM" id="0sK-ik-HSy"/>
+                                    <action selector="checkForUpdates:" target="NjV-yV-3ie" id="lgU-JY-Nef"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="GVZ-FZ-Bpc">
@@ -659,6 +680,26 @@
                             <menuItem title="New Food List" keyEquivalent="n" id="82">
                                 <connections>
                                     <action selector="add:" target="563" id="2984"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="BMI Calculator" keyEquivalent="n" id="Apl-hd-H7O">
+                                <connections>
+                                    <action selector="bmiLoad:" target="205" id="QOH-K9-J0A"/>
+                                    <binding destination="IDb-bB-cpe" name="enabled" keyPath="values.flipPref" id="8rp-mE-o9B">
+                                        <dictionary key="options">
+                                            <string key="NSValueTransformerName">NSNegateBoolean</string>
+                                        </dictionary>
+                                    </binding>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Food Editor" keyEquivalent="n" id="WMQ-Ji-6UK">
+                                <connections>
+                                    <action selector="flip:" target="205" id="9Vz-Eo-Ita"/>
+                                    <binding destination="IDb-bB-cpe" name="enabled" keyPath="values.flipPref" id="Q9f-ki-usa">
+                                        <dictionary key="options">
+                                            <string key="NSValueTransformerName">NSNegateBoolean</string>
+                                        </dictionary>
+                                    </binding>
                                 </connections>
                             </menuItem>
                             <menuItem title="Open..." enabled="NO" keyEquivalent="o" id="72"/>
@@ -843,10 +884,11 @@ CA
                     </menu>
                 </menuItem>
             </items>
-            <point key="canvasLocation" x="458" y="265"/>
+            <point key="canvasLocation" x="575" y="-251"/>
         </menu>
         <customObject id="205" userLabel="BeFit_AppDelegate" customClass="BeFit_AppDelegate" customModule="BeFit_Tracker">
             <connections>
+                <outlet property="Answer" destination="z1x-95-EAq" id="Kq0-hr-tWp"/>
                 <outlet property="Cals" destination="8R3-5d-8ah" id="R3d-pj-oQ8"/>
                 <outlet property="EyeSwitch" destination="dce-n7-0Xr" id="669-7l-YQo"/>
                 <outlet property="FoodTableView" destination="433" id="Qcx-Q4-fYs"/>
@@ -859,17 +901,37 @@ CA
                 <outlet property="LevelInd7" destination="pfD-7T-6ab" id="U63-ZB-Qwt"/>
                 <outlet property="NutritionPanelWinBackgroundNSView" destination="YHa-gh-Bji" id="qhB-n0-zQn"/>
                 <outlet property="PrintView" destination="W4M-ih-faf" id="H8c-0Z-GQd"/>
+                <outlet property="Recomend" destination="MTm-db-guH" id="fdV-0r-7a4"/>
                 <outlet property="SaveWindow" destination="ZxV-mJ-QkR" id="Vm2-Zh-hPR"/>
                 <outlet property="ToggleSwitch" destination="Gs1-cI-8Bd" id="C7l-mZ-Ydv"/>
+                <outlet property="agename" destination="qlf-wh-56z" id="ncY-C4-pbh"/>
                 <outlet property="arrayController_" destination="433" id="HB2-56-QWA"/>
                 <outlet property="backView" destination="YdN-nj-gHc" id="ESh-ls-bXy"/>
+                <outlet property="bmiValue" destination="x0Q-Ib-Umx" id="g6R-An-TSi"/>
+                <outlet property="bmiView" destination="fVh-zX-X76" id="Mja-cL-kVP"/>
+                <outlet property="cmname" destination="ffS-ct-sQG" id="18Q-O7-MNA"/>
+                <outlet property="feetname" destination="Rt1-op-nQg" id="zlF-zT-Q86"/>
+                <outlet property="formattedSliderValue" destination="CX2-mb-GwY" id="POU-ad-m7i"/>
                 <outlet property="frontView" destination="4cu-8S-wnC" id="73U-8W-JU7"/>
                 <outlet property="frontViewScrollView" destination="Ekf-8a-ee2" id="1Of-rc-jFP"/>
+                <outlet property="gendercheck" destination="UKG-Jl-VFV" id="ogt-pQ-uY7"/>
+                <outlet property="inchname" destination="PJI-FY-7WE" id="EJb-yi-MAn"/>
+                <outlet property="kgname" destination="vxo-QW-lgf" id="2Ry-KI-465"/>
+                <outlet property="lbsName" destination="uMl-sT-jDH" id="9a9-Kb-UIh"/>
+                <outlet property="lifeStyle" destination="Bbc-dl-JEg" id="I9d-vG-PIX"/>
+                <outlet property="metricheck" destination="P0i-HF-M4H" id="ad7-Y5-J3S"/>
+                <outlet property="prefslider" destination="Zwu-O8-Pmw" id="nSl-Lb-3Yf"/>
+                <outlet property="sliderValueLabel" destination="7FD-Lv-xf3" id="yL0-55-Idl"/>
                 <outlet property="splitView" destination="0LF-3e-nM6" id="lES-Ny-LMZ"/>
                 <outlet property="tableView_" destination="394" id="PYU-f2-uA9"/>
+                <outlet property="updateItem" destination="sSF-va-IqQ" id="Qsd-un-9Xu"/>
+                <outlet property="updateMenuItem" destination="sSF-va-IqQ" id="9Lc-ln-QHZ"/>
+                <outlet property="updateMenuLine" destination="196" id="WkU-lc-pyC"/>
+                <outlet property="weightGoals" destination="pOm-mh-v0M" id="dpk-xg-Gad"/>
                 <outlet property="window" destination="21" id="7eR-Aq-eC4"/>
             </connections>
         </customObject>
+        <customObject id="NjV-yV-3ie" customClass="SUUpdater"/>
         <customObject id="406" userLabel="GUIController" customClass="GUIController" customModule="BeFit_Tracker">
             <connections>
                 <outlet property="CalNameCalumn" destination="rWe-4U-Wvi" id="qPz-CQ-kcp"/>
@@ -900,6 +962,12 @@ CA
                 <outlet property="tableView2" destination="394" id="LV4-j2-wvE"/>
                 <outlet property="topToolbar" destination="TCa-kg-7VU" id="9VD-cG-zNa"/>
                 <outlet property="window" destination="21" id="0D6-U5-NmY"/>
+            </connections>
+        </customObject>
+        <customObject id="OZU-av-lzx" customClass="PrefSetter" customModule="BeFit_Tracker" customModuleProvider="target">
+            <connections>
+                <outlet property="prefslider" destination="Zwu-O8-Pmw" id="Yc1-ZZ-M7i"/>
+                <outlet property="sliderValueLabel" destination="7FD-Lv-xf3" id="Pw3-2O-mqY"/>
             </connections>
         </customObject>
         <arrayController mode="entity" entityName="FoodObject" automaticallyPreparesContent="YES" id="433" userLabel="FoodController" customClass="FoodArrayController" customModule="BeFit_Tracker" customModuleProvider="target">
@@ -1008,7 +1076,6 @@ CA
                 <outlet property="ScrollViewBeingEdited" destination="393" id="973"/>
             </connections>
         </customObject>
-        <customObject id="yco-bX-wVM" customClass="PreferenceWindow" customModule="BeFit_Tracker"/>
         <menu title="DockMenu" id="2996" userLabel="DockMenu">
             <items>
                 <menuItem title="About BeFit" id="2997">
@@ -3549,10 +3616,10 @@ CA
                         <binding destination="433" name="value" keyPath="selection.polyFat" id="1KY-bK-jWh"/>
                     </connections>
                 </textField>
-                <button focusRingType="none" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Idp-St-DLv">
-                    <rect key="frame" x="18" y="120" width="166" height="27"/>
+                <button focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Idp-St-DLv">
+                    <rect key="frame" x="11.5" y="120" width="182" height="23"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="bevel" title="Done Editing" bezelStyle="regularSquare" alignment="center" borderStyle="border" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="7tN-4j-eMU">
+                    <buttonCell key="cell" type="roundTextured" title="Done Editing" bezelStyle="texturedRounded" alignment="center" borderStyle="border" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="7tN-4j-eMU">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
@@ -5665,7 +5732,7 @@ IA
             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
             <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="itX-fO-mEs">
                 <rect key="frame" x="0.0" y="0.0" width="205" height="596"/>
-                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view id="LuI-ma-JPm">
                         <rect key="frame" x="2" y="0.0" width="205" height="1511"/>
@@ -5684,6 +5751,359 @@ IA
             </scroller>
             <point key="canvasLocation" x="-105" y="-644"/>
         </scrollView>
+        <customView translatesAutoresizingMaskIntoConstraints="NO" id="fVh-zX-X76">
+            <rect key="frame" x="0.0" y="0.0" width="205" height="1511"/>
+            <subviews>
+                <textField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vxo-QW-lgf">
+                    <rect key="frame" x="13" y="1204" width="173" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" focusRingType="none" placeholderString="Weight (KG)" drawsBackground="YES" id="DxZ-lL-UPs">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <action selector="setKG:" target="205" id="ewz-U3-xwd"/>
+                        <binding destination="IDb-bB-cpe" name="hidden" keyPath="values.self.checkBoxChecked" id="JL0-2I-xs0">
+                            <dictionary key="options">
+                                <string key="NSValueTransformerName">NSNegateBoolean</string>
+                            </dictionary>
+                        </binding>
+                    </connections>
+                </textField>
+                <textField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rt1-op-nQg">
+                    <rect key="frame" x="13" y="1270" width="88" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" focusRingType="none" placeholderString="Feet" drawsBackground="YES" id="YRM-0U-qtZ">
+                        <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#,##0" negativeFormat="#,##0" numberStyle="decimal" generatesDecimalNumbers="YES" paddingCharacter="*" roundingMode="up" minimumIntegerDigits="1" maximumIntegerDigits="2" decimalSeparator="." groupingSeparator="," currencyDecimalSeparator="." plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix="" negativePrefix="-" negativeSuffix="" id="x6P-UU-dMh">
+                            <real key="minimum" value="0.0"/>
+                            <real key="maximum" value="10"/>
+                        </numberFormatter>
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <action selector="setFeet:" target="205" id="7Wm-IB-PN3"/>
+                        <binding destination="IDb-bB-cpe" name="hidden" keyPath="values.self.checkBoxChecked" id="p5C-Ow-atk"/>
+                    </connections>
+                </textField>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vp2-gH-PCX">
+                    <rect key="frame" x="13" y="1297" width="183" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Height" id="eI2-7O-izV">
+                        <font key="font" size="18" name="HelveticaNeue-Thin"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YYd-tG-Llj">
+                    <rect key="frame" x="13" y="1235" width="183" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Weight" id="mSl-qE-GPA">
+                        <font key="font" size="18" name="HelveticaNeue-Thin"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AOv-Gt-f0u">
+                    <rect key="frame" x="13" y="1062" width="79" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Daily Goal" id="C6c-6a-GV9">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fi9-Qm-cqM">
+                    <rect key="frame" x="13" y="682" width="183" height="34"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="For best results, your caloric intake should be:" id="84M-xP-tVM">
+                        <font key="font" metaFont="menu" size="11"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x0Q-Ib-Umx">
+                    <rect key="frame" x="13" y="550" width="183" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Cals." id="pT4-Ut-Q7I">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7FD-Lv-xf3">
+                    <rect key="frame" x="116" y="1063" width="70" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Daily Goal" id="3rY-a3-b5V">
+                        <numberFormatter key="formatter" formatterBehavior="default10_4" positiveFormat="#,##0.###" negativeFormat="#,##0.###" numberStyle="decimal" paddingCharacter="*" minimumIntegerDigits="1" maximumIntegerDigits="309" maximumFractionDigits="3" decimalSeparator="." groupingSeparator="," currencyDecimalSeparator="." plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix="" negativePrefix="-" negativeSuffix="" id="kfI-L1-kfi"/>
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5St-5Z-FUe">
+                    <rect key="frame" x="13" y="1472" width="183" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Information" id="tsH-Az-cpI">
+                        <font key="font" size="22" name="HelveticaNeue-Thin"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mFB-UL-MAX">
+                    <rect key="frame" x="13" y="1093" width="183" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Calorie Goals" id="zVY-6d-T6E">
+                        <font key="font" size="22" name="HelveticaNeue-Thin"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zwu-O8-Pmw">
+                    <rect key="frame" x="13" y="1033" width="173" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <sliderCell key="cell" state="on" alignment="left" minValue="1000" maxValue="10000" doubleValue="2000" tickMarkPosition="above" sliderType="linear" id="2bi-Qh-WVV"/>
+                </slider>
+                <button focusRingType="none" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P0i-HF-M4H">
+                    <rect key="frame" x="13" y="1166" width="107" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="check" title="Metric" bezelStyle="regularSquare" imagePosition="left" focusRingType="none" inset="2" id="6lH-uT-K3o">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="setMetric:" target="205" id="WbT-Zc-IrW"/>
+                        <binding destination="IDb-bB-cpe" name="value" keyPath="values.self.checkBoxChecked" id="dQ1-Eq-9dy"/>
+                    </connections>
+                </button>
+                <button focusRingType="none" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MTm-db-guH">
+                    <rect key="frame" x="13" y="510" width="183" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="check" title="Use Recommended Values" bezelStyle="regularSquare" imagePosition="left" focusRingType="none" inset="2" id="6bb-vf-WZK">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system" size="10"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="setRecomendation:" target="205" id="lUH-bj-6kE"/>
+                        <binding destination="IDb-bB-cpe" name="value" keyPath="values.RecommendedChecked" id="BhV-Eo-ibk"/>
+                    </connections>
+                </button>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KEd-Tm-JP9">
+                    <rect key="frame" x="13" y="1426" width="183" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Gender" id="wLz-eP-DDf">
+                        <font key="font" size="18" name="HelveticaNeue-Thin"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uy9-qW-xpb">
+                    <rect key="frame" x="13" y="1359" width="183" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Age" id="crd-QK-BDw">
+                        <font key="font" size="18" name="HelveticaNeue-Thin"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UKG-Jl-VFV">
+                    <rect key="frame" x="13" y="1393" width="173" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <popUpButtonCell key="cell" type="push" title="Female" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="Zch-BV-VvH" id="Koi-DP-xSL">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="menu"/>
+                        <menu key="menu" title="OtherViews" id="FZC-ud-egF">
+                            <items>
+                                <menuItem title="Female" state="on" id="Zch-BV-VvH"/>
+                                <menuItem title="Male" id="3qs-zq-qI3"/>
+                            </items>
+                        </menu>
+                    </popUpButtonCell>
+                    <connections>
+                        <action selector="setGender:" target="205" id="xS2-e5-3no"/>
+                        <binding destination="IDb-bB-cpe" name="selectedIndex" keyPath="values.widgetPopupSelectionIndex" id="gu0-Wb-0aZ"/>
+                    </connections>
+                </popUpButton>
+                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bbc-dl-JEg">
+                    <rect key="frame" x="13" y="918" width="173" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="wwQ-eM-9E1">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="menu"/>
+                        <menu key="menu" title="OtherViews" id="R6C-aP-yXg">
+                            <items>
+                                <menuItem title="Sedentary (little or no exercise)" id="bhn-s8-DpV"/>
+                                <menuItem title="Lightly active (light exercise/sports 1-3 days/week)" id="Vgv-d3-U7d"/>
+                                <menuItem title="Moderatetely active (moderate exercise/sports 3-5 days/week)" id="67e-cV-1Gn"/>
+                                <menuItem title="Very active (hard exercise/sports 6-7 days a week)" id="Tgi-He-do2"/>
+                                <menuItem title="Extra active (very hard exercise/sports &amp; physical job or 2x training)" id="eg3-Qb-hDU"/>
+                            </items>
+                        </menu>
+                    </popUpButtonCell>
+                    <connections>
+                        <action selector="setLifestyle:" target="205" id="obN-7K-zND"/>
+                        <binding destination="IDb-bB-cpe" name="selectedIndex" keyPath="values.lifestylePopupSelectionIndex" id="RA8-Gv-ibV"/>
+                    </connections>
+                </popUpButton>
+                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pOm-mh-v0M">
+                    <rect key="frame" x="13" y="799" width="173" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="u23-qM-DJl">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="menu"/>
+                        <menu key="menu" title="OtherViews" id="52O-5m-30B">
+                            <items>
+                                <menuItem title="Loose Weight" id="3bF-wR-JQH"/>
+                                <menuItem title="Gain Weight" id="UsM-2L-Lsm"/>
+                                <menuItem title="Maintian Weight" id="SxE-FY-y1u"/>
+                            </items>
+                        </menu>
+                    </popUpButtonCell>
+                    <connections>
+                        <action selector="setGoals:" target="205" id="bZw-GX-0WR"/>
+                        <binding destination="IDb-bB-cpe" name="selectedIndex" keyPath="values.goalsPopupSelectionIndex" id="yak-dp-aDf"/>
+                    </connections>
+                </popUpButton>
+                <textField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qlf-wh-56z">
+                    <rect key="frame" x="13" y="1329" width="173" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" focusRingType="none" drawsBackground="YES" id="c3q-3G-bgm">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <action selector="setAge:" target="205" id="Jxq-Ab-4fx"/>
+                    </connections>
+                </textField>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tak-sE-07f">
+                    <rect key="frame" x="13" y="959" width="183" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Lifestyle Type" id="VAt-UW-Vxs">
+                        <font key="font" size="22" name="HelveticaNeue-Thin"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="07K-uJ-fnW">
+                    <rect key="frame" x="13" y="839" width="183" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Lifestyle Goals" id="P0m-dC-GaH">
+                        <font key="font" size="22" name="HelveticaNeue-Thin"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z1x-95-EAq">
+                    <rect key="frame" x="1" y="605" width="205" height="51"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="1569" id="2c6-wx-nfd">
+                        <font key="font" size="42" name="HelveticaNeue-Thin"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="umF-Bk-IcG">
+                    <rect key="frame" x="13" y="724" width="183" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Recomendation" id="e8I-Wb-wYq">
+                        <font key="font" size="22" name="HelveticaNeue-Thin"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CX2-mb-GwY">
+                    <rect key="frame" x="200" y="865" width="90" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Label" id="FxQ-ZK-YgB">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yym-dC-dos" customClass="SubBarBlk" customModule="BeFit_Tracker" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="1147" width="205" height="2"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wbb-zD-weT" customClass="SubBarBlk" customModule="BeFit_Tracker" customModuleProvider="target">
+                    <rect key="frame" x="-1" y="1011" width="205" height="2"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eHu-pY-hK3" customClass="SubBarBlk" customModule="BeFit_Tracker" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="890" width="205" height="2"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vnx-xi-O83" customClass="SubBarBlk" customModule="BeFit_Tracker" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="777" width="205" height="2"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                </customView>
+                <textField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uMl-sT-jDH">
+                    <rect key="frame" x="13" y="1205" width="173" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" focusRingType="none" placeholderString="Weight" drawsBackground="YES" id="OMA-67-lwE">
+                        <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#,##0" negativeFormat="#,##0" numberStyle="decimal" generatesDecimalNumbers="YES" paddingCharacter="*" roundingMode="up" minimumIntegerDigits="1" maximumIntegerDigits="3" decimalSeparator="." groupingSeparator="," currencyDecimalSeparator="." plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix="" negativePrefix="-" negativeSuffix="" id="4Yx-iq-Ipm">
+                            <real key="minimum" value="0.0"/>
+                            <real key="maximum" value="350"/>
+                        </numberFormatter>
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <action selector="setWeightLBS:" target="205" id="5AX-n9-HHU"/>
+                        <binding destination="IDb-bB-cpe" name="hidden" keyPath="values.self.checkBoxChecked" id="KIa-at-6gF"/>
+                    </connections>
+                </textField>
+                <textField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PJI-FY-7WE">
+                    <rect key="frame" x="109" y="1270" width="76" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" focusRingType="none" placeholderString="Inches" drawsBackground="YES" id="2VV-4C-ZSI">
+                        <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#,##0" negativeFormat="#,##0" numberStyle="decimal" generatesDecimalNumbers="YES" paddingCharacter="*" roundingMode="up" minimumIntegerDigits="1" maximumIntegerDigits="2" decimalSeparator="." groupingSeparator="," currencyDecimalSeparator="." plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix="" negativePrefix="-" negativeSuffix="" id="dYW-iL-gEj">
+                            <real key="minimum" value="0.0"/>
+                            <real key="maximum" value="12"/>
+                        </numberFormatter>
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <action selector="setInches:" target="205" id="ECB-uE-QYt"/>
+                        <binding destination="IDb-bB-cpe" name="hidden" keyPath="values.self.checkBoxChecked" id="h5v-5b-PVs"/>
+                    </connections>
+                </textField>
+                <textField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ffS-ct-sQG">
+                    <rect key="frame" x="13" y="1269" width="173" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" focusRingType="none" placeholderString="Height (CM)" drawsBackground="YES" id="tZk-cQ-yoD">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <action selector="setCM:" target="205" id="tJX-E0-RdG"/>
+                        <binding destination="IDb-bB-cpe" name="hidden" keyPath="values.self.checkBoxChecked" id="L55-pk-viM">
+                            <dictionary key="options">
+                                <string key="NSValueTransformerName">NSNegateBoolean</string>
+                            </dictionary>
+                        </binding>
+                    </connections>
+                </textField>
+                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hWx-zU-Gv5">
+                    <rect key="frame" x="11.5" y="463" width="182" height="23"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="roundTextured" title="Done" bezelStyle="texturedRounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="VKP-cf-7i7">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="bmiLoadBack:" target="205" id="Pvb-tm-FwI"/>
+                    </connections>
+                </button>
+            </subviews>
+            <point key="canvasLocation" x="201.5" y="-126.5"/>
+        </customView>
     </objects>
     <resources>
         <image name="Graph" width="12" height="12"/>
@@ -5691,6 +6111,8 @@ IA
         <image name="NSAddTemplate" width="11" height="11"/>
         <image name="NSListViewTemplate" width="14" height="10"/>
         <image name="NSQuickLookTemplate" width="19" height="12"/>
+        <image name="NSRightFacingTriangleTemplate" width="9" height="12"/>
         <image name="PieChart" width="8" height="8"/>
+        <image name="gym" width="32" height="32"/>
     </resources>
 </document>
