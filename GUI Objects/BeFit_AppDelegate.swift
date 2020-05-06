@@ -10,7 +10,7 @@ import Cocoa
 
 #if WEBSITE
 //import Sparkle
-import Paddle
+//import Paddle
 #endif
 
 private let LEFT_VIEW_INDEX = 0
@@ -238,44 +238,6 @@ class BeFit_AppDelegate: NSObject, NSApplicationDelegate, NSTableViewDelegate, N
         UserDefaults.standard.set(false, forKey: "flipPref")
         print("Flip Preferences: \(flipin)")
         
-        // Check if Trial and if so ask if they want to move this app to applications folder.
-        
-        #if WEBSITE
-        _ = PADDisplayConfiguration.init(PADDisplayType.sheet, hideNavigationButtons: false, parentWindow: self.window)
-        
-        // Check if Trial and if so present expired message
-        let myPaddleVendorID = "25300"
-        let myPaddleProductID = "520775"
-        let myPaddleAPIKey = "411430c46d02e5a5bc45c309068cd6e7"
-
-        // Default Product Config in case we're unable to reach our servers on first run
-        let defaultProductConfig = PADProductConfiguration()
-        defaultProductConfig.productName = "BeFit"
-        defaultProductConfig.vendorName = "Grove Designs"
-        
-
-        // Initialize the SDK singleton with the config
-        let paddle = Paddle.sharedInstance(withVendorID: myPaddleVendorID,
-                                           apiKey: myPaddleAPIKey,
-                                           productID: myPaddleProductID,
-                                           configuration: defaultProductConfig,
-                                           delegate:self as? PaddleDelegate)
-
-        // Initialize the Product you'd like to work with
-
-        let paddleProduct = PADProduct(productID: myPaddleProductID,
-                                       productType: PADProductType.sdkProduct,
-                                       configuration: defaultProductConfig)
-
-        // Ask the Product to get its latest state and info from the Paddle Platform
-        paddleProduct?.refresh({ (delta: [AnyHashable : Any]?, error: Error?) in
-            // Optionally show the default "Product Access" UI to gatekeep your app
-            
-            paddle?.showProductAccessDialog(with: paddleProduct!)
-            
-        })
-        
-        #endif
         
         Timer.scheduledTimer(timeInterval: 60, target: self, selector: #selector(contSave), userInfo: nil, repeats: true)
                 

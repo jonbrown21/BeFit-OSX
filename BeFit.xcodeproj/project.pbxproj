@@ -136,8 +136,6 @@
 		FC946FB31A20F2BA00692D04 /* justgage.1.0.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC946FB21A20F2BA00692D04 /* justgage.1.0.1.min.js */; };
 		FC946FB51A20F2BA00692D04 /* justgage.1.0.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC946FB21A20F2BA00692D04 /* justgage.1.0.1.min.js */; };
 		FC977A6D18764568002631C2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1FA25318712EFE00E96FEE /* SystemConfiguration.framework */; };
-		FC9F55D2239C5A55009A237A /* Paddle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9F55D0239C5A55009A237A /* Paddle.framework */; };
-		FC9F55D3239C5A5E009A237A /* Paddle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC9F55D0239C5A55009A237A /* Paddle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FC9F55E9239CD4B4009A237A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC898674184A70DC00BE530A /* WebKit.framework */; };
 		FC9F55EA239CD4BA009A237A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC898674184A70DC00BE530A /* WebKit.framework */; };
 		FCBECC85239DA85A00FB2283 /* maingraph_dark.html in Resources */ = {isa = PBXBuildFile; fileRef = FCBECC84239DA85A00FB2283 /* maingraph_dark.html */; };
@@ -166,16 +164,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCF3D7341E77AC29004A8525 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				FC9F55D3239C5A5E009A237A /* Paddle.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +302,6 @@
 				FC1694C9181C747100C54052 /* Security.framework in Frameworks */,
 				FC1694CA181C747100C54052 /* Cocoa.framework in Frameworks */,
 				FC1694CB181C747100C54052 /* CoreData.framework in Frameworks */,
-				FC9F55D2239C5A55009A237A /* Paddle.framework in Frameworks */,
 				0396EE6B266072A98B357E24 /* Pods_BeFitWebsite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -676,7 +663,6 @@
 				FC16948E181C747100C54052 /* Resources */,
 				FC1694AC181C747100C54052 /* Sources */,
 				FC1694C8181C747100C54052 /* Frameworks */,
-				FCF3D7341E77AC29004A8525 /* CopyFiles */,
 				63BCCE7AAFED296120F99FF1 /* [CP] Embed Pods Frameworks */,
 				FCF6FE802391BA45000D60B2 /* ShellScript */,
 			);
@@ -1227,7 +1213,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 6.4;
+				CURRENT_PROJECT_VERSION = 7.0;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_POSTPROCESSING = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1254,7 +1240,7 @@
 				INSTALL_PATH = /Applications;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 6.4;
+				MARKETING_VERSION = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DDemoMode=0";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -1287,7 +1273,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 6.4;
+				CURRENT_PROJECT_VERSION = 7.0;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1313,7 +1299,7 @@
 				INSTALL_PATH = /Applications;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 6.4;
+				MARKETING_VERSION = 7.0;
 				OTHER_CFLAGS = "-DDemoMode=0";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonBrownDesigns.BeFitApp;
